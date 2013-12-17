@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 ## Is Panic Button Right for You?
