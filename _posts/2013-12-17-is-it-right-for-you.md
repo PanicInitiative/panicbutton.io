@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 action: Find out more
 permalink: "#is-it-right-for-you"
 ---
