@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How does PANIC BUTTON work?"
-date: {}
+date: {2013-12-17}
 categories: jekyll update
 published: true
 ---

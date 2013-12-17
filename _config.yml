@@ -1,3 +1,40 @@
 name: Panic Button
 markdown: redcarpet
 pygments: true
+
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://teampanicbutton.github.io'
+  relativeLinks: 'teampanicbutton.github.io/links.jsonp'
+  media: 'media'
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Apples"
+              value: "apples"
+            - name: "Bananas"
+              value: "bananas"
+      - name: "action"
+        field:
+          element: "text"
+          label: "Action"
+          placeholder: "Find our more > "
+      - name: "option"
+        field:
+          element: "text"
+          label: "Option"
+          placeholder: "Learn more about this. "
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          value: ""
