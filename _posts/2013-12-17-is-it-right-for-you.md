@@ -2,7 +2,7 @@
 layout: post
 published: true
 action: Find out more
-permalink: "#is-it-right-for-you"
+permalink: ""
 ---
 
 ## Is Panic Button Right for You?
