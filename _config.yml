@@ -1,7 +1,8 @@
 name: Panic Button
+version: 1
 markdown: redcarpet
 pygments: true
-
+permalink: none
 exclude:
   - .gitignore
   - README.md
