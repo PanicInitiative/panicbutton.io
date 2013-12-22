@@ -2,27 +2,41 @@ name: Panic Button
 markdown: redcarpet
 pygments: true
 
+exclude:
+  - .gitignore
+  - README.md
+  - privatekey.p12
+  - Gemfile
+  - Gemfile.lock
+languages: &languages
+  - name: 'English'
+    value: 'en'
+  - name: 'Español'
+    value: 'es'
+
 prose:
   rooturl: '_posts'
   siteurl: 'http://teampanicbutton.github.io'
   relativeLinks: 'teampanicbutton.github.io/links.jsonp'
   media: 'media'
   metadata:
-    _posts:
+    _posts/home:
       - name: "layout"
         field:
           element: "hidden"
-          value: "post"
-      - name: "tags"
+          value: "home"
+      - name: "lang"
         field:
-          element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
-          options:
-            - name: "Apples"
-              value: "apples"
-            - name: "Bananas"
-              value: "bananas"
+          element: "select"
+          label: "Select language"
+          placeholder: "English"
+          options: *languages
+          selected: "en"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Section's title"
+          placeholder: "This is a title"
       - name: "action"
         field:
           element: "text"
@@ -33,8 +47,23 @@ prose:
           element: "text"
           label: "Option"
           placeholder: "Learn more about this. "
-      - name: "permalink"
+    _posts/about:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "about"
+      - name: "title"
         field:
           element: "text"
-          label: "Permalink"
-          value: ""
+          label: "Post's title"
+          placeholder: "This is a title"
+    _posts/help:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "help"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Post's title"
+          placeholder: "This is a title"

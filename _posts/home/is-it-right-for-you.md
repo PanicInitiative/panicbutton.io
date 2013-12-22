@@ -1,8 +1,8 @@
 ---
 layout: post
+title: "Is Panic Button Right for You?"
 published: true
 action: Find out more
-permalink: ""
 ---
 
-## Is Panic Button Right for You?
+This is some text.
