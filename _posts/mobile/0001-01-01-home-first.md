@@ -1,5 +1,6 @@
 ---
 layout: post
+type: "simple"
 title: "Panic Button"
 published: true
 category: "mobile"

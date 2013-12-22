@@ -6,7 +6,11 @@
     "data":[{% for post in site.categories.mobile %}
      {
       "id" : "{{post.id}}",
-      "title" : "{{post.title}}",
+      "type" : "{{post.type}}",
+      "title" : "{{post.title}}",{% if post.introduction %}
+      "introduction" : "{{post.introduction}}",{% endif %}{% if post.warning %}
+      "warning" : "{{post.warning}}",{% endif %}{% if post.component %}
+      "component" : "{{post.component}}",{% endif %}
       "action" : {
         "title" : "{{post.action.title}}",
         "link" : "{{post.action.link}}"
