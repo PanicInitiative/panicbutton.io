@@ -1,6 +1,6 @@
 ---
 layout: post
-id: "home-first"
+slug: "home-first"
 type: "simple"
 title: "Panic Button"
 published: true
