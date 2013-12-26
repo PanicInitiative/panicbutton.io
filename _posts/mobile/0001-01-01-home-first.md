@@ -1,5 +1,6 @@
 ---
 layout: post
+id: "home-first"
 type: "simple"
 title: "Panic Button"
 published: true
@@ -7,12 +8,12 @@ category: "mobile"
 tags: "mobile"
 action:
   title: "Setup"
-  link: warning
+  link: "warning"
 items:
   -  title: "About"
-     link: about
+     link: "about" 
   -  title: "Language Settings"
-     link: language
+     link: "language"
 ---
 
 Panic Button turns your mobile phone into a secret alarm for when you are in trouble.
