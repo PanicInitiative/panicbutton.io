@@ -1,6 +1,6 @@
 ---
 layout: post
-lang: en
+lang: es
 slug: "home-first"
 type: "simple"
 title: "Panic Button"
