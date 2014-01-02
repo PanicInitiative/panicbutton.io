@@ -1,7 +1,8 @@
 ---
+version: 2
 layout: post
 lang: en
-slug: "code"
+slug: "setup-code"
 type: "interactive"
 title: "Setup a code"
 published: true
@@ -11,6 +12,6 @@ introduction: This is the code that will unlock your disguise.
 warning: If you forget this code you will not be able to unlock your disguise.
 component: code
 action:
-  title: "Next"
-  link: "home-second"
+  - title: "Next"
+    link: "home-not-configured-alarm"
 ---
