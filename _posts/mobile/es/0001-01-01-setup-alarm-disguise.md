@@ -1,7 +1,7 @@
 ---
 version: 1
 layout: post
-lang: en
+lang: es
 slug: "setup-alarm-disguise"
 type: "simple"
 title: "Setup the Alarm"

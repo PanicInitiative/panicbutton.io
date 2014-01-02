@@ -1,7 +1,7 @@
 ---
 version: 1
 layout: post
-lang: en
+lang: es
 slug: "setup-alarm-test-disguise"
 type: "interactive"
 title: "Test Hardware Alarm"

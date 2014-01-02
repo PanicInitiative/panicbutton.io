@@ -11,17 +11,9 @@
       "title" : "{{post.title}}",{% if post.introduction %}
       "introduction" : "{{post.introduction}}",{% endif %}{% if post.warning %}
       "warning" : "{{post.warning}}",{% endif %}{% if post.component %}
-      "component" : "{{post.component}}",{% endif %}
-      "action" : {
-        "title" : "{{post.action.title}}",
-        "link" : "{{post.action.link}}"
-      },
-      "items" : [{% for item in post.items %}
-        {
-          "title": "{{item.title}}",
-          "link": "{{item.link}}"
-        }{% unless forloop.last %},{% endunless %}
-        {% endfor %}],
+      "component" : "{{post.component}}",{% endif %}{% if post.action %}
+      "action" : {{post.action | jsonify}},{% endif %}{% if post.items %}
+      "items" : {{post.items | jsonify }},{% endif %}
       "content" : "{{post.content | strip_newlines}}"
     }{% unless forloop.last %},{% endunless %}
     {% endif %}{% endfor %}]
