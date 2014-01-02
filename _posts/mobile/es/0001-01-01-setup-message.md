@@ -6,7 +6,9 @@ slug: "setup-message"
 type: "interactive"
 title: "Setup alert message"
 published: true
-category: "mobile"
+categories:
+    - es
+    - mobile
 tags: "mobile"
 introduction: This is the message that will be sent with your location. 
 warning: Make sure your contacts recognize this message.

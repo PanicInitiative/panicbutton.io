@@ -6,7 +6,9 @@ slug: "setup-contacts"
 type: "interactive"
 title: "Setup trusted contacts"
 published: true
-category: "mobile"
+categories:
+    - es
+    - mobile
 tags: "mobile"
 introduction: These are the people who will receive your alert message.
 warning: They should know you personally and be able to respond.

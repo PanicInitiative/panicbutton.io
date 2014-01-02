@@ -6,7 +6,9 @@ slug: "setup-alarm-test-hardware"
 type: "interactive"
 title: "Test Hardware Alarm"
 published: "true"
-category: "mobile"
+categories:
+    - es
+    - mobile
 tags: "mobile"
 component: alarm-test-hardware
 success: 

@@ -6,7 +6,9 @@ slug: "setup-disguise-test-code"
 type: "interactive"
 title: "Test Disguise"
 published: "true"
-category: "mobile"
+categories:
+    - es
+    - mobile
 tags: "mobile"
 component: disguise-test-code
 success: 

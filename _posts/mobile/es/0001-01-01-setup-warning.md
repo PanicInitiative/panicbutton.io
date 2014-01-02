@@ -6,7 +6,9 @@ slug: "setup-warning"
 type: "simple"
 title: "Warning"
 published: "true"
-category: "mobile"
+categories:
+    - es
+    - mobile
 tags: "mobile"
 action: 
   - title: "Get started"

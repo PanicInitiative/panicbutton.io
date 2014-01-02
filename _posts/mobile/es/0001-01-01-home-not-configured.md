@@ -6,7 +6,9 @@ slug: "home-not-configured"
 type: "simple"
 title: "Panic Button"
 published: true
-category: "mobile"
+categories:
+    - es
+    - mobile
 tags: "mobile"
 action:
   - title: "Set-Up"

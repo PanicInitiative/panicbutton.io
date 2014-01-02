@@ -6,7 +6,9 @@ slug: "checklist"
 type: "modal"
 title: "Checklist"
 published: "true"
-category: "mobile"
+categories:
+    - es
+    - mobile
 tags: "mobile"
 action:
   - title: "OK"
