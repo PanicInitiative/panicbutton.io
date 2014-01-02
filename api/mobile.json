@@ -1,9 +1,9 @@
 ---
 ---
-{% assign idx = 0 %}{% assign count = 0 %}{% for pst in site.categories.mobile %}{% if pst.lang == 'en' %}{% if pst.version == site.version %}{% assign count = count | plus: '1' %}{% endif %}{% endif %}{% endfor %}{
+{% assign idx = 0 %}{% assign count = 0 %}{% for pst in site.categories.mobile %}{% if pst.lang == 'en' %}{% assign count = count | plus: '1' %}{% endif %}{% endfor %}{
   "mobile": {
     "version" : {{ site.version }},
-    "data":[{% for post in site.categories.mobile %}{% if post.lang == 'en' %}{% if post.version == site.version %}{% assign idx = idx | plus: '1' %}
+    "data":[{% for post in site.categories.mobile %}{% if post.lang == 'en' %}{% assign idx = idx | plus: '1' %}
     {
       "id" : "{{post.slug}}",
       "lang" : "{{post.lang}}",
@@ -15,6 +15,6 @@
       "action" : {{post.action | jsonify}},{% endif %}{% if post.items %}
       "items" : {{post.items | jsonify }},{% endif %}
       "content" : "{{post.content | strip_newlines}}"
-    }{% unless idx == count %},{% endunless %}{% endif %}{% endif %}{% endfor %}]
+    }{% unless idx == count %},{% endunless %}{% endif %}{% endfor %}]
   }
 }
