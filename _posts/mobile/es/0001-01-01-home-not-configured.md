@@ -3,21 +3,21 @@ version: 2
 layout: post
 lang: es
 slug: "home-not-configured"
-type: "simple"
-title: "Panic Button"
+type: simple
+title: Panic Button
 published: true
-categories:
-    - es
-    - mobile
-tags: "mobile"
-action:
+categories: 
+  - es
+  - mobile
+tags: mobile
+action: 
   - title: "Set-Up"
     link: "setup-warning"
-items:
-  - title: "About"
-    link: "setup-about" 
-  - title: "Language Settings"
+items: 
+  - title: About
+    link: "setup-about"
+  - title: Language Settings
     link: "setup-language"
 ---
 
-Panic Button turns your mobile phone into a secret alarm for when you are in trouble.
+![Illustration](/media/mobile/home-not-configured.png) El Boton de Panico convierte tu telefono movil en una alarma secreta para que tus contactos mas confiables pueden actuar si te encuentres en riesgo.
