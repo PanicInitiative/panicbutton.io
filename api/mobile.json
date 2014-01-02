@@ -3,7 +3,7 @@
 {
   "mobile": {
     "version" : {{ site.version }},
-    "data":[{% for post in site.categories.mobile %}{% if post.lang == 'es' %}
+    "data":[{% for post in site.categories.mobile %}{% if post.lang == 'en' %}
      {
       "id" : "{{post.slug}}",
       "lang" : "{{post.lang}}",
