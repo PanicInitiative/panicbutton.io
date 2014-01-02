@@ -2,7 +2,7 @@
 ---
 {% assign idx = 0 %}{% assign count = 0 %}{% for pst in site.categories.mobile %}{% if pst.lang == 'es' %}{% if pst.version == 2 %}{% assign count = count | plus: '1' %}{% endif %}{% endif %}{% endfor %}{
   "mobile": {
-    "version" : {{ site.version }},
+    "version" : {{ 2 }},
     "data":[{% for post in site.categories.mobile %}{% if post.lang == 'es' %}{% if post.version == 2 %}{% assign idx = idx | plus: '1' %}
     {
       "id" : "{{post.slug}}",
