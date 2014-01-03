@@ -14,7 +14,7 @@
       "component" : "{{post.component}}",{% endif %}{% if post.action %}
       "action" : {{post.action | jsonify}},{% endif %}{% if post.items %}
       "items" : {{post.items | jsonify }},{% endif %}
-      "content" : "{{post.content | strip_newlines}}"
+      "content" : {{post.content | strip_newlines}} | jsonify
     }{% unless idx == count %},{% endunless %}{% endif %}{% endfor %}]
   }
 }
