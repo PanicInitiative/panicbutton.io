@@ -14,8 +14,8 @@
       "warning" : "{{post.warning}}",{% endif %}{% if post.component %}
       "component" : "{{post.component}}",{% endif %}{% if post.action %}
       "action" : {{post.action | jsonify}},{% endif %}{% if post.items %}
-      "items" : {{post.items | jsonify }},{% endif %}
-      "content" : {{post.content | strip_newlines | jsonify}}
+      "items" : {{post.items | jsonify }},{% endif %}{% if post.content != '' %}
+      "content" : {{post.content | strip_newlines | jsonify}}{% endif %}
     }{% unless idx == count %},{% endunless %}{% endif %}{% endif %}{% endfor %}]
   }
 }
