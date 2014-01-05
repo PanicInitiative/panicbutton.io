@@ -8,13 +8,13 @@
       "id" : "{{post.slug}}",
       "lang" : "{{post.lang}}",
       "type" : "{{post.type}}",
-      "title" : "{{post.title}}",{% if post.status %}
-      "status" : {{post.status | jsonify}},{% endif %}{% if post.introduction %}
-      "introduction" : "{{post.introduction}}",{% endif %}{% if post.warning %}
-      "warning" : "{{post.warning}}",{% endif %}{% if post.component %}
-      "component" : "{{post.component}}",{% endif %}{% if post.action %}
-      "action" : {{post.action | jsonify}},{% endif %}{% if post.items %}
-      "items" : {{post.items | jsonify }},{% endif %}{% if post.content != '' %}
+      "title" : "{{post.title}}"{% if post.status %},
+      "status" : {{post.status | jsonify}}{% endif %}{% if post.introduction %},
+      "introduction" : "{{post.introduction}}"{% endif %}{% if post.warning %},
+      "warning" : "{{post.warning}}"{% endif %}{% if post.component %},
+      "component" : "{{post.component}}"{% endif %}{% if post.action %},
+      "action" : {{post.action | jsonify}}{% endif %}{% if post.items %},
+      "items" : {{post.items | jsonify }}{% endif %}{% if post.content != '' %},
       "content" : {{post.content | strip_newlines | jsonify}}{% endif %}
     }{% unless idx == count %},{% endunless %}{% endif %}{% endif %}{% endfor %}]
   }
