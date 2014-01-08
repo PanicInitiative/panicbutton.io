@@ -9,6 +9,9 @@ published: "true"
 category: "mobile"
 tags: "mobile"
 component: alarm-test-hardware
+action: 
+  - title: "Skip"
+    link: "setup-alarm-test-hardware-success"
 success: 
   - link: "setup-alarm-test-hardware-success"
 ---

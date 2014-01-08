@@ -9,6 +9,9 @@ published: "true"
 category: "mobile"
 tags: "mobile"
 component: disguise-test-unlock
+action: 
+  - title: "Skip"
+    link: "setup-disguise-test-code"
 success: 
   - link: "setup-disguise-test-code"
 ---
