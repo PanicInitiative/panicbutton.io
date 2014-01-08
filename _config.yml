@@ -68,3 +68,44 @@ prose:
           element: "text"
           label: "Post's title"
           placeholder: "This is a title"
+    _posts/mobile:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "lang"
+        field:
+          element: "select"
+          label: "Select language"
+          placeholder: "English"
+          options: *languages
+          selected: "en"
+      - name: "slug"
+        field:
+          element: "hidden"
+          label: "Post's id"
+      - name: "type"
+        field:
+          element: "hidden"
+          label: "Post's type - simple, interactive, modal"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Section's title"
+          placeholder: "This is a title"
+      - name: "action"
+        field:
+          element: "hidden"
+          label: "Action"
+      - name: "items"
+        field:
+          element: "hidden"
+          label: "Items"
+      - name: "success"
+        field:
+          element: "hidden"
+          label: "Success"
+      - name: "component"
+        field:
+          element: "hidden"
+          label: "component"
