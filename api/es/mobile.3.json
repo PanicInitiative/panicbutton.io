@@ -13,7 +13,8 @@
       "introduction" : "{{post.introduction}}"{% endif %}{% if post.warning %},
       "warning" : "{{post.warning}}"{% endif %}{% if post.component %},
       "component" : "{{post.component}}"{% endif %}{% if post.action %},
-      "action" : {{post.action | jsonify}}{% endif %}{% if post.items %},
+      "action" : {{post.action | jsonify}}{% endif %}{% if post.success %},
+      "success" : {{post.sucess | jsonify}}{% endif %}{% if post.items %},
       "items" : {{post.items | jsonify }}{% endif %}{% if post.content != '' %},
       "content" : {{post.content | strip_newlines | jsonify}}{% endif %}
     }{% unless idx == count %},{% endunless %}{% endif %}{% endif %}{% endfor %}]
