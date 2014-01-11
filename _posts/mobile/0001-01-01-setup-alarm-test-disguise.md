@@ -9,6 +9,10 @@ published: "true"
 category: "mobile"
 tags: "mobile"
 component: alarm-test-disguise
+timers:
+  - info: "5"
+    inactive: "10"
+    fail: "20"
 action: 
   - title: "Skip"
     link: "setup-alarm-test-disguise-success"
