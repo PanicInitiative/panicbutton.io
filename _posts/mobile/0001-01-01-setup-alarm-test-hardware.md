@@ -9,11 +9,18 @@ published: "true"
 category: "mobile"
 tags: "mobile"
 component: alarm-test-hardware
+timers:
+  - info: "5"
+    inactive: "10"
+    fail: "20"
 action: 
   - title: "Skip"
     link: "setup-alarm-test-hardware-success"
 success: 
   - link: "setup-alarm-test-hardware-success"
+fail: 
+  - link: "setup-alarm-test-disguise-fail"
+
 ---
 
 Try Now! Repeatedly press the power button fast until you feel a vibration. 
