@@ -18,6 +18,8 @@ action:
     link: "setup-alarm-test-disguise-success"
 success: 
   - link: "setup-alarm-test-disguise-success"
+fail: 
+  - link: "setup-alarm-test-disguise-fail"
 ---
 
 Try Now! Repeatedly press the any button on the calculator fast until you feel a vibration. 
