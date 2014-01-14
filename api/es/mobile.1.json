@@ -15,7 +15,8 @@
       "component" : "{{post.component}}"{% endif %}{% if post.timers %},
       "timers" : {{post.timers | jsonify}}{% endif %}{% if post.action %},
       "action" : {{post.action | jsonify}}{% endif %}{% if post.success %},
-      "success" : {{post.success | jsonify}}{% endif %}{% if post.checklist %},
+      "success" : {{post.success | jsonify}}{% endif %}{% if post.fail %},
+      "fail" : {{post.fail | jsonify}}{% endif %}{% if post.checklist %},
       "checklist" : {{post.checklist | jsonify}}{% endif %}{% if post.items %},
       "items" : {{post.items | jsonify }}{% endif %}{% if post.content != '' %},
       "content" : {{post.content | strip_newlines | jsonify}}{% endif %}
