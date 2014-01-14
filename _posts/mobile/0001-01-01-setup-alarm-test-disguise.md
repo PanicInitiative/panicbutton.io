@@ -14,9 +14,6 @@ timers:
   - info: "5"
     inactive: "10"
     fail: "20"
-action: 
-  - title: "Skip"
-    link: "setup-alarm-test-disguise-success"
 success: 
   - link: "setup-alarm-test-disguise-success"
 fail: 
