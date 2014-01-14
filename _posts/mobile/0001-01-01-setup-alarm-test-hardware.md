@@ -8,6 +8,7 @@ title: "Test Hardware Alarm"
 published: "true"
 category: "mobile"
 tags: "mobile"
+introduction: "Try Now! Repeatedly press the power button fast until you feel a vibration."
 component: alarm-test-hardware
 timers:
   - info: "5"
@@ -22,5 +23,3 @@ fail:
   - link: "setup-alarm-test-disguise-fail"
 
 ---
-
-Try Now! Repeatedly press the power button fast until you feel a vibration. 
