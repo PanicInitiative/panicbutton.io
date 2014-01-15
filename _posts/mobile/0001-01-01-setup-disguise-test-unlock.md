@@ -8,12 +8,19 @@ title: "Test Disguise"
 published: "true"
 category: "mobile"
 tags: "mobile"
+introduction: "Try now! Hold any button on the calculator disguise."
 component: disguise-test-unlock
 action: 
   - title: "Skip"
     link: "setup-disguise-test-code"
+timers:
+  info: "5"
+  inactive: "10"
+  fail: "20"
 success: 
-  - link: "setup-disguise-test-code"
+  link: "setup-disguise-test-code"
+fail: 
+  link: "setup-disguise-test-fail"
+
 ---
 
-Try now! Hold any button on the calculator disguise.

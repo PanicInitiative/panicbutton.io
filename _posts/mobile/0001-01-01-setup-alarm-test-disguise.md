@@ -11,13 +11,13 @@ tags: "mobile"
 introduction: "Try Now! Repeatedly press the any button on the calculator fast until you feel a vibration."
 component: alarm-test-disguise
 timers:
-  - info: "5"
-    inactive: "10"
-    fail: "20"
+  info: "5"
+  inactive: "10"
+  fail: "20"
 success: 
-  - link: "setup-alarm-test-disguise-success"
+  link: "setup-alarm-test-disguise-success"
 fail: 
-  - link: "setup-alarm-test-disguise-fail"
+  link: "setup-alarm-test-disguise-fail"
 
 ---
 

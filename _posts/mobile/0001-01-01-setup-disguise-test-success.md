@@ -9,8 +9,8 @@ published: "true"
 category: "mobile"
 tags: "mobile"
 action: 
-  - title: "Next"
+  - title: "Finish"
     link: "home-ready"
 ---
 
-Vibrate means your message and location would be sent
+Congratulations you have now succesfully configured the Panic Button app!

@@ -21,7 +21,6 @@ action:
   - title: "Setup Disguise"
     link: "setup-disguise"
     status: disabled
-
 items:
   -  title: "About"
      link: "setup-about"

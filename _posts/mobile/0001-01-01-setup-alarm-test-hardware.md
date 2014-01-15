@@ -11,12 +11,12 @@ tags: "mobile"
 introduction: "Try Now! Repeatedly press the power button fast until you feel a vibration."
 component: alarm-test-hardware
 timers:
-  - info: "5"
-    inactive: "10"
-    fail: "20"
+  info: "5"
+  inactive: "10"
+  fail: "20"
 success: 
-  - link: "setup-alarm-test-hardware-success"
+  link: "setup-alarm-test-hardware-success"
 fail: 
-  - link: "setup-alarm-test-disguise-fail"
-
+  link: "setup-alarm-test-disguise-fail"
+  
 ---
