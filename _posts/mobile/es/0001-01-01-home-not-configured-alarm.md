@@ -1,7 +1,7 @@
 ---
 version: 1
 layout: post
-lang: en
+lang: es
 slug: "home-not-configured-alarm"
 type: "simple"
 title: "Panic Button"

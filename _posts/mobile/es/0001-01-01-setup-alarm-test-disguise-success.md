@@ -1,7 +1,7 @@
 ---
 version: 1
 layout: post
-lang: en
+lang: es
 slug: "setup-alarm-test-disguise-success"
 type: "simple"
 title: "Well done"

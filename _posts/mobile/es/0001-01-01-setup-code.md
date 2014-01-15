@@ -1,7 +1,7 @@
 ---
 version: 2
 layout: post
-lang: en
+lang: es
 slug: "setup-code"
 type: "interactive"
 title: "Setup a code"
