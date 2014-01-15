@@ -1,18 +1,26 @@
 ---
 version: 1
 layout: post
-lang: es
+lang: en
 slug: "setup-disguise-test-unlock"
 type: "interactive"
 title: "Test Disguise"
 published: "true"
-categories:
-    - es
-    - mobile
+category: "mobile"
 tags: "mobile"
+introduction: "Try now! Hold any button on the calculator disguise."
 component: disguise-test-unlock
+action: 
+  - title: "Skip"
+    link: "setup-disguise-test-code"
+timers:
+  info: "5"
+  inactive: "10"
+  fail: "20"
 success: 
-  - link: "setup-disguise-test-code"
+  link: "setup-disguise-test-code"
+fail: 
+  link: "setup-disguise-test-fail"
+
 ---
 
-Try now! Hold any button on the calculator disguise.

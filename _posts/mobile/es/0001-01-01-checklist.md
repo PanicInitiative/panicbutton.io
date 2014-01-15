@@ -1,14 +1,12 @@
 ---
 version: 1
 layout: post
-lang: es
+lang: en
 slug: "checklist"
 type: "modal"
 title: "Checklist"
 published: "true"
-categories:
-    - es
-    - mobile
+category: "mobile"
 tags: "mobile"
 action:
   - title: "OK"

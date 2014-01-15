@@ -1,14 +1,12 @@
 ---
 version: 1
 layout: post
-lang: es
+lang: en
 slug: "setup-alarm-test-disguise-success"
 type: "simple"
 title: "Well done"
 published: "true"
-categories:
-    - es
-    - mobile
+category: "mobile"
 tags: "mobile"
 action: 
   - title: "Next"

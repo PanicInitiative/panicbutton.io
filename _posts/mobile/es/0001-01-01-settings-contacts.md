@@ -1,14 +1,12 @@
 ---
 version: 2
 layout: post
-lang: es
+lang: en
 slug: "settings-contacts"
 type: "interactive"
 title: "Setup trusted contacts"
 published: true
-categories:
-    - es
-    - mobile
+category: "mobile"
 tags: "mobile"
 introduction: These are the people who will receive your alert message.
 warning: They should know you personally and be able to respond.

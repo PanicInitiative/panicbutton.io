@@ -1,18 +1,23 @@
 ---
 version: 1
 layout: post
-lang: es
+lang: en
 slug: "setup-alarm-test-disguise"
 type: "interactive"
 title: "Test Hardware Alarm"
 published: "true"
-categories:
-    - es
-    - mobile
+category: "mobile"
 tags: "mobile"
+introduction: "Try Now! Repeatedly press the any button on the calculator fast until you feel a vibration."
 component: alarm-test-disguise
+timers:
+  info: "5"
+  inactive: "10"
+  fail: "20"
 success: 
-  - link: "setup-alarm-test-disguise-success"
+  link: "setup-alarm-test-disguise-success"
+fail: 
+  link: "setup-alarm-test-disguise-fail"
+
 ---
 
-Try Now! Repeatedly press the any button on the calculator fast until you feel a vibration. 

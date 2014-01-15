@@ -1,14 +1,12 @@
 ---
 version: 1
 layout: post
-lang: es
+lang: en
 slug: "setup-disguise"
 type: "simple"
 title: "Setup the Disguise"
 published: "true"
-categories:
-    - es
-    - mobile
+category: "mobile"
 tags: "mobile"
 action: 
   - title: "Learn"

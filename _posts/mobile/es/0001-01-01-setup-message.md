@@ -1,14 +1,12 @@
 ---
 version: 2
 layout: post
-lang: es
+lang: en
 slug: "setup-message"
 type: "interactive"
 title: "Setup alert message"
 published: true
-categories:
-    - es
-    - mobile
+category: "mobile"
 tags: "mobile"
 introduction: This is the message that will be sent with your location. 
 warning: Make sure your contacts recognize this message.

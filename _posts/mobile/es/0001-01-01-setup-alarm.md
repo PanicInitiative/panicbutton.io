@@ -1,14 +1,12 @@
 ---
 version: 1
 layout: post
-lang: es
+lang: en
 slug: "setup-alarm"
 type: "simple"
 title: "Setup the Alarm"
 published: "true"
-categories:
-    - es
-    - mobile
+category: "mobile"
 tags: "mobile"
 action: 
   - title: "Learn"

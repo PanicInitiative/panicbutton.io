@@ -1,14 +1,12 @@
 ---
 version: 1
 layout: post
-lang: es
+lang: en
 slug: "home-not-configured-disguise"
 type: "simple"
 title: "Panic Button"
 published: true
-categories:
-    - es
-    - mobile
+category: "mobile"
 tags: "mobile"
 status:
   - title: "Not Configured"
