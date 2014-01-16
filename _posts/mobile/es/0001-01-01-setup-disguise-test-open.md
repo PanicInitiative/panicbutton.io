@@ -24,3 +24,4 @@ fail:
 
 ---
 
+![Open](/media/mobile/launch-test.png)
