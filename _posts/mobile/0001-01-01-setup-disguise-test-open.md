@@ -8,7 +8,7 @@ title: "Test Disguise"
 published: "true"
 category: "mobile"
 tags: "mobile"
-introduction: "Try now! Open the app by clicking on the calculator icon."
+introduction: "Try now! Open the app by clicking on the **Calculation** icon."
 component: disguise-test-open
 action: 
   - title: "Skip"
