@@ -13,7 +13,7 @@ status:
     color: red
     link: help-not-configured
 action:
-  - title: "Set-Up"
+  - title: "Basic Settings"
     link: ""
     status: checked
   - title: "Setup Alarm"
