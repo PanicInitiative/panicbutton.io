@@ -18,4 +18,6 @@ items:
     link: "setup-language"
 ---
 
-![Illustration](/media/mobile/home-not-configured.png) Panic Button turns your mobile phone into a secret alarm for when you are in trouble.
+<img style="float: left" alt="Illustration" src="/media/mobile/home-not-configured.png">
+
+Panic Button turns your mobile phone into a secret alarm for when you are in trouble.
