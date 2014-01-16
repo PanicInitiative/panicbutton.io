@@ -17,6 +17,6 @@ timers:
 success: 
   link: "setup-alarm-test-hardware-success"
 fail: 
-  link: "setup-alarm-test-disguise-fail"
+  link: "setup-alarm-test-hardware-fail"
   
 ---
