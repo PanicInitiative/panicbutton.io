@@ -4,7 +4,7 @@ layout: post
 lang: en
 slug: "setup-alarm-test-disguise"
 type: "interactive"
-title: "Test Hardware Alarm"
+title: "Test Disguised Alarm"
 published: "true"
 category: "mobile"
 tags: "mobile"

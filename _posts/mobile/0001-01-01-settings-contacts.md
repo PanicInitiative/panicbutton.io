@@ -4,7 +4,7 @@ layout: post
 lang: en
 slug: "settings-contacts"
 type: "interactive"
-title: "Setup trusted contacts"
+title: "Setup contacts"
 published: true
 category: "mobile"
 tags: "mobile"
