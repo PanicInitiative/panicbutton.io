@@ -13,6 +13,6 @@ action:
     link: "setup-disguise-test-open"
 ---
 
-It looks like you didn't succeed in opening the Panic Button settings screen.
+It looks like you weren't successful at opening the app from the calculator disguise.
 
-Try again to open the application from the calculator icon, pressing a long time on any button of the calculator and entering your pin. 
+Remember: Hold down any button and you will be asked to enter your pincode. 
