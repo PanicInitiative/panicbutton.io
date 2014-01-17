@@ -13,4 +13,4 @@ action:
     link: "setup-alarm-test-disguise"
 ---
 
-Alternatively, you can trigger the Panic alarm directly from the app's disguise screen.
+Alternatively, you can trigger the alert directly from the app's disguise screen.
