@@ -20,5 +20,5 @@ Security Tips
 
  - Think about who will practically be able to assist - there is no point someone knowing you are in trouble if they are not in a position to help you
  - Create a PACT with the contacts you choose - make sure they agree and are PREPARED to ACT
- - Be aware of the risks - how might being your chosen contact put others at risk? 
+ - Be aware of the risks - how might your chosen contact be put at risk? 
  
