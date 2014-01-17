@@ -4,12 +4,12 @@ layout: post
 lang: en
 slug: "setup-code"
 type: "interactive"
-title: "Setup a code"
+title: "Set a pincode"
 published: true
 category: "mobile"
 tags: "mobile"
-introduction: This is the code that will unlock your disguise. 
-warning: If you forget this code you will not be able to unlock your disguise.
+introduction: This pincode is needed to access the app settings. It is not needed to alert in an emergency.
+warning: Remember your pin! If you forget it you will need to reinstall the app.
 component: code
 action:
   - title: "Next"
