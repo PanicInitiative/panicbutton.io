@@ -13,6 +13,6 @@ action:
     link: "setup-alarm-test-disguise"
 ---
 
-It looks like you didn't succeed in triggering the Panic alarm directly from the app's disguise screen.
+It looks like you didn't succeed in triggering the alert.
 
-Please repeatedly press any button, like the number 5 on the calculator fast until you feel a vibration.
+Remember: repeatedly press a button on the calculator fast until you feel a vibration.
