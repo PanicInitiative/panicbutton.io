@@ -8,7 +8,7 @@ title: "Test Disguise"
 published: "true"
 category: "mobile"
 tags: "mobile"
-introduction: "Try now! Hold any button on the calculator disguise."
+introduction: "Try now! Hold down any button on the calculator."
 component: disguise-test-unlock
 action: 
   - title: "Skip"
