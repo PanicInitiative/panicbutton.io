@@ -13,4 +13,4 @@ action:
     link: "home-not-configured-disguise"
 ---
 
-Vibrate means your message and location would be sent
+Your test was successful! If this was a real emergency, your alert message and location would be sent to your contacts.
