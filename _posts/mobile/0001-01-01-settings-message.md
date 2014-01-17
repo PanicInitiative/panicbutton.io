@@ -16,9 +16,8 @@ action:
     link: "home-ready"
 ---
 
- Security tips
+Security tips
 
- - Consider creating a secret message that only your contacts will understand 
- - Think about how to make sure your message will be relevant in even unexpected situations
- - Test sending the message to see how long it takes your contacts to respond 
+ - Consider creating a code message that only your contacts will understand 
+ - The message should be relevant for any situation - you won't have time to change it in a 'Panic' moment
  - Enable GPS tracking from your phone settings if you want your location to be included with the message  
