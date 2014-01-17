@@ -9,7 +9,7 @@ published: true
 category: "mobile"
 tags: "mobile"
 introduction: This pincode is needed to access the app settings. It is not needed to alert in an emergency. 
-warning: Remember your pin! You will not be able to access your settings without it.
+warning: Remember your pin! If you forget it you will need to reinstall the app.
 
 component: code
 action:
