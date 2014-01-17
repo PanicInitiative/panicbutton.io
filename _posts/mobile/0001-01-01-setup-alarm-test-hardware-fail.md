@@ -13,6 +13,6 @@ action:
     link: "setup-alarm-test-hardware"
 ---
 
-It looks like you didn't succeed in triggering the Panic alarm directly with the phone's power button.
+It looks like you didn't succeed in triggering the alert using the phone's power button.
 
-Press repeatedly the phone's power button until you feel a vibration.
+Remember: repeatedly press a button on the calculator fast until you feel a vibration.
