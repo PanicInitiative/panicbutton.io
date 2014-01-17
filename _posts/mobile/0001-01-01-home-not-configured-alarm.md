@@ -9,7 +9,7 @@ published: true
 category: "mobile"
 tags: "mobile"
 status:
-  - title: "Not Configured"
+  - title: "Setup not complete"
     color: red
     link: help-not-configured
 action:
@@ -30,4 +30,4 @@ items:
      link: "setup-language"
 ---
 
-You cannot use Panic Button until it is fully configured.
+You cannot use Panic Button until it is fully setup.
