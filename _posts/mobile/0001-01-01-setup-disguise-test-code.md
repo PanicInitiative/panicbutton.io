@@ -8,7 +8,7 @@ title: "Test Disguise"
 published: "true"
 category: "mobile"
 tags: "mobile"
-introduction: "Try now! Enter your pincode."
+introduction: "Well done! Now enter your pincode to access settings."
 component: disguise-test-code
 action: 
   - title: "Skip"
