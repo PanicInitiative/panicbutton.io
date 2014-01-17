@@ -13,4 +13,4 @@ action:
     link: "setup-alarm-test-hardware"
 ---
 
-Now you will learn how to trigger the Panic alarm in an emergency. It is special because you can trigger the alarm directly from the phone's power button.
+Now you will learn how to trigger Panic Button in an emergency. The app is special because it allows you to trigger the alert from the phone's power button (meaning you can do it secretly - for example, from inside a jacket pocket).
