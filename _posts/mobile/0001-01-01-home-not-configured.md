@@ -18,4 +18,4 @@ items:
     link: "setup-language"
 ---
 
-![Illustration](/media/mobile/home-not-configured-small.png) Panic Button turns your mobile phone into a secret alarm for when you are in trouble.
+![Illustration](/media/mobile/home-not-configured-small.png) Panic Button is an Android app that secretly alerts your contacts when you are in trouble. The app stays hidden on your phone by looking like a simple calculator.
