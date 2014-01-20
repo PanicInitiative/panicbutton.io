@@ -13,6 +13,7 @@ action:
     link: "close"
   - title: "Cancel"
     link: "home-ready"
+    status: disabled
 checklist:
   - title: "The application will be disguised"
   - title: "Review security plan and update trusted contacts regularly"
