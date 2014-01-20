@@ -11,7 +11,7 @@ tags: "mobile"
 introduction: "Well done! Now enter your pincode to access settings."
 component: disguise-test-code
 action: 
-  - title: "Skip"
+  - title: "Ok"
     link: "setup-disguise-test-success"
 timers:
   info: "5"
