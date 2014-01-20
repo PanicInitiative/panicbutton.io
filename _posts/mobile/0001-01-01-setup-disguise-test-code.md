@@ -14,7 +14,7 @@ action:
   - title: "Ok"
     link: "setup-disguise-test-success"
 timers:
-  info: "5"
+  info: "0"
   inactive: "10"
   fail: "20"
 success: 

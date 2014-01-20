@@ -14,7 +14,7 @@ action:
   - title: "Skip"
     link: "setup-disguise-test-unlock"
 timers:
-  info: "5"
+  info: "0"
   inactive: "10"
   fail: "20"
 success: 
