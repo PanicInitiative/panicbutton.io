@@ -10,9 +10,6 @@ category: "mobile"
 tags: "mobile"
 introduction: "Try now! Open the app by clicking on the **Calculation** icon."
 component: disguise-test-open
-action: 
-  - title: "Skip"
-    link: "setup-disguise-test-unlock"
 timers:
   info: "0"
   inactive: "10"
@@ -23,5 +20,3 @@ fail:
   link: "setup-disguise-test-fail"
 
 ---
-
-![Open](/media/mobile/launch-test.png)
