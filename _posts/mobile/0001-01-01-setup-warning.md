@@ -3,7 +3,7 @@ version: 2
 layout: post
 lang: en
 slug: "setup-warning"
-type: "simple"
+type: "warning"
 title: "Warning"
 published: "true"
 category: "mobile"
