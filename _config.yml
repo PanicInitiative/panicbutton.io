@@ -21,11 +21,10 @@ prose:
   relativeLinks: 'teampanicbutton.github.io/links.jsonp'
   media: 'media'
   metadata:
-    _posts/home:
+    _posts/web:
       - name: "layout"
         field:
           element: "hidden"
-          value: "home"
       - name: "lang"
         field:
           element: "select"
@@ -33,41 +32,25 @@ prose:
           placeholder: "English"
           options: *languages
           selected: "en"
-      - name: "title"
+      - name: "heading"
         field:
           element: "text"
-          label: "Section's title"
-          placeholder: "This is a title"
-      - name: "action"
-        field:
-          element: "text"
-          label: "Action"
-          placeholder: "Find our more > "
-      - name: "option"
+          label: "Section's heading"
+          placeholder: "This is a heading"
+      - name: "category"
         field:
           element: "text"
           label: "Option"
           placeholder: "Learn more about this. "
-    _posts/about:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "about"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Post's title"
-          placeholder: "This is a title"
     _posts/help:
       - name: "layout"
         field:
           element: "hidden"
-          value: "help"
-      - name: "title"
+      - name: "heading"
         field:
           element: "text"
-          label: "Post's title"
-          placeholder: "This is a title"
+          label: "Post's heading"
+          placeholder: "This is a heading"
     _posts/mobile:
       - name: "layout"
         field:
