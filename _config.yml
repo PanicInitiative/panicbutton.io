@@ -42,6 +42,10 @@ prose:
           element: "text"
           label: "Option"
           placeholder: "Learn more about this. "
+      - name: "section_order"
+        field:
+          element: "number"
+          label: "Section Order"
     _posts/help:
       - name: "layout"
         field:
