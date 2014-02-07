@@ -2,7 +2,7 @@ name: Panic Button
 version: 3
 markdown: redcarpet
 pygments: true
-permalink: none
+permalink: /:categories/:title.html
 exclude:
   - .gitignore
   - README.md

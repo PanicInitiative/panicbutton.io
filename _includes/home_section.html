@@ -1,0 +1,14 @@
+{% case include.param %}
+	{% when 'home_section_home' %}
+		{% include home_section_home.html %} 
+	{% when 'home_section_how' %}
+		{% include home_section_how.html %} 
+	{% when 'home_section_is' %}
+		{% include home_section_is.html %} 
+	{% when 'home_section_features' %}
+		{% include home_section_features.html %} 
+	{% when 'home_section_download' %}
+		{% include home_section_download.html %} 
+	{% else %}
+	include.param: {{ include.param }}
+{% endcase %}

@@ -1,44 +1,41 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
-
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
-
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
-
-    </head>
-    <body>
-
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
-
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
-
-    </body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>{{ site.name }}</title>
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <!-- Base CSS -->
+    <link href="/css/style.css" rel="stylesheet">
+    <!-- Carousel CSS -->
+    <link href="/css/carousel.css" rel="stylesheet">
+    <!-- media CSS -->
+    <link href="/css/media.css" rel="stylesheet">
+    <link href="/css/flexslider.css" rel="stylesheet">
+	<!-- Pulled from http://code.google.com/p/html5shiv/ -->
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->  
+</head>
+<body data-spy="scroll" data-target=".navbar-scroll">
+  {{ content }}
+	<script type="text/javascript" src="/js/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="/js/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="/js/bootstrap.js"></script>
+	<script type="text/javascript" src="/js/scripts.js"></script>
+	<script type="text/javascript">
+		$('.flexslider').flexslider({
+	      animation: 'fade',
+	      controlsContainer: ".ci",
+		  prevText: "",
+		  nextText: "",
+	    });
+	
+	    $('#slideshow').carousel({interval: 2000});
+	</script>
+	<script type="text/javascript" src="/js/respond.min.js"></script>
+</body>
 </html>

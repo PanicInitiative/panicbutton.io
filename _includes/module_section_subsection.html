@@ -1,0 +1,27 @@
+<section id="{{subsection.slug}}" class="white container content intcont mobnopad">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+					<div class="subtitle">
+						<strong>{{ subsection.heading | markdownify }}</strong>
+					</div>
+					{{ subsection.content | markdownify }}
+	        {% if subsection.image %}
+					<div class="col-3xs-12 col-4xs-12 article-img">
+	            <img src="/images/{{subsection.image.src}}" alt="{{subsection.image.title}}" class="about-illus img-responsive block-center">
+					</div>
+					<div class="clearfix"></div>
+					<div class="img-fig">{{subsection.image.caption | markdownify}}</div>
+					</div>
+					{% endif %}
+	        <div class="clearfix"></div>
+	        {% if subsection.alert %}
+					<div class="halert">
+	        	<div class="exclam">!</div>
+	            <div class="atext">
+	            	{{subsection.alert}}
+	            </div>
+	            <div class="clearfix"></div>
+	        </div>
+					{% endif %}
+        </div>
+    </div>
+</section>

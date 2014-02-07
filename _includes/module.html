@@ -1,0 +1,18 @@
+{% case include.param %}
+	{% when 'module_section' %}
+		{% include module_section.html %} 
+	{% when 'module_section_image' %}
+		{% include module_section_image.html %} 
+	{% when 'module_section_list' %}
+		{% include module_section_list.html %} 
+	{% when 'module_boxes' %}
+		{% include module_boxes.html %} 
+	{% when 'module_section_heading' %}
+		{% include module_section_heading.html %} 
+	{% when 'module_section_subsection' %}
+		{% include module_section_subsection.html %} 
+	{% when 'module_page' %}
+		{% include module_page.html %} 
+	{% else %}
+		include.param: {{ include.param }}
+{% endcase %}

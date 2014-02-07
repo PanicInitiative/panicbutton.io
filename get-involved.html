@@ -1,0 +1,9 @@
+---
+layout: page
+title: Get Involved
+---
+
+{% assign sections = site.categories.get_involved | sort section_order %}
+{% for section in sections %}
+	{% include module.html param=section.layout %}
+{% endfor %}

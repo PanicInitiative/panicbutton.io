@@ -1,0 +1,9 @@
+---
+layout: page
+title: About
+---
+
+{% assign sections = site.categories.about | sort section_order %}
+{% for section in sections %}
+	{% include module.html param=section.layout %}
+{% endfor %}

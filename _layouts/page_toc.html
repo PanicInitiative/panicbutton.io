@@ -1,0 +1,51 @@
+---
+layout: default
+---
+{% include nav.html %}
+<div id="content">
+	<section id="header" class="content white container intcont mobnopad">
+		<div class="col-xs-12 breadcrumb">
+			  <a href="/">Home</a> &gt; {% if page.parent %}<a href="/{{page.parent.link}}">{{page.parent.title}}</a> &gt; {% endif %}<span>{{page.title}}</span>
+		</div>
+		<div class="clearfix"></div>
+		{% assign toc = site.categories[page.toc] | sort section_order %}
+		<div class="col-lg-12 col-md-12 col-sm-12">
+			<ul class="arrows">
+			{% for sub in toc %}
+			  {% if sub.toc != empty %}
+					<li>
+						<a href="#{{sub.slug}}">{{ sub.title }}</a>
+					</li>
+					<ul>
+					{% for subsub in site.categories[sub.toc] | sort sub.section_order  %}
+					<li><a href="#{{subsub.slug}}">{{ subsub.title }}</a></li>
+					{% endfor %}
+					</ul>
+				{% else %}
+					<li>
+						<a href="#{{sub.slug}}">{{ sub.title }}</a>
+					</li>
+				{% endif %}
+			{% endfor %}
+			</ul>
+		</div>
+		<div class="center"><div class="bar">&nbsp;</div></div>
+	</section>
+	{% assign toc = site.categories[page.toc] | sort section_order %}
+	{% for section in toc %}
+	<section id={{sub.link}} class="content white container intcont mobnopad">
+	  {% if section.toc != empty %}
+    {% include module.html param="module_section_heading" %}
+		{% for subsection in site.categories[section.toc] | sort sub.section_order  %}
+				{% include module.html param="module_section_subsection" %}
+			{% endfor %}
+		{% else %}
+  		{% include module.html param="module_section_heading" %}
+		{% endif %}
+	</section>
+	{% endfor %}
+</div>
+
+{% for footer in site.categories.footer %}
+  {% include home_footer.html %}
+{% endfor %}
