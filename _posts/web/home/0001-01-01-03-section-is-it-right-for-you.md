@@ -5,44 +5,62 @@ published: true
 category: "home_section"
 section_order: 3
 questions:
-  - question: Do you have an ANDROID phone?
+  - id: 1
+    content: Do you have an ANDROID phone?
+    src: images/android-logo.png
     answers:
-      - answer: Yes
+      - id: 1
+        answer: "Yes"
         content: You should be able to use Panic Button on Android versions ___-___
-      - answer: No
+      - id: 2
+        answer: "No"
         content: Sorry, you must have an Android phone to use Panic Button.
         status: warning
-      - answer: I do not know
+      - id: 3
+        answer: I do not know
         content: You should be able to use Panic Button on Android versions ___-___
-  - question: Do you own and have independent access to your phone?
+  - id: 2
+    content: Do you own and have independent access to your phone?
     answers:
-      - answer: Yes
+      - id: 1
+        answer: "Yes"
         content: Only use Panic Button if you have independent access to your phone. This prevents false alarms and also misuse, such as partners or family members using the app to track you without your knowledge.
-      - answer: No
+      - id: 2
+        answer: "No"
         content: Only use Panic Button if you have independent access to your phone. This prevents false alarms and also misuse, such as partners or family members using the app to track you without your knowledge.
         status: warning
-      - answer: I do not know
+      - id: 3
+        answer: I do not know
         content: Independent access means that only you own and access your phone - if you share your phone with a partner or family members it may not be a good idea to use Panic Button. This is to prevent false alarms and also misuse, such as partners or family members using the app to track you without your knowledge.
         status: warning
-  - question: Do you have three trusted contacts in your network who can respond fast in an emergency?
+  - id: 3
+    content: Do you have three trusted contacts in your network who can respond fast in an emergency?
     answers:
-      - answer: Yes
+      - id: 1
+        answer: "Yes"
         content: Panic Button aims to send your emergency message/s to your trusted contacts when you need help. However, the app is not able to guarantee a response. Think carefully when choosing yur trusted contacts and always talk to them first to ensure you have a response plan in place."
-      - answer: No
+      - id: 2
+        answer: "No"
         content: Panic Button aims to send your emergency message/s to your trusted contacts when you need help. However, the app is not able to guarantee a response. Think carefully when choosing your trusted contacts and always talk to them first to ensure you have a response plan in place.
         status: warning
-      - answer: I do not know
+      - id: 3
+        answer: I do not know
         content: Panic Button aims to send your emergency message/s to your trusted contacts when you need help. However, the app is not able to guarantee a response. Think carefully when choosing your trusted contacts and always talk to them first to ensure you have a response plan in place.
-  - question: How would you describe the risk you are under?
+  - id: 4
+    content: How would you describe the risk you are under?
     answers:
-      - answer: Highest risk
+      - id: 1
+        answer: Highest risk
         content: Your country might be known to practise mass telecommunications monitoring and interception. If your profession makes you a target of this, then you should think seriously about whether using Panic Button will reveal information about your location and trusted contacts that could put you or them at increased risk.
-      - answer: Medium risk
+      - id: 2
+        answer: Medium risk
         content: Needs text.
         status: warning
-      - answer: Low Risk
+      - id: 3
+        answer: Low Risk
         content: Needs text.
-  - final: Panic Button is a useful tool to alert your network quickly and discretely in an emergency. It is not a fail-safe security tool!
+  - id: final
+    content: Panic Button is a useful tool to alert your network quickly and discretely in an emergency. It is not a fail-safe security tool!
 
 ---
 
