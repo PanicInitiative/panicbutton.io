@@ -7,6 +7,25 @@
     </div>
     <div class="container is-cont mobnopad">
         {% for step in section.questions %}
+        {% if forloop.last %}
+        <div id="final" class="">
+            <div class="row cont-r">
+                <div class="col-xs-6 col-sm-6 col-lg-8">
+                    <p class="btext">{{step.content}}</p>
+                    <div class="prog-cont">
+                        <p class="prog">Recommendation {{step.id}} / 5</p>
+                        <div class="step-progress col-xs-12">
+                            <p>
+                                <img src="images/{{step.id}}.png">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-lg-4">
+                    <img src="{{step.src}}" alt="Android Logo" class="img-responsive block-center" />
+                </div>
+            </div>
+        {% else %}
         <div id="step-{{step.id}}" class="">
             <div class="row cont-r">
                 <div class="col-xs-6 col-sm-6 col-lg-8">
@@ -39,7 +58,7 @@
             {% for answer in step.answers %}
              <div id="answer-{{answer.id}}" class="">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12 text-content">
-                    <div class="text">
+                    <div class="text {% if answer.status == 'warning' %}border{% endif %}">
                         <p>{{answer.content}}</p>
                     </div>
                 </div>
@@ -59,11 +78,12 @@
                 <div class="clearfix"></div>
                 <div class="step-progress col-lg-6 col-md-6 col-sm-6 col-xs-6 offset">
                     <p>
-                        <img src="images/step-1.png">
+                        <img src="images/step-{{step.id}}.png">
                     </p>
                 </div>
             </div>
             {% endfor %}
+            {% endif %}
         {% endfor %}
     </div>
     <div class="container center mobnopad">
