@@ -26,7 +26,7 @@ Five steps to assessing a threat:
 4. Establish who is making the threat and what they might have to lose
 5. Make a reasonable conclusion about whether or not the threat can be put into action (are they equipped enough?)
 
-	**Second step: reducing your vulnerability to a threat**
+**Second step: reducing your vulnerability to a threat**
 
 Vulnerability to a threat depends on your circumstances and how well equipped you are to stop the threat from harming you if it becomes reality. 
 
