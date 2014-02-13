@@ -1,12 +1,12 @@
 ---
 lang: en
 slug: "help_risk_two"
-title: "Risks Two Title"
-heading: "Risks Two Heading"
+title: "Safer Mobile"
+heading: "Safer Mobile"
 published: true
 categories: help_risk
 image:
-  title: Risk Two Title
+  title: Safer Mobile
   caption: Risk Two image caption
   src: article-img-2.png
 alert: Alert Risk Two.
@@ -15,8 +15,6 @@ section_order: 2
 ---
 
 All organizations face threats to the information they produce and to the wellbeing of their friends and allies. This can be because of powerful enemies or bad luck (or a combination of the two). If an organization does not defend against a threat, and the threat becomes a reality, the organization can lose important information, betray sensitive information about community members, and put staff in danger.
-
-  SUBHEAD : Mobile Security
 
 Mobile phones are an integral part of our daily communications and the functions they enable are rapidly expanding. Mobiles may feature GPS, multimedia capacity (photo, video and audio recording and sometimes transmitting), data processing and access to the internet. Smartphones support an even bigger range of functionality – web browsing, email, voice and instant messaging over the internet, capturing, storing and transmitting audio, videos and photos, social networking, multi-user games, banking and many other activities. However, many of these tools and features introduce new security issues, or increase existing risks.
 
