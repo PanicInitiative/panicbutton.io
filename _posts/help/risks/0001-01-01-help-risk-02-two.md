@@ -18,14 +18,14 @@ All organizations face threats to the information they produce and to the wellbe
 
 Mobile phones are an integral part of our daily communications and the functions they enable are rapidly expanding. Mobiles may feature GPS, multimedia capacity (photo, video and audio recording and sometimes transmitting), data processing and access to the internet. Smartphones support an even bigger range of functionality – web browsing, email, voice and instant messaging over the internet, capturing, storing and transmitting audio, videos and photos, social networking, multi-user games, banking and many other activities. However, many of these tools and features introduce new security issues, or increase existing risks.
 
-It is important to start with the understanding that mobile phones are inherently insecure: 
+It is important to start with the understanding that **mobile phones are inherently insecure:**
 * Information sent from a mobile phone is vulnerable.
 * Information stored on mobile phones is vulnerable.
 * Phones are designed to give out information about their location and their activity.
 
 For instance, mobile phones relay your location information to your mobile network operator (as part of the normal functions of the phone) and many smartphones have built-in geo-location (GPS) functionality, which means they can provide an even more precise location to your mobile network operator, as well as to many applications you use on your phone (such as social networking, mapping, browsing and other applications). This makes it increasingly easy to be able to track your location.
 
-	SUBHEAD : Top tips for safer mobile use
+**Top tips for safer mobile use**
 Do not transmit sensitive information via SMS unless you are willing to have it read by strong adversaries. All SMS messages may be recorded by the service provider, and may be read by the strong adversaries.
 
 When you need to communicate something that is sensitive, consider creating a coded system with trusted colleagues. For example, “X” could mean you’re in danger, and “Z” could mean you’re safe. “Tree” could mean you want to meet up. “Banner” could be a cafe you can meet at."
