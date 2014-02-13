@@ -7,7 +7,13 @@ section_order: 2
 
 ---
 
-Maecenas vitae metus vel augue pharetra dignissim. Vivamus tincidunt ornare nulla tincidunt sollicitudin. Cras vehicula vitae metus et bibendum. Mauris euismod luctus dapibus. Cras laoreet sagittis elit at gravida. Vivamus iaculis elementum nulla, quis imperdiet massa. Proin non gravida sapien. In rhoncus accumsan risus, et mattis leo sagittis vel. Sed volutpat rhoncus libero vel tincidunt. In et dolor sit amet ante condimentum rutrum.
+The Panic Button project is an initiative of Amnesty International in collaboration with Frontline Defenders, iilabs and the engine room, who provide ongoing advice and input on design and implementation of the project.
+
+Panic Button belongs to a wider community of partners and advisors. Special thanks go to the network of human rights activists from more than ten countries who have worked with us over the months to collaboratively design the app and have given many hours feeding back on the usability and functionality of the app.
+
+A huge thanks is also owed to the many volunteer programmers and designers who have given their time to develop the app. Developers can help us continue to improve the app by contributing to the open-source project on Github. 
+
+
 
 <div class="clearfix"></div>
 <div class="bordertb">
@@ -18,8 +24,6 @@ Maecenas vitae metus vel augue pharetra dignissim. Vivamus tincidunt ornare null
 	</div>
 	<div class="clearfix"></div>
 </div>
-
-Nulla tincidunt facilisis vehicula. Fusce in dapibus ipsum, at varius nunc. Nullam tellus augue, tempus imperdiet erat elementum, eleifend condimentum eros. Donec congue dolor at enim condimentum, ut tincidunt odio dignissim. Nunc suscipit tincidunt leo, et mollis urna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean tincidunt odio eu libero aliquet gravida. Aliquam cursus tristique euismod. Donec vulputate nunc eget fermentum commodo. Fusce facilisis placerat sollicitudin. Fusce at sem et nisi venenatis vehicula quis et erat. Vestibulum mattis posuere mi. Praesent molestie quam risus, vel blandit neque porttitor vel.
 
 <div class="clearfix"></div>
 <div class="bordertb">
