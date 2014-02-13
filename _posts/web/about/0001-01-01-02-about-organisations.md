@@ -13,6 +13,8 @@ Panic Button belongs to a wider community of partners and advisors. Special than
 
 A huge thanks is also owed to the many volunteer programmers and designers who have given their time to develop the app. Developers can help us continue to improve the app by contributing to the open-source project on Github. 
 
+Panic Button received seed funding from the Ford Foundation and was awarded further funds to develop and pilot the app from the Google Global Impact Challenge.
+
 
 
 <div class="clearfix"></div>
