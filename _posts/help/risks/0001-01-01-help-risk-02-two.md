@@ -1,8 +1,8 @@
 ---
 lang: en
 slug: "help_risk_two"
-title: "Safer Mobile"
-heading: "Safer Mobile"
+title: "Safer mobile"
+heading: "Safer mobile"
 published: true
 categories: help_risk
 image:
