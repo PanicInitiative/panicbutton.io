@@ -11,9 +11,9 @@ section_order: 1
 
 First, assess your risk. Only you know how security conscious you need to be. The consequences of surveillance and harassment have the potential to be severe; but, being overly cautious and constantly preparing for the worst can be debilitating. Ask yourself, what threats do you face? How serious would it be if that threat became reality? How likely is that to happen?
 
-The likelihood that you aren't ready for a threat, and that it will become a reality is risk. Many factors affect your risk. Planning for these factors will help you to defend against risk.
+**The likelihood that you aren't ready for a threat, and that it will become a reality is risk. Many factors affect your risk. Planning for these factors will help you to defend against risk.**
 
-  First step: assessing the threat
+  **First step: assessing the threat**
 
 Sometimes a threat may be explicit. Not all explicit threats will lead to an incident. After all threatening you may be easy, but attacks are expensive. Other times, a threat will be implicit. You may be concerned that you are under threat because of another attack on someone else.
 
@@ -26,7 +26,7 @@ Five steps to assessing a threat:
 4. Establish who is making the threat and what they might have to lose
 5. Make a reasonable conclusion about whether or not the threat can be put into action (are they equipped enough?)
 
-	Second step: reducing your vulnerability to a threat
+	**Second step: reducing your vulnerability to a threat**
 
 Vulnerability to a threat depends on your circumstances and how well equipped you are to stop the threat from harming you if it becomes reality. 
 
