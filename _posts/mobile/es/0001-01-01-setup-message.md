@@ -1,7 +1,7 @@
 ---
-version: 2
+version: 5
 layout: post
-lang: es
+lang: en
 slug: "setup-message"
 type: "interactive"
 title: "Setup alert message"
@@ -9,15 +9,15 @@ published: true
 category: "mobile"
 tags: "mobile"
 introduction: This is the message that will be sent with your location. 
-warning: Make sure your contacts recognize this message.
+warning: Make sure your contacts know what to do if they receive this message
 component: message
 action:
   - title: "Next"
     link: "setup-code"
 ---
 
-Think first!
+Security tips
 
- - Will your message work for all situations?
- - How often should you review it? Can you agree a code message with your contacts?
- - Do you want to enable GPS tracking from your phone settings so that your location sends with your message?  
+ - Consider creating a code message that only your contacts will understand 
+ - The message should be relevant for any situation - you won't have time to change it in a 'Panic' moment
+ - Enable GPS tracking from your phone settings if you want your location to be included with the message  

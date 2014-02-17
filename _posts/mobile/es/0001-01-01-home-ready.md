@@ -1,7 +1,7 @@
 ---
-version: 1
+version: 5
 layout: post
-lang: es
+lang: en
 slug: "home-ready"
 type: "simple"
 title: "Panic Button"
@@ -24,4 +24,4 @@ items:
      link: "help"
 ---
 
-Panic Button is ready to use. Click Disguise to go through the security checklist, close and disguise the application.
+Panic Button is set-up and ready. Click Disguise to exit and hide the application.

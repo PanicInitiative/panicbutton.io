@@ -1,9 +1,9 @@
 ---
-version: 2
+version: 5
 layout: post
-lang: es
+lang: en
 slug: "setup-warning"
-type: "simple"
+type: "warning"
 title: "Warning"
 published: "true"
 category: "mobile"
@@ -13,4 +13,4 @@ action:
     link: "setup-contacts"
 ---
 
-Panic Button is a useful tool to alert your network quickly and discretely in an emergency. It cannot guarantee your security!
+Panic Button is a useful tool to alert your network quickly when you need help. It can't guarantee your security! Create a PACT with your network so that they are PREPARED to ACT. 

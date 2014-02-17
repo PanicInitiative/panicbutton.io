@@ -1,7 +1,7 @@
 ---
-version: 1
+version: 5
 layout: post
-lang: es
+lang: en
 slug: "setup-alarm-disguise"
 type: "simple"
 title: "Setup the Alarm"
@@ -13,4 +13,4 @@ action:
     link: "setup-alarm-test-disguise"
 ---
 
-Alternatively, you can trigger the Panic alarm directly from the app's disguise screen.
+Alternatively, you can trigger the alert directly from the app's disguise screen.

@@ -1,7 +1,7 @@
 ---
-version: 1
+version: 5
 layout: post
-lang: es
+lang: en
 slug: "setup-disguise"
 type: "simple"
 title: "Setup the Disguise"
@@ -13,4 +13,4 @@ action:
     link: "setup-disguise-test-open"
 ---
 
-Panic Button is disguised to protect you. From now on you will see a calculator screen when you open the app.
+Panic Button stays hidden on your phone by looking like a simple calculator. From now on you will see the calculator disguise whenever you open the app. Here we teach you how to access your settings from the disguise screen.

@@ -1,26 +1,26 @@
 ---
-version: 1
+version: 5
 layout: post
-lang: es
+lang: en
 slug: "setup-disguise-test-code"
 type: "interactive"
 title: "Test Disguise"
 published: "true"
 category: "mobile"
 tags: "mobile"
-introduction: "Try now! Enter your pin code."
+introduction: "Well done! Now enter your pincode to access settings."
 component: disguise-test-code
 action: 
-  - title: "Skip"
+  - title: "Ok"
     link: "setup-disguise-test-success"
 timers:
-  info: "5"
+  info: "0"
   inactive: "10"
   fail: "20"
 success: 
   link: "setup-disguise-test-success"
 fail: 
-  link: "setup-disguise-test-fail"  
+  link: "setup-disguise-test-code-fail"  
 
 ---
 

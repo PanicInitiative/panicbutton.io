@@ -1,7 +1,7 @@
 ---
-version: 1
+version: 5
 layout: post
-lang: es
+lang: en
 slug: "setup-alarm-test-hardware-success"
 type: "simple"
 title: "Well done"
@@ -13,4 +13,4 @@ action:
     link: "setup-alarm-disguise"
 ---
 
-Vibrate means your message and location would be sent
+Your test was successful! If this was a real emergency, your alert message and location would be sent to your contacts.

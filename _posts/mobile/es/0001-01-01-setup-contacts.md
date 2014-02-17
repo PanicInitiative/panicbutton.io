@@ -1,10 +1,10 @@
 ---
-version: 2
+version: 5
 layout: post
-lang: es
+lang: en
 slug: "setup-contacts"
 type: "interactive"
-title: "Setup trusted contacts"
+title: "Setup contacts"
 published: true
 category: "mobile"
 tags: "mobile"
@@ -16,8 +16,9 @@ action:
     link: "setup-message"
 ---
 
-Think First! 
+Security Tips
 
- - Who do I know who will be able to practically help me? 
- - Have we agreed a response plan together for when they receive the Panic message? 
- - What additional risks may they face as a result?
+ - Think about who can practically assist you - there is no point someone knowing you are in trouble if they are not in a position to help you
+ - Create a PACT with the contacts you choose - make sure they agree and are PREPARED to ACT
+ - Be aware of the risks - how might your chosen contact be put at risk? 
+ 
