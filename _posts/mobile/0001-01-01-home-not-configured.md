@@ -1,5 +1,5 @@
 ---
-version: 3
+version: 5
 layout: post
 lang: en
 slug: "home-not-configured"

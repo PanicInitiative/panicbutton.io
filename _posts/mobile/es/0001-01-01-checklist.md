@@ -1,7 +1,7 @@
 ---
-version: 1
+version: 5
 layout: post
-lang: es
+lang: en
 slug: "checklist"
 type: "modal"
 title: "Checklist"
@@ -13,17 +13,14 @@ action:
     link: "close"
   - title: "Cancel"
     link: "home-ready"
+    status: disabled
 checklist:
   - title: "The application will be disguised"
-    link: "help-disguise"
   - title: "Review security plan and update trusted contacts regularly"
-    link: "help-contacts"
   - title: "Test setting off the alarm to ensure it is working"
-    link: "help-test"
   - title: "Ensure sufficient credit on the phone"
-    link: "help-credits"
   - title: "Activate GPS (if you want to enable location tracking)"
-    link: "help-gps"
   - title: "Charge phone battery to full"
-    link: "help-charge"
 ---
+
+More [security tips...](#help-charge)

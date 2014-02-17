@@ -1,7 +1,7 @@
 ---
-version: 1
+version: 5
 layout: post
-lang: es
+lang: en
 slug: "home-not-configured-alarm"
 type: "simple"
 title: "Panic Button"
@@ -9,11 +9,11 @@ published: true
 category: "mobile"
 tags: "mobile"
 status:
-  - title: "Not Configured"
+  - title: "Setup not complete"
     color: red
     link: help-not-configured
 action:
-  - title: "Set-Up"
+  - title: "Basic Settings"
     link: ""
     status: checked
   - title: "Setup Alarm"
@@ -30,4 +30,4 @@ items:
      link: "setup-language"
 ---
 
-You cannot use Panic Button until it is fully configured.
+You cannot use Panic Button until it is fully setup.
