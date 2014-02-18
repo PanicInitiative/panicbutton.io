@@ -1,7 +1,7 @@
 ---
 version: 5
 layout: post
-lang: es
+lang: ph
 slug: "home-not-configured"
 type: simple
 title: Panic Button
