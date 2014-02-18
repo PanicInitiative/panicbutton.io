@@ -1,7 +1,7 @@
 ---
 version: 5
 layout: post
-lang: en
+lang: ph
 slug: "settings-contacts"
 type: "interactive"
 title: "Setup contacts"

@@ -1,7 +1,7 @@
 ---
 version: 5
 layout: post
-lang: en
+lang: ph
 slug: "home-alerting"
 type: "simple"
 title: "Panic Button"

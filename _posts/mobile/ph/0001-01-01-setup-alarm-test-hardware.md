@@ -1,7 +1,7 @@
 ---
 version: 5
 layout: post
-lang: en
+lang: ph
 slug: "setup-alarm-test-hardware"
 type: "interactive"
 title: "Test Hardware Alarm"

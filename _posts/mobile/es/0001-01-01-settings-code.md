@@ -1,7 +1,7 @@
 ---
 version: 5
 layout: post
-lang: en
+lang: es
 slug: "settings-code"
 type: "interactive"
 title: "Set a pincode"

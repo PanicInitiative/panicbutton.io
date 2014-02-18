@@ -1,7 +1,7 @@
 ---
 version: 5
 layout: post
-lang: en
+lang: ph
 slug: "setup-code"
 type: "interactive"
 title: "Set a pincode"

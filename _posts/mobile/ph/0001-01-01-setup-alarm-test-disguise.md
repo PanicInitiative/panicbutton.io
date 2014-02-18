@@ -1,7 +1,7 @@
 ---
 version: 5
 layout: post
-lang: en
+lang: ph
 slug: "setup-alarm-test-disguise"
 type: "interactive"
 title: "Test Disguised Alarm"

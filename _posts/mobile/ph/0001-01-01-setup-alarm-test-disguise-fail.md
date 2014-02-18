@@ -1,7 +1,7 @@
 ---
 version: 5
 layout: post
-lang: en
+lang: ph
 slug: "setup-alarm-test-disguise-fail"
 type: "simple"
 title: "Setup the Alarm"

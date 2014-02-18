@@ -1,7 +1,7 @@
 ---
 version: 5
 layout: post
-lang: en
+lang: es
 slug: "setup-disguise-test-code"
 type: "interactive"
 title: "Test Disguise"

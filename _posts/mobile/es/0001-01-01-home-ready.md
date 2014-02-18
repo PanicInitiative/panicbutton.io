@@ -1,7 +1,7 @@
 ---
 version: 5
 layout: post
-lang: en
+lang: es
 slug: "home-ready"
 type: "simple"
 title: "Panic Button"

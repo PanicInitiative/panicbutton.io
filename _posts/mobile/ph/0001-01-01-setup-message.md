@@ -1,7 +1,7 @@
 ---
 version: 5
 layout: post
-lang: en
+lang: ph
 slug: "setup-message"
 type: "interactive"
 title: "Setup alert message"
