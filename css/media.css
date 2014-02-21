@@ -482,16 +482,6 @@
 		padding: 20px 0 !important;
 	}
 	
-	.footer-logos .container img {
-		width: 100%;
-		max-width: 28%;
-		margin: 0;
-	}
-	
-	.footer-logos .container img.large {
-		max-width: 37%;	
-	}
-	
 	.glyphicon-arrow-down:before {
 		display: none;	
 	}

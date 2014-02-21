@@ -1,4 +1,6 @@
 $(document).ready(function(){
+    $('.is #step-1').show()
+
     $('.btn.btn-dark, .up a, .btn-n, .nav li a, .help-header .arrows li a').click(function(){
         var $href = $(this).attr('href');
         var offset = $(this).attr('data-offset');

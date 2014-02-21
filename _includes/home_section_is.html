@@ -8,36 +8,38 @@
     <div class="container is-cont mobnopad">
         {% for step in section.questions %}
         {% if forloop.last %}
-        <div id="final" class="">
+        <div id="final" class="hide">
             <div class="row cont-r">
                 <div class="col-xs-6 col-sm-6 col-lg-8">
                     <p class="btext">{{step.content}}</p>
-                    <div class="prog-cont">
-                        <p class="prog">Recommendation {{step.id}} / 5</p>
-                        <div class="step-progress col-xs-12">
-                            <p>
-                                <img src="images/{{step.id}}.png">
-                            </p>
-                        </div>
-                    </div>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-lg-4">
                     <img src="{{step.src}}" alt="Android Logo" class="img-responsive block-center" />
                 </div>
             </div>
-        {% else %}
-        <div id="step-{{step.id}}" class="">
-            <div class="row cont-r">
-                <div class="col-xs-6 col-sm-6 col-lg-8">
-                    <p class="btext">{{step.content}}</p>
-                    <div class="prog-cont">
-                        <p class="prog">Question {{step.id}} / 5</p>
-                        <div class="step-progress col-xs-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">             
+                <div class="row" align="center">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <a class="back col-lg-12 col-md-12 col-sm-12 col-xs-12 sub" data-option="back" role="button">
+                            <span id="strongText">
+                                back
+                            </span>
+                        </a>
+                        <p class="col-lg-12 col-md-12 col-sm-12 col-xs-12">Recommendation 5 / 5</p>
+                        <div class="step-progress col-lg-10 col-md-10 col-sm-10 col-xs-12 offset">
                             <p>
-                                <img src="images/{{step.id}}.png">
+                                <img src="images/step-5.png">
                             </p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        {% else %}
+        <div id="step-{{step.id}}" class="hide">
+            <div class="row cont-r">
+                <div class="col-xs-6 col-sm-6 col-lg-8">
+                    <p class="btext">{{step.content}}</p>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-lg-4">
                     <img src="{{step.src}}" alt="Android Logo" class="img-responsive block-center" />
@@ -54,38 +56,59 @@
                     <a class="btn btn-is sub" role="button" data-option="sub_3">{{step.answers[2].answer}}</a>
                 </div>
             </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">             
+                <div class="row" align="center">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <a class="back col-lg-12 col-md-12 col-sm-12 col-xs-12 sub" data-option="back" role="button">
+                            <span id="strongText">
+                                back
+                            </span>
+                        </a>
+                        <p class="col-lg-12 col-md-12 col-sm-12 col-xs-12">Question {{step.id}} / 5</p>
+                        <div class="step-progress col-lg-10 col-md-10 col-sm-10 col-xs-12 offset">
+                            <p>
+                                <img src="images/step-{{step.id}}.png">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-            {% for answer in step.answers %}
-             <div id="answer-{{answer.id}}" class="">
+        {% for answer in step.answers %}
+        <div id="answer-{{answer.id}}" class="hide">
+            <div class="row cont-r">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12 text-content">
                     <div class="text {% if answer.status == 'warning' %}border{% endif %}">
                         <p>{{answer.content}}</p>
                     </div>
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-6 offset"><a class="btn btn-dark sub" role="button">Continue</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12"><a class="back col-lg-2 col-md-2 col-sm-2 col-xs-12 sub" role="button" data-option="back">back</a>
-                            <p class="col-lg-8 col-md-8 col-sm-8 col-xs-12">Recommendation {{step.id}} / 5</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-                <div class="step-progress col-lg-6 col-md-6 col-sm-6 col-xs-6 offset">
-                    <p>
-                        <img src="images/step-{{step.id}}.png">
-                    </p>
+            </div>
+            <div class="row but">
+                <div class="col-xs-12 col-sm-4 col-sm-offset-4">
+                    <a class="btn btn-is sub" role="button" data-option="sub_2">{% if answer.status == 'warning' %}Continue Anyway{% else %}Continue{% endif %}</a>
                 </div>
             </div>
-            {% endfor %}
-            {% endif %}
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">             
+                <div class="row" align="center">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <a class="back col-lg-12 col-md-12 col-sm-12 col-xs-12 sub" data-option="back" role="button">
+                            <span id="strongText">
+                                back
+                            </span>
+                        </a>
+                        <p class="col-lg-12 col-md-12 col-sm-12 col-xs-12">Recommendation {{step.id}} / 5</p>
+                        <div class="step-progress col-lg-10 col-md-10 col-sm-10 col-xs-12 offset">
+                            <p>
+                                <img src="images/step-{{step.id}}.png">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         {% endfor %}
-    </div>
+        {% endif %}
+    {% endfor %}
     <div class="container center mobnopad">
         <a class="download-button btn-n" href="#download" role="button">&nbsp;</a>
         <div class="clearfix"></div>
