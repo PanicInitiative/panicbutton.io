@@ -18,6 +18,6 @@ action:
 
 Security tips
 
- - Consider creating a code message that only your contacts will understand 
- - The message should be relevant for any situation - you won't have time to change it in a 'Panic' moment
+ - Consider creating code words or phrases in your message that only your contacts will understand.
+ - You won't have time to change a message in an emergency, so create something that will work in all situations. 
  - Enable GPS tracking from your phone settings if you want your location to be included with the message  
