@@ -13,4 +13,4 @@ action:
     link: "setup-contacts"
 ---
 
-Panic Button is a useful tool to alert your network quickly when you need help. It can't guarantee your security! Create a PACT with your network so that they are PREPARED to ACT. 
+Panic Button is a useful tool to alert your network quickly when you need help. It can't guarantee your security! Make a plan with your contacts so they are prepared to act fast. 
