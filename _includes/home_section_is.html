@@ -8,7 +8,7 @@
     <div class="container is-cont mobnopad">
         {% for step in section.questions %}
         {% if forloop.last %}
-        <div id="final" class="hide">
+        <div id="final" style="display: none;">
             <div class="row cont-r">
                 <div class="col-xs-6 col-sm-6 col-lg-8">
                     <p class="btext">{{step.content}}</p>
@@ -36,7 +36,7 @@
             </div>
         </div>
         {% else %}
-        <div id="step-{{step.id}}" class="hide">
+        <div id="step-{{step.id}}" style="display: none;">
             <div class="row cont-r">
                 <div class="col-xs-6 col-sm-6 col-lg-8">
                     <p class="btext">{{step.content}}</p>
@@ -47,13 +47,13 @@
             </div>
             <div class="row but">
                 <div class="col-xs-12 col-sm-4">
-                    <a class="btn btn-is sub" role="button" data-option="sub_1">{{step.answers[0].answer}}</a>
+                    <a class="btn btn-is sub" role="button" data-option="answer-1">{{step.answers[0].answer}}</a>
                 </div>
                 <div class="col-xs-12 col-sm-4">
-                    <a class="btn btn-is sub" role="button" data-option="sub_2">{{step.answers[1].answer}}</a>
+                    <a class="btn btn-is sub" role="button" data-option="answer-2">{{step.answers[1].answer}}</a>
                 </div>
                 <div class="col-xs-12 col-sm-4">
-                    <a class="btn btn-is sub" role="button" data-option="sub_3">{{step.answers[2].answer}}</a>
+                    <a class="btn btn-is sub" role="button" data-option="answer-3">{{step.answers[2].answer}}</a>
                 </div>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">             
@@ -75,7 +75,7 @@
             </div>
         </div>
         {% for answer in step.answers %}
-        <div id="answer-{{answer.id}}" class="hide">
+        <div id="step-{{step.id}}-answer-{{answer.id}}" style="display: none;">
             <div class="row cont-r">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12 text-content">
                     <div class="text {% if answer.status == 'warning' %}border{% endif %}">
@@ -85,7 +85,7 @@
             </div>
             <div class="row but">
                 <div class="col-xs-12 col-sm-4 col-sm-offset-4">
-                    <a class="btn btn-is sub" role="button" data-option="sub_2">{% if answer.status == 'warning' %}Continue Anyway{% else %}Continue{% endif %}</a>
+                    <a class="btn btn-is sub" role="button" data-option="continue">{% if answer.status == 'warning' %}Continue Anyway{% else %}Continue{% endif %}</a>
                 </div>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">             
