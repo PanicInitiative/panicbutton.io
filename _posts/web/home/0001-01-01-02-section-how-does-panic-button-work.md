@@ -5,10 +5,10 @@ published: true
 category: "home_section"
 section_order: 2
 captions:
-- Your 3 contacts will receive an SMS and a map with your location every 5 minutes once the app is activated
-- Caption to go in here. Caption to go in here. Caption to go in here. Caption to go in here.
-- As dsa asuhowp ajskdh asdjkiuqg. Another test caption. Caption to go in here. Caption to go in here. Caption to go in here.
-- Ansdhu asdhjkhah ashduwughughuia shdjka a ahus. Caption to go in here. Caption to go in here. Caption to go in here.
-- Caption to go in here. Another test caption. Caption to go in here. Caption to go in here.
+- TAKE TIME to set-up Panic Button somewhere safe and quiet
+- Create a plan with your contacts so that they are PREPARED to ACT
+- CHECK you are ready and that your mobile phone has credit and battery 
+- ACTIVATE Panic Button in an emergency by rapidly pressing the phone's power button 
+- Your network will receive an SMS and regular updates of your location helping them to ACT FAST
 
 ---
