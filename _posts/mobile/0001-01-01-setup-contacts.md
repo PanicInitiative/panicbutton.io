@@ -8,7 +8,7 @@ title: "Setup contacts"
 published: true
 category: "mobile"
 tags: "mobile"
-introduction: These are the people who will receive your alert. 
+introduction: These people will receive the alert.
 warning: They should know you personally and be able to respond fast.
 component: contacts
 action:
