@@ -4,7 +4,7 @@ layout: post
 lang: en
 slug: "setup-disguise-test-unlock-fail"
 type: "simple"
-title: "Setup the Disguise"
+title: "Setup Disguise"
 published: "true"
 category: "mobile"
 tags: "mobile"
@@ -13,6 +13,6 @@ action:
     link: "setup-disguise-test-open"
 ---
 
-It looks like you weren't successful at opening the app from the calculator disguise.
+It looks like you weren't successful at opening the app from the Caculate! disguise. 
 
 Remember: Hold down any button and you will be asked to enter your pincode. 
