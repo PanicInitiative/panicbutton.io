@@ -4,7 +4,7 @@ layout: post
 lang: en
 slug: "setup-alarm-test-disguise-fail"
 type: "simple"
-title: "Setup the Alarm"
+title: "Setup Alert"
 published: "true"
 category: "mobile"
 tags: "mobile"

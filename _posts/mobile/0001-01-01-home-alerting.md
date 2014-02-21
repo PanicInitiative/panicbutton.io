@@ -24,4 +24,4 @@ items:
      link: "help"
 ---
 
-Panic Button is currently sending alert messages. Click Stop Alerting to stop the alert.
+Panic Button is currently sending alert messages. Click Stop Alerting to cancel messages. 
