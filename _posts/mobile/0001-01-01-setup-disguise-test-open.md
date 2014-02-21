@@ -8,7 +8,7 @@ title: "Test Disguise"
 published: "true"
 category: "mobile"
 tags: "mobile"
-introduction: "Try now! Open the app by clicking on the **Calculation** icon."
+introduction: "Try now! Open the app by clicking on the **Calculate!** icon."
 component: disguise-test-open
 timers:
   info: "0"
