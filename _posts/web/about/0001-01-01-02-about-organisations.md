@@ -23,6 +23,7 @@ Panic Button received seed funding from the Ford Foundation and was awarded furt
 		<img src="images/amnestylogo.jpg" class="col-sm-4 col-xs-12" style="margin-right:-4px; float:none; display:inline-block; vertical-align:middle; border: none;">
 		<img src="images/iilab-logo-new-color-4.png" class="col-sm-4 col-xs-12" style="margin-right:-4px; float:none; display:inline-block; vertical-align:middle; border: none;">
 		<img src="images/pasted_image_at_2013_12_18_12_36pm.png" class="col-sm-4 col-xs-12" style="margin-right:-4px; float:none; display:inline-block; vertical-align:middle; border: none;">
+		<img src="images/frontline-logo.png" class="col-sm-4 col-xs-12" style="margin-right:-4px; float:none; display:inline-block; vertical-align:middle; border: none;">
 	</div>
 	<div class="clearfix"></div>
 </div>
