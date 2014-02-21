@@ -13,4 +13,4 @@ action:
     link: "home-ready"
 ---
 
-Congratulations you have now succesfully configured the Panic Button app!
+Congratulations you have now successfully configured the Panic Button app!
