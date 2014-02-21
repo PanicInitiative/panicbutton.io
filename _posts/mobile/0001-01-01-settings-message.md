@@ -9,7 +9,7 @@ published: true
 category: "mobile"
 tags: "mobile"
 introduction: This is the message that will be sent with your location. 
-warning: Make sure your contacts know what to do if they receive this message
+warning: Create a plan so your contacts know what to do when they receive this
 component: message
 action:
   - title: "Save"
