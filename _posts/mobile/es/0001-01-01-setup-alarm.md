@@ -9,7 +9,7 @@ published: "true"
 category: "mobile"
 tags: "mobile"
 action: 
-  - title: "Learn"
+  - title: "Aprende"
     link: "setup-alarm-test-hardware"
 ---
 
