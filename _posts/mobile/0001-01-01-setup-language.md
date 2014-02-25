@@ -13,7 +13,7 @@ component: language
 action:
   - title: "English"
     language: "en"
-  - title: "EspaÃ±ol"
+  - title: "Español"
     language: "es"
   - title: "Filipino"
     language: "ph"
