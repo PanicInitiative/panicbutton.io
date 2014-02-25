@@ -4,7 +4,7 @@ layout: post
 lang: es
 slug: "setup-alarm-disguise"
 type: "simple"
-title: "Setup the Alarm"
+title: "Instalar Alerta"
 published: "true"
 category: "mobile"
 tags: "mobile"
@@ -13,4 +13,4 @@ action:
     link: "setup-alarm-test-disguise"
 ---
 
-Alternatively, you can trigger the alert directly from the app's disguise screen.
+De manera alterna, puedes activar la alerta directamente desde la pantalla de disfraz de tu aplicacion.
