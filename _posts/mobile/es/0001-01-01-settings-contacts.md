@@ -4,21 +4,21 @@ layout: post
 lang: es
 slug: "settings-contacts"
 type: "interactive"
-title: "Setup contacts"
+title: "Establecer contactos"
 published: true
 category: "mobile"
 tags: "mobile"
-introduction: These are the people who will receive the alert.
-warning: They should know you personally and be able to respond quickly.
+introduction: Estas son las personas que recibiran tu alerta.
+warning: Estas personas deberan de conocerte personalmente y ser capaces de responder rapidamente.
 component: contacts
 action:
   - title: "Save"
     link: "home-ready"
 ---
 
-Security Tips
+Tips de seguridad
 
- - Think about who can practically assist you  - there is no point someone knowing you are in trouble if they are not in a position to help you
- - Create a PACT with the contacts you choose - make sure they agree and are PREPARED to ACT
- - Be aware of the risks - how might your chosen contact be put at risk? 
+ - Piensa acerca de quien puede ayudarte de manera practica- No tiene caso que alguien se entere que estas en problemas si no puede ayudarte
+ - Diseña un plan con tus contactos seleccionados para que puedan estar preparados y actuar rapidamente 
+ - Considera los riesgos- Como puede tu contacto ponerse en riesgo?
  

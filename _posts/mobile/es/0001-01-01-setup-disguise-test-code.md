@@ -4,11 +4,11 @@ layout: post
 lang: es
 slug: "setup-disguise-test-code"
 type: "interactive"
-title: "Test Disguise"
+title: "Prueba el disfraz"
 published: "true"
 category: "mobile"
 tags: "mobile"
-introduction: "Well done! Now enter your pincode to access settings."
+introduction: "Bien hecho! Ahora escribe tu clave para acceder a configuraciones."
 component: disguise-test-code
 action: 
   - title: "Ok"

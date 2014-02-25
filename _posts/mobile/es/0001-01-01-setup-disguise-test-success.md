@@ -4,7 +4,7 @@ layout: post
 lang: es
 slug: "setup-disguise-test-success"
 type: "simple"
-title: "Well done"
+title: "Bien hecho!"
 published: "true"
 category: "mobile"
 tags: "mobile"
@@ -13,4 +13,4 @@ action:
     link: "home-ready"
 ---
 
-Congratulations you have now succesfully configured the Panic Button app!
+Felicidades! Lograste instalar la apliacion de Boton de Panico exitosamente!

@@ -4,12 +4,12 @@ layout: post
 lang: es
 slug: "setup-alarm"
 type: "simple"
-title: "Setup the Alarm"
+title: "Instalar Alerta"
 published: "true"
 category: "mobile"
 tags: "mobile"
 action: 
-  - title: "Learn"
+  - title: "Aprende"
     link: "setup-alarm-test-hardware"
 ---
 

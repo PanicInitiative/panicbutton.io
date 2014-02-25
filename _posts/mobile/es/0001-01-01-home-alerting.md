@@ -4,16 +4,16 @@ layout: post
 lang: es
 slug: "home-alerting"
 type: "simple"
-title: "Panic Button"
+title: "Boton de Panico"
 published: true
 category: "mobile"
 tags: "mobile"
 status:
-  - title: "Alerting"
+  - title: "Enviando Alerta"
     color: red
     link: help-alerting
 action:
-  - title: "Stop Alerting"
+  - title: "Detener Alerta"
     link: "home-ready"
 items:
   -  title: "Settings"
@@ -24,4 +24,5 @@ items:
      link: "help"
 ---
 
-Panic Button is currently sending alert messages. Click Stop Alerting to stop the alert.
+El Boton de Panico se encuentra enviando mensajes de alerta. Oprime en Detener Alerta para cancelar los mensajes.
+

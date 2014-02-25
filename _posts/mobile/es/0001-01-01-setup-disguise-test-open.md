@@ -4,11 +4,12 @@ layout: post
 lang: es
 slug: "setup-disguise-test-open"
 type: "interactive"
-title: "Test Disguise"
+title: "Prueba el disfraz"
 published: "true"
 category: "mobile"
 tags: "mobile"
-introduction: "Try now! Open the app by clicking on the Calculate! icon."
+introduction: "Intentalo ahora! Abre la aplicacion dandole un click al icono de la Calculadora!"
+
 component: disguise-test-open
 timers:
   info: "0"

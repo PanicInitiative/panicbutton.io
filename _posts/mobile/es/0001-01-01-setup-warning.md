@@ -9,7 +9,7 @@ published: "true"
 category: "mobile"
 tags: "mobile"
 action: 
-  - title: "Get started"
+  - title: "Iniciar"
     link: "setup-contacts"
 ---
 

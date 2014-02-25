@@ -8,7 +8,7 @@ title: "Test Hardware Alarm"
 published: "true"
 category: "mobile"
 tags: "mobile"
-introduction: "Try Now! Repeatedly press the power button fast until you feel a vibration."
+introduction: "Intenta ahora! Presiona repetidamente el boton de encender/apagar lo mas rapido posible hasta que sientas una vibracion."
 component: alarm-test-hardware
 timers:
   info: "0"

@@ -9,25 +9,25 @@ published: true
 category: "mobile"
 tags: "mobile"
 status:
-  - title: "Setup not complete"
+  - title: "Instalacion incompleta"
     color: red
     link: help-not-configured
 action:
-  - title: "Basic Settings"
+  - title: "Configuraciones basicas"
     link: ""
     status: checked
-  - title: "Setup Alarm"
+  - title: "Instalar Alerta"
     link: "setup-alarm"
   - title: "Setup Disguise"
-    link: "setup-disguise"
+    link: "Instalar Disfraz"
     status: disabled
 items:
   -  title: "About"
      link: "setup-about"
   -  title: "Help"
      link: "setup-help"
-  -  title: "Language Settings"
+  -  title: "Configuraciones de Lenguage"
      link: "setup-language"
 ---
 
-You cannot use Panic Button until it is fully setup.
+No puedes hacer uso del Boton de Panico hasta que este completamente instalado.
