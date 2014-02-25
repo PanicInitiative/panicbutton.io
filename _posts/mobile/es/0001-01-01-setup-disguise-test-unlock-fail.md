@@ -13,6 +13,7 @@ action:
     link: "setup-disguise-test-open"
 ---
 
-It looks like you weren't successful at opening the app from the calculator disguise.
+Parece que no se logro ablir la aplicacion desde la el disfraz de Calculadora.
 
-Remember: Hold down any button and you will be asked to enter your pincode. 
+Recuerda: Manten presionado cualquier boton y despues se requerira que escribas tu clave.
+
