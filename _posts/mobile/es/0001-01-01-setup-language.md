@@ -4,14 +4,14 @@ layout: post
 lang: es
 slug: "setup-language"
 type: "interactive"
-title: "Language settings"
+title: "Configuraciones de Lenguage"
 published: true
 category: "mobile"
 tags: "mobile"
-introduction: Choose a language for the application.
+introduction: Escoje un lenguaje para la aplicacion.
 component: language
 action:
-  - title: "English"
+  - title: "Ingles"
     language: "en"
   - title: "Español"
     language: "es"
