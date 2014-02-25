@@ -4,12 +4,13 @@ layout: post
 lang: es
 slug: "settings-code"
 type: "interactive"
-title: "Set a pincode"
+title: "Crear una clave"
 published: true
 category: "mobile"
 tags: "mobile"
-introduction: This pincode is needed to access the app settings. It is not needed to alert in an emergency. 
-warning: Remember your pin! If you forget it you will need to reinstall the app.
+introduction: Esta clave es necesaria para acceder a configuraciones de la aplicacion. No se necesita para enviar alerta a tus contactos en caso de emergencia.
+Recuerda tu clave! Si la olvidas necesitaras re-instalar la aplicacion.
+
 
 component: code
 action:
