@@ -2,16 +2,16 @@
 version: 5
 layout: post
 lang: es
-slug: "setup-code"
+slug: "Crear una clave"
 type: "interactive"
 title: "Set a pincode"
 published: true
 category: "mobile"
 tags: "mobile"
-introduction: This pincode is needed to access the app settings. It is not needed to alert in an emergency.
-warning: Remember your pin! If you forget it you will need to reinstall the app.
+introduction: Esta clave es necesaria para acceder a configuraciones de la aplicacion. No se necesita para enviar alerta a tus contactos en caso de emergencia.
+warning: Recuerda tu clave! Si la olvidas necesitaras re-instalar la aplicacion.
 component: code
 action:
-  - title: "Next"
+  - title: "Siguiente"
     link: "home-not-configured-alarm"
 ---
