@@ -4,11 +4,11 @@ layout: post
 lang: es
 slug: "settings-message"
 type: "interactive"
-title: "Setup alert message"
+title: "Instalar el mensaje de alerta"
 published: true
 category: "mobile"
 tags: "mobile"
-introduction: This is the message that will be sent with your location. 
+introduction: Este sera el mensaje que se enviara junto con tu ubicacion.
 warning: Make sure your contacts know what to do if they receive this message
 component: message
 action:
@@ -16,8 +16,8 @@ action:
     link: "home-ready"
 ---
 
-Security tips
+Tips de seguridad
 
- - Consider creating a code message that only your contacts will understand 
- - The message should be relevant for any situation - you won't have time to change it in a 'Panic' moment
- - Enable GPS tracking from your phone settings if you want your location to be included with the message  
+ - Considera crear palabras o frases secretas en tu mensaje para que solo tu y tus contactos lo entiendan 
+ - No tendras tiempo para cambiar tu mensaje durante una emergencia, asi que crea algo que pueda funcionar en cualquier escenario
+ - Activa el rastreador GPS desde las configuraciones de tu telefono si deseas que tu ubicacion se incluya en el mensaje
