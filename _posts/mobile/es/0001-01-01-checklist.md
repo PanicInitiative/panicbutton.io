@@ -18,7 +18,7 @@ checklist:
   - title: "Revisar plan de seguridad y actualizar contactos regularmente"
   - title: "Prueba la alerta para asegurarte que funcione"
   - title: "Asegurate de tener suficiente credito en tu telefono movil"
-  - title: "Activa el GPS (en caso de que necesites abilitar el rastreador de ubicacion)"
+  - title: "Activa el GPS (si deseas que tu ubicacion se incluya en el mensaje)"
   - title: "Carga la bateria de tu telefono completamente"
 ---
 
