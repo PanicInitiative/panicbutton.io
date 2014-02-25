@@ -13,6 +13,6 @@ action:
     link: "setup-alarm-test-hardware"
 ---
 
-It looks like you didn't succeed in triggering the alert using the phone's power button.
+Parece que la activacion de la alarma no tuvo exito al ser utilizada desde el boton de encender/apagar de tu telefono.
 
-Remember: repeatedly press a button on the calculator fast until you feel a vibration.
+Recuerda: Presiona repetidamente el boton de encender/apagar lo mas rapido posible hasta que sientas una vibracion. 
