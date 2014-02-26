@@ -2,9 +2,9 @@
 version: 5
 layout: post
 lang: es
-slug: "Crear una clave"
+slug: "setup-code"
 type: "interactive"
-title: "Set a pincode"
+title: "Crear una clave"
 published: true
 category: "mobile"
 tags: "mobile"
