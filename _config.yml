@@ -50,6 +50,18 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Post's heading"
+          placeholder: "This is a heading"
+      - name: "lang"
+        field:
+          element: "select"
+          label: "Select language"
+          placeholder: "English"
+          options: *languages
+          selected: "en"
       - name: "heading"
         field:
           element: "text"
