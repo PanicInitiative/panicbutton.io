@@ -6,7 +6,7 @@ slug: "checklist"
 type: "modal"
 title: "lista de verificación"
 published: "true"
-category: "mobile"
+categories: "mobile"
 tags: "mobile"
 action:
   - title: "OK"

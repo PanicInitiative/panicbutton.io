@@ -6,7 +6,7 @@ slug: "setup-alarm-disguise"
 type: "simple"
 title: "Setup Alert"
 published: "true"
-category: "mobile"
+categories: "mobile"
 tags: "mobile"
 action: 
   - title: "Learn"

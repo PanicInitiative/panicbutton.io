@@ -6,7 +6,7 @@ slug: "home-ready"
 type: "simple"
 title: "Panic Button"
 published: true
-category: "mobile"
+categories: "mobile"
 tags: "mobile"
 status:
   - title: "Ready"

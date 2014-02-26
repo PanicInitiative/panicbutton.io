@@ -6,7 +6,7 @@ slug: "home-alerting"
 type: "simple"
 title: "Boton de Panico"
 published: true
-category: "mobile"
+categories: "mobile"
 tags: "mobile"
 status:
   - title: "Enviando Alerta"

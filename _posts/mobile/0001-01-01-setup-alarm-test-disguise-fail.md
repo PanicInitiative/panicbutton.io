@@ -6,7 +6,7 @@ slug: "setup-alarm-test-disguise-fail"
 type: "simple"
 title: "Setup Alert"
 published: "true"
-category: "mobile"
+categories: "mobile"
 tags: "mobile"
 action: 
   - title: "Try Again"

@@ -2,7 +2,7 @@
 layout: home_section_download
 heading: "Download Panic Button"
 published: true
-category: "home_section"
+categories: "home_section"
 section_order: 5
 downloads:
   - download: Download Panic Button from<br/>**F-Droid**

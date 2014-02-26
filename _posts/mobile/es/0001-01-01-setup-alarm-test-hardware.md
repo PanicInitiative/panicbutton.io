@@ -6,7 +6,7 @@ slug: "setup-alarm-test-hardware"
 type: "interactive"
 title: "Test Hardware Alarm"
 published: "true"
-category: "mobile"
+categories: "mobile"
 tags: "mobile"
 introduction: "Intenta ahora! Presiona repetidamente el boton de encender/apagar lo mas rapido posible hasta que sientas una vibracion."
 component: alarm-test-hardware

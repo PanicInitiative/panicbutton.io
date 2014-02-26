@@ -2,7 +2,7 @@
 layout: module_section_list
 heading: "Panic Button **in the Press**"
 published: true
-category: get_involved
+categories: get_involved
 section_order: 2
 items:
 - title: Maecenas vitae **metus vel augue pharetra** dignissim.

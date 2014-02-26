@@ -6,7 +6,7 @@ slug: "settings-contacts"
 type: "interactive"
 title: "Setup contacts"
 published: true
-category: "mobile"
+categories: "mobile"
 tags: "mobile"
 introduction: These are the people who will receive the alert.
 warning: They should know you personally and be able to respond quickly.

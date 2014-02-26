@@ -2,7 +2,7 @@
 layout: module_section
 heading: "The **Organisations** behind PANIC BUTTON"
 published: true
-category: about
+categories: about
 section_order: 2
 
 ---

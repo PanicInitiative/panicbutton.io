@@ -2,7 +2,7 @@
 layout: home_section_is
 heading: "Is Panic Button<br/>**right for you?**"
 published: true
-category: "home_section"
+categories: "home_section"
 section_order: 3
 questions:
   - id: 1

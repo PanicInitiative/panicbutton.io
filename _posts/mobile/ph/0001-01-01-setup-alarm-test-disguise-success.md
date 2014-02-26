@@ -6,7 +6,7 @@ slug: "setup-alarm-test-disguise-success"
 type: "simple"
 title: "Well done"
 published: "true"
-category: "mobile"
+categories: "mobile"
 tags: "mobile"
 action: 
   - title: "Next"

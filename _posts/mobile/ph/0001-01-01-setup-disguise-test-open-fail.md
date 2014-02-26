@@ -6,7 +6,7 @@ slug: "setup-disguise-test-open-fail"
 type: "simple"
 title: "Setup the Disguise"
 published: "true"
-category: "mobile"
+categories: "mobile"
 tags: "mobile"
 action: 
   - title: "Try Again"

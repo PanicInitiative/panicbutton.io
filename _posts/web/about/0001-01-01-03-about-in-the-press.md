@@ -2,7 +2,7 @@
 layout: module_section_list
 heading: "More on Panic Button"
 published: true
-category: about
+categories: about
 section_order: 3
 items:
 - title: "Amnesty Livewire: **How to turn a mobile phone into an alert system for activists**"

@@ -6,7 +6,7 @@ slug: "setup-disguise-test-open"
 type: "interactive"
 title: "Prueba el disfraz"
 published: "true"
-category: "mobile"
+categories: "mobile"
 tags: "mobile"
 introduction: "Intentalo ahora! Abre la aplicacion dandole un click al icono de la Calculadora!"
 

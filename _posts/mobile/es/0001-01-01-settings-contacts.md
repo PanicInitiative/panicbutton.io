@@ -6,7 +6,7 @@ slug: "settings-contacts"
 type: "interactive"
 title: "Establecer contactos"
 published: true
-category: "mobile"
+categories: "mobile"
 tags: "mobile"
 introduction: Estas son las personas que recibiran tu alerta.
 warning: Estas personas deberan de conocerte personalmente y ser capaces de responder rapidamente.

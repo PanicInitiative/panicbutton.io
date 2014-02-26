@@ -14,7 +14,13 @@ languages: &languages
     value: 'en'
   - name: 'Español'
     value: 'es'
-
+categories: &categories
+  - name: 'Help'
+    value: 'help'
+  - name: 'Home Section'
+    value: 'home_section'
+  - name: 'Mobile App Content'
+    value: 'mobile'
 prose:
   rooturl: '_posts'
   siteurl: 'http://teampanicbutton.github.io'
@@ -39,8 +45,9 @@ prose:
           element: "multiselect"
           label: "Categories"
           placeholder: "Select categories."
-          help: "Before adding an additional category, Check the list first"
+          help: "Categories are used to structure content. Only use this if you know what you're doing!"
           alterable: true
+          options: *categories
     _posts/web:
       - name: "layout"
         field:

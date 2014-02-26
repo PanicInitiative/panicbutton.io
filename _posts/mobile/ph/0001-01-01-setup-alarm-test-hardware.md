@@ -6,7 +6,7 @@ slug: "setup-alarm-test-hardware"
 type: "interactive"
 title: "Test Hardware Alarm"
 published: "true"
-category: "mobile"
+categories: "mobile"
 tags: "mobile"
 introduction: "Try Now! Repeatedly press the power button fast until you feel a vibration."
 component: alarm-test-hardware

@@ -6,7 +6,7 @@ slug: "setup-alarm-test-disguise"
 type: "interactive"
 title: "Test Disguised Alarm"
 published: "true"
-category: "mobile"
+categories: "mobile"
 tags: "mobile"
 introduction: "Try Now! Repeatedly press a button on the calculator fast until you feel a vibration."
 component: alarm-test-disguise

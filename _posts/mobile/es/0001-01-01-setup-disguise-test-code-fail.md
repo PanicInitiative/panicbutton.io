@@ -6,7 +6,7 @@ slug: "setup-disguise-test-unlock-fail"
 type: "simple"
 title: "Instalar el disfraz"
 published: "true"
-category: "mobile"
+categories: "mobile"
 tags: "mobile"
 action: 
   - title: "Try Again"

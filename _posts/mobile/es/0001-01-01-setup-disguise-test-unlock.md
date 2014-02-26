@@ -6,7 +6,7 @@ slug: "setup-disguise-test-unlock"
 type: "interactive"
 title: "Prueba el disfraz"
 published: "true"
-category: "mobile"
+categories: "mobile"
 tags: "mobile"
 introduction: "Intentalo ahora! Presiona cualquier boton de la calculadora"
 component: disguise-test-unlock

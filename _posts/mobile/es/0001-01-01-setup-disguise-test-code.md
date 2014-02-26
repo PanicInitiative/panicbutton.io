@@ -6,7 +6,7 @@ slug: "setup-disguise-test-code"
 type: "interactive"
 title: "Prueba el disfraz"
 published: "true"
-category: "mobile"
+categories: "mobile"
 tags: "mobile"
 introduction: "Bien hecho! Ahora escribe tu clave para acceder a configuraciones."
 component: disguise-test-code

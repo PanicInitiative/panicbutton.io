@@ -6,7 +6,7 @@ slug: "checklist"
 type: "modal"
 title: "Checklist"
 published: "true"
-category: "mobile"
+categories: "mobile"
 tags: "mobile"
 action:
   - title: "Disguise Now"

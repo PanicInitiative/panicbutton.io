@@ -6,7 +6,7 @@ slug: "setup-disguise-test-success"
 type: "simple"
 title: "Bien hecho!"
 published: "true"
-category: "mobile"
+categories: "mobile"
 tags: "mobile"
 action: 
   - title: "Finish"

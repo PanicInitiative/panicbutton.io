@@ -6,7 +6,7 @@ slug: "settings-message"
 type: "interactive"
 title: "Instalar el mensaje de alerta"
 published: true
-category: "mobile"
+categories: "mobile"
 tags: "mobile"
 introduction: Este sera el mensaje que se enviara junto con tu ubicacion.
 warning: Make sure your contacts know what to do if they receive this message

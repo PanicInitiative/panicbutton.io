@@ -6,7 +6,7 @@ slug: "setup-alarm-disguise"
 type: "simple"
 title: "Setup the Alarm"
 published: "true"
-category: "mobile"
+categories: "mobile"
 tags: "mobile"
 action: 
   - title: "Learn"

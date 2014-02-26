@@ -6,7 +6,7 @@ slug: "setup-language"
 type: "interactive"
 title: "Language settings"
 published: true
-category: "mobile"
+categories: "mobile"
 tags: "mobile"
 introduction: Choose a language for the application.
 component: language

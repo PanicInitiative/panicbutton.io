@@ -2,7 +2,7 @@
 layout: home_section_features
 heading: "Panic Button **Features**"
 published: true
-category: "home_section"
+categories: "home_section"
 section_order: 4
 features:
   - feature: EMERGENCY SMS

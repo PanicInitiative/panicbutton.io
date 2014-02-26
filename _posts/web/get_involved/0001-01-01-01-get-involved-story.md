@@ -3,7 +3,7 @@ layout: module_section_image
 title: "Get Involved"
 heading: "Get **Involved** with PANIC BUTTON"
 published: true
-category: get_involved
+categories: get_involved
 section_order: 1
 image: 
   src: about-img-1.png

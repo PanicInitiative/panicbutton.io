@@ -6,7 +6,7 @@ slug: "setup-disguise-test-open"
 type: "interactive"
 title: "Test Disguise"
 published: "true"
-category: "mobile"
+categories: "mobile"
 tags: "mobile"
 introduction: "Try now! Open the app by clicking on the Calculate! icon."
 component: disguise-test-open

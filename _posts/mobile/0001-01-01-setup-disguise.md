@@ -6,7 +6,7 @@ slug: "setup-disguise"
 type: "simple"
 title: "Setup Disguise"
 published: "true"
-category: "mobile"
+categories: "mobile"
 tags: "mobile"
 action: 
   - title: "Learn"

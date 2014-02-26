@@ -6,7 +6,7 @@ slug: "setup-disguise-test-code"
 type: "interactive"
 title: "Test Disguise"
 published: "true"
-category: "mobile"
+categories: "mobile"
 tags: "mobile"
 introduction: "Well done! Now enter your pincode to access settings."
 component: disguise-test-code
