@@ -19,6 +19,7 @@ All organizations face threats to the information they produce and to the wellbe
 Mobile phones are an integral part of our daily communications and the functions they enable are rapidly expanding. Mobiles may feature GPS, multimedia capacity (photo, video and audio recording and sometimes transmitting), data processing and access to the internet. Smartphones support an even bigger range of functionality – web browsing, email, voice and instant messaging over the internet, capturing, storing and transmitting audio, videos and photos, social networking, multi-user games, banking and many other activities. However, many of these tools and features introduce new security issues, or increase existing risks.
 
 It is important to start with the understanding that **mobile phones are inherently insecure:**
+
 * Information sent from a mobile phone is vulnerable.
 * Information stored on mobile phones is vulnerable.
 * Phones are designed to give out information about their location and their activity.

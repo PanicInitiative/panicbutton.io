@@ -1,9 +1,9 @@
 <section id="{{subsection.slug}}" class="white container content intcont mobnopad">
         <div class="col-lg-12 col-md-12 col-sm-12">
 					<div class="subtitle">
-						<strong>{{ subsection.heading | markdownify }}</strong>
+						<strong>{% if subsection.heading %}{{ subsection.heading | markdownify}}{% endif %}</strong>
 					</div>
-					{{ subsection.content | markdownify }}
+					{% if subsection.content %}{{ subsection.content | markdownify }}{% endif %}
 	        {% if subsection.image %}
 					<div class="col-3xs-12 col-4xs-12 article-img">
 	            <img src="/images/{{subsection.image.src}}" alt="{{subsection.image.title}}" class="about-illus img-responsive block-center">
