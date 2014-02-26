@@ -52,6 +52,7 @@ prose:
       - name: "categories"
         field:
           element: "hidden"
+          label: "Post's categories"
     _posts/help:
       - name: "layout"
         field:
@@ -76,6 +77,7 @@ prose:
       - name: "toc"
         field:
           element: "hidden"
+          label: "Post's Table of Contents"
       - name: "section_order"
         field:
           element: "number"
@@ -83,6 +85,7 @@ prose:
       - name: "categories"
         field:
           element: "hidden"
+          label: "Post's categories"
     _posts/mobile:
       - name: "layout"
         field:
