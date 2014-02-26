@@ -20,12 +20,7 @@ prose:
   relativeLinks: 'teampanicbutton.github.io/links.jsonp'
   media: 'media'
   metadata:
-    _posts:
-      - name: "slug"
-        field:
-          element: "hidden"
-          label: "Slug"
-          placeholder: "Short identifier"
+    _posts/web:
       - name: "lang"
         field:
           element: "select"
@@ -33,7 +28,11 @@ prose:
           placeholder: "English"
           options: *languages
           selected: "en"
-    _posts/web:
+      - name: "slug"
+        field:
+          element: "hidden"
+          label: "Slug"
+          placeholder: "Short identifier"
       - name: "layout"
         field:
           element: "hidden"
@@ -77,9 +76,7 @@ prose:
           placeholder: "This is a heading"
       - name: "toc"
         field:
-          element: "text"
-          label: "Table of Content"
-          placeholder: "Table of Content"
+          element: "hidden"
       - name: "section_order"
         field:
           element: "number"
