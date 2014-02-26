@@ -32,6 +32,11 @@ prose:
           placeholder: "English"
           options: *languages
           selected: "en"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Section's title"
+          placeholder: "This is a title"
       - name: "heading"
         field:
           element: "text"
@@ -75,8 +80,17 @@ prose:
       - name: "categories"
         field:
           element: "text"
-          label: "Option"
+          label: "Categories"
           placeholder: "Select categories."
+      - name: "toc"
+        field:
+          element: "text"
+          label: "Table of Content"
+          placeholder: "Table of Content"
+      - name: "section_order"
+        field:
+          element: "number"
+          label: "Section Order"
     _posts/mobile:
       - name: "layout"
         field:
