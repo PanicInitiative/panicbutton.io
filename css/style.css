@@ -1,6 +1,6 @@
 body{/*padding-top: 70px;*/ padding-bottom: 0 !important; margin: 0; background: #ececec;}
 html, body{overflow-x: hidden}
-span{font-family: 'Roboto Condensed Bold', "Helvetica Neue", Helvetica, Arial, sans-serif;}
+span, strong{font-family: 'Roboto Condensed Bold', "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: normal}
 .left{float: left}
 .right{float: right}
 .navbar-header .navbar-brand, .navbar-collapse .navbar-nav > li > a{color: #000}
@@ -44,7 +44,7 @@ span{font-family: 'Roboto Condensed Bold', "Helvetica Neue", Helvetica, Arial, s
 	border-radius: 10px;
 }
 
-#strongText{
+.strongText{
 	font-weight: bold;
 }
 
@@ -70,6 +70,11 @@ span{font-family: 'Roboto Condensed Bold', "Helvetica Neue", Helvetica, Arial, s
 	background: #000;
 }
 
+#how h2, #is h2, #features h2, #download h2 {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
 .title {
     cursor: default;
     background: transparent;
@@ -86,6 +91,10 @@ span{font-family: 'Roboto Condensed Bold', "Helvetica Neue", Helvetica, Arial, s
     background-image: none;
 }
 
+.title p {
+	margin-bottom: 0px;
+	line-height: 1;
+}
 .is .title {
 	line-height: 1 !important;	
 }
@@ -116,8 +125,8 @@ span{font-family: 'Roboto Condensed Bold', "Helvetica Neue", Helvetica, Arial, s
 
 /* footer content */
 .panel-footer{background: #fff; padding-bottom: 0; margin-bottom: 0; border-radius: 0; padding-top: 30px !important; border-top: 0}
-.panel-footer h4 { text-align: center; }
-.panel-footer h4 a{ font: 33px 'Roboto Condensed Bold', "Helvetica Neue", Helvetica, Arial, sans-serif; color: #000; text-decoration: underline;}
+.panel-footer h2 { text-align: center; }
+.panel-footer h2 a{ font: 33px 'Roboto Condensed Bold', "Helvetica Neue", Helvetica, Arial, sans-serif; color: #000; text-decoration: underline;}
 .panel-footer ul{list-style: none; padding: 0}
 .panel-footer .container{padding-bottom: 50px}
 .panel-footer ul li{font-size: 18px;text-decoration: none; color: #000;text-align: center;line-height: 25px;}
@@ -195,7 +204,7 @@ span{font-family: 'Roboto Condensed Bold', "Helvetica Neue", Helvetica, Arial, s
 	margin-top: 30px;	
 }
 .more a { text-decoration: none; }
-.more span { font-size: 25px; color: #000; margin: 0 0 10px; display: block;}
+.more strong { font-size: 25px; color: #000; margin: 0 0 10px; display: block;}
 .bar { height: 10px; border-bottom: 10px solid #000; width: 640px; display: inline-block; }
 .center { text-align: center;}
 .car-container { position:relative; height: 505px;}
