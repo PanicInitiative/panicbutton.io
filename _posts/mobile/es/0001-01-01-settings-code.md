@@ -8,10 +8,9 @@ title: "Crear una clave"
 published: true
 category: "mobile"
 tags: "mobile"
-introduction: Esta clave es necesaria para acceder a configuraciones de la aplicacion. No se necesita para enviar alerta a tus contactos en caso de emergencia.
-Recuerda tu clave! Si la olvidas necesitaras re-instalar la aplicacion.
-
-
+introduction: |
+  Esta clave es necesaria para acceder a configuraciones de la aplicacion. No se necesita para enviar alerta a tus contactos en caso de emergencia.
+  Recuerda tu clave! Si la olvidas necesitaras re-instalar la aplicacion.
 component: code
 action:
   - title: "Save"
