@@ -4,7 +4,7 @@ slug: "help_risk_assessing"
 title: "Assessing your risk"
 heading: "Assessing your risk"
 published: true
-categories: help_risk
+categories: help help_risk
 toc: help_risk_assessing
 section_order: 1
 

@@ -5,7 +5,7 @@ slug: "help_using_installation_contacts"
 title: "Setting Up Contacts"
 heading: "Setting Up Contacts"
 published: true
-categories: help_using_configuration
+categories: help help_using_configuration
 image:
   title: Screenshot
   caption: This is an image caption

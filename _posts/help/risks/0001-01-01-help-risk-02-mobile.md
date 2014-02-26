@@ -1,10 +1,10 @@
 ---
 lang: en
-slug: "help_risk_two"
+slug: "help_risk_mobile"
 title: "Safer mobile"
 heading: "Safer mobile"
 published: true
-categories: help_risk
+categories: help help_risk
 image:
   title: Safer Mobile
   caption: Risk Two image caption

@@ -5,7 +5,7 @@ slug: help_risk_assessing_threat
 title: Assessing the threat
 heading: "First step: assessing the threat"
 published: true
-categories: help_risk_assessing
+categories: help help_risk_assessing
 section_order: 1
 ---
 

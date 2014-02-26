@@ -5,7 +5,7 @@ slug: "help_using_installation_alert_messages"
 title: "Setting Up Alert Messages"
 heading: "Setting Up Alert Messages"
 published: true
-categories: help_using_configuration
+categories: help help_using_configuration
 image:
   title: Screenshot
   caption: This is another image caption

@@ -4,8 +4,7 @@ slug: "help_using_installation"
 title: "Installation"
 heading: "Installation"
 published: true
-categories: help_using
-toc: help_using_installation
+categories: help help_using
 section_order: 1
 
 ---
