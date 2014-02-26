@@ -37,11 +37,11 @@ prose:
           element: "text"
           label: "Section's heading"
           placeholder: "This is a heading"
-      - name: "category"
+      - name: "categories"
         field:
           element: "text"
           label: "Option"
-          placeholder: "Learn more about this. "
+          placeholder: "Select categories."
       - name: "section_order"
         field:
           element: "number"
@@ -55,6 +55,16 @@ prose:
           element: "text"
           label: "Post's heading"
           placeholder: "This is a heading"
+      - name: "slug"
+        field:
+          element: "text"
+          label: "Slug"
+          placeholder: "Short identifier"
+      - name: "categories"
+        field:
+          element: "text"
+          label: "Option"
+          placeholder: "Select categories."
     _posts/mobile:
       - name: "layout"
         field:
