@@ -1,6 +1,6 @@
 ---
 layout: home_section_download
-heading: "Is Panic Button Right for You?"
+heading: "Download Panic Button"
 published: true
 category: "home_section"
 section_order: 5
@@ -18,7 +18,3 @@ downloads:
     link: https://github.org/TeamPanicButton/PanicButton
 
 ---
-
-Here are some simple questions to help you assess
-if Panic Button is right for you
-(your answers will not be recorded) 
