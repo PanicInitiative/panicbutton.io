@@ -1,0 +1,22 @@
+---
+---
+{% assign idx = 0 %}{% assign count = 0 %}{% for pst in site.categories.help %}{% if pst.lang == 'en' %}{% assign count = count | plus: '1' %}{% endif %}{% endfor %}{
+  "mobile": {
+    "version" : {{ site.version }},
+    "data":[{% for post in site.categories.help %}{% if post.lang == 'en' %}{% assign idx = idx | plus: '1' %}
+    {
+      "id" : "{{post.slug}}",
+      "lang" : "{{post.lang}}",
+      "type" : "{{post.type}}",
+      "title" : "{{post.title}}"{% if post.heading %},
+      "heading" : "{{post.heading}}"{% endif %}{% if post.categories %},
+      "categories" : "{{post.categories}}"{% endif %}{% if post.toc %},
+      "toc" : "{{post.toc}}"{% endif %}{% if post.section_order %},
+      "section_order" : "{{post.section_order}}"{% endif %}{% if post.image %},
+      "image" : {{post.image | jsonify}}{% endif %}{% if post.alert %},
+      "alert" : "{{post.alert}}"{% endif %}{% if post.items %},
+      "items" : {{post.items | jsonify }}{% endif %}{% if post.content != '' %},
+      "content" : {{post.content | strip_newlines | jsonify }}{% endif %}
+    }{% unless idx == count %},{% endunless %}{% endif %}{% endfor %}]
+  }
+}
