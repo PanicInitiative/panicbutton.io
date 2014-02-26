@@ -19,8 +19,6 @@ categories: &categories
     value: 'help'
   - name: 'Home Section'
     value: 'home_section'
-  - name: 'Mobile App Content'
-    value: 'mobile'
 prose:
   rooturl: '_posts'
   siteurl: 'http://teampanicbutton.github.io'
@@ -40,14 +38,6 @@ prose:
           placeholder: "English"
           options: *languages
           selected: "en"
-      - name: "categories"
-        field:
-          element: "multiselect"
-          label: "Categories"
-          placeholder: "Select categories."
-          help: "Categories are used to structure content. Only use this if you know what you're doing!"
-          alterable: true
-          options: *categories
     _posts/web:
       - name: "layout"
         field:
@@ -66,6 +56,14 @@ prose:
         field:
           element: "number"
           label: "Section Order"
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Categories"
+          placeholder: "Select categories."
+          help: "Categories are used to structure content. Only use this if you know what you're doing!"
+          alterable: true
+          options: *categories
     _posts/help:
       - name: "layout"
         field:
@@ -96,6 +94,14 @@ prose:
         field:
           element: "number"
           label: "Section Order"
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Categories"
+          placeholder: "Select categories."
+          help: "Categories are used to structure content. Only use this if you know what you're doing!"
+          alterable: true
+          options: *categories
     _posts/mobile:
       - name: "layout"
         field:
