@@ -12,7 +12,7 @@ span, strong{font-family: 'Roboto Condensed Bold', "Helvetica Neue", Helvetica, 
 .yellow-bg {background: #fff200;}
 .block-center {margin: 0 auto;}
 .glyphicon-arrow-down { font-family: 'Glyphicons Halflings', Helvetica, Arial, sans-serif;}
-
+.slider {position:relative;}
 /* button style */
 .btn-dark{ background: url(../images/dark-button.png) no-repeat;}
 .btn-light{ background: url(../images/light-button.png) no-repeat;}
@@ -176,26 +176,28 @@ span, strong{font-family: 'Roboto Condensed Bold', "Helvetica Neue", Helvetica, 
 .text-left {text-align: left !important}
 .offset-marge {margin: 0 auto; float: none;margin-bottom: 25px}
 .container.is-cont { border-top: 1px solid #000; border-bottom: 1px solid #000; text-align:left; padding: 20px; margin: 20px 0; }
-.container.is-cont .step-progress { max-width: 252px; padding: 0;}
+.container.is-cont .step-progress { padding: 0;}
 .container.is-cont .cont-r {padding: 20px 50px 60px;}
-.container.is-cont .cont-r .btext { font-size: 40px; margin-bottom: 20px; }
+.container.is-cont .cont-r img {max-height: 186px}
+.container.is-cont .cont-r .btext { font-size: 40px; margin-bottom: 20px; height: 186px;}
 .container.is-cont .cont-r .btext a { color: #000; text-decoration: underline; font-weight: bold; }
 .is .form{padding: 10px 80px}
 .form{height: 600px}
 .form p{font-size: 18px}
 .form .text-content{margin-bottom: 30px}
 .form .btn{width: 100%; white-space: normal}
-.offset{margin: 0 auto; float: none}
-.text{height: 260px; display: table-cell; vertical-align: middle; float: none; border: 5px solid #FEFEFE; padding: 0 30px}
+#step-1 .back {color: #FFF; cursor: unset;}
+#final .cont-r {padding: 20px 50px 149px;}
+.offset{margin: 0 auto;}
+.slider .text{height: 206px; display: table-cell; vertical-align: middle; float: none; border: 5px solid #FEFEFE; padding: 0 30px}
+.slider .text.border{border: 5px solid #ff0000;}
 .text p{text-align: center; width: 1600px; vertical-align: middle; display: table-cell}
-.step-progress img {width: 100%}
 .back, .option, .sub-back{display: inline-block; margin-bottom: 0; font-size: 14px; font-weight: normal; line-height: 1.428571429; text-align: center; vertical-align: middle; cursor: pointer; background-image: none; border: 1px solid transparent; border-radius: 4px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none; color: #000; text-decoration: underline}
 .option{font-weight: bold; width: 100%}
 .back{font-size:28px; font-weight:bold;}
 .back:hover, .back:active, .option:hover, .option:active, .sub-back:hover, .sub-back:active{color: #000}
 .step-5 .link{text-decoration: underline}
 .step-5 .link:hover{color: #000}
-.border{border: 5px solid #ff0000;}
 .download-button { background: url(../images/download-icon.png) no-repeat; background-size: 100% 100%; width: 330px; height: 86px; display:inline-block; margin: 40px 0; clear:both; }
 .more { width: 80px; height: 122px; display: inline-block; margin: 0 0 65px; line-height: 1; }
 .more .button { background: url(../images/more-icon.png) no-repeat; width: 80px; height: 80px; display: block; }

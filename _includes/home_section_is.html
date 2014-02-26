@@ -8,7 +8,7 @@
     <div class="container is-cont mobnopad">
         {% for step in section.questions %}
         {% if forloop.last %}
-        <div id="final" style="display: none;">
+        <div id="final" class="slider question" style="display: none;">
             <div class="row cont-r">
                 <div class="col-xs-6 col-sm-6 col-lg-8">
                     <p class="btext">{{step.content}}</p>
@@ -20,13 +20,13 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">             
                 <div class="row" align="center">
                     <div class="col-lg-12 col-md-12 col-sm-12">
-                        <a class="back col-lg-12 col-md-12 col-sm-12 col-xs-12 sub" data-option="back" role="button">
+                        <a class="back col-lg-12 col-md-12 col-sm-12 col-xs-12 back" data-option="back" role="button">
                             <span class="strongText">
                                 back
                             </span>
                         </a>
                         <p class="col-lg-12 col-md-12 col-sm-12 col-xs-12">Recommendation 5 / 5</p>
-                        <div class="step-progress col-lg-10 col-md-10 col-sm-10 col-xs-12 offset">
+                        <div class="step-progress col-xs-12 offset">
                             <p>
                                 <img alt="Recommendation Step" src="images/step-5.png">
                             </p>
@@ -36,7 +36,7 @@
             </div>
         </div>
         {% else %}
-        <div id="step-{{step.id}}" style="display: none;">
+        <div id="step-{{step.id}}" class="slider question" style="display: none;">
             <div class="row cont-r">
                 <div class="col-xs-6 col-sm-6 col-lg-8">
                     <p class="btext">{{step.content}}</p>
@@ -59,13 +59,13 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">             
                 <div class="row" align="center">
                     <div class="col-lg-12 col-md-12 col-sm-12">
-                        <a class="back col-lg-12 col-md-12 col-sm-12 col-xs-12 sub" data-option="back" role="button">
+                        <a class="back col-lg-12 col-md-12 col-sm-12 col-xs-12 back" data-option="back" role="button">
                             <span class="strongText">
                                 back
                             </span>
                         </a>
                         <p class="col-lg-12 col-md-12 col-sm-12 col-xs-12">Question {{step.id}} / 5</p>
-                        <div class="step-progress col-lg-10 col-md-10 col-sm-10 col-xs-12 offset">
+                        <div class="step-progress col-xs-12 offset">
                             <p>
                                 <img alt="Step for question number {{step.id}} out of 5" src="images/step-{{step.id}}.png">
                             </p>
@@ -75,7 +75,7 @@
             </div>
         </div>
         {% for answer in step.answers %}
-        <div id="step-{{step.id}}-answer-{{answer.id}}" style="display: none;">
+        <div id="step-{{step.id}}-answer-{{answer.id}}" class="slider answer-{{answer.id}}" style="display: none;">
             <div class="row cont-r">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12 text-content">
                     <div class="text {% if answer.status == 'warning' %}border{% endif %}">
@@ -85,19 +85,19 @@
             </div>
             <div class="row but">
                 <div class="col-xs-12 col-sm-4 col-sm-offset-4">
-                    <a class="btn btn-is sub" role="button" data-option="continue">{% if answer.status == 'warning' %}Continue Anyway{% else %}Continue{% endif %}</a>
+                    <a class="btn btn-is cont" role="button" data-option="continue">{% if answer.status == 'warning' %}Continue Anyway{% else %}Continue{% endif %}</a>
                 </div>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-2xs-12 col-3xs-12 col-4xs-12">             
                 <div class="row" align="center">
                     <div class="col-lg-12 col-md-12 col-sm-12">
-                        <a class="back col-lg-12 col-md-12 col-sm-12 col-xs-12 sub" data-option="back" role="button">
+                        <a class="back col-lg-12 col-md-12 col-sm-12 col-xs-12 back" data-option="back" role="button">
                             <span class="strongText">
                                 back
                             </span>
                         </a>
                         <p class="col-lg-12 col-md-12 col-sm-12 col-xs-12">Recommendation {{step.id}} / 5</p>
-                        <div class="step-progress col-lg-10 col-md-10 col-sm-10 col-xs-12 offset">
+                        <div class="step-progress col-xs-12 offset">
                             <p>
                                 <img alt="Step for answer number {{step.id}} out of 5" src="images/step-{{step.id}}.png">
                             </p>
@@ -108,8 +108,8 @@
         </div>
         {% endfor %}
         {% endif %}
-    </div>
     {% endfor %}
+    </div>
     <div class="container center mobnopad">
         <a class="download-button btn-n" href="#download" role="button">&nbsp;</a>
         <div class="clearfix"></div>
