@@ -17,7 +17,6 @@ languages: &languages
 prose:
   rooturl: '_posts'
   siteurl: 'http://teampanicbutton.github.io'
-  relativeLinks: 'teampanicbutton.github.io/links.jsonp'
   media: 'media'
   metadata:
     _posts/web:
