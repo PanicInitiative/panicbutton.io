@@ -53,11 +53,7 @@ prose:
           label: "Section Order"
       - name: "categories"
         field:
-          element: "multiselect"
-          label: "Categories"
-          placeholder: "Select categories."
-          help: "Categories are used to structure content. Only use this if you know what you're doing!"
-          alterable: true
+          element: "hidden"
     _posts/help:
       - name: "layout"
         field:
@@ -90,11 +86,7 @@ prose:
           label: "Section Order"
       - name: "categories"
         field:
-          element: "multiselect"
-          label: "Categories"
-          placeholder: "Select categories."
-          help: "Categories are used to structure content. Only use this if you know what you're doing!"
-          alterable: true
+          element: "hidden"
     _posts/mobile:
       - name: "layout"
         field:
