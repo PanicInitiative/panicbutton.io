@@ -2,7 +2,7 @@
 version: 5
 layout: post
 lang: en
-slug: "Setup Contacts"
+slug: "setup-contacts"
 type: "interactive"
 title: "Setup contacts"
 published: true
