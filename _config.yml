@@ -21,10 +21,12 @@ prose:
   relativeLinks: 'teampanicbutton.github.io/links.jsonp'
   media: 'media'
   metadata:
-    _posts/web:
-      - name: "layout"
+    _posts:
+      - name: "slug"
         field:
           element: "hidden"
+          label: "Slug"
+          placeholder: "Short identifier"
       - name: "lang"
         field:
           element: "select"
@@ -32,6 +34,17 @@ prose:
           placeholder: "English"
           options: *languages
           selected: "en"
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Categories"
+          placeholder: "Select categories."
+          help: "Before adding an additional category, Check the list first"
+          alterable: true
+    _posts/web:
+      - name: "layout"
+        field:
+          element: "hidden"
       - name: "title"
         field:
           element: "text"
@@ -42,11 +55,6 @@ prose:
           element: "text"
           label: "Section's heading"
           placeholder: "This is a heading"
-      - name: "categories"
-        field:
-          element: "text"
-          label: "Option"
-          placeholder: "Select categories."
       - name: "section_order"
         field:
           element: "number"
@@ -72,16 +80,6 @@ prose:
           element: "text"
           label: "Post's heading"
           placeholder: "This is a heading"
-      - name: "slug"
-        field:
-          element: "text"
-          label: "Slug"
-          placeholder: "Short identifier"
-      - name: "categories"
-        field:
-          element: "text"
-          label: "Categories"
-          placeholder: "Select categories."
       - name: "toc"
         field:
           element: "text"
@@ -96,17 +94,6 @@ prose:
         field:
           element: "hidden"
           value: "post"
-      - name: "lang"
-        field:
-          element: "select"
-          label: "Select language"
-          placeholder: "English"
-          options: *languages
-          selected: "en"
-      - name: "slug"
-        field:
-          element: "hidden"
-          label: "Post's id"
       - name: "type"
         field:
           element: "hidden"

@@ -7,7 +7,7 @@ published: true
 parent:
   title: Help
   link: help.html
-category: help
+categories: help
 ---
 
 Here's a reading list:
