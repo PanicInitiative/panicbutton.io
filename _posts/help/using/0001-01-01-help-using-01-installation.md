@@ -13,4 +13,4 @@ You can download Panic Button onto your mobile phone **here** (LINK).  The insta
 
 Once the app has been installed you can open it by searching for the Calculate! icon among your apps. Panic Button will walk you through the set up and functions of the app.
 
-If you are taking part in the private beta testing and have difficulties installing the app, please see the Help FAQ(LINK) or contact us directly (LINK) for support.
+If you are taking part in the private beta testing and have difficulties installing the app, please see the **Help** FAQ(LINK) or **contact us directly** (LINK) for support.
