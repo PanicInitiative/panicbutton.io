@@ -24,3 +24,4 @@ A few things to think about:
 -	It is a good idea to include one person who is at low risk of retaliation. For example, it may be an older family member who is less likely to be targeted by the authorities. Alternatively, is there a close and trusted member of your network outside the country? 
 -	While there may be international contacts in your network think carefully before selecting someone far away. Will they be able to respond quickly to an alert? Consider timezone differences and also whether the person you choose is familiar enough with your context to get in touch with others who can physically assist.
 
+**IMAGE** Screenshot of the add contacts page
