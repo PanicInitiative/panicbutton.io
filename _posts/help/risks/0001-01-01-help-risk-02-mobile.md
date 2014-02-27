@@ -26,7 +26,7 @@ It is important to start with the understanding that **mobile phones are inheren
 
 For instance, mobile phones relay your location information to your mobile network operator (as part of the normal functions of the phone) and many smartphones have built-in geo-location (GPS) functionality, which means they can provide an even more precise location to your mobile network operator, as well as to many applications you use on your phone (such as social networking, mapping, browsing and other applications). This makes it increasingly easy to be able to track your location.
 
-SOURCE: This information was adapted from the Security in a Box Toolkit by Tactical Technology Collective and Frontline Defenders. Further information about how your mobile phone can put you at risk as well as a great list of useful tools to help secure your mobile communications can be found in the original **Security in a Box Toolkit** (LINK).
+SOURCE: This information was taken and adapted from the Security in a Box Toolkit by Tactical Technology Collective and Frontline Defenders. Further information about how your mobile phone can put you at risk as well as a great list of useful tools to help secure your mobile communications can be found in the original **Security in a Box Toolkit** (LINK).
 
 **Top tips for safer mobile use**
 
