@@ -12,7 +12,7 @@ categories: help help-sections
 
 Here's a reading list:
 
-* Security in a Box [link](https://securityinabox.org/) 
+* [Security in a Box](https://securityinabox.org/) 
 A collaborative effort of the Tactical Technology Collective and Front Line. It was created to meet the digital security and privacy needs of advocates and human rights defenders. Security in-a-box includes a How-to Booklet, which addresses a number of important digital security issues. It also provides a collection of Hands-on Guides, each of which includes a particular freeware or open source software tool, as well as instructions on how you can use that tool to secure your computer, protect your information or maintain the privacy of your Internet communication. 
 
 * Frontline Defenders - Workbook on Security [link](http://www.frontlinedefenders.org/files/workbook_eng.pdf) 
