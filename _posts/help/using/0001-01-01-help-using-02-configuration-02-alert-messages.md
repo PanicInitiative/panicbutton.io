@@ -22,4 +22,4 @@ Things to think about:
 - You won't have time to change a message in an emergency, so make sure your alert message would work in all situations.
 - Remember to enable GPS in your phone settings if you want your location to be sent to your contacts with the alert.
 
-
+**IMAGE** Screenshot of message set-up with default text
