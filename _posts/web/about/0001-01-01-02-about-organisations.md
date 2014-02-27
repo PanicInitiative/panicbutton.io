@@ -7,14 +7,13 @@ section_order: 2
 
 ---
 
-The Panic Button project is an initiative of Amnesty International in collaboration with Frontline Defenders, iilabs and the engine room, who provide ongoing advice and input on design and implementation of the project.
+The Panic Button project is an initiative of Amnesty International in collaboration with [Frontline Defenders](http://www.frontlinedefenders.org/), [iilab](https://iilab.org/) and [the engine room](https://www.theengineroom.org/), who are ongoing partners and advisers in both the design and implementation of the project. 
 
-Panic Button belongs to a wider community of partners and advisors. Special thanks go to the network of human rights activists from more than ten countries who have worked with us over the months to collaboratively design the app and have given many hours feeding back on the usability and functionality of the app.
+Panic Button also belongs to a wider community of advisors and friends. Special thanks go to the network of human rights activists from more than ten countries who have worked with us over the months to collaboratively design the app and have given many hours feeding back on the usability and functionality of the app.
 
-A huge thanks is also owed to the many volunteer programmers and designers who have given their time to develop the app. Developers can help us continue to improve the app by contributing to the open-source project on Github. 
+A huge thanks is also owed to the many programmers and designers who have donated their time and skills to develop the app over the past two years. We are especially grateful to the [OpenIDEO community](http://www.openideo.com/challenge/amnesty/brief.html) for kick-starting the project and to [ThoughtWorks](http://www.thoughtworks.com/) who generously helped to develop the first working prototype of the app.
 
-Panic Button received seed funding from the Ford Foundation and was awarded further funds to develop and pilot the app from the Google Global Impact Challenge.
-
+Panic Button was supported with seed funding from the [Ford Foundation](http://www.fordfoundation.org/) and was awarded a further £100,000 to build on and pilot the app thanks to the [Google Global Impact Challenge](http://livewire.amnesty.org/2013/05/22/a-lifeline-for-activists/).
 
 
 <div class="clearfix"></div>
