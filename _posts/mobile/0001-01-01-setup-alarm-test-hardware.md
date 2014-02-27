@@ -1,5 +1,5 @@
 ---
-version: 5
+version: 7
 layout: post
 lang: en
 slug: "setup-alarm-test-hardware"
@@ -20,3 +20,5 @@ fail:
   link: "setup-alarm-test-hardware-fail"
   
 ---
+
+![Illustration](/media/mobile/panic_button_activation.gif)
