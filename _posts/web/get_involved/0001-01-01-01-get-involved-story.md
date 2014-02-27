@@ -11,8 +11,10 @@ image:
 
 ---
 
-New technologies – such as social media and mobile Internet – have **fundamentally changed how we shed light on and respond to human rights abuses.** Today, almost anyone with a mobile phone can be a human rights monitor and challenge the abuse of power by capturing and sharing documentation of abuses as they happen.
+We are a growing community and always on the look out for people who want to contribute to the app and project! Are you a human rights defender, activist, journalist who would like to test the app and help us to improve it to better meet your needs? Are you a developer of designer with some extra time and skills to lend? Or do you simply care about human rights and want to help improve a tool that will directly support thousands of individuals around the world who face threats because they stand up for freedom of expression and the rights of others. If you are, we want to hear from you!
 
-And yet, technology brings new threats. Information Communication Technologies (ICTs) are becoming a battleground as journalists, citizens and  activists seek inventive ways to protect the secure flow of information while governments invest in sophisticated technologies to intercept, monitor,  track and censor those who challenge them.
+Here are some of the ways to get involved:
 
-Panic Button was the product of an [open design process that we kicked off with OpenIDEO](http://somewhere) in early 2012. I have been amazed at how many people along the way have devoted their spare time and talents to the simple but transformational idea of creating a mobile alert system for activists. The project has closely involved 648 challenge participants, more than 50 Designers, 30 Activists and 18 Developers since then.
+1. Sign up to partipate in our private beta pilot! 
+
+We are looking for Android users around the world to help us to pilot the very first release of the Panic Button app. We are particularly looking for human rights defenders, activists and journalists who would like to test the app and send us feedback about how we can improve it for your work. 
