@@ -63,6 +63,11 @@ prose:
         field:
           element: "hidden"
           value: ''
+      - name: "slug"
+        field:
+          element: "hidden"
+          label: "Slug"
+          value: ''
       - name: "title"
         field:
           element: "text"
