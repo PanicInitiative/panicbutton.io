@@ -27,9 +27,6 @@ prose:
           placeholder: "English"
           options: *languages
           selected: "en"
-      - name: "layout"
-        field:
-          element: "hidden"
       - name: "title"
         field:
           element: "text"
