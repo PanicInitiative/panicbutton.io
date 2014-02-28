@@ -16,7 +16,7 @@ languages: &languages
     value: 'es'
 prose:
   rooturl: '_posts'
-  siteurl: 'http://teampanicbutton.github.io'
+  siteurl: 'https://panicbutton.iilab.org'
   media: 'media'
   metadata:
     _posts/web:
