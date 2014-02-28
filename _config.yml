@@ -40,11 +40,10 @@ prose:
           element: "text"
           label: "Sections title"
           placeholder: "This is a title"
-      - name: "heading"
+      - name: "section_order"
         field:
-          element: "text"
-          label: "Sections heading"
-          placeholder: "This is a heading"
+          element: "number"
+          label: "Section Order"
       - name: "categories"
         field:
           element: "hidden"
