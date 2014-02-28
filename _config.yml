@@ -27,6 +27,16 @@ prose:
           placeholder: "English"
           options: *languages
           selected: "en"
+      - name: "slug"
+        field:
+          element: "hidden"
+          label: "Slug"
+          placeholder: "Short identifier"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Sections title"
+          placeholder: "This is a title"
       - name: "heading"
         field:
           element: "text"
