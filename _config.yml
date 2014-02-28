@@ -27,6 +27,11 @@ prose:
           placeholder: "English"
           options: *languages
           selected: "en"
+      - name: "slug"
+        field:
+          element: "hidden"
+          label: "Slug"
+          placeholder: "Short identifier"
       - name: "layout"
         field:
           element: "hidden"
