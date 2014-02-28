@@ -27,7 +27,7 @@ It is important to start with the understanding that **mobile phones are inheren
 
 For instance, mobile phones relay your location information to your mobile network operator (as part of the normal functions of the phone) and many smartphones have built-in geo-location (GPS) functionality, which means they can provide an even more precise location to your mobile network operator, as well as to many applications you use on your phone (such as social networking, mapping, browsing and other applications). This makes it increasingly easy to be able to track your location.
 
-SOURCE: This information was taken and adapted from the Security in a Box Toolkit by Tactical Technology Collective and Frontline Defenders. Further information about how your mobile phone can put you at risk as well as a great list of useful tools to help secure your mobile communications can be found in the original **Security in a Box Toolkit** (LINK).
+SOURCE: This information was taken and adapted from the Security in a Box Toolkit by Tactical Technology Collective and Frontline Defenders. Further information about how your mobile phone can put you at risk as well as a great list of useful tools to help secure your mobile communications can be found in the original [Security in a Box Toolkit](https://securityinabox.org/).
 
 **Top tips for safer mobile use**
 
@@ -39,4 +39,4 @@ SOURCE: This information was taken and adapted from the Security in a Box Toolki
   - Never keep a record of your SMS messages on your phone. However, it is good to be aware that even if you delete your messages, they may still be accessed by strong adversaries if they go directly to your service provider.
   - Where possible, memorize the telephone numbers of close colleagues or sources so that this information is not easily found on your telephone. Remember to delete numbers this in your call history although this information could still be found by going to the service provider.
 
-SOURCE: This list of top tips was taken and adapted from the Story Maker App Lessons on mobile security. Further information about the project and a range of more detailed lessons on mobile security can be found on the **Story Maker site**. (LINK https://storymaker.cc/lessons/?Lesson=/2/2.7/&Lang=en)
+SOURCE: This list of top tips was taken and adapted from the Story Maker App Lessons on mobile security. Further information about the project and a range of more detailed lessons on mobile security can be found on the [Story Maker site](https://storymaker.cc/lessons/?Lesson=/2/2.7/&Lang=en)
