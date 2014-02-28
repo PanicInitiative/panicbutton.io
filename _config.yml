@@ -19,6 +19,22 @@ prose:
   siteurl: 'http://teampanicbutton.github.io'
   media: 'media'
   metadata:
+    _posts/web:
+      - name: "lang"
+        field:
+          element: "select"
+          label: "Select language"
+          placeholder: "English"
+          options: *languages
+          selected: "en"
+      - name: "slug"
+        field:
+          element: "hidden"
+          label: "Slug"
+          placeholder: "Short identifier"
+      - name: "layout"
+        field:
+          element: "hidden"
     _posts/help:
       - name: "layout"
         field:
