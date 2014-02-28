@@ -8,8 +8,8 @@ title: "Establecer contactos"
 published: true
 categories: "mobile"
 tags: "mobile"
-introduction: Estas son las personas que recibiran tu alerta.
-warning: Estas personas deberan de conocerte personalmente y ser capaces de responder rapidamente.
+introduction: Estas son las personas que recibirán tu alerta.
+warning: Estas personas deberán de conocerte personalmente y ser capaces de responder rápidamente.
 component: contacts
 action:
   - title: "Save"
@@ -18,7 +18,7 @@ action:
 
 Tips de seguridad
 
- - Piensa acerca de quien puede ayudarte de manera practica- No tiene caso que alguien se entere que estas en problemas si no puede ayudarte
- - Diseña un plan con tus contactos seleccionados para que puedan estar preparados y actuar rapidamente 
- - Considera los riesgos- Como puede tu contacto ponerse en riesgo?
+ - Piensa acerca de quien puede ayudarte de manera práctica- No tiene caso que alguien se entere que estás en problemas si no puede ayudarte
+ - Diseña un plan con tus contactos seleccionados para que puedan estar preparados y actuar rápidamente 
+ - Considera los riesgos- ¿Como puede tu contacto ponerse en riesgo?
  
