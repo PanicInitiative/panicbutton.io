@@ -18,7 +18,7 @@ action:
 
 Tips de seguridad
 
- - Piensa acerca de quien puede ayudarte de manera práctica- No tiene caso que alguien se entere que estás en problemas si no puede ayudarte
+ - Piensa acerca de quién puede ayudarte de manera práctica- No tiene caso que alguien se entere que estás en problemas si no puede ayudarte
  - Diseña un plan con tus contactos seleccionados para que puedan estar preparados y actuar rápidamente 
  - Considera los riesgos- ¿Como puede tu contacto ponerse en riesgo?
  
