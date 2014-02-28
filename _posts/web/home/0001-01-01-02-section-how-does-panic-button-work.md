@@ -1,5 +1,6 @@
 ---
-layout: home_section_how
+layout: post
+module: home_section_how
 heading: "How Does Panic Button **Work?**"
 published: true
 categories: "home_section"

@@ -1,5 +1,6 @@
 ---
-layout: page_subsection
+layout: post
+module: page_subsection
 lang: en
 slug: help_risk_assessing_threat
 title: Assessing the threat

@@ -36,6 +36,10 @@ prose:
         field:
           element: "hidden"
           value: ''
+      - name: "module"
+        field:
+          element: "hidden"
+          value: ''
       - name: "title"
         field:
           element: "text"
@@ -71,6 +75,10 @@ prose:
           placeholder: "English"
           options: *languages
           selected: "en"
+      - name: "module"
+        field:
+          element: "hidden"
+          value: ''
       - name: "heading"
         field:
           element: "text"
@@ -89,6 +97,11 @@ prose:
         field:
           element: "hidden"
           label: "Post's categories"
+          value: ''
+      - name: "version"
+        field:
+          element: "hidden"
+          label: "Version"
           value: ''
     _posts/mobile:
       - name: "layout"

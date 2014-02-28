@@ -1,5 +1,6 @@
 ---
-layout: home_section_is
+layout: post
+module: home_section_is
 heading: "Is Panic Button<br/>**right for you?**"
 published: true
 categories: "home_section"

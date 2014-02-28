@@ -1,5 +1,7 @@
 ---
-layout: module_section
+layout: post
+module: post
+module: module_section
 heading: "The **Organisations** behind PANIC BUTTON"
 published: true
 categories: about

@@ -1,4 +1,5 @@
 ---
+layout: post
 lang: en
 slug: "help_using_installation"
 title: "Installation"

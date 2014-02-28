@@ -1,5 +1,6 @@
 ---
-layout: home_section_features
+layout: post
+module: home_section_features
 heading: "Panic Button **Features**"
 published: true
 categories: "home_section"

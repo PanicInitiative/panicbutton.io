@@ -5,5 +5,5 @@ title: Help
 
 {% assign sections = site.categories.help | sort section_order %}
 {% for section in sections %}
-	{% include module.html param=section.layout %}
+	{% include module.html param=section.module %}
 {% endfor %}

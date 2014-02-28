@@ -1,5 +1,6 @@
 ---
-layout: module_section_list
+layout: post
+module: module_section_list
 heading: "More on Panic Button"
 published: true
 categories: about

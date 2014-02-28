@@ -5,5 +5,5 @@ title: Panic Button
 
 {% assign sections = site.categories.home_section | sort section_order %}
 {% for section in sections %}
-	{% include home_section.html param=section.layout %}
+	{% include home_section.html param=section.module %}
 {% endfor %}

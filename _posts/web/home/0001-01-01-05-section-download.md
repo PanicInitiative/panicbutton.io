@@ -1,5 +1,6 @@
 ---
-layout: home_section_download
+layout: post
+module: home_section_download
 heading: "Download Panic Button"
 published: true
 categories: "home_section"

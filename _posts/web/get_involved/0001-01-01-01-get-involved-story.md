@@ -1,5 +1,6 @@
 ---
-layout: module_section_image
+layout: post
+module: module_section_image
 title: "Get Involved"
 heading: "Get **Involved** with PANIC BUTTON"
 published: true

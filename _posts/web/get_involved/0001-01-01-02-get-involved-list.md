@@ -1,5 +1,6 @@
 ---
-layout: module_section_list
+layout: post
+module: module_section_list
 heading: "Panic Button **in the Press**"
 published: true
 categories: get_involved

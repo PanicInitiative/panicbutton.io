@@ -1,4 +1,5 @@
 ---
+layout: post
 lang: en
 slug: "help_risk_mobile"
 title: "Safer mobile"

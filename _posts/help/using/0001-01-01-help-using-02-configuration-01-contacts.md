@@ -1,5 +1,6 @@
 ---
-layout: page_subsection
+layout: post
+module: page_subsection
 lang: en
 slug: "help_using_installation_contacts"
 title: "Setting Up Contacts"
