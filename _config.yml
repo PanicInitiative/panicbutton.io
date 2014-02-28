@@ -27,14 +27,19 @@ prose:
           placeholder: "English"
           options: *languages
           selected: "en"
-      - name: "slug"
+      - name: "heading"
+        field:
+          element: "text"
+          label: "Sections heading"
+          placeholder: "This is a heading"
+      - name: "section_order"
+        field:
+          element: "number"
+          label: "Section Order"
+      - name: "categories"
         field:
           element: "hidden"
-          label: "Slug"
-          placeholder: "Short identifier"
-      - name: "layout"
-        field:
-          element: "hidden"
+          label: "Posts categories"
     _posts/help:
       - name: "layout"
         field:
