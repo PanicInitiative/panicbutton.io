@@ -1,10 +1,12 @@
 ---
+categories: home_section
 layout: home_section_home
-heading: "Panic Button"
+slug: ""
+heading: Panic Button
 published: true
-categories: "home_section"
 section_order: 1
-
+title: Untitled
+lang: en
 ---
 
 Turns your mobile phone into a<br/>
