@@ -49,10 +49,6 @@ prose:
         field:
           element: "number"
           label: "Section Order"
-      - name: "categories"
-        field:
-          element: "hidden"
-          label: "Posts categories"
     _posts/help:
       - name: "layout"
         field:
