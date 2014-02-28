@@ -17,4 +17,4 @@ title: Untitled
 lang: en
 ---
 
-![Launch Test image](/media/launch-test.png)
+![Test RSF](/media/Screen%20Shot%202014-01-13%20at%2016.57.40.png)
