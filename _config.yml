@@ -103,6 +103,10 @@ prose:
           element: "hidden"
           label: "Version"
           value: ''
+      - name: "alert"
+        field:
+          element: "text"
+          label: "Alert Message"
     _posts/mobile:
       - name: "layout"
         field:
