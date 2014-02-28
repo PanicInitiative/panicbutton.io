@@ -21,4 +21,3 @@ fail:
   
 ---
 
-![Illustration](/media/mobile/panic_button_activation.gif)

@@ -8,7 +8,7 @@ title: "Prueba el disfraz"
 published: "true"
 categories: "mobile"
 tags: "mobile"
-introduction: "Intentalo ahora! Abre la aplicacion dandole un click al icono de la Calculadora!"
+introduction: "¡Inténtalo ahora! Abre la aplicacion dándole un click al ícono Calculate!"
 
 component: disguise-test-open
 timers:
