@@ -13,4 +13,4 @@ action:
     link: "setup-disguise-test-open"
 ---
 
-El Boton de Panico se mantiene escondido dentro de tu telefono apareciendo disfrazado como un simple calculadora. De ahora en adelante, veras el disfraz de calculadora cada vez que abras la aplicacion. Aprende como funciona. 
+El Botón de Pánico se mantiene oculto dentro de tu teléfono apareciendo disfrazado como una simple calculadora. De ahora en adelante, verás el disfraz de calculadora cada vez que abras la aplicación. Aprende cómo funciona. 
