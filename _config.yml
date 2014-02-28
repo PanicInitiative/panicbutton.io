@@ -45,10 +45,10 @@ prose:
           element: "text"
           label: "Sections heading"
           placeholder: "This is a heading"
-      - name: "section_order"
+      - name: "categories"
         field:
-          element: "number"
-          label: "Section Order"
+          element: "hidden"
+          label: "Posts categories"
     _posts/help:
       - name: "layout"
         field:
