@@ -29,7 +29,7 @@ prose:
           selected: "en"
       - name: "slug"
         field:
-          element: "hidden"
+          element: "text"
           label: "Slug"
           placeholder: "Short identifier"
       - name: "layout"
