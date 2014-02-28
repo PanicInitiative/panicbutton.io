@@ -47,7 +47,7 @@ $(document).ready(function() {
 
     var showCaptions = function () {
       var caption;
-      $('img').each(function () {
+      $('div#article img').each(function () {
         caption = $(this).attr('alt');
         if (caption !== '')
           // use .before to insert the caption before the image

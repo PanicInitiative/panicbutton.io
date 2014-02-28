@@ -28,18 +28,18 @@ layout: default
 		</div>
 		<div class="center"><div class="bar">&nbsp;</div></div>
 	</section>
-	{% assign toc = site.categories[page.toc] | sort section_order %}
-	{% for section in toc %}
-	<section id={{section.link}} class="content white container intcont mobnopad">
-	   	{% include module.html param="module_section_heading" %}
-	  	{% if section.toc %}
-	    	{% assign subsectiontoc = site.categories[section.toc] | sort section.section_order %}
-			{% for subsection in subsectiontoc %}
-				{% include module.html param="module_section_subsection" %}
-			{% endfor %}
-		{% endif %}
-	</section>
-	{% endfor %}
+	<div id="article">
+		{% assign toc = site.categories[page.toc] | sort section_order %}
+		{% for section in toc %}
+		   	{% include module.html param="module_section_heading" %}
+		  	{% if section.toc %}
+		    	{% assign subsectiontoc = site.categories[section.toc] | sort section.section_order %}
+				{% for subsection in subsectiontoc %}
+					{% include module.html param="module_section_subsection" %}
+				{% endfor %}
+			{% endif %}
+		{% endfor %}
+	</div>
 </div>
 
 {% for footer in site.categories.footer %}

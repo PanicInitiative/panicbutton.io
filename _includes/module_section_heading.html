@@ -1,29 +1,27 @@
 <section id="{{section.slug}}" class="white container header content intcont mobnopad">
-        <div class="col-lg-12 col-md-12 col-sm-12 center">
-              <div class="title" role="button"><strong>{{ section.heading }}</strong></div>
-        </div>
-        <div class="col-lg-12 col-md-12 col-sm-12">
-					{{ section.content  | s |  markdownify }}
-        </div>
-        <div class="clearfix"></div>
-        {% if section.image %}
-				<div class="col-3xs-12 col-4xs-12 article-img">
-            <img src="/images/{{section.image.src}}" alt="{{section.image.title}}" class="about-illus img-responsive block-center">
-				</div>
-				<div class="clearfix"></div>
-				<div class="img-fig">{{section.image.caption | s |  markdownify}}</div>
-				</div>
-				{% endif %}
-        <div class="clearfix"></div>
-        {% if section.alert %}
-				<div class="halert">
-        	<div class="exclam">!</div>
-            <div class="atext">
-            	{{section.alert}}
-            </div>
-            <div class="clearfix"></div>
-        </div>
-				{% endif %}
+    <div class="col-lg-12 col-md-12 col-sm-12 center">
+          <div class="title" role="button"><strong>{{ section.heading }}</strong></div>
     </div>
+    <div class="col-lg-12 col-md-12 col-sm-12">
+				{{ section.content  | s |  markdownify }}
+    </div>
+    <div class="clearfix"></div>
+    {% if section.image %}
+        <div class="col-3xs-12 col-4xs-12 article-img">
+            <img src="/images/{{section.image.src}}" alt="{{section.image.title}}" class="about-illus img-responsive block-center">
+		</div>
+		<div class="clearfix"></div>
+		<div class="img-fig">{{section.image.caption | s |  markdownify}}</div>
+	{% endif %}
+    <div class="clearfix"></div>
+    {% if section.alert %}
+			<div class="halert">
+    	<div class="exclam">!</div>
+        <div class="atext">
+        	{{section.alert}}
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    {% endif %}
     <div class="clearfix"></div>
 </section>
