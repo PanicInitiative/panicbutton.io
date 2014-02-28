@@ -19,6 +19,40 @@ prose:
   siteurl: 'http://teampanicbutton.github.io'
   media: 'media'
   metadata:
+    _posts/web:
+      - name: "lang"
+        field:
+          element: "select"
+          label: "Select language"
+          placeholder: "English"
+          options: *languages
+          selected: "en"
+      - name: "slug"
+        field:
+          element: "hidden"
+          label: "Slug"
+          placeholder: "Short identifier"
+      - name: "layout"
+        field:
+          element: "hidden"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Section's title"
+          placeholder: "This is a title"
+      - name: "heading"
+        field:
+          element: "text"
+          label: "Section's heading"
+          placeholder: "This is a heading"
+      - name: "section_order"
+        field:
+          element: "number"
+          label: "Section Order"
+      - name: "categories"
+        field:
+          element: "hidden"
+          label: "Post's categories"
     _posts/help:
       - name: "layout"
         field:
@@ -35,23 +69,6 @@ prose:
           placeholder: "English"
           options: *languages
           selected: "en"
-      - name: "heading"
-        field:
-          element: "text"
-          label: "Post's heading"
-          placeholder: "This is a heading"
-      - name: "toc"
-        field:
-          element: "hidden"
-          label: "Post's Table of Contents"
-      - name: "section_order"
-        field:
-          element: "number"
-          label: "Section Order"
-      - name: "categories"
-        field:
-          element: "hidden"
-          label: "Post's categories"
     _posts/mobile:
       - name: "layout"
         field:
