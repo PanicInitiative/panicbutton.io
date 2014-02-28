@@ -35,11 +35,11 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-      - name: "title"
+      - name: "heading"
         field:
           element: "text"
-          label: "Sections title"
-          placeholder: "This is a title"
+          label: "Sections heading"
+          placeholder: "This is a heading"
       - name: "section_order"
         field:
           element: "number"
