@@ -31,10 +31,11 @@ prose:
         field:
           element: "hidden"
           label: "Slug"
-          placeholder: "Short identifier"
+          value: ""
       - name: "layout"
         field:
           element: "hidden"
+          value: ""
       - name: "title"
         field:
           element: "text"
@@ -57,6 +58,7 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
+          value: ""
       - name: "title"
         field:
           element: "text"
@@ -78,6 +80,7 @@ prose:
         field:
           element: "hidden"
           label: "Post's Table of Contents"
+          value: ""
       - name: "section_order"
         field:
           element: "number"
@@ -86,6 +89,7 @@ prose:
         field:
           element: "hidden"
           label: "Post's categories"
+          value: ""
     _posts/mobile:
       - name: "layout"
         field:

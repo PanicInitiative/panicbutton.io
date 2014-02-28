@@ -1,5 +1,4 @@
 ---
-slug: "hello"
 layout: home_section_home
 heading: "Panic Button"
 published: true
