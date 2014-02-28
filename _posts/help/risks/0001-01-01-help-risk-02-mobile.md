@@ -6,11 +6,6 @@ title: "Safer mobile"
 heading: "Safer mobile"
 published: true
 categories: help help_risk
-image:
-  title: Safer Mobile
-  caption: Risk Two image caption
-  src: article-img-2.png
-alert: Alert Risk Two.
 section_order: 2
 
 ---

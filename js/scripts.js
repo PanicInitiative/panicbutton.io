@@ -45,4 +45,17 @@ $(document).ready(function() {
         }
     })
 
+    var showCaptions = function () {
+      var caption;
+      $('img').each(function () {
+        caption = $(this).attr('alt');
+        if (caption !== '')
+          // use .before to insert the caption before the image
+          $(this).wrap('<div class="about-illus img-responsive article-img">');
+          $(this).parent().after('<div class="clearfix"></div><div class="img-fig">' + caption + '</div>');
+      });
+    }
+
+    showCaptions();
+
 })

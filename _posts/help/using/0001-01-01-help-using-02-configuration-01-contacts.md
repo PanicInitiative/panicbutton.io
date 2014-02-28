@@ -7,10 +7,6 @@ title: "Setting Up Contacts"
 heading: "Setting Up Contacts"
 published: true
 categories: help help_using_configuration
-image:
-  title: Screenshot
-  caption: This is an image caption
-  src: article-img-1.png
 alert: Panic Button is not a replacement for regular contact. Communicate regularly with your network and keep them informed of your planned whereabouts.
 section_order: 1
 ---

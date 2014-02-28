@@ -7,11 +7,6 @@ title: "Create your alert message"
 heading: "Create your alert message"
 published: true
 categories: help help_using_configuration
-image:
-  title: Screenshot
-  caption: This is another image caption
-  src: article-img-2.png
-alert: Panic Button is not a replacement for regular contact. Communicate regularly with your network and keep them informed of your planned whereabouts.
 section_order: 2
 ---
 
@@ -24,3 +19,5 @@ Things to think about:
 - Remember to enable GPS in your phone settings if you want your location to be sent to your contacts with the alert.
 
 **IMAGE** Screenshot of message set-up with default text
+
+![This is another image caption](/media/article-img-2.png)

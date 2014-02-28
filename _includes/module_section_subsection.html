@@ -4,14 +4,6 @@
 						<strong>{% if subsection.heading %}{{ subsection.heading | markdownify}}{% endif %}</strong>
 					</div>
 					{% if subsection.content %}{{ subsection.content | markdownify }}{% endif %}
-	        {% if subsection.image %}
-					<div class="col-3xs-12 col-4xs-12 article-img">
-	            <img src="/images/{{subsection.image.src}}" alt="{{subsection.image.title}}" class="about-illus img-responsive block-center">
-					</div>
-					<div class="clearfix"></div>
-					<div class="img-fig">{{subsection.image.caption | markdownify}}</div>
-					</div>
-					{% endif %}
 	        <div class="clearfix"></div>
 	        {% if subsection.alert %}
 					<div class="halert">
