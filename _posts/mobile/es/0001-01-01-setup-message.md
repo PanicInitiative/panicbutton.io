@@ -13,7 +13,7 @@ warning: Make sure your contacts know what to do if they receive this message
 component: message
 action:
   - title: "Siguiente"
-  - link: "setup-code"
+    link: "setup-code"
 ---
 
 Tips de seguridad
