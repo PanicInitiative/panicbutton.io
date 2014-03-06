@@ -8,7 +8,7 @@ title: "Prueba el disfraz"
 published: "true"
 categories: "mobile"
 tags: "mobile"
-introduction: "Intentalo ahora! Presiona cualquier boton de la calculadora"
+introduction: "¡Inténtalo ahora! Mantén presionado cualquier botón de la calculadora. "
 component: disguise-test-unlock
 action: 
   - title: "Skip"
