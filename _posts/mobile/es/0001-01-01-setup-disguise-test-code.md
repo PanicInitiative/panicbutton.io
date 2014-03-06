@@ -8,7 +8,7 @@ title: "Prueba el disfraz"
 published: "true"
 categories: "mobile"
 tags: "mobile"
-introduction: "Bien hecho! Ahora escribe tu clave para acceder a configuraciones."
+introduction: "¡Bien hecho! Ahora ingresa tu clave para acceder a configuraciones."
 component: disguise-test-code
 action: 
   - title: "Ok"
