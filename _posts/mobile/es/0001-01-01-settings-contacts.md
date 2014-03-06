@@ -12,7 +12,7 @@ introduction: Estas son las personas que recibirán tu alerta.
 warning: Estas personas deberán de conocerte personalmente y ser capaces de responder rápidamente.
 component: contacts
 action:
-  - title: "Save"
+  - title: "Guardar"
     link: "home-ready"
 ---
 
