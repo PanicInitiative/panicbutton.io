@@ -13,4 +13,4 @@ action:
     link: "setup-alarm-test-disguise"
 ---
 
-De manera alterna, puedes activar la alerta directamente desde la pantalla de disfraz de tu aplicacion.
+De manera alterna, puedes activar la alerta directamente desde la pantalla disfrazada de calculadora en tu aplicación. 
