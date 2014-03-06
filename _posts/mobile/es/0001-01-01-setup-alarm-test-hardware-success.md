@@ -13,5 +13,5 @@ action:
     link: "setup-alarm-disguise"
 ---
 
-Tu prueba fue exitosa! En una emergencia real, tu alerta se enviara.
+¡Tu prueba fue exitosa! En una emergencia real, tu alerta se enviará
 
