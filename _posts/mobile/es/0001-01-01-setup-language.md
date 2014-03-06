@@ -4,7 +4,7 @@ layout: post
 lang: es
 slug: "setup-language"
 type: "interactive"
-title: "Configuraciones de Lenguage"
+title: "Configuraciones de lenguage"
 published: true
 categories: "mobile"
 tags: "mobile"
