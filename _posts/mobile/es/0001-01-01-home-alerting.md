@@ -4,7 +4,7 @@ layout: post
 lang: es
 slug: "home-alerting"
 type: "simple"
-title: "Boton de Panico"
+title: "Botón de Pánico"
 published: true
 categories: "mobile"
 tags: "mobile"
@@ -24,5 +24,5 @@ items:
      link: "help"
 ---
 
-El Boton de Panico se encuentra enviando mensajes de alerta. Oprime en Detener Alerta para cancelar los mensajes.
+El Botón de Pánico se encuentra enviando mensajes de alerta. Oprime en Detener Alerta para cancelar los mensajes.
 
