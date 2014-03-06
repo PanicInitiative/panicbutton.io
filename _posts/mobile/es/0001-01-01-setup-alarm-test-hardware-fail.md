@@ -13,6 +13,6 @@ action:
     link: "setup-alarm-test-hardware"
 ---
 
-Parece que la activacion de la alarma no tuvo exito al ser utilizada desde el boton de encender/apagar de tu telefono.
+Parece que la activación de la alarma desde el botón de encender/apagar de tu teléfono no tuvo éxito.
 
-Recuerda: Presiona repetidamente el boton de encender/apagar lo mas rapido posible hasta que sientas una vibracion. 
+Recuerda: Presiona el botón  de encender/apagar lo mas rápido posible hasta que sientas una vibración.  
