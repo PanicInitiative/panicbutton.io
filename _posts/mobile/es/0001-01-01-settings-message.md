@@ -4,12 +4,12 @@ layout: post
 lang: es
 slug: "settings-message"
 type: "interactive"
-title: "Crear el mensaje de alerta"
+title: "Crea tu mensaje de alerta"
 published: true
 categories: "mobile"
 tags: "mobile"
 introduction: Este será el mensaje que se enviará junto con tu ubicación.
-warning: Asegurate de que tus contactos sepan que hacer si reciben este mensaje.
+warning: Asegúrate de que tus contactos sepan que hacer si reciben este mensaje.
 component: message
 action:
   - title: "Guardar"
