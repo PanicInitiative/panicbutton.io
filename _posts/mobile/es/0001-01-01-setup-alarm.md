@@ -15,4 +15,4 @@ action:
 
 Ahora aprende cómo activar el Botón de Pánico en caso de una emergencia.
 
-El Botón de Pánico es único porque puedes activar la alerta desde el botón de encender/apagar de tu teléfono. Esto significa que puedes hacerlo en secreto- por ejemplo, desde el interior del bolsillo de tu chaqueta.
+El Botón de Pánico es único porque puedes activar la alerta desde el botón de encender/apagar de tu teléfono. Esto significa que puedes hacerlo en secreto- Por ejemplo, desde el interior del bolsillo de tu chaqueta.
