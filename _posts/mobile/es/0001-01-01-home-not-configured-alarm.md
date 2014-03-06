@@ -9,11 +9,11 @@ published: true
 categories: "mobile"
 tags: "mobile"
 status:
-  - title: "Instalacion incompleta"
+  - title: "Instalación en proceso"
     color: red
     link: help-not-configured
 action:
-  - title: "Configuraciones basicas"
+  - title: "Configuraciones Básicas"
     link: ""
     status: checked
   - title: "Instalar Alerta"
@@ -30,4 +30,4 @@ items:
      link: "setup-language"
 ---
 
-No puedes hacer uso del Boton de Panico hasta que este completamente instalado.
+No podrás hacer uso del Boton de Pánico hasta que el proceso de instalación haya sido completado.
