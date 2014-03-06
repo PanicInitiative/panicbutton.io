@@ -13,4 +13,4 @@ action:
     link: "home-ready"
 ---
 
-¡Felicidades! Lograste instalar la aplicación del Botón de Pánico exitosamente!
+¡Felicidades! ¡Lograste instalar la aplicación del Botón de Pánico exitosamente!
