@@ -24,4 +24,4 @@ items:
      link: "help"
 ---
 
-Panic Button is set-up and ready. Click Disguise to exit and hide the application.
+El Botón de Pánico está instalado y listo para usarse en caso de emergencia. Presiona Disfrazar para salir y ocultar la aplicación. 
