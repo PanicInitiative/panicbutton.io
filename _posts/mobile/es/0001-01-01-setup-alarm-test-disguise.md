@@ -8,7 +8,7 @@ title: "Test Disguised Alarm"
 published: "true"
 categories: "mobile"
 tags: "mobile"
-introduction: "Intenta ahora! Presiona repetidamente un mismo boton de la calculadora lo mas rapido posible hasta que sientas una vibracion."
+introduction: "¡Intenta ahora! Presiona repetidamente un mismo botón de la calculadora lo mas rápido posible hasta que sientas una vibración."
 component: alarm-test-disguise
 timers:
   info: "0"
