@@ -8,7 +8,7 @@ title: "Configuraciones de Lenguage"
 published: true
 categories: "mobile"
 tags: "mobile"
-introduction: Escoje un lenguaje para la aplicacion.
+introduction: Selecciona un lenguaje para la aplicación.
 component: language
 action:
   - title: "Ingles"
