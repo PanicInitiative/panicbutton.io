@@ -24,5 +24,5 @@ items:
      link: "help"
 ---
 
-El Botón de Pánico se encuentra enviando mensajes de alerta. Oprime en Detener Alerta para cancelar los mensajes.
+El Botón de Pánico se encuentra enviando mensajes de alerta cada 5 minutos. Presiona Detener Alerta para cancelar los mensajes.
 
