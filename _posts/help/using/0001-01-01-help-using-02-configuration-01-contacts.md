@@ -2,11 +2,12 @@
 layout: post
 module: page_subsection
 lang: en
+version: 1
 slug: "help_using_installation_contacts"
 title: "Setting Up Contacts"
 heading: "Setting Up Contacts"
 published: true
-categories: help help_using_configuration
+categories: help_using_configuration
 alert: Panic Button is not a replacement for regular contact. Communicate regularly with your network and keep them informed of your planned whereabouts.
 section_order: 1
 ---

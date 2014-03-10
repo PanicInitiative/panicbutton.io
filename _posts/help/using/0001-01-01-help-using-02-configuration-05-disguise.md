@@ -2,11 +2,12 @@
 layout: post
 module: page_subsection
 lang: en
+version: 1
 slug: "help_using_installation_disguise"
 title: "Activate disguise"
 heading: "Activate disguise"
 published: true
-categories: help help_using_configuration
+categories: help_using_configuration
 section_order: 5
 ---
 

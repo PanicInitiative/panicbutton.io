@@ -1,11 +1,12 @@
 ---
 layout: post
 lang: en
+version: 1
 slug: "help_risk_mobile"
 title: "Safer mobile"
 heading: "Safer mobile"
 published: true
-categories: help help_risk
+categories: help_risk
 section_order: 2
 
 ---
