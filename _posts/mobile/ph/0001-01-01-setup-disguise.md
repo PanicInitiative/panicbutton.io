@@ -1,5 +1,5 @@
 ---
-version: 5
+version: 1
 layout: post
 lang: ph
 slug: "setup-disguise"

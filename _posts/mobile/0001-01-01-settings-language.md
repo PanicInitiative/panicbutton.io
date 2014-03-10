@@ -1,5 +1,5 @@
 ---
-version: 6
+version: 1
 layout: post
 lang: en
 slug: "settings-language"

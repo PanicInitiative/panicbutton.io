@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en
-version: 2
+version: 1
 slug: "help_using_faq"
 title: "Frequently Ask Questions"
 heading: "Frequently Ask Questions"
