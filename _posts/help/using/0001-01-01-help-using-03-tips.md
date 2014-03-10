@@ -2,7 +2,7 @@
 layout: post
 lang: en
 version: 1
-slug: "help_using_installation"
+slug: "help_using_tips"
 title: "Tips for testing"
 heading: "Tips for testing"
 published: true
