@@ -3,7 +3,7 @@ layout: post
 module: page_subsection
 lang: en
 version: 1
-slug: "help_using_installation_code"
+slug: "help_using_configuration_code"
 title: "Create pin code"
 heading: "Create pin code"
 published: true

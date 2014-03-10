@@ -3,7 +3,7 @@ layout: post
 module: page_subsection
 lang: en
 version: 1
-slug: "help_using_installation_contacts"
+slug: "help_using_configuration_contacts"
 title: "Setting Up Contacts"
 heading: "Setting Up Contacts"
 published: true
