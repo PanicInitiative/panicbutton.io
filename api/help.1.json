@@ -7,6 +7,7 @@
     {
       "id" : "help",
       "lang" : "en",
+      "type" : "simple",
       "title" : "Help",
       "items" : [{% assign idx2 = 0 %}{% assign count2 = 0 %}{% for index in indexlist %}{% if index.lang == lang %}{% if index.version == version %}{% assign count2 = count2 | plus: '1' %}{% endif %}{% endif %}{% endfor %}
         {% for index in indexlist %}{% if index.lang == lang %}{% if index.version == version %}{% assign idx2 = idx2 | plus: '1' %}{
@@ -18,6 +19,7 @@
     {
       "id" : "{{index.slug}}",
       "lang" : "{{index.lang}}",
+      "type" : "simple",
       "title" : "{{index.title}}"{% if index.heading %},
       "heading" : "{{index.heading}}"{% endif %}{% if index.section_order %},
       "section_order" : "{{index.section_order}}"{% endif %}{% if index.image %},
@@ -34,6 +36,7 @@
     {
       "id" : "{{page.slug}}",
       "lang" : "{{page.lang}}",
+      "type" : "simple",
       "title" : "{{page.title}}"{% if page.heading %},
       "heading" : "{{page.heading}}"{% endif %}{% if page.section_order %},
       "section_order" : "{{page.section_order}}"{% endif %}{% if page.image %},
@@ -50,6 +53,7 @@
     {
       "id" : "{{subpage.slug}}",
       "lang" : "{{subpage.lang}}",
+      "type" : "simple",
       "title" : "{{subpage.title}}"{% if subpage.heading %},
       "heading" : "{{subpage.heading}}"{% endif %}{% if subpage.section_order %},
       "section_order" : "{{subpage.section_order}}"{% endif %}{% if subpage.image %},

@@ -7,6 +7,7 @@
     {% assign indexlist = site.categories.help | sort section_order %}{% for index in indexlist %}{% if index.lang == lang %}{% if index.version == version %}{% assign idx = idx | plus: '1' %}{
       "id" : "{{index.slug}}",
       "lang" : "{{index.lang}}",
+      "type" : "simple",
       "title" : "{{index.title}}"{% if index.heading %},
       "heading" : "{{index.heading}}"{% endif %}{% if index.section_order %},
       "section_order" : "{{index.section_order}}"{% endif %}{% if index.image %},
@@ -22,6 +23,7 @@
     }{% unless idx == count %},{% endunless %}{% endif %}{% endif %}{% assign pagelist = site.categories[index.toc] | sort section_order %}{% for page in pagelist %}{% if page.lang == lang %}{% if page.version == version %}{% assign idx = idx | plus: '1' %}{
       "id" : "{{page.slug}}",
       "lang" : "{{page.lang}}",
+      "type" : "simple",
       "title" : "{{page.title}}"{% if page.heading %},
       "heading" : "{{page.heading}}"{% endif %}{% if page.section_order %},
       "section_order" : "{{page.section_order}}"{% endif %}{% if page.image %},
@@ -37,6 +39,7 @@
     }{% unless idx == count %},{% endunless %}{% endif %}{% endif %}{% if page.toc %}{% assign subpagelist = site.categories[page.toc] | sort section_order %}{% for subpage in subpagelist %}{% if subpage.lang == lang %}{% if subpage.version == version %}{% assign idx = idx | plus: '1' %}{
       "id" : "{{subpage.slug}}",
       "lang" : "{{subpage.lang}}",
+      "type" : "simple",
       "title" : "{{subpage.title}}"{% if subpage.heading %},
       "heading" : "{{subpage.heading}}"{% endif %}{% if subpage.section_order %},
       "section_order" : "{{subpage.section_order}}"{% endif %}{% if subpage.image %},
