@@ -15,6 +15,4 @@ action:
     language: "en"
   - title: "Español"
     language: "es"
-  - title: "Filipino"
-    language: "ph"
 ---
