@@ -21,4 +21,4 @@ fail:
   
 ---
 
-![](/media/panic_button_activation.png)
+![](/media/mobile/panic_button_activation.png)
