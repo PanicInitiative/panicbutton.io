@@ -20,3 +20,4 @@ fail:
   link: "setup-alarm-test-hardware-fail"
   
 ---
+![](/media/panic_button_activation.png)
