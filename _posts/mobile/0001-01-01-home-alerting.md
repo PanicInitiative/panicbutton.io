@@ -1,5 +1,5 @@
 ---
-version: 1
+version: 2
 layout: post
 lang: en
 slug: "home-alerting"
