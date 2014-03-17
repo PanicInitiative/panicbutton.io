@@ -19,7 +19,7 @@ items:
   -  title: "Settings"
      link: "settings"
   -  title: "About"
-     link: "about"
+     link: "setup-about"
   -  title: "Help"
      link: "help"
 ---
