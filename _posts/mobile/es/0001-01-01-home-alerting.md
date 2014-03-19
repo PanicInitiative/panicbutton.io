@@ -1,10 +1,10 @@
 ---
-version: 5
+version: 2
 layout: post
 lang: es
 slug: "home-alerting"
 type: "simple"
-title: "Boton de Panico"
+title: "Botón de Pánico"
 published: true
 categories: "mobile"
 tags: "mobile"
@@ -15,14 +15,7 @@ status:
 action:
   - title: "Detener Alerta"
     link: "home-ready"
-items:
-  -  title: "Settings"
-     link: "settings"
-  -  title: "About"
-     link: "about"
-  -  title: "Help"
-     link: "help"
 ---
 
-El Boton de Panico se encuentra enviando mensajes de alerta. Oprime en Detener Alerta para cancelar los mensajes.
+El Botón de Pánico se encuentra enviando mensajes de alerta cada 5 minutos. Presiona Detener Alerta para cancelar los mensajes.
 

@@ -1,11 +1,12 @@
 ---
 layout: post
 lang: en
+version: 1
 slug: "help_risk_assessing"
 title: "Assessing your risk"
 heading: "Assessing your risk"
 published: true
-categories: help help_risk
+categories: help_risk
 toc: help_risk_assessing
 section_order: 1
 

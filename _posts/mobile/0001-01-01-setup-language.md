@@ -1,5 +1,5 @@
 ---
-version: 5
+version: 1
 layout: post
 lang: en
 slug: "setup-language"
@@ -15,6 +15,4 @@ action:
     language: "en"
   - title: "Español"
     language: "es"
-  - title: "Filipino"
-    language: "ph"
 ---

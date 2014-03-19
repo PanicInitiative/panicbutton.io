@@ -1,5 +1,5 @@
 ---
-version: 5
+version: 1
 layout: post
 lang: es
 slug: "home-not-configured"
@@ -18,4 +18,4 @@ items:
     link: "setup-language"
 ---
 
-![Illustration](/media/mobile/home-not-configured-small.png) El Boton de Panico convierte tu telefono movil en una alarma secreta para que tus contactos mas confiables pueden actuar si te encuentres en riesgo.
+![Illustration](/media/mobile/home-not-configured-small.png) El Botón de Pánico convierte tu teléfono móvil en una alarma secreta para que tus contactos mas confiables puedan actuar si te encuentres en riesgo.

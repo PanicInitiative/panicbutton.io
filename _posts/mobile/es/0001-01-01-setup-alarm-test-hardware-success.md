@@ -1,5 +1,5 @@
 ---
-version: 5
+version: 1
 layout: post
 lang: es
 slug: "setup-alarm-test-hardware-success"
@@ -13,5 +13,5 @@ action:
     link: "setup-alarm-disguise"
 ---
 
-Tu prueba fue exitosa! En una emergencia real, tu alerta se enviara.
+¡Tu prueba fue exitosa! En una emergencia real, tu alerta se enviará
 

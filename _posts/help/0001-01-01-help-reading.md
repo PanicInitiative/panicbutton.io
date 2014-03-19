@@ -1,5 +1,6 @@
 ---
 lang: en
+version: 1
 slug: "help_reading"
 layout: post
 title: "Reading List"
@@ -7,7 +8,8 @@ published: true
 parent:
   title: Help
   link: help.html
-categories: help help-sections
+categories: help
+section_order: 3
 ---
 
 Here's a reading list:

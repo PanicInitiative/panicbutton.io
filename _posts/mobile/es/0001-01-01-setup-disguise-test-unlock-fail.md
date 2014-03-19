@@ -1,5 +1,5 @@
 ---
-version: 5
+version: 1
 layout: post
 lang: es
 slug: "setup-disguise-test-unlock-fail"
@@ -13,7 +13,7 @@ action:
     link: "setup-disguise-test-open"
 ---
 
-Parece que no se logro ablir la aplicacion desde la el disfraz de Calculadora.
+Parece que no se logró abrir la aplicación desde el disfraz de Calculate!
 
-Recuerda: Manten presionado cualquier boton y despues se requerira que escribas tu clave.
+Recuerda: Mantén presionado cualquier botón y despues necesitarás ingresar tu clave.
 

@@ -1,5 +1,5 @@
 ---
-version: 5
+version: 1
 layout: post
 lang: es
 slug: "settings-language"
@@ -8,13 +8,11 @@ title: "Configuraciones de Lenguage"
 published: true
 categories: "mobile"
 tags: "mobile"
-introduction: Escoje un lenguaje para la aplicacion.
+introduction: Selecciona un lenguaje para la aplicación.
 component: language
 action:
   - title: "Ingles"
     language: "en"
   - title: "Español"
     language: "es"
-  - title: "Filipino"
-    language: "ph"
 ---

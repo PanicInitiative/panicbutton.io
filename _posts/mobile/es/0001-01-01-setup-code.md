@@ -1,5 +1,5 @@
 ---
-version: 5
+version: 1
 layout: post
 lang: es
 slug: "setup-code"
@@ -8,8 +8,8 @@ title: "Crear una clave"
 published: true
 categories: "mobile"
 tags: "mobile"
-introduction: Esta clave es necesaria para acceder a configuraciones de la aplicacion. No se necesita para enviar alerta a tus contactos en caso de emergencia.
-warning: Recuerda tu clave! Si la olvidas necesitaras re-instalar la aplicacion.
+introduction: Esta clave es necesaria para acceder a las configuraciones de la aplicación. No se necesita para enviar alerta a tus contactos en caso de emergencia.
+warning:  ¡Recuerda tu clave! Si la olvidas necesitarás re-instalar la aplicación.
 component: code
 action:
   - title: "Siguiente"

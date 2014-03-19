@@ -1,10 +1,10 @@
 ---
-version: 5
+version: 1
 layout: post
 lang: es
 slug: "setup-disguise-test-success"
 type: "simple"
-title: "Bien hecho!"
+title: "¡Bien hecho!"
 published: "true"
 categories: "mobile"
 tags: "mobile"
@@ -13,4 +13,4 @@ action:
     link: "home-ready"
 ---
 
-Felicidades! Lograste instalar la apliacion de Boton de Panico exitosamente!
+¡Felicidades! ¡Lograste instalar la aplicación del Botón de Pánico exitosamente!

@@ -1,5 +1,5 @@
 ---
-version: 5
+version: 1
 layout: post
 lang: en
 slug: "home-ready"
@@ -19,7 +19,7 @@ items:
   -  title: "Settings"
      link: "settings"
   -  title: "About"
-     link: "about"
+     link: "setup-about"
   -  title: "Help"
      link: "help"
 ---

@@ -1,5 +1,5 @@
 name: Panic Button
-version: 7
+version: 2
 markdown: redcarpet
 pygments: true
 permalink: /:categories/:title.html

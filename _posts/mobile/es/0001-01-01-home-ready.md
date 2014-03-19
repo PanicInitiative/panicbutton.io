@@ -1,5 +1,5 @@
 ---
-version: 5
+version: 1
 layout: post
 lang: es
 slug: "home-ready"
@@ -19,9 +19,9 @@ items:
   -  title: "Settings"
      link: "settings"
   -  title: "About"
-     link: "about"
+     link: "setup-about"
   -  title: "Help"
      link: "help"
 ---
 
-Panic Button is set-up and ready. Click Disguise to exit and hide the application.
+El Botón de Pánico está instalado y listo para usarse en caso de emergencia. Presiona Disfrazar para salir y ocultar la aplicación. 

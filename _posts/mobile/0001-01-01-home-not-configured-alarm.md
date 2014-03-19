@@ -1,5 +1,5 @@
 ---
-version: 5
+version: 1
 layout: post
 lang: en
 slug: "home-not-configured-alarm"
@@ -25,7 +25,7 @@ items:
   -  title: "About"
      link: "setup-about"
   -  title: "Help"
-     link: "setup-help"
+     link: "help"
   -  title: "Language Settings"
      link: "setup-language"
 ---

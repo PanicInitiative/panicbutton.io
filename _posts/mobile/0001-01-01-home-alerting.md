@@ -1,5 +1,5 @@
 ---
-version: 5
+version: 2
 layout: post
 lang: en
 slug: "home-alerting"
@@ -15,13 +15,6 @@ status:
 action:
   - title: "Stop Alerting"
     link: "home-ready"
-items:
-  -  title: "Settings"
-     link: "settings"
-  -  title: "About"
-     link: "about"
-  -  title: "Help"
-     link: "help"
 ---
 
 Panic Button is currently sending alert messages. Click Stop Alerting to cancel messages. 

@@ -1,10 +1,10 @@
 ---
-version: 5
+version: 1
 layout: post
 lang: es
 slug: "checklist"
 type: "modal"
-title: "lista de verificación"
+title: "Lista de verificación"
 published: "true"
 categories: "mobile"
 tags: "mobile"
@@ -17,9 +17,9 @@ action:
 checklist:
   - title: "Revisar plan de seguridad y actualizar contactos regularmente"
   - title: "Prueba la alerta para asegurarte que funcione"
-  - title: "Asegurate de tener suficiente credito en tu telefono movil"
-  - title: "Activa el GPS (si deseas que tu ubicacion se incluya en el mensaje)"
-  - title: "Carga la bateria de tu telefono completamente"
+  - title: "Asegurate de tener suficiente crédito en tu teléfono móvil"
+  - title: "Activa el GPS (si deseas que tu ubicación se incluya en el mensaje)"
+  - title: "Carga la batería de tu teléfono completamente"
 ---
 
 More [security tips...](#help-charge)

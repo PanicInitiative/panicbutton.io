@@ -2,11 +2,12 @@
 layout: post
 module: page_subsection
 lang: en
-slug: "help_using_installation_alert_messages"
+version: 1
+slug: "help_using_configuration_alert_messages"
 title: "Create your alert message"
 heading: "Create your alert message"
 published: true
-categories: help help_using_configuration
+categories: help_using_configuration
 section_order: 2
 ---
 

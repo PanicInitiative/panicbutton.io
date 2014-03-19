@@ -1,5 +1,5 @@
 ---
-version: 5
+version: 1
 layout: post
 lang: es
 slug: "setup-alarm-test-disguise-fail"
@@ -13,6 +13,6 @@ action:
     link: "setup-alarm-test-disguise"
 ---
 
-Parece que la activacion de la alarma no tuvo exito.
+Parece que la activación de la alarma no tuvo éxito.
 
-Recuerda: Presiona repetidamente un mismo boton de la calculadora lo mas rapido posible hasta que sientas una vibracion. 
+Recuerda: Presiona repetidamente un mismo botón de la calculadora lo mas rápido posible hasta que sientas una vibración. 

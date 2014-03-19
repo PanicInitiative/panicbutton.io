@@ -1,5 +1,5 @@
 ---
-version: 5
+version: 1
 layout: post
 lang: es
 slug: "setup-disguise-test-open"
@@ -8,7 +8,7 @@ title: "Prueba el disfraz"
 published: "true"
 categories: "mobile"
 tags: "mobile"
-introduction: "¡Inténtalo ahora! Abre la aplicacion dándole un click al ícono Calculate!"
+introduction: "¡Inténtalo ahora! Abre la aplicación dándole un click al ícono Calculate!"
 
 component: disguise-test-open
 timers:
