@@ -1,7 +1,7 @@
 ---
 version: 3
 layout: post
-lang: en
+lang: es
 slug: "settings-alert"
 type: "interactive"
 title: "Alert settings"
