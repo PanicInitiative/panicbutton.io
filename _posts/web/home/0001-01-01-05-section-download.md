@@ -16,6 +16,6 @@ downloads:
     description: 
   - download: View the Source Code on **Github**.
     label: View Source Code
-    link: https://github.org/TeamPanicButton/PanicButton
+    link: https://github.com/TeamPanicButton/PanicButton
 
 ---
