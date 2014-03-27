@@ -14,6 +14,8 @@ languages: &languages
     value: 'en'
   - name: 'Español'
     value: 'es'
+  - name: 'Français'
+    value: 'fr'
 prose:
   rooturl: '_posts'
   siteurl: 'https://panicbutton.iilab.org'

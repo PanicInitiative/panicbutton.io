@@ -1,0 +1,25 @@
+---
+---
+{% assign lang = 'fr' %}{% assign version = 7 %}{% assign idx = 0 %}{% assign count = 0 %}{% for pst in site.categories.mobile %}{% if pst.lang == lang %}{% if pst.version == version %}{% assign count = count | plus: '1' %}{% endif %}{% endif %}{% endfor %}{
+  "mobile": {
+    "version" : {{ version }},
+    "data":[{% for post in site.categories.mobile %}{% if post.lang == lang %}{% if post.version == version %}{% assign idx = idx | plus: '1' %}
+    {
+      "id" : "{{post.slug}}",
+      "lang" : "{{post.lang}}",
+      "type" : "{{post.type}}",
+      "title" : "{{post.title}}"{% if post.status %},
+      "status" : {{post.status | jsonify}}{% endif %}{% if post.introduction %},
+      "introduction" : "{{post.introduction}}"{% endif %}{% if post.warning %},
+      "warning" : "{{post.warning}}"{% endif %}{% if post.component %},
+      "component" : "{{post.component}}"{% endif %}{% if post.timers %},
+      "timers" : {{post.timers | jsonify}}{% endif %}{% if post.action %},
+      "action" : {{post.action | jsonify}}{% endif %}{% if post.success %},
+      "success" : {{post.success | jsonify}}{% endif %}{% if post.fail %},
+      "fail" : {{post.fail | jsonify}}{% endif %}{% if post.checklist %},
+      "checklist" : {{post.checklist | jsonify}}{% endif %}{% if post.items %},
+      "items" : {{post.items | jsonify }}{% endif %}{% if post.content != '' %},
+      "content" : {{post.content | strip_newlines | jsonify}}{% endif %}
+    }{% unless idx == count %},{% endunless %}{% endif %}{% endif %}{% endfor %}]
+  }
+}

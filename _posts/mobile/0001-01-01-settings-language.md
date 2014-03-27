@@ -15,4 +15,6 @@ action:
     language: "en"
   - title: "Español"
     language: "es"
+  - title: "Français"
+    language: "fr"
 ---
