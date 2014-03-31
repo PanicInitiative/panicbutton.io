@@ -18,7 +18,7 @@ languages: &languages
     value: 'fr'
 prose:
   rooturl: '_posts'
-  siteurl: 'https://panicbutton.iilab.org'
+  siteurl: 'https://panicalert.org'
   media: 'media'
   metadata:
     _posts/web:
