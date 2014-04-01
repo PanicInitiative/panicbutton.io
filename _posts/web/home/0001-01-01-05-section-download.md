@@ -8,7 +8,7 @@ section_order: 5
 downloads:
 - download: Contact Us to join the <br/>Panic Button **Private Beta**
   label: Join the Private Beta
-  link: mailto:beta@panicalert.org
+  link: mailto:beta@panicbutton.io
   description: (Let us know about why you'd like to join the beta)
 - download: Download Panic Button from<br/>**Google Play.**
   label: Download from GOOGLE.
