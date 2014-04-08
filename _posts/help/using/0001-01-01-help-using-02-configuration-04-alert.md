@@ -15,6 +15,7 @@ section_order: 4
 There are two ways to trigger the alert. Learn and practise by following the app set-up wizard! When you have learnt how it works, practise trying to trigger the alert in different situations: on a bus, in the office, in the dark. That way you will be confident to trigger the alert in a real emergency.
 
 _**1.	The power button**_
+
 Panic Button is unique because you can trigger the alert from the phone's power button. This means you can do it secretly - for example, from inside a jacket pocket. 
 
 To trigger the alert repeatedly press the power button fast until you feel a vibration.
