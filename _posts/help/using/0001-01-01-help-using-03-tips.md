@@ -16,4 +16,4 @@ It might sound obvious but its important that you learn and practice how to trig
 
 We recommend doing a dry run of the alert with your contacts. You could try this as a game to practice triggering the alert at unexpected moments. For example, you could agree that for one day every time you see a red car you will trigger the alert as fast as possible. You can then time how long it takes for your contacts to see the alert and respond. 
 
-At the end of the day, meet with your contact and debrief about what worked and what could be improved to ensure you are all prepared to act in a real emergency. 
+At the end of the day, meet with your contacts and debrief about what worked and what could be improved to ensure you are all prepared to act in a real emergency.
