@@ -14,6 +14,6 @@ section_order: 3
 
 Create a four digit pincode that you will remember. This pincode is needed to access the app settings and keep your emergency contact details & messages private. 
 
-**Be aware that your pin code will not be needed to trigger the alerts in an emergency!**
+**Your pin code will not be needed to trigger the alerts in an emergency!**
 
 It is important you remember your pincode. If you forget it you will need to reinstall the app and start all over again with the set-up!
