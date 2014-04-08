@@ -12,7 +12,7 @@ published: true
 section_order: 4
 ---
 
-1##I’ve downloaded the app but I can’t find the app on my phone, where is it?
+1. ## I’ve downloaded the app but I can’t find the app on my phone, where is it?
 
 Search amongst your apps for a new one app with the PB icon. This icon will show until you have finished setting up the app, after which it will be appear with the Calculate! icon.
 
