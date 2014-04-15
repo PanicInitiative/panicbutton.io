@@ -13,7 +13,6 @@ action:
     link: "setup-alarm-test-hardware"
 ---
 
-Ahora aprende cómo activar el Botón de Pánico en caso de una emergencia.
-
 Apprenez à activer le Bouton d'urgence en situation d'urgence. 
+
 Le Bouton d'urgence est unique en son genre car vous pouvez l'activer grâce au bouton marche/arrêt de votre téléphone. Vous pouvez le faire discrètement, par exemple dans la poche de votre veste. 
