@@ -4,14 +4,14 @@ layout: post
 lang: fr
 slug: "setup-disguise-test-unlock"
 type: "interactive"
-title: "Prueba el disfraz"
+title: "Tester le camouflage"
 published: "true"
 categories: "mobile"
 tags: "mobile"
-introduction: "¡Inténtalo ahora! Mantén presionado cualquier botón de la calculadora. "
+introduction: "Essayez ! Appuyez sur n'importe quel bouton de la calculatrice."
 component: disguise-test-unlock
 action: 
-  - title: "Skip"
+  - title: "Passer"
     link: "setup-disguise-test-code"
 timers:
   info: "0"
