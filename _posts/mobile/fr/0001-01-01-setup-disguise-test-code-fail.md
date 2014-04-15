@@ -4,16 +4,16 @@ layout: post
 lang: fr
 slug: "setup-disguise-test-unlock-fail"
 type: "simple"
-title: "Instalar el disfraz"
+title: "Configurer le camouflage"
 published: "true"
 categories: "mobile"
 tags: "mobile"
 action: 
-  - title: "Try Again"
+  - title: "Réessayer"
     link: "setup-disguise-test-unlock"
 ---
 
-Parece que no se logró abrir la aplicación desde el disfraz de Calculate!
+Il semble que vous n'ayez pas pu ouvrir l'application depuis le camouflage Calculate! 
 
-Recuerda: Mantén presionado cualquier botón y despues necesitarás ingresar tu clave.
+N'oubliez pas : appuyez sur n'importe quel bouton et un message vous demandera d'entrer votre code de sécurité.
 
