@@ -4,7 +4,7 @@ layout: post
 lang: fr
 slug: "setup-disguise-test-code"
 type: "interactive"
-title: "Prueba el disfraz"
+title: "Tester le camouflage"
 published: "true"
 categories: "mobile"
 tags: "mobile"
