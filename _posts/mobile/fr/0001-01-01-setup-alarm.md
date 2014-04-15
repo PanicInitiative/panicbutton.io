@@ -4,15 +4,16 @@ layout: post
 lang: fr
 slug: "setup-alarm"
 type: "simple"
-title: "Instalar Alerta"
+title: "Configurer l'alerte "
 published: "true"
 categories: "mobile"
 tags: "mobile"
 action: 
-  - title: "Aprende"
+  - title: "Apprendre"
     link: "setup-alarm-test-hardware"
 ---
 
 Ahora aprende cómo activar el Botón de Pánico en caso de una emergencia.
 
-El Botón de Pánico es único porque puedes activar la alerta desde el botón de encender/apagar de tu teléfono. Esto significa que puedes hacerlo en secreto- Por ejemplo, desde el interior del bolsillo de tu chaqueta.
+Apprenez à activer le Bouton d'urgence en situation d'urgence. 
+Le Bouton d'urgence est unique en son genre car vous pouvez l'activer grâce au bouton marche/arrêt de votre téléphone. Vous pouvez le faire discrètement, par exemple dans la poche de votre veste. 
