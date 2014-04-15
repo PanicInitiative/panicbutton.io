@@ -4,13 +4,13 @@ layout: post
 lang: fr
 slug: "setup-alarm-disguise"
 type: "simple"
-title: "Instalar Alerta"
+title: "Configurer l'alerte"
 published: "true"
 categories: "mobile"
 tags: "mobile"
 action: 
-  - title: "Learn"
+  - title: "Apprendre"
     link: "setup-alarm-test-disguise"
 ---
 
-De manera alterna, puedes activar la alerta directamente desde la pantalla disfrazada de calculadora en tu aplicación. 
+Vous pouvez également lancer une alerte depuis l'écran de camouflage de l'application. 
