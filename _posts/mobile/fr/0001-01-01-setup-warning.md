@@ -4,13 +4,13 @@ layout: post
 lang: fr
 slug: "setup-warning"
 type: "warning"
-title: "Atención"
+title: "Avertissement"
 published: "true"
 categories: "mobile"
 tags: "mobile"
 action: 
-  - title: "Iniciar"
+  - title: "Commencer"
     link: "setup-contacts"
 ---
 
-El Botón de Pánico es una herramienta útil para avisar rápidamente a tus contactos cuando necesitas ayuda. No puede garantizar tu seguridad por lo cual debes de elaborar un plan con tus contactos seleccionados para que puedan estar preparados y actuar rápido.  
+Le Bouton d'urgence est un outil pratique qui sert à alerter rapidement votre réseau quand vous avez besoin d'aide. Il ne peut pas garantir votre sécurité ! Élaborez une stratégie avec vos contacts afin qu'ils soient prêts à agir vite. 
