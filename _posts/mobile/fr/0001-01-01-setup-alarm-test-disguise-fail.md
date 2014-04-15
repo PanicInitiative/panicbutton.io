@@ -4,15 +4,15 @@ layout: post
 lang: fr
 slug: "setup-alarm-test-disguise-fail"
 type: "simple"
-title: "Instalar Alerta"
+title: "Configurer l'alerte"
 published: "true"
 categories: "mobile"
 tags: "mobile"
 action: 
-  - title: "Try Again"
+  - title: "Réessayer"
     link: "setup-alarm-test-disguise"
 ---
 
-Parece que la activación de la alarma no tuvo éxito.
+Il semble que vous n'ayez pas réussi à déclencher l'alerte.
 
-Recuerda: Presiona repetidamente un mismo botón de la calculadora lo mas rápido posible hasta que sientas una vibración. 
+N'oubliez pas : appuyez plusieurs fois rapidement sur une touche de la calculatrice jusqu'à ce que le téléphone vibre. 
