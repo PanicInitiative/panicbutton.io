@@ -4,16 +4,16 @@ layout: post
 lang: fr
 slug: "setup-disguise-test-open-fail"
 type: "simple"
-title: "Instalar el disfraz"
+title: "Configurer le camouflage"
 published: "true"
 categories: "mobile"
 tags: "mobile"
 action: 
-  - title: "Try Again"
+  - title: "Réessayer"
     link: "setup-disguise-test-open"
 ---
 
-Parece que no se logro ablir la aplicacion desde la el disfraz de Calculadora!
+Il semble que vous n'ayez pas pu ouvrir l'application depuis le camouflage Calculate! 
 
-Recuerda: Manten presionado cualquier boton y despues se requerira que escribas tu clave.
+N'oubliez pas: appuyez sur n'importe quel bouton et un message vous demandera d'entrer votre code de sécurité.
 
