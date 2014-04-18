@@ -9,7 +9,7 @@ published: "true"
 categories: "mobile"
 tags: "mobile"
 action: 
-  - title: "Next"
+  - title: "Siguiente"
     link: "home-not-configured-disguise"
 ---
 
