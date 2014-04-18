@@ -9,18 +9,18 @@ published: true
 categories: "mobile"
 tags: "mobile"
 status:
-  - title: "Ready"
+  - title: "Botón de Pánico esta lista usar"
     color: green
     link: help-ready
 action:
-  - title: "Disguise"
+  - title: "Disfrazar"
     link: "checklist"
 items:
-  -  title: "Settings"
+  -  title: "Conguraciones"
      link: "settings"
-  -  title: "About"
+  -  title: "Sobre el Botón de Pánico"
      link: "setup-about"
-  -  title: "Help"
+  -  title: "Ayudar"
      link: "help"
 ---
 
