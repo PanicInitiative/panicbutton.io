@@ -11,7 +11,7 @@ tags: "mobile"
 introduction: "¡Bien hecho! Ahora ingresa tu clave para acceder a configuraciones."
 component: disguise-test-code
 action: 
-  - title: "Ok"
+  - title: "OK"
     link: "setup-disguise-test-success"
 timers:
   info: "0"
