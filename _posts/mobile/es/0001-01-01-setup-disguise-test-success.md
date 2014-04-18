@@ -9,7 +9,7 @@ published: "true"
 categories: "mobile"
 tags: "mobile"
 action: 
-  - title: "Finish"
+  - title: "Terminar"
     link: "home-ready"
 ---
 
