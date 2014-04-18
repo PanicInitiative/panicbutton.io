@@ -1,5 +1,5 @@
 ---
-version: 1
+version: 5
 layout: post
 lang: es
 slug: "home-ready"
