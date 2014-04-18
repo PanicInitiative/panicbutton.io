@@ -9,7 +9,7 @@ published: true
 categories: "mobile"
 tags: "mobile"
 introduction: Este sera el mensaje que se enviara junto con tu ubicacion.
-warning: Make sure your contacts know what to do if they receive this message
+warning: Asegúrate de que tus contactos sepan que hacer si reciben este mensaje.
 component: message
 action:
   - title: "Siguiente"

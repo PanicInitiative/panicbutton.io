@@ -4,30 +4,30 @@ layout: post
 lang: fr
 slug: "home-not-configured-alarm"
 type: "simple"
-title: "Panic Button"
+title: "Bouton d'urgence"
 published: true
 categories: "mobile"
 tags: "mobile"
 status:
-  - title: "Instalación en proceso"
+  - title: "Configuration incomplète"
     color: red
     link: help-not-configured
 action:
-  - title: "Configuraciones Básicas"
+  - title: "Paramètres de base"
     link: ""
     status: checked
-  - title: "Instalar Alerta"
+  - title: "Configurer l'alerte"
     link: "setup-alarm"
-  - title: "Setup Disguise"
-    link: "Instalar Disfraz"
+  - title: "Configurer le camouflage"
+    link: "Setup Disguise"
     status: disabled
 items:
-  -  title: "About"
+  -  title: "À propos"
      link: "setup-about"
-  -  title: "Help"
+  -  title: "Aide"
      link: "help"
-  -  title: "Configuraciones de Lenguage"
+  -  title: "Langue"
      link: "setup-language"
 ---
 
-No podrás hacer uso del Boton de Pánico hasta que el proceso de instalación haya sido completado.
+Vous ne pouvez pas utiliser le Bouton d'urgence avant de l'avoir entièrement configuré.

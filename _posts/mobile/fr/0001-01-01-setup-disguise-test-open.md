@@ -4,11 +4,11 @@ layout: post
 lang: fr
 slug: "setup-disguise-test-open"
 type: "interactive"
-title: "Prueba el disfraz"
+title: "Tester le camouflage"
 published: "true"
 categories: "mobile"
 tags: "mobile"
-introduction: "¡Inténtalo ahora! Abre la aplicación dándole un click al ícono Calculate!"
+introduction: "Essayez! Ouvrez l'application en appuyant sur l'icône **Calculate!**."
 
 component: disguise-test-open
 timers:

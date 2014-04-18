@@ -4,11 +4,11 @@ layout: post
 lang: fr
 slug: "setup-alarm-test-hardware"
 type: "interactive"
-title: "Test Hardware Alarm"
+title: "Tester l'alerte hors application"
 published: "true"
 categories: "mobile"
 tags: "mobile"
-introduction: "¡Intenta ahora! Presiona repetidamente el botón de encender/apagar lo mas rápido posible hasta que sientas una vibración."
+introduction: "Essayez! Appuyez plusieurs fois rapidement sur le bouton marche/arrêt de votre téléphone jusqu'à ce que le téléphone vibre."
 component: alarm-test-hardware
 timers:
   info: "0"

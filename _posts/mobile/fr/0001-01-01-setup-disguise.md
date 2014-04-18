@@ -4,13 +4,13 @@ layout: post
 lang: fr
 slug: "setup-disguise"
 type: "simple"
-title: "Instalar el disfraz"
+title: "Configurer le camouflage"
 published: "true"
 categories: "mobile"
 tags: "mobile"
 action: 
-  - title: "Aprende"
+  - title: "Apprendre"
     link: "setup-disguise-test-open"
 ---
 
-El Botón de Pánico se mantiene oculto dentro de tu teléfono apareciendo disfrazado como una simple calculadora. De ahora en adelante, verás el disfraz de calculadora cada vez que abras la aplicación. Aprende cómo funciona. 
+Le Bouton d'urgence reste dissimulé dans votre téléphone sous l'apparence d'une simple calculatrice. Désormais, vous verrez la calculatrice servant de camouflage à chaque fois que vous ouvrirez l'application. Apprenez à vous en servir.

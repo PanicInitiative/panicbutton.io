@@ -4,15 +4,15 @@ layout: post
 lang: fr
 slug: "setup-alarm-test-hardware-fail"
 type: "simple"
-title: "Setup the Alarm"
+title: "Configurer l'alerte"
 published: "true"
 categories: "mobile"
 tags: "mobile"
 action: 
-  - title: "Try Again"
+  - title: "Réessayer"
     link: "setup-alarm-test-hardware"
 ---
 
-Parece que la activación de la alarma desde el botón de encender/apagar de tu teléfono no tuvo éxito.
+Il semble que vous n'ayez pas réussi à déclencher l'alerte en utilisant le bouton marche/arrêt de votre téléphone.
 
 Recuerda: Presiona el botón  de encender/apagar lo mas rápido posible hasta que sientas una vibración.  

@@ -4,18 +4,18 @@ layout: post
 lang: fr
 slug: "home-alerting"
 type: "simple"
-title: "Botón de Pánico"
+title: "Bouton d'urgence"
 published: true
 categories: "mobile"
 tags: "mobile"
 status:
-  - title: "Enviando Alerta"
+  - title: "Envoi d'alerte"
     color: red
     link: help-alerting
 action:
-  - title: "Detener Alerta"
+  - title: "Interrompre l'envoi d'alerte"
     link: "home-ready"
 ---
 
-El Botón de Pánico se encuentra enviando mensajes de alerta cada 5 minutos. Presiona Detener Alerta para cancelar los mensajes.
+Envoi de messages d'alerte en cours. Appuyer sur Interrompre l'envoi d'alerte pour annuler les messages.
 

@@ -4,23 +4,23 @@ layout: post
 lang: es
 slug: "home-ready"
 type: "simple"
-title: "Panic Button"
+title: "Botón de Pánico"
 published: true
 categories: "mobile"
 tags: "mobile"
 status:
-  - title: "Ready"
+  - title: "Listo"
     color: green
     link: help-ready
 action:
-  - title: "Disguise"
+  - title: "Disfrazar"
     link: "checklist"
 items:
-  -  title: "Settings"
+  -  title: "Conguraciones"
      link: "settings"
-  -  title: "About"
+  -  title: "Acerca del Botón de Pánico"
      link: "setup-about"
-  -  title: "Help"
+  -  title: "Ayuda"
      link: "help"
 ---
 

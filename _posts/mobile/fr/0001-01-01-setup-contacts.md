@@ -4,22 +4,23 @@ layout: post
 lang: fr
 slug: "setup-contacts"
 type: "interactive"
-title: "Establecer contactos"
+title: "Configurer les contacts"
 published: true
 categories: "mobile"
 tags: "mobile"
-introduction: Estas son las personas que recibirán tu alerta en caso de emergencia.
-warning: Estas personas deberán de conocerte personalmente y ser capaces de responder rápidamente. 
+introduction: Ce sont les personnes qui recevront vos alertes.
+warning: Elles doivent vous connaître personnellement et pouvoir réagir rapidement.
 component: contacts
 action:
-  - title: "Siguiente"
+  - title: "Suivant"
     link: "setup-message"
 ---
 
-Tips de seguridad
+Conseils de sécurité
 
- - Piensa acerca de quién puede ayudarte de manera práctica- No tiene caso que alguien se entere que estas en problemas si no puede ayudarte.
- - Diseña un plan de seguridad con tus contactos seleccionados para que puedan estar preparados y actuar rapidamente 
- - Considera los riesgos- ¿Cómo es que tu contacto podría ponerse en riesgo?
+ - Demandez-vous qui peut vous apporter une aide concrète. Inutile d'alerter quelqu'un qui ne peut pas vous aider. 
+ - Élaborez une stratégie avec vos contacts afin qu'ils soient prêts à agir vite. 
+ - Ayez conscience des dangers - quels sont les risques pour vos contacts? 
+
 
  

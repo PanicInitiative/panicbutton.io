@@ -4,7 +4,7 @@ layout: post
 lang: fr
 slug: "checklist"
 type: "modal"
-title: "Lista de verificación"
+title: "Check-list"
 published: "true"
 categories: "mobile"
 tags: "mobile"
@@ -15,11 +15,11 @@ action:
     link: "home-ready"
     status: disabled
 checklist:
-  - title: "Revisar plan de seguridad y actualizar contactos regularmente"
-  - title: "Prueba la alerta para asegurarte que funcione"
-  - title: "Asegurate de tener suficiente crédito en tu teléfono móvil"
-  - title: "Activa el GPS (si deseas que tu ubicación se incluya en el mensaje)"
-  - title: "Carga la batería de tu teléfono completamente"
+  - title: "Revoir la stratégie de sécurité et mettre à jour les contacts régulièrement"
+  - title: "Tester l'alerte pour vérifier qu'elle fonctionne"
+  - title: "Vérifier qu'il y a assez de crédit sur le téléphone"
+  - title: "Activer le GPS (si vous souhaitez signaler votre position géographique"
+  - title: "Recharger complètement la batterie"
 ---
 
 More [security tips...](#help-charge)

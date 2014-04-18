@@ -4,20 +4,20 @@ layout: post
 lang: fr
 slug: "settings-message"
 type: "interactive"
-title: "Crea tu mensaje de alerta"
+title: "Configurer le message d'alerte"
 published: true
 categories: "mobile"
 tags: "mobile"
-introduction: Este será el mensaje que se enviará junto con tu ubicación.
-warning: Asegúrate de que tus contactos sepan que hacer si reciben este mensaje.
+introduction: C'est le message qui sera envoyé avec votre position géographique.
+warning: Veillez à ce que vos contacts sachent ce qu'ils ont à faire s'ils reçoivent ce message.
 component: message
 action:
-  - title: "Guardar"
+  - title: "Enregistrer"
     link: "home-ready"
 ---
 
-Tips de seguridad
+Conseils de sécurité
 
- - Considera crear palabras o frases secretas en tu mensaje para que sólo tu y tus contactos lo entiendan.
- - No tendrás tiempo para cambiar tu mensaje durante una emergencia, asi que crea algo que pueda funcionar en cualquier escenario.
- - Activa el rastreador GPS desde las configuraciones de tu teléfono si deseas que tu ubicación se incluya en el mensaje.
+ - Envisagez l'idée d'insérer dans votre message des mots ou des phrases codés que seuls vos contacts peuvent comprendre.
+ - Vous n'aurez pas le temps de changer le message en cas d'urgence, alors préparez quelque chose qui fonctionne en toutes circonstances.
+ - Activez le traçage GPS à partir des paramètres de votre téléphone si vous souhaitez que le message indique où vous êtes.

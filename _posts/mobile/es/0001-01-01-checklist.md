@@ -9,9 +9,9 @@ published: "true"
 categories: "mobile"
 tags: "mobile"
 action:
-  - title: "OK"
+  - title: "Aceptar"
     link: "close"
-  - title: "Cancel"
+  - title: "Cancelar"
     link: "home-ready"
     status: disabled
 checklist:
@@ -22,4 +22,4 @@ checklist:
   - title: "Carga la batería de tu teléfono completamente"
 ---
 
-More [security tips...](#help-charge)
+[Consejos sobre la seguridad...](#help-charge)

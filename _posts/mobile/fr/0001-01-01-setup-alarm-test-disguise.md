@@ -4,11 +4,11 @@ layout: post
 lang: fr
 slug: "setup-alarm-test-disguise"
 type: "interactive"
-title: "Test Disguised Alarm"
+title: "Tester le camouflage"
 published: "true"
 categories: "mobile"
 tags: "mobile"
-introduction: "¡Intenta ahora! Presiona repetidamente un mismo botón de la calculadora lo mas rápido posible hasta que sientas una vibración."
+introduction: "Essayez! Appuyez plusieurs fois rapidement sur un bouton de la calculatrice jusqu'à ce que le téléphone vibre."
 component: alarm-test-disguise
 timers:
   info: "0"

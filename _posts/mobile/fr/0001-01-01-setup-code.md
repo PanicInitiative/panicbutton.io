@@ -4,14 +4,14 @@ layout: post
 lang: fr
 slug: "setup-code"
 type: "interactive"
-title: "Crear una clave"
+title: "Définir un code de sécurité"
 published: true
 categories: "mobile"
 tags: "mobile"
-introduction: "Esta clave es necesaria para acceder a las configuraciones de la aplicación. No se necesita para enviar alerta a tus contactos en caso de emergencia."
-warning:  ¡Recuerda tu clave! Si la olvidas necesitarás re-instalar la aplicación.
+introduction: "Ce code est nécessaire pour accéder aux paramètres de l'application. Il n'est pas nécessaire pour envoyer des alertes à vos contacts en cas d'urgence."
+warning:  Mémorisez votre code ! Si vous l'oubliez, vous devrez réinstaller l'application.
 component: code
 action:
-  - title: "Siguiente"
+  - title: "Suivant"
     link: "home-not-configured-alarm"
 ---

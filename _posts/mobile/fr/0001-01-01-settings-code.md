@@ -4,15 +4,15 @@ layout: post
 lang: fr
 slug: "settings-code"
 type: "interactive"
-title: "Crea tu clave de acceso"
+title: "Créer un code de sécurité "
 published: true
 categories: "mobile"
 tags: "mobile"
 introduction: |
-  Esta clave es necesaria para acceder a las configuraciones de la aplicación. No se necesita para enviar alerta a tus contactos en caso de emergencia.
-  ¡Recuerda tu clave! Si la olvidas necesitarás re-instalar la aplicación.
+  Ce code est nécessaire pour accéder aux paramètres de l'application. Il n'est pas nécessaire pour envoyer des alertes à vos contacts en cas d'urgence. 
+  Mémorisez votre code ! Si vous l'oubliez vous devrez réinstaller l'application.
 component: code
 action:
-  - title: "Save"
+  - title: "Enregistrer"
     link: "home-ready"
 ---

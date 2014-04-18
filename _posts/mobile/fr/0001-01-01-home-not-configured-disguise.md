@@ -4,30 +4,30 @@ layout: post
 lang: fr
 slug: "home-not-configured-disguise"
 type: "simple"
-title: "Panic Button"
+title: "Bouton d'urgence"
 published: true
 categories: "mobile"
 tags: "mobile"
 status:
-  - title: "Setup not complete"
+  - title: "Configuration incomplète"
     color: red
     link: help-not-configured
 action:
-  - title: "Basic Settings"
+  - title: "Paramètres de base"
     link: ""
     status: checked
-  - title: "Setup Alarm"
+  - title: "Configurer l'alerte"
     link: ""
     status: checked
-  - title: "Setup Disguise"
+  - title: "Configurer le camouflage"
     link: "setup-disguise"
 items:
-  -  title: "About"
+  -  title: "À propos"
      link: "setup-about"
-  -  title: "Help"
+  -  title: "Aide"
      link: "help"
   -  title: "Language Settings"
-     link: "setup-language"
+     link: "Langue"
 ---
 
-You cannot use Panic Button until it is fully setup.
+Vous ne pouvez pas utiliser le Bouton d'urgence avant de l'avoir entièrement configuré.
