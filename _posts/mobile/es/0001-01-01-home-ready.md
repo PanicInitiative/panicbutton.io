@@ -9,7 +9,7 @@ published: true
 categories: "mobile"
 tags: "mobile"
 status:
-  - title: "Botón de Pánico esta lista usar"
+  - title: "Listo"
     color: green
     link: help-ready
 action:
@@ -18,9 +18,9 @@ action:
 items:
   -  title: "Conguraciones"
      link: "settings"
-  -  title: "Sobre el Botón de Pánico"
+  -  title: "Acerca del Botón de Pánico"
      link: "setup-about"
-  -  title: "Ayudar"
+  -  title: "Ayuda"
      link: "help"
 ---
 
