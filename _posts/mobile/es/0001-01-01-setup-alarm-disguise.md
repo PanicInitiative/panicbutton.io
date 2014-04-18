@@ -9,7 +9,7 @@ published: "true"
 categories: "mobile"
 tags: "mobile"
 action: 
-  - title: "Learn"
+  - title: "Aprende"
     link: "setup-alarm-test-disguise"
 ---
 
