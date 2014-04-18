@@ -4,7 +4,7 @@ layout: post
 lang: es
 slug: "home-ready"
 type: "simple"
-title: "Panic Button"
+title: "Botón de Pánico"
 published: true
 categories: "mobile"
 tags: "mobile"
