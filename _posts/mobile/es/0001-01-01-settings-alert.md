@@ -4,14 +4,14 @@ layout: post
 lang: es
 slug: "settings-alert"
 type: "interactive"
-title: "Alert settings"
+title: "Frequencia de la alerta"
 published: true
 categories: "mobile"
 tags: "mobile"
-introduction: Setup the frequency. 
-warning: Be careful about your battery! Sending alerts too often might drain your battery.
+introduction: Configurar la frequencia de la alerta. 
+warning: Recordate la batteria del teléfono! Mandando las alerta demasiado frequentemente se puede caer la batteria.
 component: alert
 action:
-  - title: "Save"
+  - title: "Guardar"
     link: "home-ready"
 ---
