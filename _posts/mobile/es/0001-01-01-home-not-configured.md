@@ -4,17 +4,17 @@ layout: post
 lang: es
 slug: "home-not-configured"
 type: simple
-title: Panic Button
+title: Botón de Pánico
 published: true
 categories: mobile
 tags: mobile
 action: 
-  - title: "Set-Up"
+  - title: "Instalar"
     link: "setup-warning"
 items: 
-  - title: About
+  - title: Acerca de
     link: "setup-about"
-  - title: Language Settings
+  - title: Configuraciones de lenguaje
     link: "setup-language"
 ---
 
