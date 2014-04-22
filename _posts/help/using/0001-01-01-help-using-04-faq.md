@@ -30,7 +30,7 @@ Enter the app, unlock the app disguise and enter your pin number. Once on the ho
 
 Once you have turned off the alert the status bar will change from ‘Alert Sending’ to ‘Alert ready’ again.
 
-IMAGE: Screenshot of the app status bar
+![The application status bar](/media/Screenshot_2014-03-06-12-52-19.png)
 
 **4.	I have triggered the alert but my contacts are not receiving any messages, what does this mean?**
 
@@ -47,6 +47,7 @@ In order to send the map link with your location, your mobile devise must be abl
 Ocassionally the phone is unable to do either in which case your alert message will appear but without sending your location.
 
 If this is happening to you frequently check the following:
+
 1.	That you have enabled GPS through your phone’s settings. Go to >>
 2.	That you have enabled Panic Button to access your phone’s GPS. Go to >>
 3.	In some cases you may be able to increase GPS signal by contacting your phone network. Google the name of your network provider and 'improve GPS accuracy' to see if this is available to you. 

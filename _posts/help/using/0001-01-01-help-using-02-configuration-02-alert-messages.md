@@ -21,7 +21,4 @@ Things to think about:
 - You won't have time to change a message in an emergency so make sure your alert message makes sense in a number of potential situations. It is a good idea to change it routinely before entering a situation in which you may be at risk.
 - Remember to enable GPS in your phone settings if you want your location to be sent to your contacts.
 
-
-**IMAGE** Screenshot of message set-up with default text
-
-![This is another image caption](/media/article-img-2.png)
+![Create your alert message](/media/Screenshot_2014-03-06-12-49-06.png)

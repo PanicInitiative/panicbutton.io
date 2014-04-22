@@ -6,10 +6,10 @@ published: true
 categories: "home_section"
 section_order: 5
 downloads:
-- download: Contact Us to join the <br/>Panic Button **Private Beta**
-  label: Join the Private Beta
+- download: Contact us to join the <br/>**private testing phase** of the app
+  label: Take Part in Testing
   link: mailto:beta@panicbutton.io
-  description: (Let us know about why you'd like to join the beta)
+  description: (Tell us why and where you'd like to help test the app)
 - download: Download Panic Button from<br/>**Google Play.**
   label: Download from GOOGLE.
   link: https://f-droid.org/panic-button
