@@ -15,9 +15,9 @@ layout: default
 				<li>
 					<a href="#{{sub.slug}}">{{ sub.title }}</a>
 				</li>
-			  	{% if sub.toc %}
+			  	{% assign subtoc = site.categories[sub.toc] | sort sub.section_order %}
+				{% if subtoc.size > 1 %}
 					<ul>
-					{% assign subtoc = site.categories[sub.toc] | sort sub.section_order %}
 					{% for subsub in subtoc %}
 					<li><a href="#{{subsub.slug}}">{{ subsub.title }}</a></li>
 					{% endfor %}
