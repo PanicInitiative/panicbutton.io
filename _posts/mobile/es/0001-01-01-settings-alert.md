@@ -1,5 +1,5 @@
 ---
-version: 3
+version: 6
 layout: post
 lang: es
 slug: "settings-alert"

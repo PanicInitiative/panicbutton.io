@@ -1,5 +1,5 @@
 ---
-version: 1
+version: 6
 layout: post
 lang: es
 slug: "settings-code"
@@ -13,6 +13,6 @@ introduction: |
   ¡Recuerda tu clave! Si la olvidas necesitarás re-instalar la aplicación.
 component: code
 action:
-  - title: "Save"
+  - title: "Guardar"
     link: "home-ready"
 ---
