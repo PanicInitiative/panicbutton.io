@@ -38,7 +38,7 @@ First, confirm you triggered the alert. Did you feel the vibrate letting you kno
 
 Second, check that you have phone credit and that network coverage is available. The alert as an SMS message over your normal cellphone network so both are needed. You can test this by sending a normal SMS message to your contact.
 
-If you have checked all of the above and it still fails to work you may be experiencing a bug. As Panic Button is in a Beta testing phase we expect that the app will still have technical bugs on some mobile devices. You can help us to fix these problems by reporting a bug to us **here**.
+If you have checked all of the above and it still fails to work you may be experiencing a bug. As Panic Button is in a Beta testing phase we expect that the app will still have technical bugs on some mobile devices. You can help us to fix these problems by reporting a bug to us [**here**](https://report.panicbutton.io/).
 
 **5.	My contacts are receiving an alert message but are not seeing my location, what should I do?**
 
@@ -52,10 +52,10 @@ If this is happening to you frequently check the following:
 2.	That you have enabled Panic Button to access your phone’s GPS. Go to >>
 3.	In some cases you may be able to increase GPS signal by contacting your phone network. Google the name of your network provider and 'improve GPS accuracy' to see if this is available to you. 
 
-If you have checked all of the above and it still fails to work you may be experiencing a bug. As Panic Button is in a Beta testing phase we expect that the app will still have technical bugs on some mobile devices. You can help us to fix these problems by reporting a bug to us **here**.
+If you have checked all of the above and it still fails to work you may be experiencing a bug. As Panic Button is in a Beta testing phase we expect that the app will still have technical bugs on some mobile devices. You can help us to fix these problems by reporting a bug to us [**here**](https://report.panicbutton.io/).
 
 **6.	The app repeatedly crashes on my device, what should I do?**
-If that app crashes this means you are experiencing a bug. As Panic Button is in a Beta testing phase we expect that the app to behave incorrectly on some mobile devices. You can help us to fix these problems by reporting a bug to us **here**.
+If that app crashes this means you are experiencing a bug. As Panic Button is in a Beta testing phase we expect that the app to behave incorrectly on some mobile devices. You can help us to fix these problems by reporting a bug to us [**here**](https://report.panicbutton.io/).
 
 
 
