@@ -1,5 +1,5 @@
 ---
-version: 2
+version: 5
 layout: post
 lang: es
 slug: "setup-about"
