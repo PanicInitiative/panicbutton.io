@@ -9,7 +9,7 @@ published: true
 categories: "mobile"
 tags: "mobile"
 introduction: Configurar la frequencia de la alerta. 
-warning: Recordate la batteria del teléfono! Mandando las alerta demasiado frequentemente se puede caer la batteria.
+warning: ¡Mantente al pendiente de tu batería! Enviar alertas demasiado seguido puede absorber tu batería.
 component: alert
 action:
   - title: "Guardar"
