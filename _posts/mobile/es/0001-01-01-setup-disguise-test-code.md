@@ -1,5 +1,5 @@
 ---
-version: 5
+version: 6
 layout: post
 lang: es
 slug: "setup-disguise-test-code"
@@ -11,7 +11,7 @@ tags: "mobile"
 introduction: "¡Bien hecho! Ahora ingresa tu clave para acceder a configuraciones."
 component: disguise-test-code
 action: 
-  - title: "OK"
+  - title: "Acceptar"
     link: "setup-disguise-test-success"
 timers:
   info: "0"

@@ -1,5 +1,5 @@
 ---
-version: 5
+version: 6
 layout: post
 lang: es
 slug: "home-ready"
@@ -16,7 +16,7 @@ action:
   - title: "Disfrazar"
     link: "checklist"
 items:
-  -  title: "Conguraciones"
+  -  title: "Configuraciones"
      link: "settings"
   -  title: "Acerca del Botón de Pánico"
      link: "setup-about"
