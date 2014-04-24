@@ -4,30 +4,31 @@ layout: post
 lang: es
 slug: "home-not-configured-disguise"
 type: "simple"
-title: "Panic Button"
+title: "Botón de Pánico"
 published: true
 categories: "mobile"
 tags: "mobile"
 status:
-  - title: "Setup not complete"
+  - title: "Instalación incompleta"
     color: red
     link: help-not-configured
 action:
-  - title: "Basic Settings"
+  - title: "Configuraciones básicas"
     link: ""
     status: checked
-  - title: "Setup Alarm"
+  - title: "Instalar alarma"
     link: ""
     status: checked
-  - title: "Setup Disguise"
+  - title: "Instalar disfraz"
     link: "setup-disguise"
 items:
-  -  title: "About"
+  -  title: "Acerca de "
      link: "setup-about"
-  -  title: "Help"
+  -  title: "Ayuda"
      link: "help"
-  -  title: "Language Settings"
+  -  title: "Configuración de Lenguaje"
      link: "setup-language"
 ---
 
-You cannot use Panic Button until it is fully setup.
+No puedes hacer uso del Botón de Pánico hasta que la instalación haya sido completada.
+
