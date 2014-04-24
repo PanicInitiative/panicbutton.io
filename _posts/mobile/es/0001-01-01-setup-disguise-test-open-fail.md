@@ -13,7 +13,7 @@ action:
     link: "setup-disguise-test-open"
 ---
 
-Parece que no se logro ablir la aplicacion desde la el disfraz de Calculadora!
+Parece que no se logró ablir la aplicación desde el disfraz de Calculadora!
 
-Recuerda: Manten presionado cualquier boton y despues se requerira que escribas tu clave.
+Recuerda: Mantén presionado cualquier botón y después se requerirá que escribas tu clave.
 
