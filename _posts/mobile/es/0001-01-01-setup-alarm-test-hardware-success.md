@@ -4,7 +4,7 @@ layout: post
 lang: es
 slug: "setup-alarm-test-hardware-success"
 type: "simple"
-title: "Bien hecho!"
+title: "¡Bien hecho!"
 published: "true"
 categories: "mobile"
 tags: "mobile"
