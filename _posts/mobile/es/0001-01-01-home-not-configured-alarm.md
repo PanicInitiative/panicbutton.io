@@ -1,5 +1,5 @@
 ---
-version: 1
+version: 6
 layout: post
 lang: es
 slug: "home-not-configured-alarm"
