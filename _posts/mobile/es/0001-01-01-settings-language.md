@@ -11,10 +11,10 @@ tags: "mobile"
 introduction: Selecciona un lenguaje para la aplicación.
 component: language
 action:
-  - title: "Ingles"
+  - title: "Inglés"
     language: "en"
   - title: "Español"
     language: "es"
-  - title: "Français"
+  - title: "Francés"
     language: "fr"
 ---
