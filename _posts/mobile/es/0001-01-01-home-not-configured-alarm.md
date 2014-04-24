@@ -4,7 +4,7 @@ layout: post
 lang: es
 slug: "home-not-configured-alarm"
 type: "simple"
-title: "Panic Button"
+title: "Botón de Pánico"
 published: true
 categories: "mobile"
 tags: "mobile"
@@ -18,16 +18,16 @@ action:
     status: checked
   - title: "Instalar Alerta"
     link: "setup-alarm"
-  - title: "Setup Disguise"
+  - title: "Instalar disfraz"
     link: "Instalar Disfraz"
     status: disabled
 items:
-  -  title: "About"
+  -  title: "Acerca de "
      link: "setup-about"
-  -  title: "Help"
+  -  title: "Ayuda"
      link: "help"
   -  title: "Configuraciones de Lenguage"
      link: "setup-language"
 ---
 
-No podrás hacer uso del Boton de Pánico hasta que el proceso de instalación haya sido completado.
+No podrás hacer uso del Botón de Pánico hasta que el proceso de instalación haya sido completado.
