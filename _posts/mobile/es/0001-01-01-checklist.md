@@ -22,4 +22,4 @@ checklist:
   - title: "Carga la batería de tu teléfono completamente"
 ---
 
-[Consejos sobre la seguridad...](#help-charge)
+[Consejos sobre seguridad...](#help-charge)
