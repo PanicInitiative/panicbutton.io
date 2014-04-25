@@ -24,4 +24,5 @@ items:
      link: "help"
 ---
 
-El Botón de Pánico está instalado y listo para usarse en caso de emergencia. Presiona Disfrazar para salir y ocultar la aplicación. 
+Le Bouton d’urgence est désormais installé et prêt à être utilisé en cas de danger. Appuyez sur « cacher » pour quitter et cacher l’application.
+ 
