@@ -11,7 +11,7 @@ tags: "mobile"
 action:
   - title: "OK"
     link: "close"
-  - title: "Cancel"
+  - title: "Annuler "
     link: "home-ready"
     status: disabled
 checklist:
@@ -22,4 +22,4 @@ checklist:
   - title: "Recharger complètement la batterie"
 ---
 
-More [security tips...](#help-charge)
+More [conseils de sécurité...](#help-charge)
