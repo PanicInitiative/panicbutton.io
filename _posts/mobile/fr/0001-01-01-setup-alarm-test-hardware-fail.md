@@ -15,4 +15,4 @@ action:
 
 Il semble que vous n'ayez pas réussi à déclencher l'alerte en utilisant le bouton marche/arrêt de votre téléphone.
 
-Recuerda: Presiona el botón  de encender/apagar lo mas rápido posible hasta que sientas una vibración.  
+N'oubliez pas: Appuyez plusieurs fois rapidement sur le bouton marche/arrêt de votre téléphone jusqu'à ce que le téléphone vibre. 
