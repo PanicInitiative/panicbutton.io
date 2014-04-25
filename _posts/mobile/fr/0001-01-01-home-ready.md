@@ -4,23 +4,23 @@ layout: post
 lang: fr
 slug: "home-ready"
 type: "simple"
-title: "Panic Button"
+title: "Bouton d'urgence"
 published: true
 categories: "mobile"
 tags: "mobile"
 status:
-  - title: "Ready"
+  - title: "Prêt"
     color: green
     link: help-ready
 action:
-  - title: "Disguise"
+  - title: "Cacher"
     link: "checklist"
 items:
-  -  title: "Settings"
+  -  title: "Paramètres"
      link: "settings"
-  -  title: "About"
+  -  title: "A propos"
      link: "setup-about"
-  -  title: "Help"
+  -  title: "Aide"
      link: "help"
 ---
 
