@@ -15,5 +15,5 @@ action:
 
 Il semble que vous n'ayez pas pu ouvrir l'application depuis le camouflage Calculate! 
 
-N'oubliez pas : appuyez sur n'importe quel bouton et un message vous demandera d'entrer votre code de sécurité.
+N'oubliez pas: appuyez sur n'importe quel bouton et un message vous demandera d'entrer votre code de sécurité.
 
