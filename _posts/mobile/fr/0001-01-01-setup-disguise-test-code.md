@@ -8,10 +8,10 @@ title: "Tester le camouflage"
 published: "true"
 categories: "mobile"
 tags: "mobile"
-introduction: "¡Bien hecho! Ahora ingresa tu clave para acceder a configuraciones."
+introduction: "Bravo! Entrez votre code de sécurité pour accéder aux paramètres."
 component: disguise-test-code
 action: 
-  - title: "Ok"
+  - title: "Accepter"
     link: "setup-disguise-test-success"
 timers:
   info: "0"
