@@ -4,18 +4,19 @@ layout: post
 lang: fr
 slug: "home-not-configured"
 type: simple
-title: Botón de Pánico
+title: Bouton d'urgence
 published: true
 categories: mobile
 tags: mobile
 action: 
-  - title: "Instalar"
+  - title: "Installation"
     link: "setup-warning"
 items: 
-  - title: Acerca de
+  - title: "A propos"
     link: "setup-about"
-  - title: Configuraciones de lenguaje
+  - title: Paramètres de langues
     link: "setup-language"
 ---
 
-![Illustration](/media/mobile/home-not-configured-small.png) El Botón de Pánico convierte tu teléfono móvil en una alarma secreta para que tus contactos mas confiables puedan actuar si te encuentres en riesgo.
+![Illustration](/media/mobile/home-not-configured-small.png) Le Bouton d'urgence transforme votre téléphone mobile en système secret pour alerter rapidement les membres de votre réseau lorsque vous êtes en danger. 
+
