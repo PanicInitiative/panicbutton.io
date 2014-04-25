@@ -4,7 +4,7 @@ layout: post
 lang: fr
 slug: "setup-disguise-test-unlock-fail"
 type: "simple"
-title: "Setup the Disguise"
+title: "Configurer le camouflage"
 published: "true"
 categories: "mobile"
 tags: "mobile"
