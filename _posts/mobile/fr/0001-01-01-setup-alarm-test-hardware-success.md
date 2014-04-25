@@ -13,6 +13,6 @@ action:
     link: "setup-alarm-disguise"
 ---
 
-Votre test a fonctionné ! Dans une véritable situation d'urgence, votre alerte aurait été envoyée.
+Votre test a fonctionné! Dans une véritable situation d'urgence, votre alerte aurait été envoyée.
 
 
