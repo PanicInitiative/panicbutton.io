@@ -1,5 +1,5 @@
 ---
-version: 1
+version: 7
 layout: post
 lang: es
 slug: "setup-language"
@@ -13,8 +13,11 @@ component: language
 action:
   - title: "Inglés"
     language: "en"
+    confirmation: "New language applied"
   - title: "Español"
     language: "es"
+    confirmation: "Nuevo lenguaje seleccionado"    
   - title: "Francés"
     language: "fr"
+    confirmation: "Nouveau language selectionné"
 ---

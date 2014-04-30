@@ -1,5 +1,5 @@
 ---
-version: 3
+version: 7
 layout: post
 lang: en
 slug: "settings-alert"
@@ -14,4 +14,5 @@ component: alert
 action:
   - title: "Save"
     link: "home-ready"
+    confirmation: "New alert frequency saved"
 ---

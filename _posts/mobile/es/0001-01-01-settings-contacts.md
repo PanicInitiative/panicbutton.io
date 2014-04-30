@@ -1,5 +1,5 @@
 ---
-version: 1
+version: 7
 layout: post
 lang: es
 slug: "settings-contacts"
@@ -14,6 +14,7 @@ component: contacts
 action:
   - title: "Guardar"
     link: "home-ready"
+    confirmation: "Nueva clave guardada"    
 ---
 
 Tips de seguridad

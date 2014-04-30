@@ -1,5 +1,5 @@
 ---
-version: 5
+version: 7
 layout: post
 lang: fr
 slug: "settings-message"
@@ -14,6 +14,8 @@ component: message
 action:
   - title: "Enregistrer"
     link: "home-ready"
+    confirmation: "Message sauvegardé"    
+
 ---
 
 Conseils de sécurité

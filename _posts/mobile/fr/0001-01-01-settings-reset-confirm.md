@@ -1,7 +1,7 @@
 ---
 version: 4
 layout: post
-lang: en
+lang: fr
 slug: "settings-reset-confirm"
 type: "warning"
 title: "Confirmez la ré-installation."

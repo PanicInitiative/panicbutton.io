@@ -1,5 +1,5 @@
 ---
-version: 1
+version: 7
 layout: post
 lang: es
 slug: "settings-message"
@@ -14,6 +14,7 @@ component: message
 action:
   - title: "Guardar"
     link: "home-ready"
+    confirmation: ""
 ---
 
 Tips de seguridad

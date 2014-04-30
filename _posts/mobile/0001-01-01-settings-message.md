@@ -1,5 +1,5 @@
 ---
-version: 1
+version: 7
 layout: post
 lang: en
 slug: "settings-message"
@@ -14,6 +14,7 @@ component: message
 action:
   - title: "Save"
     link: "home-ready"
+    confirmation: "Message saved"
 ---
 
 Security tips

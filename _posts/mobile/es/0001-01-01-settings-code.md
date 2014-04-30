@@ -1,5 +1,5 @@
 ---
-version: 6
+version: 7
 layout: post
 lang: es
 slug: "settings-code"
@@ -15,4 +15,5 @@ component: code
 action:
   - title: "Guardar"
     link: "home-ready"
+    confirmation: "Tu clave ha sido guardada"
 ---

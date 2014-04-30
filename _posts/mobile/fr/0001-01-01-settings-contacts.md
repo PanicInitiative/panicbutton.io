@@ -14,6 +14,7 @@ component: contacts
 action:
   - title: "Enregistrer"
     link: "home-ready"
+    confirmation: "Contacts sauvegardés"    
 ---
 
 Conseils de sécurité

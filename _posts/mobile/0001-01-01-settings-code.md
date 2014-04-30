@@ -1,5 +1,5 @@
 ---
-version: 1
+version: 7
 layout: post
 lang: en
 slug: "settings-code"
@@ -15,4 +15,5 @@ component: code
 action:
   - title: "Save"
     link: "home-ready"
+    confirmation: "Pincode saved"
 ---

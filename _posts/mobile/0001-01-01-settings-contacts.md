@@ -1,5 +1,5 @@
 ---
-version: 1
+version: 7
 layout: post
 lang: en
 slug: "settings-contacts"
@@ -14,6 +14,7 @@ component: contacts
 action:
   - title: "Save"
     link: "home-ready"
+    confirmation: "Contacts saved"
 ---
 
 Security Tips

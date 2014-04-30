@@ -1,5 +1,5 @@
 ---
-version: 6
+version: 7
 layout: post
 lang: es
 slug: "settings-alert"
@@ -14,4 +14,5 @@ component: alert
 action:
   - title: "Guardar"
     link: "home-ready"
+    confirmation: "Nueva frecuencia de envío de mensajes guardada"
 ---
