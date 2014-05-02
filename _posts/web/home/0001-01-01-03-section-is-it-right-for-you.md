@@ -41,7 +41,7 @@ questions:
     answers:
       - id: 1
         answer: "Yes"
-        content: Panic Button aims to send your emergency message/s to your trusted contacts when you need help. However, the app is not able to guarantee a response. Think carefully when choosing yur trusted contacts and always talk to them first to ensure you have a response plan in place."
+        content: Panic Button aims to send your emergency message/s to your trusted contacts when you need help. However, the app is not able to guarantee a response. Think carefully when choosing your trusted contacts and always talk to them first to ensure you have a response plan in place."
       - id: 2
         answer: "No"
         content: Panic Button aims to send your emergency message/s to your trusted contacts when you need help. However, the app is not able to guarantee a response. Think carefully when choosing your trusted contacts and always talk to them first to ensure you have a response plan in place.
