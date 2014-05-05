@@ -14,7 +14,7 @@ component: contacts
 action:
   - title: "Guardar"
     link: "home-ready"
-    confirmation: "Nueva clave guardada"    
+    confirmation: "Contacts saved"    
 ---
 
 Tips de seguridad
