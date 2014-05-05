@@ -10,7 +10,7 @@
       "type" : "{{post.type}}",
       "title" : "{{post.title}}"{% if post.status %},
       "status" : {{post.status | jsonify}}{% endif %}{% if post.introduction %},
-      "introduction" : "{{post.introduction}}"{% endif %}{% if post.warning %},
+      "introduction" : "{{post.introduction | jsonify}}"{% endif %}{% if post.warning %},
       "warning" : "{{post.warning}}"{% endif %}{% if post.component %},
       "component" : "{{post.component}}"{% endif %}{% if post.timers %},
       "timers" : {{post.timers | jsonify}}{% endif %}{% if post.action %},
