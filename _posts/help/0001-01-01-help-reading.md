@@ -22,7 +22,7 @@ A collaborative effort of the Tactical Technology Collective and Front Line. It 
 
 Designed to raise awareness about security issues and to help human rights defenders consider how to mitigate threats. The workbook takes human rights defenders through the steps to producing a security plan - for individuals and for organisations. It follows a systematic approach for assessing their security situation and developing risk and vulnerability reduction strategies and tactics.
 
-* [Front Line Defenders - Protection Manual for Human Rights Defenders](http://www.frontlinedefenders.org/manuals/protection)
+* [Front Line Defenders and Peace Brigades International - Protection Manual for Human Rights Defenders](http://www.frontlinedefenders.org/manuals/protection)
 
 The purpose of this manual is to provide human rights defenders with information and tools to improve their understanding of security and protection. The manual topics include risk analysis, evaluating threats, preventing and reacting to attacks and developing security plans. It is the main handout for Front Line training on protection and security.
 
