@@ -9,7 +9,7 @@ section_order: 2
 
 ---
 
-The Panic Button project is an initiative of Amnesty International in collaboration with key advisors and partners including [Frontline Defenders](http://www.frontlinedefenders.org/), [iilab](https://iilab.org/) and [the engine room](https://www.theengineroom.org/).
+The Panic Button project is an initiative of Amnesty International in collaboration with key advisors and partners including [Front Line Defenders](http://www.frontlinedefenders.org/), [iilab](https://iilab.org/) and [the engine room](https://www.theengineroom.org/).
 
 Panic Button also belongs to a wider community of advisors and friends. Special thanks go to the network of human rights activists from more than ten countries who have worked with us over the months to collaboratively design the app and have given many hours feeding back on the usability and functionality of the app.
 
