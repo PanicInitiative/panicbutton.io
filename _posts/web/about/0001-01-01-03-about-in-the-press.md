@@ -14,7 +14,7 @@ items:
   - title: "Github Repository"
     link: "https://github.com/TeamPanicButton/PanicButton"
   - title: "East and Horn of Africa: **Human Rights Defenders Train In New App To Defend Themselves Against Attack**
-    link: "http://www.defenddefenders.org/2014/05/east-horn-africa-human-rights-defenders-train-new-app-defend-attack/"
+    link: "http://defenddefenders.org/2014/05/east-horn-africa-human-rights-defenders-train-new-app-defend-attack/"
 title: Untitled
 lang: en
 ---
