@@ -11,7 +11,7 @@ items:
     link: "http://livewire.amnesty.org/2013/04/15/how-to-turn-a-mobile-phone-into-an-alert-system-for-activists/"
   - title: "Amnesty Livewire: **Inside the development of Panic Button**"
     link: "http://livewire.amnesty.org/2013/09/11/inside-the-development-of-amnestys-new-panic-button-app/"
-  - title: Something
+  - title: "Github Repository"
     link: "https://github.org/TeamPanicButton/PanicButton"
 title: Untitled
 lang: en
