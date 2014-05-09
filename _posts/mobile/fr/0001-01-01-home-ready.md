@@ -18,7 +18,7 @@ action:
 items:
   -  title: "Paramètres"
      link: "settings"
-  -  title: "A propos"
+  -  title: "À propos"
      link: "setup-about"
   -  title: "Aide"
      link: "help"
