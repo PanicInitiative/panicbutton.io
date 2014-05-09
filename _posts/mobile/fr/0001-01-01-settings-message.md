@@ -8,7 +8,7 @@ title: "Configurer le message d'alerte"
 published: true
 categories: "mobile"
 tags: "mobile"
-introduction: C'est le message qui sera envoyé avec votre position géographique.
+introduction: Voici le message qui sera envoyé avec votre position géographique.
 warning: Veillez à ce que vos contacts sachent ce qu'ils ont à faire s'ils reçoivent ce message.
 component: message
 action:
