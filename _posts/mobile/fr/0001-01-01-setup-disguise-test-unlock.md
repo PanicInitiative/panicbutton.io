@@ -1,5 +1,5 @@
 ---
-version: 5
+version: 7
 layout: post
 lang: fr
 slug: "setup-disguise-test-unlock"
@@ -10,9 +10,6 @@ categories: "mobile"
 tags: "mobile"
 introduction: "Essayez ! Appuyez sur n'importe quel bouton de la calculatrice."
 component: disguise-test-unlock
-action: 
-  - title: "Passer"
-    link: "setup-disguise-test-code"
 timers:
   info: "0"
   inactive: "10"

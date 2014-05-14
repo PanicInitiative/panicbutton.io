@@ -1,5 +1,5 @@
 ---
-version: 1
+version: 7
 layout: post
 lang: en
 slug: "setup-disguise-test-unlock"
@@ -10,9 +10,6 @@ categories: "mobile"
 tags: "mobile"
 introduction: "Try now! Hold down any button on the calculator."
 component: disguise-test-unlock
-action: 
-  - title: "Skip"
-    link: "setup-disguise-test-code"
 timers:
   info: "0"
   inactive: "10"

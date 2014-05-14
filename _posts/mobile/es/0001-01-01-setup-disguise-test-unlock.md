@@ -1,5 +1,5 @@
 ---
-version: 1
+version: 7
 layout: post
 lang: es
 slug: "setup-disguise-test-unlock"
@@ -10,9 +10,6 @@ categories: "mobile"
 tags: "mobile"
 introduction: "¡Inténtalo ahora! Mantén presionado cualquier botón de la calculadora. "
 component: disguise-test-unlock
-action: 
-  - title: "Skip"
-    link: "setup-disguise-test-code"
 timers:
   info: "0"
   inactive: "10"
