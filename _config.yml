@@ -141,8 +141,15 @@ prose:
       - name: "fail"
         field:
           element: "hidden"
-          label: "Success"
+          label: "Fail"
       - name: "component"
         field:
           element: "hidden"
           label: "component"
+      - name: "lang"
+        field:
+          element: "select"
+          label: "Select language"
+          placeholder: "English"
+          options: *languages
+          selected: "en"
