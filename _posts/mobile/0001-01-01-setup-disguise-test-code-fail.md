@@ -1,8 +1,8 @@
 ---
-version: 1
+version: 7
 layout: post
 lang: en
-slug: "setup-disguise-test-unlock-fail"
+slug: "setup-disguise-test-code-fail"
 type: "simple"
 title: "Setup the Disguise"
 published: "true"
