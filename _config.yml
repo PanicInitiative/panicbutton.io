@@ -130,13 +130,15 @@ prose:
           placeholder: "This is a title"
       - name: "action"
         field:
-          element: "hidden"
           label: "Action"
       - name: "items"
         field:
-          element: "hidden"
           label: "Items"
       - name: "success"
+        field:
+          element: "hidden"
+          label: "Success"
+      - name: "fail"
         field:
           element: "hidden"
           label: "Success"
