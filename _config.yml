@@ -128,12 +128,6 @@ prose:
           element: "text"
           label: "Section's title"
           placeholder: "This is a title"
-      - name: "action"
-        field:
-          label: "Action"
-      - name: "items"
-        field:
-          label: "Items"
       - name: "success"
         field:
           element: "hidden"
