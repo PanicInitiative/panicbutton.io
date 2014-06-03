@@ -4,15 +4,15 @@ layout: post
 lang: pt
 slug: "setup-alarm"
 type: "simple"
-title: "Setup Alert"
+title: "Configurar Alertas"
 published: "true"
 categories: "mobile"
 tags: "mobile"
 action: 
-  - title: "Learn"
+  - title: "Aprender"
     link: "setup-alarm-test-hardware"
 ---
 
-Now learn how to trigger the Panic Button in an emergency. 
+Agora aprenda como acionar o Botão de Pânico em caso de emergência.
 
-Panic Button is unique because you can trigger the alert from the phone's power button. This means you can do it secretly - for example, from inside a jacket pocket. 
+O Botão de Pânico é único, você pode acionar o alerta a partir do botão de ligar do telefone. Isto significa que você pode fazê-lo secretamente - por exemplo, de dentro de um bolso da jaqueta.
