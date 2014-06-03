@@ -4,15 +4,15 @@ layout: post
 lang: pt
 slug: "setup-disguise-test-unlock-fail"
 type: "simple"
-title: "Setup Disguise"
+title: "Configurar o Disfarce"
 published: "true"
 categories: "mobile"
 tags: "mobile"
 action: 
-  - title: "Try Again"
+  - title: "Tente Novamente"
     link: "setup-disguise-test-open"
 ---
 
-It looks like you weren't successful at opening the app from the Caculate! disguise. 
+Parece que você não conseguiu abrir o app a partir do disfarce de calculadora
 
-Remember: Hold down any button and you will be asked to enter your pincode. 
+Lembre-se: Mantenha o botão pressionado e aparecerá o pedido de digitar sua senha 
