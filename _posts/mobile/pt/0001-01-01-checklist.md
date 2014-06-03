@@ -4,22 +4,22 @@ layout: post
 lang: pt
 slug: "checklist"
 type: "modal"
-title: "Checklist"
+title: "Lista de Controle"
 published: "true"
 categories: "mobile"
 tags: "mobile"
 action:
-  - title: "Disguise Now"
+  - title: "Disfarce agora"
     link: "close"
-  - title: "Cancel"
+  - title: "Cancelar"
     link: "home-ready"
     status: disabled
 checklist:
-  - title: "Review security plan and update contacts regularly"
-  - title: "Test the alert to ensure it is working"
-  - title: "Ensure sufficient credit on the phone"
-  - title: "Activate GPS (if you want to enable location tracking)"
-  - title: "Charge phone battery to full"
+  - title: "Revisar plano de segurança  e atualizar os contatos regularmente"
+  - title: "Testar o alerta para garantir que  está funcionando"
+  - title: "Verificar se tem  crédito suficiente no telefone"
+  - title: "Ativar GPS (se quiser habilitar o rastreamento de localização)"
+  - title: "Carregar completamente a bateria do telefone"
 ---
 
-More [security tips...](#help-charge)
+Mais [dicas de segurança... ](#help-charge)
