@@ -4,15 +4,15 @@ layout: post
 lang: pt
 slug: "setup-disguise-test-code-fail"
 type: "simple"
-title: "Setup the Disguise"
+title: "Configurar o Disfarce"
 published: "true"
 categories: "mobile"
 tags: "mobile"
 action: 
-  - title: "Try Again"
+  - title: "Tente novamente"
     link: "setup-disguise-test-unlock"
 ---
 
-It looks like you weren't successful at opening the app from the calculator disguise.
+Parece que você não conseguiu abrir o app a partir do disfarce de calculadora
 
-Remember: Enter the pin code you have chosen in the first steps of the configuration. If you cannot remember your pin, please uninstall the application and reinstall it. 
+Lembre-se: Digite a senha que você escolheu nos primeiros passos da configuração. Se você não lembrar da sua senha, desinstale o aplicativo e reinstale.
