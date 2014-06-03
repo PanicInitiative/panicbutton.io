@@ -13,5 +13,5 @@ component: code
 action:
   - title: "Salvar"
     link: "home-ready"
-    confirmation: "Senha salvo"
+    confirmation: "Senha salva"
 ---
