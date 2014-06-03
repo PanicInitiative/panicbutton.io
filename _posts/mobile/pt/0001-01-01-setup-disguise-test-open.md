@@ -4,11 +4,11 @@ layout: post
 lang: pt
 slug: "setup-disguise-test-open"
 type: "interactive"
-title: "Test Disguise"
+title: "Testar o Disfarce"
 published: "true"
 categories: "mobile"
 tags: "mobile"
-introduction: "Try now! Open the app by clicking on the Calculate! icon."
+introduction: "Experimente agora ! Abra o aplicativo clicando no icone  ** Calculate!** "
 component: disguise-test-open
 timers:
   info: "0"
