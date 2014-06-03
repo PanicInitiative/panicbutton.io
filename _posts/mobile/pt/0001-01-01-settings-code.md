@@ -4,16 +4,14 @@ layout: post
 lang: pt
 slug: "settings-code"
 type: "interactive"
-title: "Create a pincode"
+title: "Criar uma senha"
 published: true
 categories: "mobile"
 tags: "mobile"
-introduction: This pincode is needed to access the app settings. It is not needed to alert contacts in an emergency. 
-warning: Remember your pincode! If you forget it you will need to reinstall the app.
-
+introduction: Esta senha é necessário para acessar as configurações do aplicativo. Ela não é necessário para alertar os contatos em caso de emergência.
 component: code
 action:
-  - title: "Save"
+  - title: "Salvar"
     link: "home-ready"
-    confirmation: "Pincode saved"
+    confirmation: "Senha salvo"
 ---
