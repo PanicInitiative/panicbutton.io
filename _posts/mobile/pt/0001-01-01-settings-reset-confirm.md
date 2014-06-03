@@ -4,13 +4,13 @@ layout: post
 lang: pt
 slug: "settings-reset-confirm"
 type: "warning"
-title: "Confirm the re-installation"
+title: "Confirme a Reinstalação"
 published: true
 categories: "mobile"
 tags: "mobile"
 action:
-  - title: "Confirm"
+  - title: "Confirmar"
     link: "home-not-configured"
 ---
 
-Please confirm that you would like to restart the installation. If you restart the installation, the alert will be deactivated until you complete the wizard
+Confirme que você quer reiniciar a instalação. Ao reiniciar a instalação, o alerta ficará desativado até você terminar de usar o assistente.
