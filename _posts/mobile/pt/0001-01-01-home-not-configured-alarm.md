@@ -4,30 +4,30 @@ layout: post
 lang: pt
 slug: "home-not-configured-alarm"
 type: "simple"
-title: "Panic Button"
+title: "Botão de Pânico"
 published: true
 categories: "mobile"
 tags: "mobile"
 status:
-  - title: "Setup not complete"
+  - title: "Instalação não concluída"
     color: red
     link: help-not-configured
 action:
-  - title: "Basic Settings"
+  - title: "Configurações Básicas"
     link: ""
     status: checked
-  - title: "Setup Alarm"
+  - title: "Configure o Alerta"
     link: "setup-alarm"
-  - title: "Setup Disguise"
+  - title: "Configure o Disfarce"
     link: "setup-disguise"
     status: disabled
 items:
-  -  title: "About"
+  -  title: "Sobre"
      link: "setup-about"
-  -  title: "Help"
+  -  title: "Ajuda"
      link: "help"
-  -  title: "Language Settings"
+  -  title: "Configurações de Idioma"
      link: "setup-language"
 ---
 
-You cannot use Panic Button until it is fully setup.
+O Botão de Pânico só poderá ser usado depois de estar totalmente configurado
