@@ -4,13 +4,14 @@ layout: post
 lang: pt
 slug: "setup-warning"
 type: "warning"
-title: "Warning"
+title: "Advertência"
 published: "true"
 categories: "mobile"
 tags: "mobile"
 action: 
-  - title: "Get started"
+  - title: "Começa"
     link: "setup-contacts"
 ---
 
-Panic Button is a useful tool to alert your network quickly when you need help. It can't guarantee your security! Make a plan with your contacts so they are prepared to act fast. 
+O Botão de Pânico é uma ferramenta útil para alertar sua rede rapidamente quando você precisar de ajuda. Ele não pode garantir a sua segurança! 
+Combine um plano com seus contatos selecionados para que estejam preparados para agir rápido.
