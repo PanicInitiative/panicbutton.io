@@ -4,15 +4,15 @@ layout: post
 lang: pt
 slug: "setup-alarm-test-hardware-fail"
 type: "simple"
-title: "Setup the Alarm"
+title: "Configurar Alertas"
 published: "true"
 categories: "mobile"
 tags: "mobile"
 action: 
-  - title: "Try Again"
+  - title: "Tente Novamente"
     link: "setup-alarm-test-hardware"
 ---
 
-It looks like you didn't succeed in triggering the alert using the phone's power button.
+Parece que você não conseguiu acionar o alerta usando o botão de ligar o telefone.
 
-Remember: repeatedly press a button on the calculator fast until you feel a vibration.
+Lembre-se: pressione repetidamente um botão na calculadora rápida até sentir uma vibração.
