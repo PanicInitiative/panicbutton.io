@@ -4,20 +4,20 @@ layout: post
 lang: pt
 slug: "setup-message"
 type: "interactive"
-title: "Setup alert message"
+title: "Configuração de Mensagem de Alerta"
 published: true
 categories: "mobile"
 tags: "mobile"
-introduction: This is the message that will be sent with your location. 
-warning: Create a plan so your contacts know what to do when they receive this
+introduction: Esta é a mensagem que será enviada com a sua localização
+warning: Combine um plano com seus contatos para que saibam o que fazer quando receberem isto
 component: message
 action:
-  - title: "Next"
+  - title: "Próximo"
     link: "setup-code"
 ---
 
-Security tips
+Dicas de segurança
 
- - Consider creating code words or phrases in your message that only your contacts will understand.
- - You won't have time to change a message in an emergency, so create something that will work in all scenarios. 
- - Enable GPS tracking from your phone settings if you want your location to be included with the message. 
+ - Procure criar palavras ou frases de código na sua mensagem, que só seus contatos vão entender.
+ - Numa emergência, você não terá tempo de modificar uma mensagem, portanto crie algo funcione em qualquer situação.
+ - Se você quiser que sua localização seja incluída na mensagem, ativar rastreamento GPS de configurações do telefone.
