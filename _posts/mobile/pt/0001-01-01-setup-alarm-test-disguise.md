@@ -4,11 +4,11 @@ layout: post
 lang: pt
 slug: "setup-alarm-test-disguise"
 type: "interactive"
-title: "Test Disguised Alarm"
+title: "Testar Alarme Disfarçado"
 published: "true"
 categories: "mobile"
 tags: "mobile"
-introduction: "Try Now! Repeatedly press a button on the calculator fast until you feel a vibration."
+introduction: "Experimente agora! Pressione repetidamente o botão de ligar, até sentir uma vibração."
 component: alarm-test-disguise
 timers:
   info: "0"
