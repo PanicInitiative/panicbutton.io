@@ -4,7 +4,7 @@ layout: post
 lang: pt
 slug: "settings-message"
 type: "interactive"
-title: "Configuração de mensagem de alerta"
+title: "Configuração de Mensagem de Alerta"
 published: true
 categories: "mobile"
 tags: "mobile"
