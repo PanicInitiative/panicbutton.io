@@ -4,22 +4,22 @@ layout: post
 lang: pt
 slug: "settings-contacts"
 type: "interactive"
-title: "Setup contacts"
+title: "Configurar Contatos"
 published: true
 categories: "mobile"
 tags: "mobile"
-introduction: These people will receive the alert.
-warning: They should know you personally and be able to respond fast.
+introduction: Estas são as pessoas que vão receber o seu alerta.
+warning: Eles precisam te conhecer pessoalmente, e serem capazes de responder rapidamente.
 component: contacts
 action:
-  - title: "Save"
+  - title: "Salvar"
     link: "home-ready"
-    confirmation: "Contacts saved"
+    confirmation: "Contatos salvos"
 ---
 
 Security Tips
 
- - Think about who can practically assist you  - there is no point someone knowing you are in trouble if they are not in a position to help you
- - Make a plan with your chosen contacts so that they are prepared to act fast. 
- - Be aware of the risks - how might your chosen contact be put at risk? 
+ - Pense em quem pode ajudá-lo de verdade - não adianta alguém saber que você está em apuros se não tiver como ajudar.
+ - Combine um plano com seus contatos selecionados para que estejam preparados para agir rápido.
+ - Esteja ciente dos riscos - de que maneira seus contatos podem ser colocados em risco ?
  
