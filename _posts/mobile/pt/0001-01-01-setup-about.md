@@ -4,20 +4,20 @@ layout: post
 lang: pt
 slug: "setup-about"
 type: "simple"
-title: "About"
+title: "Sobre"
 published: "true"
 categories: "mobile"
 tags: "mobile"
 ---
 
-Panic Button turns your mobile phone into a secret alarm for when you're in trouble.
+O Botão de Pânico transforma seu celular em um alarme secreto para quando você está em apuros
 
-**How Does Panic Button Work?**
+**Como funciona o Botão de Pânico?**
 
-  * TAKE TIME to set-up Panic Button somewhere safe and quiet
-  * Create a plan with your contacts so that they are PREPARED to ACT
-  * CHECK you are ready and that your mobile phone has credit and battery
-  * ACTIVATE Panic Button in an emergency by rapidly pressing the phone's power button
-  * Your network will receive an SMS and regular updates of your location helping them to ACT FAST
+  * Reserve uma hora e lugar SEGURO e TRANQUILO para configurar o Botão de Pânico 
+  * Combine um plano com seus contatos para que estejam PREPARADOS para AGIR
+  * VERIFIQUE se você está pronto e se o seu celular tem crédito e bateria
+  * ATIVE o Botão de Pânico em caso de emergência, pressionando rapidamente o botão de ligar o telefone
+  * Sua rede receberá um SMS e atualizações regulares da sua localização, permitindo uma AÇÃO RÁPIDA
 
-The Panic Button project is an initiative of Amnesty International in collaboration with key advisors and partners including Frontline Defenders, iilab and the engine room.
+O projeto do Botão de Pânico é uma iniciativa da Anistia Internacional, em colaboração com consultores e parceiros chave, incluindo Frontline Defenders, iilab e the engine room
