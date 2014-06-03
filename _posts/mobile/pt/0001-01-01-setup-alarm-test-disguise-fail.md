@@ -4,15 +4,15 @@ layout: post
 lang: pt
 slug: "setup-alarm-test-disguise-fail"
 type: "simple"
-title: "Setup Alert"
+title: "Configurar Alertas"
 published: "true"
 categories: "mobile"
 tags: "mobile"
 action: 
-  - title: "Try Again"
+  - title: "Tentar novamente"
     link: "setup-alarm-test-disguise"
 ---
 
-It looks like you didn't succeed in triggering the alert.
+Parece que você não conseguiu acionar o alerta.
 
-Remember: repeatedly press a button on the calculator fast until you feel a vibration.
+Lembre-se: pressione repetidamente um botão na calculadora rápida até sentir uma vibração.
