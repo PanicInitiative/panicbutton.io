@@ -4,24 +4,24 @@ layout: post
 lang: pt
 slug: "home-ready"
 type: "simple"
-title: "Panic Button"
+title: "Botão de Pânico"
 published: true
 categories: "mobile"
 tags: "mobile"
 status:
-  - title: "Ready"
+  - title: "Pronto"
     color: green
     link: help-ready
 action:
-  - title: "Disguise"
+  - title: "Disfarce"
     link: "checklist"
 items:
-  -  title: "Settings"
+  -  title: "Configurações"
      link: "settings"
-  -  title: "About"
+  -  title: "Sobre"
      link: "setup-about"
-  -  title: "Help"
+  -  title: "Ajuda"
      link: "help"
 ---
 
-Panic Button is set-up and ready. Click Disguise to exit and hide the application.
+O Botão de Pânico está configurado e pronto para ser usado. Clique Disfarce para sair e esconder o aplicativo.
