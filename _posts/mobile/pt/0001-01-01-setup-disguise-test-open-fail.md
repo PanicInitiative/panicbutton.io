@@ -4,8 +4,7 @@ layout: post
 lang: pt
 slug: "setup-disguise-test-open-fail"
 type: "simple"
-title: "Setup the Disguise"
-published: "true"
+title: "Configurar o Disfarce
 categories: "mobile"
 tags: "mobile"
 action: 
@@ -13,6 +12,6 @@ action:
     link: "setup-disguise-test-open"
 ---
 
-It looks like you weren't successful at opening the app from the calculator disguise.
+Parece que você não conseguiu abrir o app a partir do disfarce de calculadora.
 
-Remember: The application icon is a calculator when it is disguised.
+Lembre-se: o ícone do aplicativo é uma calculadora quando ele está disfarçado.
