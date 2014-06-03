@@ -4,11 +4,11 @@ layout: post
 lang: pt
 slug: "setup-alarm-test-hardware"
 type: "interactive"
-title: "Test Hardware Alarm"
+title: "Testar Alerta de Hardware"
 published: "true"
 categories: "mobile"
 tags: "mobile"
-introduction: "Try Now! Repeatedly press the power button fast until you feel a vibration."
+introduction: "Experimente agora! Pressione repetidamente o botão de ligar,  até sentir uma vibração."
 component: alarm-test-hardware
 timers:
   info: "0"
