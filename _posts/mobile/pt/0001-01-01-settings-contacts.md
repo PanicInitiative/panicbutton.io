@@ -17,7 +17,7 @@ action:
     confirmation: "Contatos salvos"
 ---
 
-Security Tips
+Dicas de Segurança
 
  - Pense em quem pode ajudá-lo de verdade - não adianta alguém saber que você está em apuros se não tiver como ajudar.
  - Combine um plano com seus contatos selecionados para que estejam preparados para agir rápido.
