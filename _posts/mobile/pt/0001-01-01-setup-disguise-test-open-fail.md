@@ -8,7 +8,7 @@ title: "Configurar o Disfarce
 categories: "mobile"
 tags: "mobile"
 action: 
-  - title: "Try Again"
+  - title: "Tente Novamente"
     link: "setup-disguise-test-open"
 ---
 
