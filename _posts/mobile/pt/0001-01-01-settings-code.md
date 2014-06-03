@@ -4,7 +4,7 @@ layout: post
 lang: pt
 slug: "settings-code"
 type: "interactive"
-title: "Criar uma senha"
+title: "Cria uma senha"
 published: true
 categories: "mobile"
 tags: "mobile"
