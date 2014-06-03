@@ -4,13 +4,13 @@ layout: post
 lang: pt
 slug: "setup-alarm-test-disguise-success"
 type: "simple"
-title: "Well done!"
+title: "Muito Bem!"
 published: "true"
 categories: "mobile"
 tags: "mobile"
 action: 
-  - title: "Next"
+  - title: "Próximo"
     link: "home-not-configured-disguise"
 ---
 
-Your test was successful! In an actual emergency, your alert would have been sent.
+Teste bem sucedido! Numa emergência real, o seu alerta seria enviado
