@@ -15,4 +15,4 @@ action:
 
 Parece que você não conseguiu abrir o app a partir do disfarce de calculadora
 
-Lembre-se: Mantenha o botão pressionado e aparecerá o pedido de digitar sua senha 
+Lembre-se: Mantenha o botão pressionado e aparecerá o pedido de digitar seu código PIN
