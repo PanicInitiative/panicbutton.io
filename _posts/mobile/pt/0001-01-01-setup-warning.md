@@ -13,5 +13,5 @@ action:
     link: "setup-contacts"
 ---
 
-O Botão de Pânico é uma ferramenta útil para alertar sua rede rapidamente quando você precisar de ajuda. Ele não pode garantir a sua segurança! 
+O Botão de Pânico é uma ferramenta útil para alertar sua rede rapidamente quando você precisa de ajuda. Ele não pode garantir a sua segurança! 
 Combine um plano com seus contatos selecionados para que estejam preparados para agir rápido.
