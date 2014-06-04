@@ -4,12 +4,12 @@ layout: post
 lang: pt
 slug: "setup-code"
 type: "interactive"
-title: "Criar Uma Senha"
+title: "Criar Um Código PIN"
 published: true
 categories: "mobile"
 tags: "mobile"
-introduction: Esta senha é necessária para acessar as configurações do aplicativo. Ela não é necessária para alertar os contatos em caso de emergência. 
-warning: Lembre-se da sua senha! Se esquecer, terá que reinstalar o aplicativo.
+introduction: Este código é necessário para acessar as configurações do aplicativo. Ele não é necessário para alertar os contatos em caso de emergência. 
+warning: Lembre-se do seu código! Se esquecer, terá que reinstalar o aplicativo.
 component: code
 action:
   - title: "Próximo"
