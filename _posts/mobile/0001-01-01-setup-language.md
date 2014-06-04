@@ -20,4 +20,7 @@ action:
   - title: "Français"
     language: "fr"
     confirmation: "Nouveau language selectionné"
+  - title: "Português"
+    language: "pt"
+    confirmation: "Novo idioma aplicado"
 ---

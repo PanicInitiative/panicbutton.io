@@ -13,8 +13,14 @@ component: language
 action:
   - title: "English"
     language: "en"
+    confirmation: "New language applied"
   - title: "Español"
     language: "es"
-  - title: "Filipino"
-    language: "ph"
+    confirmation: "Nuevo lenguaje seleccionado"    
+  - title: "Français"
+    language: "fr"
+    confirmation: "Nouveau language selectionné"
+  - title: "Português"
+    language: "pt"
+    confirmation: "Novo idioma aplicado"
 ---

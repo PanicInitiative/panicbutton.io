@@ -11,13 +11,16 @@ tags: "mobile"
 introduction: Selecciona un lenguaje para la aplicación.
 component: language
 action:
-  - title: "Inglés"
+  - title: "English"
     language: "en"
     confirmation: "New language applied"
   - title: "Español"
     language: "es"
     confirmation: "Nuevo lenguaje seleccionado"    
-  - title: "Francés"
+  - title: "Français"
     language: "fr"
     confirmation: "Nouveau language selectionné"
+  - title: "Português"
+    language: "pt"
+    confirmation: "Novo idioma aplicado"
 ---
