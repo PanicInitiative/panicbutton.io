@@ -20,4 +20,4 @@ Dicas de segurança
 
  - Procure criar palavras ou frases de código na sua mensagem, que só seus contatos vão entender.
  - Numa emergência, você não terá tempo de modificar uma mensagem, portanto crie algo funcione em qualquer situação.
- - Se você quiser que sua localização seja incluída na mensagem, ativar rastreamento GPS de configurações do telefone.
+ - Se você quiser que sua localização seja incluída na mensagem, ativar rastreamento GPS nas configurações do telefone.
