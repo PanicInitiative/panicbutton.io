@@ -15,4 +15,4 @@ action:
 
 Parece que você não conseguiu abrir o app a partir do disfarce de calculadora
 
-Lembre-se: Digite a senha que você escolheu nos primeiros passos da configuração. Se você não lembrar da sua senha, desinstale o aplicativo e reinstale.
+Lembre-se: Digite o código PIN que você escolheu nos primeiros passos da configuração. Se você não lembrar do seu código, desinstale o aplicativo e reinstale.
