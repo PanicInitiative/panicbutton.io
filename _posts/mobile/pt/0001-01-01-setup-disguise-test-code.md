@@ -8,7 +8,7 @@ title: "Testar o Disfarce"
 published: "true"
 categories: "mobile"
 tags: "mobile"
-introduction: "Muito Bem! Agora digite sua senha para acessar as configurações."
+introduction: "Muito Bem! Agora digite seu código PIN para acessar as configurações."
 component: disguise-test-code
 action: 
   - title: "Ok"
