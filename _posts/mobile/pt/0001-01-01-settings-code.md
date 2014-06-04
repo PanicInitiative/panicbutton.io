@@ -15,5 +15,4 @@ component: code
 action:
   - title: "Salvar"
     link: "home-ready"
-    confirmation: "Senha salva"
----
+    confirmation: "Código PIN salvo"
