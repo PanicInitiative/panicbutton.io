@@ -23,6 +23,8 @@ Here are some of the ways you can get involved:
 
 We are looking for Android users around the world to help us to pilot the very first release of the Panic Button app. In particular we want to hear from human rights defenders, journalists and others who face risks due to their work. Sign up to test the app and feedback to us about how we can improve it for you. 
 
+As Panic Button is in a Beta testing phase we expect that the app will still have technical bugs on some mobile devices. You can help us to fix these problems by reporting a bug to us [**here**](https://report.panicbutton.io/). Alternatively, please [contact us directly](mailto:support@panicbutton.io) for support.
+
 2. Contribute to making app improvements 
 
-Have an idea about how we can improve the app? All our code, designs and feature ideas can be found on our [Github repo](https://github.com/TeamPanicButton/PanicButton). From time to time we have also run codejams, hackathaons and open design days and have invited developers, designers, videomakers, trainers and security experts to help us work through specific design and implementation challenges. Follow us to hear about future events. (WHERE)
+Have an idea about how we can improve the app? All our code, designs and feature ideas can be found on our [Github repo](https://github.com/TeamPanicButton/PanicButton). From time to time we have also run codejams, hackathaons and open design days and have invited developers, designers, videomakers, trainers and security experts to help us work through specific design and implementation challenges. Follow us to hear about future events. 
