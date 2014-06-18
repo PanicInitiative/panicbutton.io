@@ -22,4 +22,4 @@ checklist:
   - title: "Charge phone battery to full"
 ---
 
-More [security tips...](#help-charge)
+More [security tips...](#help_risk)
