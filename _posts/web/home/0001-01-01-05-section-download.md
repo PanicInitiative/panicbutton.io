@@ -8,7 +8,7 @@ section_order: 5
 downloads:
   - download: Download Panic Button from<br/>**Google Play.**
     label: Download from GOOGLE.
-    link: https://f-droid.org/panic-button
+    link: https://play.google.com/store/apps/details?id=org.iilab.pb
   - download: View the Source Code on **Github**.
     label: View Source Code
     link: https://github.com/iilab/PanicButton
