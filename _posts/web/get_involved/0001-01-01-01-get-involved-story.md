@@ -19,9 +19,8 @@ Are you a human rights defender, activist, journalist who would like to test the
 
 Here are some of the ways you can get involved:
 
-1. [Sign up](https://panicbutton.io/#download) to partipate in the private beta pilot 
-
-We are looking for Android users around the world to help us to pilot the very first release of the Panic Button app. In particular we want to hear from human rights defenders, journalists and others who face risks due to their work. Sign up to test the app and feedback to us about how we can improve it for you. 
+1. [Download and test](https://panicbutton.io/#download) Panic Button!
+We are looking for Android users around the world to help us to text the first public beta release of the Panic Button app. In particular we want to hear from human rights defenders, journalists and others who face risks due to their work. [Contact us](mailto:support@panicbutton.io) to share feedback and ideas to help us improve the app.
 
 As Panic Button is in a Beta testing phase we expect that the app will still have technical bugs on some mobile devices. You can help us to fix these problems by reporting a bug to us [**here**](https://report.panicbutton.io/). Alternatively, please [contact us directly](mailto:support@panicbutton.io) for support.
 
