@@ -20,7 +20,7 @@ The disguise aims to delay the discovery of the application for as long as possi
 The mobile networks that allow you to send an SMS are not built to protect your privacy or the content of your messages. This is true for all calls and SMS communications you make, including SMS alerts sent by Panic Button. 
 This present you and your contacts with direct risks if the groups who are threatening you have partnerships with the telecommunications companies in your country or have access to equipment that allows them to intercept telecommunications.
 
-If you are using Panic Button in your work, we encourage you to visit the Help section on assessing risks and using your mobile phone safely. There is also a list of suggested resources where you can learn about additional tools and strategies to mitigate against the risks of using a mobile phone.
+If you are using Panic Button in your work, we encourage you to visit our [help section](https://panicbutton.io/help/help-risk.html) on assessing risks and using your mobile phone more safely. There is also a list of [suggested resources](https://panicbutton.io/help/help-reading.html) where you can learn about additional tools and strategies to mitigate against the risks of using a mobile phone.
 
 Further security information about how Panic Button attempts to protect users against different types of adverse situations can be found [here](.
 
