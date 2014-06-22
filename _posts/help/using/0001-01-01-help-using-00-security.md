@@ -22,6 +22,6 @@ This present you and your contacts with direct risks if the groups who are threa
 
 If you are using Panic Button in your work, we encourage you to visit our [help section](https://panicbutton.io/help/help-risk.html) on assessing risks and using your mobile phone more safely. There is also a list of [suggested resources](https://panicbutton.io/help/help-reading.html) where you can learn about additional tools and strategies to mitigate against the risks of using a mobile phone.
 
-Further security information about how Panic Button attempts to protect users against different types of adverse situations can be found [here](.
+Further security information about how Panic Button attempts to protect users against different types of adverse situations can be found [here](https://github.com/iilab/PanicButton/blob/master/docs/SECURITY.md).
 
 
