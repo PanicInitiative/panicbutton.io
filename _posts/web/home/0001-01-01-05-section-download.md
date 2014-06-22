@@ -6,10 +6,11 @@ published: true
 categories: home_section
 section_order: 5
 downloads:
-- download: Download Panic Button from<br/>**Google Play.**
-  label: Download from GOOGLE.
-  link: https://f-droid.org/panic-button
-- download: View the Source Code on **Github**.
-  label: View Source Code
-  link: https://github.com/iilab/PanicButton
+  - download: Download Panic Button from<br/>**Google Play.**
+    label: Download from GOOGLE.
+    link: https://f-droid.org/panic-button
+  - download: View the Source Code on **Github**.
+    label: View Source Code
+    link: https://github.com/iilab/PanicButton
+
 ---
