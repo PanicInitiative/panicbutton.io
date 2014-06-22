@@ -3,7 +3,7 @@ layout: post
 module: home_section_how
 heading: "How Does Panic Button **Work?**"
 published: true
-categories: "home_section"
+categories: home_section
 section_order: 2
 captions:
 - TAKE TIME to set-up Panic Button somewhere safe and quiet

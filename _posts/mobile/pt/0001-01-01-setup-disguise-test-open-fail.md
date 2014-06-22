@@ -2,14 +2,15 @@
 version: 1
 layout: post
 lang: pt
-slug: "setup-disguise-test-open-fail"
-type: "simple"
-title: "Configurar o Disfarce
-categories: "mobile"
-tags: "mobile"
+slug: setup-disguise-test-open-fail
+type: simple
+title: Configurar o Disfarce
+categories: mobile
+tags: mobile
 action: 
-  - title: "Tente Novamente"
-    link: "setup-disguise-test-open"
+  - title: Tente Novamente
+    link: setup-disguise-test-open
+
 ---
 
 Parece que você não conseguiu abrir o app a partir do disfarce de calculadora.

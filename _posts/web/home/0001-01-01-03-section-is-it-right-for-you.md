@@ -1,9 +1,9 @@
 ---
 layout: post
 module: home_section_is
-heading: "Is Panic Button<br/>**right for you?**"
+heading: Is Panic Button<br/>**right for you?**
 published: true
-categories: "home_section"
+categories: home_section
 section_order: 3
 questions:
   - id: 1
