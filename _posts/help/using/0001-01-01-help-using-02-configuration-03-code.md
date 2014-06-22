@@ -12,9 +12,11 @@ published: true
 section_order: 3
 ---
 
-Create a four digit pincode that you will remember. This pincode is needed to access the app settings and keep your emergency contact details & messages private. 
+Create a four digit pincode that you will remember. This pincode is needed to dismiss the disguise and access the app settings. 
 
-**Your pin code will not be needed to trigger the alerts in an emergency!**
+Remember, the disguise aims to delay the discovery of the application for as long as possible while it sends location updates to your chosen contacts. However, this does not prevent a competent attacker from accessing the content of your messages or the telephone numbers your chosen contants.
+
+**Your pin code will NOT be needed to trigger the alerts in an emergency!**
 
 It is important you remember your pincode. If you forget it you will need to reinstall the app and start all over again with the set-up!
 
