@@ -37,5 +37,21 @@
 	    $('#slideshow').carousel({interval: 2000});
 	</script>
 	<script type="text/javascript" src="/js/respond.min.js"></script>
+    <script type="text/javascript" src="//assets.zendesk.com/external/zenbox/v2.6/zenbox.js"></script>
+    <style type="text/css" media="screen, projection">
+      @import url(//assets.zendesk.com/external/zenbox/v2.6/zenbox.css);
+    </style>
+    <script type="text/javascript">
+      if (typeof(Zenbox) !== "undefined") {
+        Zenbox.init({
+          dropboxID:   "20261621",
+          url:         "https://panicbutton.zendesk.com",
+          tabTooltip:  "Support",
+          tabImageURL: "https://p3.zdassets.com/external/zenbox/images/tab_support_black.png",
+          tabColor:    "#ffff00",
+          tabPosition: "Left"
+        });
+      }
+    </script>
 </body>
 </html>

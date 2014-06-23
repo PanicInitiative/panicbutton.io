@@ -4,6 +4,12 @@
             <h2><div class="title" role="button">{{section.heading | markdownify}}</div></h2>
             <div>{{section.content}}</div>
         </div>
+        <div class="clearfix"></div>
+        <div class="halert">
+            <div class="exclam">!</div>
+            <div class="atext"><p>{{ section.alert }}</p></div>
+            <div class="clearfix"></div>
+        </div>
     </div>
     <div class="container is-cont mobnopad">
         {% for step in section.questions %}

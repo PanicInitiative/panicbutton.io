@@ -66,6 +66,7 @@ questions:
   - id: final
     content: Panic Button is a useful tool to alert your network quickly and discretely in an emergency. It is not a fail-safe security tool!
     src: images/tool.png
+alert: Using Panic Button to send an alert only improves your safety when your contacts can do something to help you. The disguise is only here to delay the discovery of the application for as long as possible to send your location updates. A competent adversary might be able to find out about your location, that you are alerting your contacts or the identity of your contacts.
 
 ---
 
