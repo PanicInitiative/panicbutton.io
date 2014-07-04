@@ -13,4 +13,4 @@ action:
     link: "setup-disguise-test-open"
 ---
 
-Panic Button stays hidden on your phone by looking like a simple calculator. From now on, you will see the calculator disguise whenever you open the app. Learn how it works. 
+Panic Button stays hidden on your phone by looking like a simple calculator. From now on, you will see the calculator disguise whenever you open the app. You need to learn how to dismiss the disguise in order to access your settings and turn the alert messages off. 
