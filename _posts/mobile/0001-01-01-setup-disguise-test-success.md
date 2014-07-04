@@ -13,4 +13,4 @@ action:
     link: "home-ready"
 ---
 
-Congratulations you have now successfully configured the Panic Button app!
+Congratulations you have now successfully configured the Panic Button app! Make sure you remember how to dismiss the calculator disguise as this is needed to turn alert messages off.
