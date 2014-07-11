@@ -13,4 +13,5 @@ action:
     link: "home-ready"
 ---
 
-¡Felicidades! ¡Lograste instalar la aplicación del Botón de Pánico exitosamente!
+¡Felicidades! ¡Lograste instalar la aplicación del Botón de Pánico exitosamente! Asegúrate de que te acuerdas de cómo retirar el 
+disfraz de la calculadora porque te hará falta para desactivar los mensajes de alerta.
