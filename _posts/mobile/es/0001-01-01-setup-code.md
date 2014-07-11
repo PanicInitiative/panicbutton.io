@@ -8,7 +8,7 @@ title: "Crear una clave"
 published: true
 categories: "mobile"
 tags: "mobile"
-introduction: "Esta clave es necesaria para acceder a las configuraciones de la aplicación. No se necesita para enviar alerta a tus contactos en caso de emergencia."
+introduction: "Esta clave es necesaria para acceder a las configuraciones de la aplicación y para desactivar los mensajes de alerta. No se necesita para enviar alerta a tus contactos en caso de emergencia."
 warning:  ¡Recuerda tu clave! Si la olvidas necesitarás re-instalar la aplicación.
 component: code
 action:
