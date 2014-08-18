@@ -18,4 +18,3 @@ Once the app has been downloaded, you can find it in your Application list under
 
 If you are having difficulties installing the app, please see the [FAQ](https://panicbutton.io/help/help-using.html#help_using_faq) or [contact us directly](mailto:support@panicbutton.io) for support.
 
-**IMAGE** Android Screenshot - showing the auto install process.
