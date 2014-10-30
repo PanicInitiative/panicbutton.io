@@ -18,7 +18,7 @@ languages: &languages
     value: 'fr'
 prose:
   rooturl: '_posts'
-  siteurl: 'https://panicbutton.io'
+  siteurl: 'https://roachhd.github.io/teampanicbutton.github.io'
   media: 'media'
   metadata:
     _posts/web:
