@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% include JB/setup %}
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/xhtml; charset=UTF-8" />
@@ -15,10 +16,15 @@
     <!-- media CSS -->
     <link href="/css/media.css" rel="stylesheet">
     <link href="/css/flexslider.css" rel="stylesheet">
+
+    <!-- Custom styles -->
+    <link href="{{ ASSET_PATH }}/bootstrap-3/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
 	<!-- Pulled from http://code.google.com/p/html5shiv/ -->
     <!--[if lt IE 9]>
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->  
+    <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
 </head>
 <body data-spy="scroll" data-target=".navbar-scroll">
   {{ content }}
