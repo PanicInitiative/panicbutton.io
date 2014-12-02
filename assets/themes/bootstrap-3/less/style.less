@@ -1,0 +1,457 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'roboto_condensed';
+    src: url('../fonts/RobotoCondensed-Light-webfont.eot');
+    src: url('../fonts/RobotoCondensed-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoCondensed-Light-webfont.woff') format('woff'),
+         url('../fonts/RobotoCondensed-Light-webfont.ttf') format('truetype'),
+         url('../fonts/RobotoCondensed-Light-webfont.svg#roboto_condensedlight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'roboto_condensedlight';
+    src: url('../fonts/RobotoCondensed-LightItalic-webfont.eot');
+    src: url('../fonts/RobotoCondensed-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoCondensed-LightItalic-webfont.woff') format('woff'),
+         url('../fonts/RobotoCondensed-LightItalic-webfont.ttf') format('truetype'),
+         url('../fonts/RobotoCondensed-LightItalic-webfont.svg#roboto_condensedlight_italic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'roboto_condensed';
+    src: url('../fonts/RobotoCondensed-Regular-webfont.eot');
+    src: url('../fonts/RobotoCondensed-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoCondensed-Regular-webfont.woff') format('woff'),
+         url('../fonts/RobotoCondensed-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/RobotoCondensed-Regular-webfont.svg#roboto_condensedregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'roboto_condensed';
+    src: url('../fonts/RobotoCondensed-Italic-webfont.eot');
+    src: url('../fonts/RobotoCondensed-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoCondensed-Italic-webfont.woff') format('woff'),
+         url('../fonts/RobotoCondensed-Italic-webfont.ttf') format('truetype'),
+         url('../fonts/RobotoCondensed-Italic-webfont.svg#roboto_condenseditalic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'roboto_condensed';
+    src: url('../fonts/RobotoCondensed-Bold-webfont.eot');
+    src: url('../fonts/RobotoCondensed-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoCondensed-Bold-webfont.woff') format('woff'),
+         url('../fonts/RobotoCondensed-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/RobotoCondensed-Bold-webfont.svg#roboto_condensedbold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'roboto_condensed';
+    src: url('../fonts/RobotoCondensed-BoldItalic-webfont.eot');
+    src: url('../fonts/RobotoCondensed-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoCondensed-BoldItalic-webfont.woff') format('woff'),
+         url('../fonts/RobotoCondensed-BoldItalic-webfont.ttf') format('truetype'),
+         url('../fonts/RobotoCondensed-BoldItalic-webfont.svg#roboto_condensedbold_italic') format('svg');
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* PACTKIT Colors */
+
+@y:   #FFF300;
+@txt: #222;
+
+body,h1,h2,h3,h4,h5{
+  font-family: 'roboto_condensed', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  color: @txt;
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.page-header{
+  border: none;
+  text-align: center;
+  img {
+    width: 100%;
+    max-width: 375px;
+  }
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+p, li {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+ul, ol {
+  padding-left: 1em;
+}
+
+li {
+  padding-left: 2pt;
+}
+
+img{
+  max-width: 100%;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.btn-default{
+  background-image: none;
+  background: @y;
+  border: 1.5px solid @txt;
+  border-radius: 3em;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-shadow: 0 0 0;
+  box-shadow: 0 2px 0.5px #ddd;
+
+  &:hover{
+    font-weight: 700;
+    background: @y;
+    border: 2.5px solid @txt;
+    padding: 5px 12px;
+  }
+}
+
+.bottom-nav{
+  text-align: center;
+  margin: 20px auto;
+
+  .btn {
+    min-width: 200px;
+  }
+}
+
+/* CHEAT SHEET*/
+
+.cheatsheet {
+  .col-xs-12,
+  .col-xs-6 {
+    border-top: 1px solid @y;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+  .col-xs-12:nth-child(1){border: none;}
+
+  .col-xs-6:nth-child(even){
+    border-left: 1px solid @y;
+  }
+
+  .col-xs-6:nth-child(odd){
+    border-right: 1px solid @y;
+    margin-right: -1px;
+  }
+
+  .col-xs-6:nth-child(even){
+    border-left: 1px solid @y;
+    //margin-left: -1px;
+  }
+
+  .row{
+    margin: 0;
+  }
+  .cs-materials h3 {
+    margin-bottom: 15px;
+  }
+
+}
+
+/* posts index */
+.post > h3.title {
+  position: relative;
+  padding-top: 10px; }
+
+.post > h3.title span.date {
+  position: absolute;
+  right: 0;
+  font-size: 0.9em; }
+
+.post > .more {
+  margin: 10px 0;
+  text-align: left; }
+
+/* post-full*/
+.post-full .date {
+  margin-bottom: 20px;
+  font-weight: bold; }
+
+/* tag_box */
+.tag_box {
+  list-style: none;
+  margin: 0;
+  overflow: hidden; }
+
+.tag_box li {
+  line-height: 28px; }
+
+.tag_box li i {
+  opacity: 0.9; }
+
+.tag_box.inline li {
+  float: left; }
+
+.tag_box a {
+  padding: 3px 6px;
+  margin: 2px;
+  background: #eee;
+  color: #555;
+  border-radius: 3px;
+  text-decoration: none;
+  border: 1px dashed #cccccc; }
+
+.tag_box a span {
+  vertical-align: super;
+  font-size: 0.8em; }
+
+.tag_box a:hover {
+  background-color: #e5e5e5; }
+
+.tag_box a.active {
+  background: #57A957;
+  border: 1px solid #4c964d;
+  color: #FFF; }
+
+
+/***************************************************
+  PRINT LAYOUTS
+***************************************************/
+
+// hide print only by default
+#inlet aside{
+  display: none;
+}
+
+.page-a4{
+  width: 100%; //297px;
+  height: 213.75mm; //210mm;
+  overflow: hidden;
+  //outline: 1px solid #eee;
+}
+
+.page-a4p{
+  height: 297mm; // 100%; //297mm;
+  width: 210mm; //213.75mm;//210mm;
+  overflow: hidden;
+  //outline: 1px solid #eee;
+}
+
+.page-a5{
+  width: 50%;//148.5mm;
+  height: 213.75mm; // 210mm;
+  overflow: hidden;
+  //outline: 1px solid #eee;
+  float: right;
+  &:first-child {margin-right: -1px}
+}
+
+.rotate {
+  -webkit-transform: rotate(-90deg); /* Safari */
+  -moz-transform:    rotate(-90deg); /* Firefox */
+  -ms-transform:     rotate(-90deg); /* IE */
+  -o-transform:      rotate(-90deg); /* Opera */
+  transform:         rotate(-90deg);
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+// @media print {
+//   html, body {
+//     width: 297mm;
+//     height: 210mm;
+//   }
+//   /* ... the rest of the rules ... */
+// }
+
+// .print {
+@media print {
+  .container {
+    max-width: none;
+    width: auto;
+    padding: 0;
+    .post-full>div {
+      width: 100%;
+      height: 210mm;
+      float: none;
+    }
+  }
+  .page-header,
+  .cheatsheet {
+    margin: 0;
+    .page-a5;
+    //background: red;
+  }
+  nav.navbar,
+  #onlineContent,
+  .bottom-nav,
+  #downloadButton,
+  .cheetsheet .cs-materials{
+    display: none;
+  }
+  .page-header{
+    border-right: 30px solid @y;
+    border-left: 30px solid black;
+    img {
+      width: 360px;
+      margin: 120px auto 70px;
+    }
+    h1 { font-size: 45pt;}
+  }
+  .cheatsheet {
+    border-left: 30px solid @y;
+    border-right: 30px solid black;
+    padding: 30px 10px;
+  }
+  #inlet {
+    border-left: 45px solid @y;
+    border-right: 45px solid @y;
+    page-break-before: always;
+    .page-a4;
+    position: relative;
+    //outline: 1px solid blue;
+    > div {
+      width: 213mm;
+      transform: rotate(270deg) translate(-50%,-110mm);
+      //outline: 1px solid gray;
+    }
+    .content,
+    aside {
+      display: block;
+      width: 50%;
+      height: 100%;
+      float: left;
+      padding: 0 30px 10px;
+      margin-top: 30px;
+      //outline: 1px solid red;
+      p, li { font-size: 14pt;}
+    }
+    aside {
+      //outline: 1px solid green;
+      max-height: 270mm;
+      overflow: hidden;
+      border-left: 1pt solid @y;
+      > div {
+        margin-bottom: 3em;
+      }
+      .aside-notes{
+        h3 {
+          margin-bottom: 3em;
+        }
+        div {
+          border-top: 1pt solid @y;
+          border-bottom: 1pt solid @y;
+          height: 3em;
+          margin-bottom: 3em;
+        }
+      }
+    }
+  } // .inlet
+} // .print
+
+.kf, .pm, .hrd {
+
+  .navbar { display: none;}
+
+  .container {
+    outline: 1px dashed #def;
+    padding: 0;
+
+    .row {
+      margin: 0;
+    }
+  }
+
+  .gamecard {
+
+    .page-a4p;
+    position: relative;
+
+    h2 {
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-top: 0;
+    }
+
+    .gc-front,
+    .gc-inlay {
+      width: 50%;
+      top: 0;
+    }
+
+    .gc-front {
+      left: 0;
+      border-right: 1px dashed #def;
+      img {
+        width: 100%;
+      }
+
+      .reversed {
+        position: absolute;
+        width: 50%;
+        text-align: center;
+        transform: rotate(180deg);// translate(-50%,-110mm);
+        padding: 0 30pt;
+        left: 0;
+      }
+
+      .token {
+        .reversed;
+        bottom: 177mm;
+      }
+
+      .talent {
+        .reversed;
+        bottom: 165mm;
+        font-size: 20pt;
+      }
+
+      .needs {
+        .reversed;
+        bottom: 250mm;
+      }
+
+      header {
+        padding: 0 20pt;
+
+        h1 {
+          font-size: 25pt;
+        }
+
+        .bio {
+          font-size: 15pt;
+        }
+
+      }
+    }
+
+    .gc-inlay {
+      position: absolute;
+      right: 0;
+      .content {
+        padding: 0 8%;
+      }
+    }
+  }
+}
