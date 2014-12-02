@@ -1,25 +1,13 @@
----
----
-{% assign idx = 0 %}{% assign count = 0 %}{% for pst in site.categories.mobile %}{% if pst.lang == 'es' %}{% if pst.version == 4 %}{% assign count = count | plus: '1' %}{% endif %}{% endif %}{% endfor %}{
+{
   "mobile": {
-    "version" : {{ 4 }},
-    "data":[{% for post in site.categories.mobile %}{% if post.lang == 'es' %}{% if post.version == 4 %}{% assign idx = idx | plus: '1' %}
+    "version" : 4,
+    "data":[
     {
-      "id" : "{{post.slug}}",
-      "lang" : "{{post.lang}}",
-      "type" : "{{post.type}}",
-      "title" : "{{post.title}}"{% if post.status %},
-      "status" : {{post.status | jsonify}}{% endif %}{% if post.introduction %},
-      "introduction" : {{post.introduction | jsonify}}{% endif %}{% if post.warning %},
-      "warning" : "{{post.warning}}"{% endif %}{% if post.component %},
-      "component" : "{{post.component}}"{% endif %}{% if post.timers %},
-      "timers" : {{post.timers | jsonify}}{% endif %}{% if post.action %},
-      "action" : {{post.action | jsonify}}{% endif %}{% if post.success %},
-      "success" : {{post.success | jsonify}}{% endif %}{% if post.fail %},
-      "fail" : {{post.fail | jsonify}}{% endif %}{% if post.checklist %},
-      "checklist" : {{post.checklist | jsonify}}{% endif %}{% if post.items %},
-      "items" : {{post.items | jsonify }}{% endif %}{% if post.content != '' %},
-      "content" : {{post.content | strip_newlines | jsonify}}{% endif %}
-    }{% unless idx == count %},{% endunless %}{% endif %}{% endif %}{% endfor %}]
+      "id" : "settings",
+      "lang" : "es",
+      "type" : "simple",
+      "title" : "Configuraciones",
+      "items" : [{"title":"Configuraciones de lenguage","link":"settings-language"},{"title":"Configuraciones de mensaje","link":"settings-message"},{"title":"Configuraciones de contactos","link":"settings-contacts"},{"title":"Configuraciones de clave de acceso","link":"settings-code"},{"title":"Configuraciones de frequencia","link":"settings-alert"},{"title":"Reiniciar la instalación","link":"settings-reset-confirm"}]
+    }]
   }
 }

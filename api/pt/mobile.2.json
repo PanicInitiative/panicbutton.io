@@ -1,25 +1,22 @@
----
----
-{% assign idx = 0 %}{% assign count = 0 %}{% for pst in site.categories.mobile %}{% if pst.lang == 'pt' %}{% if pst.version == 2 %}{% assign count = count | plus: '1' %}{% endif %}{% endif %}{% endfor %}{
+{
   "mobile": {
-    "version" : {{ 2 }},
-    "data":[{% for post in site.categories.mobile %}{% if post.lang == 'pt' %}{% if post.version == 2 %}{% assign idx = idx | plus: '1' %}
+    "version" : 2,
+    "data":[
     {
-      "id" : "{{post.slug}}",
-      "lang" : "{{post.lang}}",
-      "type" : "{{post.type}}",
-      "title" : "{{post.title}}"{% if post.status %},
-      "status" : {{post.status | jsonify}}{% endif %}{% if post.introduction %},
-      "introduction" : {{post.introduction | jsonify}}{% endif %}{% if post.warning %},
-      "warning" : "{{post.warning}}"{% endif %}{% if post.component %},
-      "component" : "{{post.component}}"{% endif %}{% if post.timers %},
-      "timers" : {{post.timers | jsonify}}{% endif %}{% if post.action %},
-      "action" : {{post.action | jsonify}}{% endif %}{% if post.success %},
-      "success" : {{post.success | jsonify}}{% endif %}{% if post.fail %},
-      "fail" : {{post.fail | jsonify}}{% endif %}{% if post.checklist %},
-      "checklist" : {{post.checklist | jsonify}}{% endif %}{% if post.items %},
-      "items" : {{post.items | jsonify }}{% endif %}{% if post.content != '' %},
-      "content" : {{post.content | strip_newlines | jsonify}}{% endif %}
-    }{% unless idx == count %},{% endunless %}{% endif %}{% endif %}{% endfor %}]
+      "id" : "setup-about",
+      "lang" : "pt",
+      "type" : "simple",
+      "title" : "Sobre",
+      "content" : "<p>O Botão de Pânico transforma seu celular em um alarme secreto para quando você está em apuros</p><p><strong>Como funciona o Botão de Pânico?</strong></p><ul><li>Reserve uma hora e lugar SEGURO e TRANQUILO para configurar o Botão de Pânico </li><li>Combine um plano com seus contatos para que estejam PREPARADOS para AGIR</li><li>VERIFIQUE se você está pronto e se o seu celular tem crédito e bateria</li><li>ATIVE o Botão de Pânico em caso de emergência, pressionando rapidamente o botão de ligar o telefone</li><li>Sua rede receberá um SMS e atualizações regulares da sua localização, permitindo uma AÇÃO RÁPIDA</li></ul><p>O projeto do Botão de Pânico é uma iniciativa da Anistia Internacional, em colaboração com consultores e parceiros chave, incluindo Frontline Defenders, iilab e the engine room</p>"
+    },
+    {
+      "id" : "home-alerting",
+      "lang" : "pt",
+      "type" : "simple",
+      "title" : "Botão de Pânico",
+      "status" : [{"title":"Enviando alertas","color":"red","link":"help-alerting"}],
+      "action" : [{"title":"Parar Alertas","link":"home-ready"}],
+      "content" : "<p>O Botão de Pânico está enviando alertas. Clique Parar Alertas para cancelar o envio de mensagem. </p>"
+    }]
   }
 }

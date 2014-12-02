@@ -1,25 +1,22 @@
----
----
-{% assign lang = 'fr' %}{% assign version = 2 %}{% assign idx = 0 %}{% assign count = 0 %}{% for pst in site.categories.mobile %}{% if pst.lang == lang %}{% if pst.version == version %}{% assign count = count | plus: '1' %}{% endif %}{% endif %}{% endfor %}{
+{
   "mobile": {
-    "version" : {{ version }},
-    "data":[{% for post in site.categories.mobile %}{% if post.lang == lang %}{% if post.version == version %}{% assign idx = idx | plus: '1' %}
+    "version" : 2,
+    "data":[
     {
-      "id" : "{{post.slug}}",
-      "lang" : "{{post.lang}}",
-      "type" : "{{post.type}}",
-      "title" : "{{post.title}}"{% if post.status %},
-      "status" : {{post.status | jsonify}}{% endif %}{% if post.introduction %},
-      "introduction" : {{post.introduction | jsonify}}{% endif %}{% if post.warning %},
-      "warning" : "{{post.warning}}"{% endif %}{% if post.component %},
-      "component" : "{{post.component}}"{% endif %}{% if post.timers %},
-      "timers" : {{post.timers | jsonify}}{% endif %}{% if post.action %},
-      "action" : {{post.action | jsonify}}{% endif %}{% if post.success %},
-      "success" : {{post.success | jsonify}}{% endif %}{% if post.fail %},
-      "fail" : {{post.fail | jsonify}}{% endif %}{% if post.checklist %},
-      "checklist" : {{post.checklist | jsonify}}{% endif %}{% if post.items %},
-      "items" : {{post.items | jsonify }}{% endif %}{% if post.content != '' %},
-      "content" : {{post.content | strip_newlines | jsonify}}{% endif %}
-    }{% unless idx == count %},{% endunless %}{% endif %}{% endif %}{% endfor %}]
+      "id" : "setup-about",
+      "lang" : "fr",
+      "type" : "simple",
+      "title" : "A propos",
+      "content" : "<p>Le Bouton d&#39;urgence transforme votre téléphone mobile en système secret d&#39;envoi d&#39;alerte lorsque vous êtes en danger.</p><p><strong>Comment fonctionne le Bouton d&#39;urgence?</strong></p><ul><li>Choisissez un endroit sûr et tranquille pour paramétrer votre Bouton d&#39;urgence.</li><li>Mettez au point un plan d&#39;action avec vos contacts pour qu&#39;ils sachent quoi faire au moment voulu.</li><li>Vérifiez que tout est prêt et qu&#39;il y a suffisamment de crédit et de batterie sur votre téléphone.</li><li>En cas de danger, activez le Bouton d&#39;urgence en appuyant rapidement sur le bouton de mise en marche de votre téléphone.</li><li>Les membres de votre réseau recevront un SMS et des mises à jour régulières sur l&#39;endroit où vous vous trouvez, ce qui les aidera à agir rapidement.</li></ul><p>Le projet Bouton d&#39;urgence est une initiative d&#39;Amnesty International en collaboration avec des conseillers et des partenaires tels que Frontline Defenders, iilab et Engine room.</p>"
+    },
+    {
+      "id" : "home-alerting",
+      "lang" : "fr",
+      "type" : "simple",
+      "title" : "Bouton d'urgence",
+      "status" : [{"title":"Envoi d'alerte","color":"red","link":"help-alerting"}],
+      "action" : [{"title":"Interrompre l'envoi d'alerte","link":"home-ready"}],
+      "content" : "<p>Envoi de messages d&#39;alerte en cours. Appuyer sur Interrompre l&#39;envoi d&#39;alerte pour annuler les messages.</p>"
+    }]
   }
 }
