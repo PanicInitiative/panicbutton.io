@@ -1,0 +1,21 @@
+{
+  "mobile": {
+    "version" : 4,
+    "data":[
+    {
+      "id" : "settings-reset-confirm",
+      "lang" : "en",
+      "type" : "warning",
+      "title" : "Confirm the re-installation",
+      "action" : [{"title":"Confirm","link":"home-not-configured"}],
+      "content" : "<p>Please confirm that you would like to restart the installation. If you restart the installation, the alert will be deactivated until you complete the wizard</p>"
+    },
+    {
+      "id" : "settings",
+      "lang" : "en",
+      "type" : "simple",
+      "title" : "Settings",
+      "items" : [{"title":"Language Settings","link":"settings-language"},{"title":"Message Settings","link":"settings-message"},{"title":"Contact Settings","link":"settings-contacts"},{"title":"Alert Settings","link":"settings-alert"},{"title":"Code Settings","link":"settings-code"},{"title":"Restart the Installation","link":"settings-reset-confirm"}]
+    }]
+  }
+}

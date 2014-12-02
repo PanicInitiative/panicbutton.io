@@ -1,0 +1,13 @@
+{
+  "mobile": {
+    "version" : 4,
+    "data":[
+    {
+      "id" : "settings",
+      "lang" : "es",
+      "type" : "simple",
+      "title" : "Configuraciones",
+      "items" : [{"title":"Configuraciones de lenguage","link":"settings-language"},{"title":"Configuraciones de mensaje","link":"settings-message"},{"title":"Configuraciones de contactos","link":"settings-contacts"},{"title":"Configuraciones de clave de acceso","link":"settings-code"},{"title":"Configuraciones de frequencia","link":"settings-alert"},{"title":"Reiniciar la instalación","link":"settings-reset-confirm"}]
+    }]
+  }
+}

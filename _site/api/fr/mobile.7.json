@@ -1,0 +1,53 @@
+{
+  "mobile": {
+    "version" : 7,
+    "data":[
+    {
+      "id" : "setup-language",
+      "lang" : "fr",
+      "type" : "interactive",
+      "title" : "Langue",
+      "introduction" : "Sélectionner une langue pour l'application.",
+      "component" : "language",
+      "action" : [{"title":"English","language":"en","confirmation":"New language applied"},{"title":"Español","language":"es","confirmation":"Nuevo lenguaje seleccionado"},{"title":"Français","language":"fr","confirmation":"Nouveau language selectionné"},{"title":"Português","language":"pt","confirmation":"Novo idioma aplicado"}]
+    },
+    {
+      "id" : "setup-disguise-test-unlock",
+      "lang" : "fr",
+      "type" : "interactive",
+      "title" : "Tester le camouflage",
+      "introduction" : "Essayez ! Appuyez sur n'importe quel bouton de la calculatrice.",
+      "component" : "disguise-test-unlock",
+      "timers" : {"info":"0","inactive":"10","fail":"20"},
+      "success" : {"link":"setup-disguise-test-code"},
+      "fail" : {"link":"setup-disguise-test-unlock-fail"}
+    },
+    {
+      "id" : "settings-message",
+      "lang" : "fr",
+      "type" : "interactive",
+      "title" : "Configurer le message d'alerte",
+      "introduction" : "Voici le message qui sera envoyé avec votre position géographique.",
+      "warning" : "Veillez à ce que vos contacts sachent ce qu'ils ont à faire s'ils reçoivent ce message.",
+      "component" : "message",
+      "action" : [{"title":"Enregistrer","link":"home-ready","confirmation":"Message sauvegardé"}],
+      "content" : "<p>Conseils de sécurité</p><ul><li>Envisagez l&#39;idée d&#39;insérer dans votre message des mots ou des phrases codés que seuls vos contacts peuvent comprendre.</li><li>Vous n&#39;aurez pas le temps de changer le message en cas d&#39;urgence, alors préparez quelque chose qui fonctionne en toutes circonstances.</li><li>Activez le traçage GPS à partir des paramètres de votre téléphone si vous souhaitez que le message indique où vous êtes.</li></ul>"
+    },
+    {
+      "id" : "settings-language",
+      "lang" : "fr",
+      "type" : "interactive",
+      "title" : "Langue",
+      "introduction" : "Sélectionner une langue pour l'application.",
+      "component" : "language",
+      "action" : [{"title":"English","language":"en","confirmation":"New language applied"},{"title":"Español","language":"es","confirmation":"Nuevo lenguaje seleccionado"},{"title":"Français","language":"fr","confirmation":"Nouveau language selectionné"},{"title":"Português","language":"pt","confirmation":"Novo idioma aplicado"}]
+    },
+    {
+      "id" : "settings",
+      "lang" : "fr",
+      "type" : "simple",
+      "title" : "Paramètres",
+      "items" : [{"title":"Langue","link":"settings-language"},{"title":"Message","link":"settings-message"},{"title":"Contacts","link":"settings-contacts"},{"title":"Code de sécurité","link":"settings-code"},{"title":"Paramétrage de l'alerte","link":"settings-alert"},{"title":"Relancer l'installation","link":"settings-reset-confirm"}]
+    }]
+  }
+}
