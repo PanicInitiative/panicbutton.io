@@ -24,11 +24,16 @@ Unfortunately there is no way to re-set the passcode except by reinstalling the 
 **3.	How do I turn off the alert when it is sending?**
 
  To turn off the panic button please follow these steps:
-- Open the application (It should be called "Calculate!")
-- A calculator should appear.
-- Click and hold any button of the Calculator (for instance 5) for 5 seconds.
-- Enter your secret PIN (which you chose during the setup)
-- Then click on "Stop Alerting". That's it! Now your phone should stop sending the SMSes.
+ 
+1/ Open the application (It should be called "Calculate!")
+
+2/  A calculator should appear.
+
+3/  Click and hold any button of the Calculator (for instance 5) for 5 seconds.
+
+4/  Enter your secret PIN (which you chose during the setup)
+
+5/  Then click on "Stop Alerting". That's it! Now your phone should stop sending the SMSes.
 
 Once you have turned off the alert the status bar will change from ‘Alert Sending’ to ‘Alert Ready’ again.
 
@@ -60,10 +65,15 @@ If that app crashes this means you are experiencing a bug. As Panic Button is in
 
 **7.	I am experiencing ongoing problems, how can I disinstall Panic Button?**
 If you run into further problems while we are still in Beta phase (for certain phones, the SMS will be triggered in cases when you do not desire it for instance), you can then uninstall the application in the following manner:
+
 1/ Go to the Settings menu on your phone
+
 2/ Go to the Apps or Application menu.
+
 3/ Here go to the Installed Apps tab
+
 4/ You should see Calculate! (or Panic Button). Click on this.
+
 5/ An Uninstall button should be on the screen and you can click it and confirm to uninstall the app.
 
 In this testing phase we are very grateful for all the feedback we receive and we appreciate you taking the time to report this problem so that we can fix it. You can report a bug [**here**](https://report.panicbutton.io/) and provide as much information as possible about the issue, handset and Android version you are using to help us fix the problem.
