@@ -75,8 +75,8 @@ h3 {
   text-transform: uppercase;
   margin-bottom: 3px;
 }
-p,
-li {
+
+.pact p, .pact li {
   font-weight: 300;
   font-size: 20px;
 }

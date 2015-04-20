@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% include JB/setup %}
 {% include nav.html %}
 <div id="content">
 	<section id="header" class="content header white container intcont mobnopad">
@@ -16,7 +17,7 @@ layout: default
 	    		{{content | markdownify}}
 	        {% if image %}
 					<div class="col-3xs-12 col-4xs-12">
-	            <img src="/images/{{section.image.src}}" class="about-illus img-responsive block-center">
+	            <img src="{{ BASE_PATH }}/images/{{section.image.src}}" class="about-illus img-responsive block-center">
 	            <div class="img-capt">{{image.caption | markdownify}}</div>
 					</div>
 					{% endif %}

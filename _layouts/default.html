@@ -8,14 +8,14 @@
     <meta name="author" content="">
     <title>{{ site.name }}</title>
     <!-- Bootstrap core CSS -->
-    <link href="/css/bootstrap.css" rel="stylesheet">
-    <!-- Base CSS -->
-    <link href="/css/style.css" rel="stylesheet">
+    <link href="{{ BASE_PATH }}/css/bootstrap.css" rel="stylesheet">
     <!-- Carousel CSS -->
-    <link href="/css/carousel.css" rel="stylesheet">
+    <link href="{{ BASE_PATH }}/css/carousel.css" rel="stylesheet">
     <!-- media CSS -->
-    <link href="/css/media.css" rel="stylesheet">
-    <link href="/css/flexslider.css" rel="stylesheet">
+    <link href="{{ BASE_PATH }}/css/media.css" rel="stylesheet">
+    <link href="{{ BASE_PATH }}/css/flexslider.css" rel="stylesheet">
+    <!-- Base CSS -->
+    <link href="{{ BASE_PATH }}/css/style.css" rel="stylesheet">
 
     <!-- Custom styles -->
     <link href="{{ ASSET_PATH }}/bootstrap-3/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
@@ -28,10 +28,10 @@
 </head>
 <body data-spy="scroll" data-target=".navbar-scroll">
   {{ content }}
-	<script type="text/javascript" src="/js/jquery-1.10.2.js"></script>
-	<script type="text/javascript" src="/js/jquery.flexslider.js"></script>
-	<script type="text/javascript" src="/js/bootstrap.js"></script>
-	<script type="text/javascript" src="/js/scripts.js"></script>
+	<script type="text/javascript" src="{{ BASE_PATH }}/js/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="{{ BASE_PATH }}/js/jquery.flexslider.js"></script>
+	<script type="text/javascript" src="{{ BASE_PATH }}/js/bootstrap.js"></script>
+	<script type="text/javascript" src="{{ BASE_PATH }}/js/scripts.js"></script>
 	<script type="text/javascript">
 		$('.flexslider').flexslider({
 	      animation: 'fade',

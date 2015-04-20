@@ -1,14 +1,13 @@
 ---
-layout: post_pact
+layout: pact_post
 title: Introduction
 heading: "Introduction"
 lang: en
 version: 1
-slug: "help_pact_introduction"
+slug: "01-introduction"
 published: true
 cardOrder: 1.1
-categories:
-- PACT Activities
+categories: pact-activities
 goals: "Participants get to know each other and learn the purpose of the training."
 methodology: "Plenary discussions and group activities"
 timeSpan: "60 to 75 minutes"

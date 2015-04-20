@@ -1,9 +1,12 @@
 ---
-layout: post_pact
+layout: pact_post
 title: Risk Mapping
+heading: "Risk Mapping"
+lang: en
+version: 1
+slug: "02-risk-mapping"
+categories: pact-activities
 cardOrder: 1.2
-categories:
-- PACT Activities
 goals: "identify vulnerable situations"
 methodology: "Each drafts their own free-style risk map"
 timeSpan: "45m individually <br/>+ <br/>15m discussion"
