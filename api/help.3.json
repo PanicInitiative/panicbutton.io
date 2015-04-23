@@ -1,52 +1,8 @@
----
----
-{% assign lang = 'en' %}{% assign version = 3 %}{% assign idx = 0 %}{% assign count = 0 %}{% assign indexlist = site.categories.help | sort section_order %}{% for index in indexlist %}{% if index.lang == lang %}{% if index.version == version %}{% assign count = count | plus: '1' %}{% endif %}{% endif %}{% assign pagelist = site.categories[index.toc] | sort section_order %}{% for page in pagelist %}{% if page.lang == lang %}{% if page.version == version %}{% assign count = count | plus: '1' %}{% endif %}{% endif %}{% if page.toc %}{% assign subpagelist = site.categories[page.toc] | sort section_order %}{% for subpage in subpagelist %}{% if subpage.lang == lang %}{% if subpage.version == version %}{% assign count = count | plus: '1' %}{% endif %}{% endif %}{% endfor %}{% endif %}{% endfor %}{% endfor %}{
+{
   "help": {
-    "version" : {{ version }},
+    "version" : 3,
     "data":[
-    {% assign indexlist = site.categories.help | sort section_order %}{% for index in indexlist %}{% if index.lang == lang %}{% if index.version == version %}{% assign idx = idx | plus: '1' %}{
-      "id" : "{{index.slug}}",
-      "lang" : "{{index.lang}}",
-      "type" : "simple",
-      "title" : "{{index.title}}"{% if index.heading %},
-      "heading" : "{{index.heading}}"{% endif %}{% if index.section_order %},
-      "section_order" : "{{index.section_order}}"{% endif %}{% if index.image %},
-      "image" : {{index.image | jsonify}}{% endif %}{% if index.alert %},
-      "alert" : "{{index.alert}}"{% endif %}{% if index.content != '' %},
-      "content" : {{index.content | strip_newlines | jsonify }}{% endif %},
-      "items" : [{% assign idx2 = 0 %}{% assign count2 = 0 %}{% assign pagelist = site.categories[index.toc] | sort section_order %}{% for page in pagelist %}{% if page.lang == lang %}{% if page.version == version %}{% assign count2 = count2 | plus: '1' %}{% endif %}{% endif %}{% endfor %}
-        {% assign pagelist = site.categories[index.toc] | sort section_order %}{% for page in pagelist %}{% if page.lang == lang %}{% if page.version == version %}{% assign idx2 = idx2 | plus: '1' %}{
-          "title" : "{{ page.title }}",
-          "link" : "{{ page.slug }}"
-        }{% unless idx2 == count2 %},{% endunless %}{% endif %}{% endif %}{% endfor %}
-      ]
-    }{% unless idx == count %},{% endunless %}{% endif %}{% endif %}{% assign pagelist = site.categories[index.toc] | sort section_order %}{% for page in pagelist %}{% if page.lang == lang %}{% if page.version == version %}{% assign idx = idx | plus: '1' %}{
-      "id" : "{{page.slug}}",
-      "lang" : "{{page.lang}}",
-      "type" : "simple",
-      "title" : "{{page.title}}"{% if page.heading %},
-      "heading" : "{{page.heading}}"{% endif %}{% if page.section_order %},
-      "section_order" : "{{page.section_order}}"{% endif %}{% if page.image %},
-      "image" : {{page.image | jsonify}}{% endif %}{% if page.alert %},
-      "alert" : "{{page.alert}}"{% endif %}{% if page.content != '' %},
-      "content" : {{page.content | strip_newlines | jsonify }}{% endif %},
-      "items" : [{% assign idx2 = 0 %}{% assign count2 = 0 %}{% if page.toc %}{% assign subpagelist = site.categories[page.toc] | sort section_order %}{% for subpage in subpagelist %}{% if subpage.lang == lang %}{% if subpage.version == version %}{% assign count2 = count2 | plus: '1' %}{% endif %}{% endif %}{% endfor %}{% endif %}
-        {% if page.toc %}{% assign subpagelist = site.categories[page.toc] | sort section_order %}{% for subpage in subpagelist %}{% if subpage.lang == lang %}{% if subpage.version == version %}{% assign idx2 = idx2 | plus: '1' %}{
-          "title" : "{{ subpage.title }}",
-          "link" : "{{ subpage.slug }}"
-        }{% unless idx2 == count2 %},{% endunless %}{% endif %}{% endif %}{% endfor %}{% endif %}
-      ]
-    }{% unless idx == count %},{% endunless %}{% endif %}{% endif %}{% if page.toc %}{% assign subpagelist = site.categories[page.toc] | sort section_order %}{% for subpage in subpagelist %}{% if subpage.lang == lang %}{% if subpage.version == version %}{% assign idx = idx | plus: '1' %}{
-      "id" : "{{subpage.slug}}",
-      "lang" : "{{subpage.lang}}",
-      "type" : "simple",
-      "title" : "{{subpage.title}}"{% if subpage.heading %},
-      "heading" : "{{subpage.heading}}"{% endif %}{% if subpage.section_order %},
-      "section_order" : "{{subpage.section_order}}"{% endif %}{% if subpage.image %},
-      "image" : {{subpage.image | jsonify}}{% endif %}{% if subpage.alert %},
-      "alert" : "{{subpage.alert}}"{% endif %}{% if subpage.content != '' %},
-      "content" : {{subpage.content | strip_newlines | jsonify }}{% endif %}
-    }{% unless idx == count %},{% endunless %}{% endif %}{% endif %}{% endfor %}{% endif %}{% endfor %}{% endfor %}]
+    ]
   }
 }
 

@@ -1,25 +1,15 @@
----
----
-{% assign idx = 0 %}{% assign count = 0 %}{% for pst in site.categories.mobile %}{% if pst.lang == 'es' %}{% if pst.version == 2 %}{% assign count = count | plus: '1' %}{% endif %}{% endif %}{% endfor %}{
+{
   "mobile": {
-    "version" : {{ 2 }},
-    "data":[{% for post in site.categories.mobile %}{% if post.lang == 'es' %}{% if post.version == 2 %}{% assign idx = idx | plus: '1' %}
+    "version" : 2,
+    "data":[
     {
-      "id" : "{{post.slug}}",
-      "lang" : "{{post.lang}}",
-      "type" : "{{post.type}}",
-      "title" : "{{post.title}}"{% if post.status %},
-      "status" : {{post.status | jsonify}}{% endif %}{% if post.introduction %},
-      "introduction" : {{post.introduction | jsonify}}{% endif %}{% if post.warning %},
-      "warning" : "{{post.warning}}"{% endif %}{% if post.component %},
-      "component" : "{{post.component}}"{% endif %}{% if post.timers %},
-      "timers" : {{post.timers | jsonify}}{% endif %}{% if post.action %},
-      "action" : {{post.action | jsonify}}{% endif %}{% if post.success %},
-      "success" : {{post.success | jsonify}}{% endif %}{% if post.fail %},
-      "fail" : {{post.fail | jsonify}}{% endif %}{% if post.checklist %},
-      "checklist" : {{post.checklist | jsonify}}{% endif %}{% if post.items %},
-      "items" : {{post.items | jsonify }}{% endif %}{% if post.content != '' %},
-      "content" : {{post.content | strip_newlines | jsonify}}{% endif %}
-    }{% unless idx == count %},{% endunless %}{% endif %}{% endif %}{% endfor %}]
+      "id" : "home-alerting",
+      "lang" : "es",
+      "type" : "simple",
+      "title" : "Botón de Pánico",
+      "status" : [{"title":"Enviando Alerta","color":"red","link":"help-alerting"}],
+      "action" : [{"title":"Detener Alerta","link":"home-ready"}],
+      "content" : "<p>El Botón de Pánico se encuentra enviando mensajes de alerta cada 5 minutos. Presiona Detener Alerta para cancelar los mensajes.</p>"
+    }]
   }
 }

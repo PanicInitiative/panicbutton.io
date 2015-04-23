@@ -1,25 +1,75 @@
----
----
-{% assign idx = 0 %}{% assign count = 0 %}{% for pst in site.categories.mobile %}{% if pst.lang == 'pt' %}{% if pst.version == 7 %}{% assign count = count | plus: '1' %}{% endif %}{% endif %}{% endfor %}{
+{
   "mobile": {
-    "version" : {{ 7 }},
-    "data":[{% for post in site.categories.mobile %}{% if post.lang == 'pt' %}{% if post.version == 7 %}{% assign idx = idx | plus: '1' %}
+    "version" : 7,
+    "data":[
     {
-      "id" : "{{post.slug}}",
-      "lang" : "{{post.lang}}",
-      "type" : "{{post.type}}",
-      "title" : "{{post.title}}"{% if post.status %},
-      "status" : {{post.status | jsonify}}{% endif %}{% if post.introduction %},
-      "introduction" : {{post.introduction | jsonify}}{% endif %}{% if post.warning %},
-      "warning" : "{{post.warning}}"{% endif %}{% if post.component %},
-      "component" : "{{post.component}}"{% endif %}{% if post.timers %},
-      "timers" : {{post.timers | jsonify}}{% endif %}{% if post.action %},
-      "action" : {{post.action | jsonify}}{% endif %}{% if post.success %},
-      "success" : {{post.success | jsonify}}{% endif %}{% if post.fail %},
-      "fail" : {{post.fail | jsonify}}{% endif %}{% if post.checklist %},
-      "checklist" : {{post.checklist | jsonify}}{% endif %}{% if post.items %},
-      "items" : {{post.items | jsonify }}{% endif %}{% if post.content != '' %},
-      "content" : {{post.content | strip_newlines | jsonify}}{% endif %}
-    }{% unless idx == count %},{% endunless %}{% endif %}{% endif %}{% endfor %}]
+      "id" : "setup-language",
+      "lang" : "pt",
+      "type" : "interactive",
+      "title" : "Configurações de Idioma",
+      "introduction" : "Escolha um idioma para a aplicação.",
+      "component" : "language",
+      "action" : [{"title":"English","language":"en","confirmation":"New language applied"},{"title":"Español","language":"es","confirmation":"Nuevo lenguaje seleccionado"},{"title":"Français","language":"fr","confirmation":"Nouveau language selectionné"},{"title":"Português","language":"pt","confirmation":"Novo idioma aplicado"}]
+    },
+    {
+      "id" : "setup-disguise-test-unlock",
+      "lang" : "pt",
+      "type" : "interactive",
+      "title" : "Testar o Disfarce",
+      "introduction" : "Experimente agora! Mantenha pressionado qualquer botão na calculadora",
+      "component" : "disguise-test-unlock",
+      "timers" : {"info":"0","inactive":"10","fail":"20"},
+      "success" : {"link":"setup-disguise-test-code"},
+      "fail" : {"link":"setup-disguise-test-unlock-fail"}
+    },
+    {
+      "id" : "setup-disguise-test-code-fail",
+      "lang" : "pt",
+      "type" : "simple",
+      "title" : "Configurar o Disfarce",
+      "action" : [{"title":"Tente novamente","link":"setup-disguise-test-unlock"}],
+      "content" : "<p>Parece que você não conseguiu abrir o app a partir do disfarce de calculadora</p><p>Lembre-se: Digite o código PIN que você escolheu nos primeiros passos da configuração. Se você não lembrar do seu código, desinstale o aplicativo e reinstale.</p>"
+    },
+    {
+      "id" : "settings-message",
+      "lang" : "pt",
+      "type" : "interactive",
+      "title" : "Configuração de Mensagem de Alerta",
+      "introduction" : "Esta é a mensagem que será enviada com a sua localização.",
+      "warning" : "Combine um plano com seus contatos para que saibam o que fazer quando receberem isto.",
+      "component" : "message",
+      "action" : [{"title":"Salvar","link":"home-ready","confirmation":"Mensagem salvo"}],
+      "content" : "<p>Dicas de segurança</p><ul><li>Procure criar palavras ou frases de código na sua mensagem, que só seus contatos vão entender.</li><li>Numa emergência, você não terá tempo de modificar uma mensagem, portanto crie algo que funciona em qualquer situação. </li><li>Se você quiser que sua localização seja incluída na mensagem, ativar rastreamento GPS nas configurações do telefone.</li></ul>"
+    },
+    {
+      "id" : "settings-language",
+      "lang" : "pt",
+      "type" : "interactive",
+      "title" : "Configurações de Idioma",
+      "introduction" : "Escolha um idioma para o aplicativo.",
+      "component" : "language",
+      "action" : [{"title":"English","language":"en","confirmation":"New language applied"},{"title":"Español","language":"es","confirmation":"Nuevo lenguaje seleccionado"},{"title":"Français","language":"fr","confirmation":"Nouveau language selectionné"},{"title":"Português","language":"pt","confirmation":"Novo idioma aplicado"}]
+    },
+    {
+      "id" : "settings-contacts",
+      "lang" : "pt",
+      "type" : "interactive",
+      "title" : "Configurar Contatos",
+      "introduction" : "Estas são as pessoas que vão receber o seu alerta.",
+      "warning" : "Eles precisam te conhecer pessoalmente, e serem capazes de responder rapidamente.",
+      "component" : "contacts",
+      "action" : [{"title":"Salvar","link":"home-ready","confirmation":"Contatos salvos"}],
+      "content" : "<p>Dicas de Segurança</p><ul><li>Pense em quem pode ajudá-lo de verdade - não adianta alguém saber que você está em apuros se não tiver como ajudar.</li><li>Combine um plano com seus contatos selecionados para que estejam preparados para agir rápido.</li><li>Esteja ciente dos riscos - de que maneira seus contatos podem ser colocados em risco ?</li></ul>"
+    },
+    {
+      "id" : "settings-alert",
+      "lang" : "pt",
+      "type" : "interactive",
+      "title" : "Configurações de alerta",
+      "introduction" : "Configurar a frequência.",
+      "warning" : "Cuidado com sua bateria! O envio frequente de alertas pode gastar rapidamente a bateria.",
+      "component" : "alert",
+      "action" : [{"title":"Salvar","link":"home-ready","confirmation":"Novo alerta de frequência salvo."}]
+    }]
   }
 }
