@@ -1,7 +1,7 @@
 ---
 lang: en
 version: 1
-slug: "activities"
+slug: "pact-activities"
 module: module_section_list
 title: "PACT Toolkit"
 heading: "Prepare to Act"
