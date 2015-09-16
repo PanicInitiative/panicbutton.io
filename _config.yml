@@ -147,14 +147,6 @@ prose:
           placeholder: "English"
           options: *languages
           selected: "en"
-title : PACT Kit
-tagline: Panic Button Workshop material from Amnesty International and The Engine Room
-author :
-  name : The Engine Room
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
@@ -193,7 +185,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : http://iilab.github.io/teampanicbutton.github.io/
+  BASE_PATH : http://iilab.github.io/teampanicbutton.github.io
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
