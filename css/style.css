@@ -446,7 +446,7 @@ Nav
   position: fixed;
   display: block;
   border-radius: 25px;
-  border: 2px solid #fff300;
+  border: 2px solid #000;
   width: 50px;
   height: 50px;
   text-indent: -9999px;
@@ -460,13 +460,13 @@ Nav
   height: 0px;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-right: 15px solid #fff300;
+  border-right: 15px solid #000;
   display: block;
   margin: 14px 0px 0px 14px;
 }
 .bottom-nav a.btn_prev {
-  left: 5px;
-  bottom: 5px;
+  left: 30px;
+  bottom: 30px;
 }
 .bottom-nav a.btn_prev:hover:before {
   border-right-color: #222;
@@ -484,12 +484,12 @@ Nav
   color: #fff300;
 }
 .bottom-nav a.btn_next {
-  right: 5px;
-  bottom: 5px;
+  right: 30px;
+  bottom: 30px;
 }
 .bottom-nav a.btn_next:before {
   border-right: none;
-  border-left: 15px solid #fff300;
+  border-left: 15px solid #000;
   margin: 14px 0 0 19px;
 }
 .bottom-nav a.btn_next:hover:before {
