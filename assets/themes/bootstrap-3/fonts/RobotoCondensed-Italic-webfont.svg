@@ -30,7 +30,7 @@
 <glyph unicode="," horiz-adv-x="392" d="M-86 -271l117 302l37 183h187l-38 -190l-184 -295h-119z" />
 <glyph unicode="-" horiz-adv-x="584" d="M99 542l31 155h427l-31 -155h-427z" />
 <glyph unicode="." horiz-adv-x="489" d="M50 0l41 203h201l-41 -203h-201z" />
-<glyph unicode="http://panicinitiative.github.io/panicbutton.io/" horiz-adv-x="672" d="M-98 -125l774 1581h157l-774 -1581h-157z" />
+<glyph unicode="//panicinitiative.github.io/panicbutton.io/" horiz-adv-x="672" d="M-98 -125l774 1581h157l-774 -1581h-157z" />
 <glyph unicode="0" horiz-adv-x="965" d="M123 563l65 329q60 300 191 442.5t313 142.5q166 0 245.5 -154.5t24.5 -430.5l-65 -329q-61 -301 -191 -442.5t-311 -141.5q-167 0 -247.5 153.5t-24.5 430.5zM304 229.5q29 -95.5 120 -89.5l6 -1q80 -5 151 98t110 298l77 386q42 211 13.5 304.5t-118.5 88.5l-6 1 q-81 4 -152 -98t-110 -296l-77 -386q-43 -210 -14 -305.5z" />
 <glyph unicode="1" horiz-adv-x="965" d="M302 1234l26 131l487 92l-291 -1459h-200l251 1255z" />
 <glyph unicode="2" horiz-adv-x="965" d="M30 0l22 135l465 526q113 136 162.5 225.5t64.5 174.5q19 120 -14.5 190t-112.5 70q-95 0 -160 -81t-86 -217h-192l-2 6q26 195 152 321.5t313 126.5q164 0 248.5 -113.5t55.5 -296.5q-22 -131 -99.5 -248t-219.5 -270l-317 -390l3 -5h524l-25 -154h-782z" />
