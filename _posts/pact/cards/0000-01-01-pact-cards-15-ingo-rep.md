@@ -1,9 +1,9 @@
 ---
-layout: kf
+layout: pact_hrd
 title: INGO representative
 cardNum: 8.2
-categories:
-- key-figures
+categories: pact-cards
+
 bio: "You work for one of the biggest human rights INGOs in the world, which has a regional office in the country. You try to maintain good connections with members of civil society and part of your remit is realising an organisational priority on HRD protection (both preventative and responsive)."
 token: "Public Statement"
 power: "You can mobilize your colleagues to quickly get a public statement released about security incidents against HRDs and the impact of said incidences on the health of civil society. "

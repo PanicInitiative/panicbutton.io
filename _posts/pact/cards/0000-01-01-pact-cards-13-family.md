@@ -1,9 +1,9 @@
 ---
-layout: kf
+layout: pact_hrd
 title: Family Member
 cardNum: 7.2
-categories:
-- key-figures
+categories: pact-cards
+
 bio: "
 You are the parent of the HRD at risk. You support the fact that your child works in the defense of human rights, but you are not particularly active or political yourself. You have always been worried about their safety, and dread the thought of something happening to them because of their work."
 token: "Courier token"

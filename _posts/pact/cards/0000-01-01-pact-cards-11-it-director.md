@@ -1,9 +1,8 @@
 ---
-layout: kf
+layout: pact_hrd
 title: IT Director
 cardNum: 6.2
-categories:
-- key-figures
+categories: pact-cards
 bio: "You are responsible for the security of all data collected, held and transferred. NGO employees collect very sensitive information: if it were to be leaked or stolen, it could cause serious risk and/or harm to employees and the people the NGO works with and for."
 token: "Security Key"
 power: "Can lock down information/data in cases of potential breaches"

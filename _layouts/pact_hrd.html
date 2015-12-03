@@ -5,7 +5,11 @@ layout: default
 {% include nav.html %}
     <div id="wrap" class="pact">
       <div class="container" id="fromHTMLtestdiv">
+
         <div class="row gamecard">
+                  <div class="col-xs-12 breadcrumb">
+                    <a href="/">Home</a> &gt; <a href="{{ BASE_PATH }}/pact/pact.html">Training Kit</a> &gt; <a href="{{ BASE_PATH }}/impact-rules/impact-rules.html">imPACT Rules</a> &gt; <span>{{page.title}}</span>
+                </div>
           <div class="gc-front">
             {% if page.img %}
             <img src="{{ BASE_PATH }}/assets/img/gc_{{ page.cardNum }}.png" alt="{{ page.title }}">
@@ -13,28 +17,57 @@ layout: default
             <img src="{{ BASE_PATH }}/assets/img/gc_.2.png" alt="{{ page.title }}">
             {% endif %}
 
-            {% if page.bio %}
-            <div class="token">
-              <h3>TOKEN:</h3>
-              <h2>{{ page.token }}</h2>
+            <div class="more-pact">
+                    <strong>Download the Game</strong>
+                    <a href="pact/pact.html" role="button" class="button-pact-browse btn-n">&nbsp;</a>
             </div>
-            {% endif %}
+
+
+          <div class="col-xs-12">
 
             <header>
               <h1>{{ page.title }}</h1>
+
+            {% if page.token %}
+
+            <div class="token">
+              <h3>TOKEN:</h3>
+              <h3>{{ page.token }}</h3>
+            </div>
+            {% endif %}
+
               {% if page.bio %}
               <div class="bio">
                 <p>{{page.bio | markdownify }}</p>
               </div>
               {% endif %}
             </header>
+
+          </div>
+          
+
           </div>
 
-          <div class="gc-inlay">
+          <div class="gc-inlay col-xs-12">
             <div class="content">
               <p>{{content | markdownify }}</p>
             </div>
+
+              <div class="bottom-nav col-xs-12">
+              {% if page.cardNum > 1.1 %}
+              <a class="btn_prev" href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">Previous</a>
+              {% endif %}
+
+              <a class="btn_home" href="{{ BASE_PATH }}/impact-rules/impact-rules.html" title="Panic Button Training Kit home">Home</a>
+              
+              {% if page.cardNum < 10.1 %}
+              <a class="btn_next" href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next</a>
+              {% endif %}
+            </div>
           </div>
+
+
+
 
         </div>
 

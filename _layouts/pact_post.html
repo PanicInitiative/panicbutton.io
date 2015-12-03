@@ -11,12 +11,29 @@ layout: default
     <div id="wrap" class="pact">
       <div class="container" id="fromHTMLtestdiv">
         <div class="row post-full">
+
           <div id="cover" class="col-xs-12">
             <!-- <div class="date">
               <span>{{ page.date | date_to_long_string }}</span>
             </div> -->
 
+
+
             <div class="page-header">
+
+            <div class="counter">
+            <div class="cardNum">{{ page.cardNum }}</div>
+            <svg style="transform: rotate(-1deg);" width="63px" height="63px" viewBox="0 0 63 63">
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                <g transform="translate(-149.000000, -802.000000)" id="Cover" sketch:type="MSLayerGroup" stroke="#FFF300">
+                  <g transform="translate(154.000000, 807.000000) translate(27.000000, 27.000000) rotate(-90) translate(-27.000000, -27.000000)" id="Oval-469-+-Oval-470" sketch:type="MSShapeGroup">
+                    <circle r="21" id="Oval-469" stroke-width="2" stroke-dasharray="2" cx="27" cy="27"></circle>
+                    <circle stroke-dasharray="{{ page.numDash }}" id="Oval-470" stroke-width="6" cx="27" cy="27" r="26"></circle>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </div>
 
               <img src="{{ BASE_PATH }}/assets/img/{{ page.cardNum }}.png" alt="{{ gamecard.title }}">
               <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
@@ -89,6 +106,8 @@ layout: default
                 {{ content | markdownify }}
               </div>
 
+
+
               {% if page.online_only %}
               <div class="cs-online col-xs-12" id="onlineContent">
                   <h3>Online Extras</h3>
@@ -140,17 +159,20 @@ layout: default
                 </div>
               </aside>
 
-            </div>
 
-            <div class="bottom-nav col-xs-12">
+              <div class="bottom-nav col-xs-12">
               {% if page.cardNum > 1 %}
               <a class="btn_prev" href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">Previous</a>
               {% endif %}
               
-              {% if page.next %}
+              {% if page.next and page.cardNum != 7 %}
               <a class="btn_next" href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next</a>
               {% endif %}
             </div>
+
+            </div>
+
+
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 ---
-layout: kf
+layout: pact_hrd
 title: Head of the National Human Rights Defenders Coalition
 cardNum: 2.2
 heading: "Head of the National Human Rights Defenders Coalition"

@@ -1,5 +1,5 @@
 ---
-layout: kf
+layout: pact_hrd
 title: EU Mission Delegate
 cardNum: 4.2
 heading: "EU Mission Delegate"

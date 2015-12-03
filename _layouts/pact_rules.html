@@ -1,0 +1,142 @@
+---
+layout: default
+---
+{% include JB/setup %}
+{% include nav.html %}
+  <section id="header" class="content white container intcont mobnopad">
+    <div class="col-xs-12 breadcrumb">
+        <a href="/">Home</a> &gt; <a href="/pact/pact.html">Training Kit</a> &gt; <span>{{page.title}}</span>
+    </div>
+  </section>
+    <div id="wrap" class="pact">
+      <div class="container" id="fromHTMLtestdiv">
+        <div class="row post-full">
+          <div id="cover" class="col-xs-12">
+            <!-- <div class="date">
+              <span>{{ page.date | date_to_long_string }}</span>
+            </div> -->
+
+            <div class="page-header">
+
+              <img src="{{ BASE_PATH }}/assets/img/{{ page.cardNum }}.png" alt="{{ gamecard.title }}">
+              <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+            </div>
+
+            <div class="col-md-3 col-md-offset-3 col-sm-12">
+                <div class="more-pact">
+                  <strong>How to Print</strong>
+                    
+                    <!-- <a href="pact/pact.html" role="button" class="button-pact-browse btn-n">&nbsp;</a> -->
+                    <img alt="Question mark" class="questionmrk" src="/images/question-mark-icon.png">
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <div class="more-pact">
+                    <strong>Download the Game</strong>
+                    <a href="{{ BASE_PATH }}/impact-rules/how-to-print.html" role="button" class="button-pact-download btn-n">&nbsp;</a>
+                </div>
+            </div>
+
+            
+
+          </div> <!-- .col-xs-12 -->
+
+          <div id="inlet" class="col-xs-12">
+            <div>
+              <div class="content col-xs-12">
+                <h3>Full Description</h3>
+                {{ content | markdownify }}
+              </div>
+
+              {% if page.online_only %}
+              <div class="cs-online col-xs-12" id="onlineContent">
+                  <h3>Online Extras</h3>
+
+                  {{page.online_only | markdownify }}
+              </div>
+              {% endif %}
+
+              <aside class="col-xs-12">
+
+                {% if page.materials %}
+                <div class="aside-materials">
+                  <h3>Materials</h3>
+                  {{page.materials | markdownify }}
+                </div>
+                {% endif %}
+
+                {% if page.timeSpan %}
+                <div class="aside-timespan">
+                  <h3>Timespan</h3>
+                  {{page.timeSpan | markdownify }}
+                </div>
+                {% endif %}
+
+                {% if page.shortLink %}
+                <div class="aside-link">
+                  <h3>More Online</h3>
+                  {{page.shortLink | markdownify }}
+                </div>
+                {% endif %}
+
+                <div class="aside-notes">
+                  <h3>Your Notes</h3>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+              </aside>
+
+            </div>
+
+      <div class="clearfix"></div>
+          <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="pact-title pactgame" role="button"><strong>imPACT Game</strong></div>
+      <ul class="cards container">
+        {% assign cards = site.categories["pact-cards"] | sort section_order %}
+        {% for post in cards %}
+          {% if post.layout contains 'hrd' %}
+            <li class="row">
+              <div class="cover col-sm-2">
+                <a href="{{ BASE_PATH }}{{ post.url }}">
+                  <img src="{{ BASE_PATH }}/assets/img/4_thumb.png" alt="{{ post.title }}">
+                  {{ post.title }}
+                </a>
+              </div>
+              <div class="card-meta col-sm-7">
+                <div class="goals">
+                  <h3>Bio:</h3>
+                  {{post.bio}}
+                </div>
+
+              </div>
+              <div class="timespan col-sm-3">
+
+              </div>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+{% for footer in site.categories.footer %}
+  {% include home_footer.html %}
+{% endfor %}
+

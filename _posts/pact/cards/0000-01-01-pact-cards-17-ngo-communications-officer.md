@@ -1,9 +1,9 @@
 ---
-layout: pm
+layout: pact_hrd
 title: NGO Communications Officer
 cardNum: 10.1
-categories:
-- pact-members
+categories: pact-cards
+
 bio: "You are the Communications Officer at the human rights defenders NGO. Your job is to communicate effectively and engage the broad audience on problems and issues that your NGO is fighting for."
 talent: "Master Communicator"
 #token: "Press release"

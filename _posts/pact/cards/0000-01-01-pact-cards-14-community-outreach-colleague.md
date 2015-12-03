@@ -1,9 +1,9 @@
 ---
-layout: pm
+layout: pact_hrd
 title: Community Outreach Colleague
 cardNum: 8.1
-categories:
-- pact-members
+categories: pact-cards
+
 bio: "You are a colleague of the human rights defender at risk who is responsible for maintaining relationships, in particular in relation to security issues in the country and sub-region."
 talent: "Connections with the international NGO"
 token: "Public Statement"

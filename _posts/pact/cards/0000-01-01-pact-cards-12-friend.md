@@ -1,9 +1,9 @@
 ---
-layout: pm
+layout: pact_hrd
 title: Friend
 cardNum: 7.1
-categories:
-- pact-members
+categories: pact-cards
+
 bio: "You are a friend of the human rights defender at risk. You are not a human rights professional, but you support the work of your friend and have committed to being active in case of an emergency."
 talent: "Friend of the family"
 token: "Courier token"

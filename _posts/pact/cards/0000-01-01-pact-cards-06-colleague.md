@@ -1,5 +1,5 @@
 ---
-layout: pm
+layout: pact_hrd
 title: Campaigning Colleague
 cardNum: 4.1
 heading: "Campaigning Colleague"

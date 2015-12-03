@@ -1,5 +1,5 @@
 ---
-layout: pm
+layout: pact_hrd
 title: NGO Security Focal Point
 cardNum: 2.1
 heading: "NGO Security Focal Point"

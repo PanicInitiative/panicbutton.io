@@ -1,5 +1,5 @@
 ---
-layout: kf
+layout: pact_hrd
 title: Warden of the Detention Center
 cardNum: 3.2
 heading: "Warden of the Detention Center"

@@ -206,6 +206,8 @@ span, strong{font-family: 'Roboto Condensed Bold', "Helvetica Neue", Helvetica, 
 .more-pact .button-pact-browse { background: url(../images/pact-browse-icon.png) no-repeat; margin:15px auto; width:80px; height: 80px; display: block; }
 .more-pact .button-pact-download { background: url(../images/pact-download-icon.png) no-repeat; margin:15px auto; width:80px; height: 80px; display: block; }
 .more-pact a:hover { text-decoration: none;}
+.gamecard .more-pact{ margin-bottom: 0;}
+.more-pact .questionmrk{ padding: 20px 30px;}
 .more.top .button { background: url(../images/top-icon.png) no-repeat; }
 .more.top {
   margin-top: 30px; 
@@ -437,13 +439,23 @@ h1 small {
   padding: 10px;
   border: 4px dashed #fff300;
 }
+
+/* counter at top of pact cards */
+.page-header .counter {
+  position: relative;
+}
+.page-header .counter .cardNum {
+  margin: 100px 0 -46px;
+  font-size: 20px;
+}
+
 /************************************************
 
 Nav
 
 ************************************************/
 .bottom-nav a {
-  position: fixed;
+  //position: fixed;
   display: block;
   border-radius: 25px;
   border: 2px solid #000;
@@ -465,27 +477,22 @@ Nav
   margin: 14px 0px 0px 14px;
 }
 .bottom-nav a.btn_prev {
-  left: 30px;
-  bottom: 30px;
+  /*left: 30px;
+  bottom: 30px;*/
+  float: left;
 }
 .bottom-nav a.btn_prev:hover:before {
   border-right-color: #222;
 }
-@media only screen and (max-width: 767px) {
-  .bottom-nav a .bottom-nav a.btn_prev,
-  .bottom-nav a .bottom-nav a.btn_next {
-    bottom: 5px;
-    top: auto;
-    margin-top: 0;
-  }
-}
+
 .bottom-nav a:hover {
   background-color: #fff300;
   color: #fff300;
 }
 .bottom-nav a.btn_next {
-  right: 30px;
-  bottom: 30px;
+ /* right: 30px;
+  bottom: 30px;*/
+  float: right;
 }
 .bottom-nav a.btn_next:before {
   border-right: none;
@@ -496,17 +503,29 @@ Nav
   border-left-color: #222;
 }
 .bottom-nav a.btn_home {
-  left: 5px;
+  position: fixed;
+  left: 5%;
   top: 5px;
 }
 .bottom-nav a.btn_home:before {
   border-top: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-bottom: 15px solid #fff300;
+  border-bottom: 15px solid #000;
 }
 .bottom-nav a.btn_home:hover:before {
   border-bottom-color: #222;
+}
+
+@media only screen and (max-width: 767px) {
+  .bottom-nav a .bottom-nav a.btn_prev,
+  .bottom-nav a .bottom-nav a.btn_next {
+    float: none;
+    position: fixed;
+    bottom: 5px;
+    top: auto;
+    margin-top: 0;
+  }
 }
 
 .cs-online {
@@ -514,12 +533,18 @@ Nav
     font-size: 20px;
 }
 
+
+
 .pact-title {
   margin-bottom: 45px;  
   font-size: 34px;
   color: #000;
   text-align: center;
   line-height: 35px !important;
+}
+
+.pactgame{
+  margin-top: 45px;
 }
 
 .pact .post-full {

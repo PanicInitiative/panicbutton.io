@@ -1,5 +1,5 @@
 ---
-layout: pm
+layout: pact_hrd
 title: Lawyer
 cardNum: 3.1
 heading: "Lawyer"

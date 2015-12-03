@@ -1,9 +1,8 @@
 ---
-layout: pm
+layout: pact_hrd
 title: Techie Colleague
 cardNum: 6.1
-categories:
-- pact-members
+categories: pact-cards
 bio: "You are a colleague of the human rights defender who is also concerned about, and trained in digital security matters."
 talent: "Digital security expertise"
 token: "Security Key"

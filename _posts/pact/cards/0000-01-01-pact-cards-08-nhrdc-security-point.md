@@ -1,5 +1,5 @@
 ---
-layout: pm
+layout: pact_hrd
 title: Security Focal Point For the National Human Rights Defenders Coalition
 cardNum: 5.1
 heading: "Security Focal Point For the National Human Rights Defenders Coalition"
