@@ -24,7 +24,6 @@ published: true
 
 **Report back:** if there is time, you can choose between 2-4 people to report back on their plans. Allow time and space for questions, debate and discussion as report backs are made, and try  to highlight learnings for each report back person about how they could change/improve their PACT.
 
-<div class="cs-online" id="onlineContent" markdown="1">
 
 ### Learning Points:
 
@@ -35,4 +34,3 @@ published: true
 - Part of figuring out the PACT is to address how the PACT contacts should coordinate between themselves. Can one person lead in terms of coordination? Remember: there is no guarantee all the contacts will check their phones and see the alerts (it may be nightime, they may have no battery, etc.) What is a back-up plan if only one person receives the alert at the time?
 - HRDs can think through what their strategy might be upon arrest/detention.  While the Panic Button is disguised on the phone, it is not encrypted - it is only really meant to get past frontline police. Authorities or other aggressors can expose the Panic Button, given expertise and enough time with the phone.  Therefore, HRDs need to think about (i.e. assess the risk/threat situation) whether they want to tell their captors that they have been able to send a message out as to their circumstance and whereabouts. Releasing this information to captors can be a security tactic but it can also backfire.
 
-</div>
