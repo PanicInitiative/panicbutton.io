@@ -12,7 +12,7 @@ methodology: "Reflection on game, individual action planning"
 timeSpan: 90 minutes
 remember: This exercise takes place after the imPACT game
 materials: "flipcharts, markers, reflection petals"
-downloadLink: null
+downloadLink: "media/pdf/05_PACT_Action_Plan.pdf"
 shortLink: naturally
 extra: null
 published: true

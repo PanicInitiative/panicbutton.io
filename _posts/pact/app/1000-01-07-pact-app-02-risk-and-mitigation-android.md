@@ -12,7 +12,7 @@ methodology: ""
 timeSpan: ""
 remember: ""
 materials: ""
-downloadLink:
+downloadLink: "media/pdf/07_Digital_Mobile_Security.pdf"
 shortLink:
 ---
 text will be added soonish

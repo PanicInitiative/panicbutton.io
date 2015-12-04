@@ -252,12 +252,13 @@ img {
   }
   .page-header,
   .cheatsheet {
-    margin: 0;
+    margin: -45px 0 0 0;
     width: 50%;
     height: 213.75mm;
     overflow: hidden;
     float: right;
   }
+
   .page-header:first-child,
   .cheatsheet:first-child {
     margin-right: -1px;
@@ -275,7 +276,7 @@ img {
   }
   .page-header img {
     width: 360px;
-    margin: 120px auto 70px;
+    margin: 60px auto 70px;
   }
   .page-header h1 {
     font-size: 45pt;
@@ -330,10 +331,13 @@ img {
     height: 3em;
     margin-bottom: 3em;
   }
+  #header{
+    display: none;
+  }
 }
 .kf .navbar,
 .pm .navbar,
-.hrd .navbar {
+.hrd .navbar{
   display: none;
 }
 .kf .container,

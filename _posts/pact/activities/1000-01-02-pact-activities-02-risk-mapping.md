@@ -12,7 +12,8 @@ methodology: "Each drafts their own free-style risk map"
 timeSpan: "45m individually <br/>+ <br/>15m discussion"
 remember: "There is no recommended format for the map"
 materials: "flip chart paper, lots of coloured markers"
-downloadLink: http://bit.ly/panic1.2
+downloadLink: "media/pdf/02_Risk_Mapping.pdf"
+
 shortLink:
 extra:
 ---

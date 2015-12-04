@@ -12,7 +12,7 @@ methodology: "Role-playing game where teams need to set up, set off and respond 
 timeSpan: "2 to 4 hours, normally played over dinner"
 remember: "Everyone needs to have Panic Button and credit on their phones."
 materials: "Game cards, props if needed for trigger actions and Key Figures"
-downloadLink:
+downloadLink: "media/pdf/04_imPACT.pdf"
 shortLink:
 extra:
 ---

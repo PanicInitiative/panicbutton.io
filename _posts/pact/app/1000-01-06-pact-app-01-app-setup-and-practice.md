@@ -12,7 +12,7 @@ methodology: ""
 timeSpan: ""
 remember: ""
 materials: ""
-downloadLink:
+downloadLink: "media/pdf/06_App_Setup_and_Practice.pdf"
 shortLink:
 --- 
 
