@@ -6,18 +6,20 @@ version: 1
 slug: "04-impact-game"
 cardNum: 4
 numDash: "21.3,2,21.3,2,21.3,2,21.3,999"
-categories: pact-activities
-goals: "Simulate the use of the Panic Button and responses by PACT members."
+categories: "pact-activities"
+goals: Simulate the use of the Panic Button and responses by PACT members.
 methodology: "Role-playing game where teams need to set up, set off and respond to the Panic Button."
 timeSpan: "2 to 4 hours, normally played over dinner"
-remember: "Everyone needs to have Panic Button and credit on their phones."
+remember: Everyone needs to have Panic Button and credit on their phones.
 materials: "Game cards, props if needed for trigger actions and Key Figures"
-downloadLink: "media/pdf/04_imPACT.pdf"
-shortLink:
-extra:
+downloadLink: media/pdf/04_imPACT.pdf
+shortLink: null
+extra: null
+published: true
 ---
 
-**The imPACT game** puts participants in a simulated high-pressure situation where the strength of their PACT will be put to the test. A human rights defender (HRD) has been forcibly taken to a detention center and is being held incommunicado: the participants, as part of the HRD’s PACT, will need to be well prepared: they will be required to think and act fast to ensure key actions take place and 'Key Figures' in their network are involved in order to free the HRD.
+
+**The imPACT game** puts participants in a simulated high-pressure situation where the strength of their PACT will be put to the test. A human rights defender (HRD) has been forcibly taken to a detention center and is being held incommunicado. The participants, as part of the HRD’s PACT, will need to be well prepared: they will be required to think and act fast to ensure key actions take place and 'Key Figures' in their network are involved in order to free the HRD.
 
 Familiarize yourself with the game mechanics beforehand. Make sure you have printed and prepared enough cards to cover the whole group, and that you have acquired all the props you might need for Key Figures to properly act out their roles.
 
