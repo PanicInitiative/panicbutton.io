@@ -6,17 +6,19 @@ version: 1
 slug: "02-risk-mapping"
 cardNum: 2
 numDash: "21.3,2,21.3,999"
-categories: pact-activities
-goals: "identify vulnerable situations"
-methodology: "Each drafts their own free-style risk map"
+categories: "pact-activities"
+goals: Identify vulnerable situations
+methodology: "Each participant drafts their own free-style risk map"
 timeSpan: "45m individually <br/>+ <br/>15m discussion"
-remember: "There is no recommended format for the map"
-materials: "flip chart paper, lots of coloured markers"
-downloadLink: "media/pdf/02_Risk_Mapping.pdf"
-
-shortLink:
-extra:
+remember: There is no recommended format for the map
+materials: "Flip chart paper, lots of coloured markers"
+downloadLink: media/pdf/02_Risk_Mapping.pdf
+shortLink: null
+extra: null
+published: true
 ---
+
+
 
 
 The purpose of the risk mapping exercise is to give each participant space to reflect on where and when they feel most vulnerable, and identify situations where they may require the app. This is an individual, or small-group exercise, and only a few participants need share back their reflections with the wider group.
@@ -34,7 +36,7 @@ Geographical mapping (45 min individually + time for group feedback) – Each pa
 <div class="cs-online" id="onlineContent" markdown="1">
 This is a really good time to remind participants that they should engage with the Panic Button interactively: different situations will require them to re-think their PACT and re-set the contacts, alert timings and message in the app.
 
-For the report back the trainer should pick maps that are visually different, but also represent different context and geographies. For example, it would be good to have a rural environment, a city, a protest, etc. Normally you only need 2-4 maps to report back but if the participants are really keen to either report back or hear others, then this is a good time to be flexible.  While this exercise should follow a more formal report back style, you can also use it to spark conversation and debate about risk: how people perceive it, internalise fear, identify perpetrators and their power - an opportunity not to be wasted!
+For the report back the trainer should pick maps that are visually different, but also represent different context and geographies. For example, it would be good to have a rural environment, a city, a protest, etc. Normally you only need 2-4 maps to report back but if the participants are really keen to either report back or hear others, then this is a good time to be flexible.  While this exercise should follow a more formal report-back style, you can also use it to spark conversation and debate about risk: how people perceive it, internalise fear, identify perpetrators and their power - an opportunity not to be wasted!
 
 </div>
 
