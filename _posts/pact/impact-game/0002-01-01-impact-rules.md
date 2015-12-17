@@ -4,30 +4,30 @@ title: imPACT Game Rules
 lang: en
 version: 1
 slug: "01-impact"
-categories: impact-rules
+categories: "impact-rules"
 cardNum: 4
 published: true
-goals: "Read the rules in the imPact game and browse the cards."
+goals: Read the rules in the imPact game and browse the cards.
 methodology: "Role-playing game where teams need to set up, set off and respond to the Panic Button."
-downloadLink: http://pactapp.io
-
+downloadLink: "http://pactapp.io"
 ---
+
 
 
 
 ###1. Overview
 
-The imPACT game puts participants in a simulated high-pressure situation where the strength of their PACT will be put to the test. A human rights defender (HRD) has been forcibly taken to a detention center and is being held incommunicado: the participants, as part of the HRD’s PACT, will need to be well prepared: they will be required to think and act fast to ensure key actions take place and key figures get involved in order to liberate the HRD.
+The imPACT game puts participants in a simulated high-pressure situation where the strength of their PACT will be put to the test. A human rights defender (HRD) has been forcibly taken to a detention center and is being held incommunicado. The participants, as part of the HRD’s PACT, will need to be well prepared: they will be required to think and act fast to ensure key actions take place and key figures get involved in order to liberate the HRD.
 
 ###2. The players
 
 ###The Human Rights Defender (HRD)
 
-The HRD players know it’s only a matter of time before the counter-activist powers come to take them away. They set up the Panic Button with 3 of their most strategic allies in a PACT to ensure protection in case of danger. They need to make sure their PACT is solid before the trigger goes off: they need to learn as much as possible about their PACT members’ special talents, and make sure they have all the information they will need to act swiftly and effectively. Once the trigger is set, their freedom depends on their PACT.
+The HRD players know that it’s only a matter of time before the counter-activist powers come to take them away. They set up the Panic Button with 3 of their most strategic allies in a PACT to ensure protection in case of danger. They need to make sure their PACT is solid before the trigger goes off: they need to learn as much as possible about their PACT members’ special talents, and make sure they have all the information they will need to act swiftly and effectively. Once the trigger is set, their freedom depends on their PACT.
 
 ###PACT members
 
-These players have been called upon to assist the HRD in times of need. Each PACT member player has a special talent: involving key persons, sparking public interest, raising awareness, or speaking to the press. To be able to unleash their talents, they need to collect as much information as possible from the HRD in the PACT set up phase — they are the HRD’s last and best hope of regaining freedom.
+These players have been called upon to assist the HRD in times of need. Each PACT member player has a special talent: involving key persons, sparking public interest, raising awareness, or speaking to the press. To be able to unleash their talents, they need to collect as much information as possible from the HRD in the PACT set-up phase — they are the HRD’s last and best hope of regaining freedom.
 
 ###Key figures
 
@@ -58,7 +58,7 @@ For larger groups, you will need to make copies of HRD and PACT cards. A key fig
 
 ###Preparation phase
 
-Once all the players have their cards, the HRDs and their PACT members need to set up the Panic Button and make sure their plans of action are ready, well thought-through and ready for implementation. They can look back at lessons from the day’s workshop regarding risk mapping, threat assessment etc.
+Once all the players have their cards, the HRDs and their PACT members need to set up the Panic Button and make sure their plans of action are ready, well-thought-through and ready for implementation. They can look back at lessons from the day’s workshop regarding risk mapping, threat assessment etc.
 
 The Game Master then informs HRDs of **the trigger**: a specific event that will signify they are being taken away. Each HRD has a different event assigned to them, and they are not supposed to share that information with their PACT members: in fact, when the trigger happens, the HRDs need to be as cautious as possible when activating their Panic Button. If they get caught by the game master, it might mean their phone will get taken away and their PACT won’t be able to act in time.
 
@@ -85,4 +85,3 @@ Once all the HRDs have been liberated, the game is complete. Congratulations!
 ###4. Post-game debrief
 
 The game will hopefully source a number of considerations when defining a PACT that can inform a discussion, either after the game or during Day 2.
-
