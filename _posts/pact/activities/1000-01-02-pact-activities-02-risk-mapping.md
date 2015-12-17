@@ -6,17 +6,18 @@ version: 1
 slug: "02-risk-mapping"
 cardNum: 2
 numDash: "21.3,2,21.3,999"
-categories: pact-activities
-goals: "identify vulnerable situations"
-methodology: "Each drafts their own free-style risk map"
+categories: "pact-activities"
+goals: Identify vulnerable situations
+methodology: "Each participant drafts their own free-style risk map"
 timeSpan: "45m individually <br/>+ <br/>15m discussion"
-remember: "There is no recommended format for the map"
-materials: "flip chart paper, lots of coloured markers"
-downloadLink: "media/pdf/02_Risk_Mapping.pdf"
-
-shortLink:
-extra:
+remember: There is no recommended format for the map
+materials: "Flip chart paper, lots of coloured markers"
+downloadLink: media/pdf/02_Risk_Mapping.pdf
+shortLink: null
+extra: null
+published: true
 ---
+
 
 
 The purpose of the risk mapping exercise is to give each participant space to reflect on where and when they feel most vulnerable, and identify situations where they may require the app. This is an individual, or small-group exercise, and only a few participants need share back their reflections with the wider group.
