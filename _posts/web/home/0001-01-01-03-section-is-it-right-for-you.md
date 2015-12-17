@@ -12,14 +12,14 @@ questions:
     answers:
       - id: 1
         answer: "Yes"
-        content: You should be able to use Panic Button on Android versions 2.3.3 to 4.4.2
+        content: You should be able to use Panic Button from Android Gingerbread (2.3.3) to KitKat (4.4.2)
       - id: 2
         answer: "No"
         content: Sorry, you must have an Android phone to use Panic Button.
         status: warning
       - id: 3
         answer: I do not know
-        content: You should be able to use Panic Button on Android versions 2.3.3 to 4.4.2
+        content: You should be able to use Panic Button from Android Gingerbread (2.3.3) to KitKat (4.4.2)
   - id: 2
     content: Do you own and have independent access to your phone?
     src: images/phone-access.png

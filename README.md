@@ -1,3 +1,5 @@
+[![Stories in Ready](https://badge.waffle.io/PanicInitiative/panicbutton.io.png?label=ready&title=Ready)](https://waffle.io/PanicInitiative/panicbutton.io)
+
 Panic Button Website
 ====================
 
@@ -16,6 +18,9 @@ On OSX
 
 You should then be able to access the site locally on http://127.0.0.1:4000/
 
+## Deploy
+
+ * ```jekyll build --safe``` to build for production before manually pushing to ```gh-pages``` branch. 
 
 ## Notes
 
