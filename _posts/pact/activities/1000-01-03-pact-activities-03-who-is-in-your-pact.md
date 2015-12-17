@@ -11,7 +11,7 @@ goals: "Participants define their PACT, how each contact can help and what to do
 methodology: "Description of risk maps, fishbowl exercise, individual contact mapping"
 timeSpan: 60 minutes
 remember: Update your PACT based on context
-materials: "flipcharts, markers, reflection petals"
+materials: "Flipcharts, markers, reflection petals"
 downloadLink: media/pdf/03_Who_Is_In_Your_PACT.pdf
 shortLink: null
 published: true
