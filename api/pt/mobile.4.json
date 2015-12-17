@@ -15,7 +15,8 @@
       "lang" : "pt",
       "type" : "simple",
       "title" : "Configurações",
-      "items" : [{"title":"Configurações de Idioma","link":"settings-language"},{"title":"Configurações de Mensagens","link":"settings-message"},{"title":"Configurações dos Contatos","link":"settings-contacts"},{"title":"Configurações de Alerta","link":"settings-alert"},{"title":"Configurações da Senha","link":"settings-code"},{"title":"Reiniciar a Instalação","link":"settings-reset-confirm"}]
+      "items" : [{"title":"Configurações de Idioma","link":"settings-language"},{"title":"Configurações de Mensagens","link":"settings-message"},{"title":"Configurações dos Contatos","link":"settings-contacts"},{"title":"Configurações de Alerta","link":"settings-alert"},{"title":"Configurações da Senha","link":"settings-code"},{"title":"Reiniciar a Instalação","link":"settings-reset-confirm"}],
+      "content" : ""
     }]
   }
 }

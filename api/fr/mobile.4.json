@@ -8,7 +8,7 @@
       "type" : "warning",
       "title" : "Confirmez la ré-installation.",
       "action" : [{"title":"Confirm","link":"home-not-configured"}],
-      "content" : "<p>Veuillez confirmer le redémarrage de l’installation. Si vous redémarrez l’installation, l’alerte sera désactivée jusqu&#39;à ce que vous terminiez l’assistant.</p>"
+      "content" : "<p>Veuillez confirmer le redémarrage de l’installation. Si vous redémarrez l’installation, l’alerte sera désactivée jusqu’à ce que vous terminiez l’assistant.</p>"
     }]
   }
 }

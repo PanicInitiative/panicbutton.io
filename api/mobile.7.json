@@ -9,7 +9,8 @@
       "title" : "Language settings",
       "introduction" : "Choose a language for the application.",
       "component" : "language",
-      "action" : [{"title":"English","language":"en","confirmation":"New language applied"},{"title":"Español","language":"es","confirmation":"Nuevo lenguaje seleccionado"},{"title":"Français","language":"fr","confirmation":"Nouveau language selectionné"},{"title":"Português","language":"pt","confirmation":"Novo idioma aplicado"}]
+      "action" : [{"title":"English","language":"en","confirmation":"New language applied"},{"title":"Español","language":"es","confirmation":"Nuevo lenguaje seleccionado"},{"title":"Français","language":"fr","confirmation":"Nouveau language selectionné"},{"title":"Português","language":"pt","confirmation":"Novo idioma aplicado"}],
+      "content" : ""
     },
     {
       "id" : "setup-disguise-test-unlock",
@@ -20,7 +21,8 @@
       "component" : "disguise-test-unlock",
       "timers" : {"info":"0","inactive":"10","fail":"20"},
       "success" : {"link":"setup-disguise-test-code"},
-      "fail" : {"link":"setup-disguise-test-unlock-fail"}
+      "fail" : {"link":"setup-disguise-test-unlock-fail"},
+      "content" : ""
     },
     {
       "id" : "setup-disguise-test-code-fail",
@@ -28,7 +30,7 @@
       "type" : "simple",
       "title" : "Setup the Disguise",
       "action" : [{"title":"Try Again","link":"setup-disguise-test-unlock"}],
-      "content" : "<p>It looks like you weren&#39;t successful at opening the app from the calculator disguise.</p><p>Remember: Enter the pin code you have chosen in the first steps of the configuration. If you cannot remember your pin, please uninstall the application and reinstall it. </p>"
+      "content" : "<p>It looks like you weren’t successful at opening the app from the calculator disguise.</p><p>Remember: Enter the pin code you have chosen in the first steps of the configuration. If you cannot remember your pin, please uninstall the application and reinstall it. </p>"
     },
     {
       "id" : "settings-message",
@@ -39,7 +41,7 @@
       "warning" : "Create a plan so your contacts know what to do when they receive this",
       "component" : "message",
       "action" : [{"title":"Save","link":"home-ready","confirmation":"Message saved"}],
-      "content" : "<p>Security tips</p><ul><li>Consider creating code words or phrases in your message that only your contacts will understand.</li><li>You won&#39;t have time to change a message in an emergency, so create something that will work in all situations. </li><li>Enable GPS tracking from your phone settings if you want your location to be included with the message<br></li></ul>"
+      "content" : "<p>Security tips</p><ul>  <li>Consider creating code words or phrases in your message that only your contacts will understand.</li>  <li>You won’t have time to change a message in an emergency, so create something that will work in all situations. </li>  <li>Enable GPS tracking from your phone settings if you want your location to be included with the message  </li></ul>"
     },
     {
       "id" : "settings-language",
@@ -48,7 +50,8 @@
       "title" : "Language settings",
       "introduction" : "Choose a language for the application.",
       "component" : "language",
-      "action" : [{"title":"English","language":"en","confirmation":"New language applied"},{"title":"Español","language":"es","confirmation":"Nuevo lenguaje seleccionado"},{"title":"Français","language":"fr","confirmation":"Nouveau language selectionné"},{"title":"Português","language":"pt","confirmation":"Novo idioma aplicado"}]
+      "action" : [{"title":"English","language":"en","confirmation":"New language applied"},{"title":"Español","language":"es","confirmation":"Nuevo lenguaje seleccionado"},{"title":"Français","language":"fr","confirmation":"Nouveau language selectionné"},{"title":"Português","language":"pt","confirmation":"Novo idioma aplicado"}],
+      "content" : ""
     },
     {
       "id" : "settings-contacts",
@@ -59,7 +62,7 @@
       "warning" : "They should know you personally and be able to respond fast.",
       "component" : "contacts",
       "action" : [{"title":"Save","link":"home-ready","confirmation":"Contacts saved"}],
-      "content" : "<p>Security Tips</p><ul><li>Think about who can practically assist you  - there is no point someone knowing you are in trouble if they are not in a position to help you</li><li>Make a plan with your chosen contacts so that they are prepared to act fast. </li><li>Be aware of the risks - how might your chosen contact be put at risk? </li></ul>"
+      "content" : "<p>Security Tips</p><ul>  <li>Think about who can practically assist you  - there is no point someone knowing you are in trouble if they are not in a position to help you</li>  <li>Make a plan with your chosen contacts so that they are prepared to act fast. </li>  <li>Be aware of the risks - how might your chosen contact be put at risk? </li></ul>"
     },
     {
       "id" : "settings-code",
@@ -69,7 +72,8 @@
       "introduction" : "This pin code is needed to access the alert settings and to turn the alert messages off. It is not needed to alert contacts in an emergency.",
       "warning" : "Remember your pincode! If you forget it you will need to reinstall the app.",
       "component" : "code",
-      "action" : [{"title":"Save","link":"home-ready","confirmation":"Pincode saved"}]
+      "action" : [{"title":"Save","link":"home-ready","confirmation":"Pincode saved"}],
+      "content" : ""
     },
     {
       "id" : "settings-alert",
@@ -79,7 +83,8 @@
       "introduction" : "Setup the frequency.",
       "warning" : "Be careful about your battery! Sending alerts too often might drain your battery.",
       "component" : "alert",
-      "action" : [{"title":"Save","link":"home-ready","confirmation":"New alert frequency saved"}]
+      "action" : [{"title":"Save","link":"home-ready","confirmation":"New alert frequency saved"}],
+      "content" : ""
     }]
   }
 }

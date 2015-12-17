@@ -9,7 +9,8 @@
       "title" : "Configuraciones de lenguage",
       "introduction" : "Selecciona un lenguaje para la aplicación.",
       "component" : "language",
-      "action" : [{"title":"English","language":"en","confirmation":"New language applied"},{"title":"Español","language":"es","confirmation":"Nuevo lenguaje seleccionado"},{"title":"Français","language":"fr","confirmation":"Nouveau language selectionné"},{"title":"Português","language":"pt","confirmation":"Novo idioma aplicado"}]
+      "action" : [{"title":"English","language":"en","confirmation":"New language applied"},{"title":"Español","language":"es","confirmation":"Nuevo lenguaje seleccionado"},{"title":"Français","language":"fr","confirmation":"Nouveau language selectionné"},{"title":"Português","language":"pt","confirmation":"Novo idioma aplicado"}],
+      "content" : ""
     },
     {
       "id" : "setup-disguise-test-unlock",
@@ -20,7 +21,8 @@
       "component" : "disguise-test-unlock",
       "timers" : {"info":"0","inactive":"10","fail":"20"},
       "success" : {"link":"setup-disguise-test-code"},
-      "fail" : {"link":"setup-disguise-test-unlock-fail"}
+      "fail" : {"link":"setup-disguise-test-unlock-fail"},
+      "content" : ""
     },
     {
       "id" : "settings-message",
@@ -31,7 +33,7 @@
       "warning" : "Asegúrate de que tus contactos sepan que hacer si reciben este mensaje.",
       "component" : "message",
       "action" : [{"title":"Guardar","link":"home-ready","confirmation":""}],
-      "content" : "<p>Tips de seguridad</p><ul><li>Considera crear palabras o frases secretas en tu mensaje para que sólo tu y tus contactos lo entiendan.</li><li>No tendrás tiempo para cambiar tu mensaje durante una emergencia, asi que crea algo que pueda funcionar en cualquier escenario.</li><li>Activa el rastreador GPS desde las configuraciones de tu teléfono si deseas que tu ubicación se incluya en el mensaje.</li></ul>"
+      "content" : "<p>Tips de seguridad</p><ul>  <li>Considera crear palabras o frases secretas en tu mensaje para que sólo tu y tus contactos lo entiendan.</li>  <li>No tendrás tiempo para cambiar tu mensaje durante una emergencia, asi que crea algo que pueda funcionar en cualquier escenario.</li>  <li>Activa el rastreador GPS desde las configuraciones de tu teléfono si deseas que tu ubicación se incluya en el mensaje.</li></ul>"
     },
     {
       "id" : "settings-language",
@@ -40,7 +42,8 @@
       "title" : "Configuraciones de Lenguage",
       "introduction" : "Selecciona un lenguaje para la aplicación.",
       "component" : "language",
-      "action" : [{"title":"English","language":"en","confirmation":"New language applied"},{"title":"Español","language":"es","confirmation":"Nuevo lenguaje seleccionado"},{"title":"Français","language":"fr","confirmation":"Nouveau language selectionné"},{"title":"Português","language":"pt","confirmation":"Novo idioma aplicado"}]
+      "action" : [{"title":"English","language":"en","confirmation":"New language applied"},{"title":"Español","language":"es","confirmation":"Nuevo lenguaje seleccionado"},{"title":"Français","language":"fr","confirmation":"Nouveau language selectionné"},{"title":"Português","language":"pt","confirmation":"Novo idioma aplicado"}],
+      "content" : ""
     },
     {
       "id" : "settings-contacts",
@@ -51,7 +54,7 @@
       "warning" : "Estas personas deberán de conocerte personalmente y ser capaces de responder rápidamente.",
       "component" : "contacts",
       "action" : [{"title":"Guardar","link":"home-ready","confirmation":"Contacts saved"}],
-      "content" : "<p>Tips de seguridad</p><ul><li>Piensa acerca de quién puede ayudarte de manera práctica- No tiene caso que alguien se entere que estás en problemas si no puede ayudarte</li><li>Diseña un plan con tus contactos seleccionados para que puedan estar preparados y actuar rápidamente </li><li>Considera los riesgos- ¿Cómo es que tu contacto podría ponerse en riesgo?</li></ul>"
+      "content" : "<p>Tips de seguridad</p><ul>  <li>Piensa acerca de quién puede ayudarte de manera práctica- No tiene caso que alguien se entere que estás en problemas si no puede ayudarte</li>  <li>Diseña un plan con tus contactos seleccionados para que puedan estar preparados y actuar rápidamente </li>  <li>Considera los riesgos- ¿Cómo es que tu contacto podría ponerse en riesgo?</li></ul>"
     },
     {
       "id" : "settings-code",
@@ -60,7 +63,8 @@
       "title" : "Crea tu clave de acceso",
       "introduction" : "Esta clave es necesaria para acceder a las configuraciones de la aplicación y oara desactivar los mensajes de alerta. No se necesita para enviar alerta a tus contactos en caso de emergencia.\n¡Recuerda tu clave! Si la olvidas necesitarás re-instalar la aplicación.\n",
       "component" : "code",
-      "action" : [{"title":"Guardar","link":"home-ready","confirmation":"Tu clave ha sido guardada"}]
+      "action" : [{"title":"Guardar","link":"home-ready","confirmation":"Tu clave ha sido guardada"}],
+      "content" : ""
     },
     {
       "id" : "settings-alert",
@@ -70,7 +74,8 @@
       "introduction" : "Configurar la frequencia de la alerta.",
       "warning" : "¡Mantente al pendiente de tu batería! Enviar alertas demasiado seguido puede absorber tu batería.",
       "component" : "alert",
-      "action" : [{"title":"Guardar","link":"home-ready","confirmation":"Nueva frecuencia de envío de mensajes guardada"}]
+      "action" : [{"title":"Guardar","link":"home-ready","confirmation":"Nueva frecuencia de envío de mensajes guardada"}],
+      "content" : ""
     }]
   }
 }

@@ -11,7 +11,7 @@
       "warning" : "Asegúrate de que tus contactos sepan que hacer si reciben este mensaje.",
       "component" : "message",
       "action" : [{"title":"Siguiente","link":"setup-code"}],
-      "content" : "<p>Tips de seguridad</p><ul><li>Considera crear palabras o frases secretas en tu mensaje para que sólo tú y tus contactos lo entiendan. </li><li>No tendrás tiempo para cambiar tu mensaje durante una emergencia, así que crea algo que pueda funcionar en cualquier escenario.</li><li>Activa el rastreador GPS desde las configuraciones de tu teléfono si deseas que tu ubicación se incluya en el mensaje.</li></ul>"
+      "content" : "<p>Tips de seguridad</p><ul>  <li>Considera crear palabras o frases secretas en tu mensaje para que sólo tú y tus contactos lo entiendan. </li>  <li>No tendrás tiempo para cambiar tu mensaje durante una emergencia, así que crea algo que pueda funcionar en cualquier escenario.</li>  <li>Activa el rastreador GPS desde las configuraciones de tu teléfono si deseas que tu ubicación se incluya en el mensaje.</li></ul>"
     },
     {
       "id" : "setup-disguise-test-success",
@@ -44,7 +44,7 @@
       "title" : "Botón de Pánico",
       "action" : [{"title":"Instalar","link":"setup-warning"}],
       "items" : [{"title":"Acerca de","link":"setup-about"},{"title":"Configuraciones de lenguaje","link":"setup-language"}],
-      "content" : "<p><img src=\"//panicinitiative.github.io/panicbutton.io/media/mobile/home-not-configured-small.png\" alt=\"Illustration\"> El Botón de Pánico convierte tu teléfono móvil en una alarma secreta para que tus contactos mas confiables puedan actuar si te encuentras en riesgo.</p>"
+      "content" : "<p><img src=\"/media/mobile/home-not-configured-small.png\" alt=\"Illustration\" /> El Botón de Pánico convierte tu teléfono móvil en una alarma secreta para que tus contactos mas confiables puedan actuar si te encuentras en riesgo.</p>"
     },
     {
       "id" : "code",
@@ -53,7 +53,8 @@
       "title" : "Código",
       "component" : "code",
       "action" : [{"title":"Aceptar","link":"home-ready"}],
-      "fail" : "Si has olvidado tu clave de acceso, por favor, des-instala completamente la aplicación y vuelve a instalarla."
+      "fail" : "Si has olvidado tu clave de acceso, por favor, des-instala completamente la aplicación y vuelve a instalarla.",
+      "content" : ""
     },
     {
       "id" : "checklist",
@@ -62,7 +63,7 @@
       "title" : "Lista de verificación",
       "action" : [{"title":"Aceptar","link":"close"},{"title":"Cancelar","link":"home-ready","status":"disabled"}],
       "checklist" : [{"title":"Revisar plan de seguridad y actualizar contactos regularmente"},{"title":"Prueba la alerta para asegurarte que funcione"},{"title":"Asegurate de tener suficiente crédito en tu teléfono móvil"},{"title":"Activa el GPS (si deseas que tu ubicación se incluya en el mensaje)"},{"title":"Carga la batería de tu teléfono completamente"}],
-      "content" : "<p><a href=\"#help-charge\">Consejos sobre seguridad...</a></p>"
+      "content" : "<p><a href=\"#help-charge\">Consejos sobre seguridad…</a></p>"
     }]
   }
 }

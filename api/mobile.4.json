@@ -15,7 +15,8 @@
       "lang" : "en",
       "type" : "simple",
       "title" : "Settings",
-      "items" : [{"title":"Language Settings","link":"settings-language"},{"title":"Message Settings","link":"settings-message"},{"title":"Contact Settings","link":"settings-contacts"},{"title":"Alert Settings","link":"settings-alert"},{"title":"Code Settings","link":"settings-code"},{"title":"Restart the Installation","link":"settings-reset-confirm"}]
+      "items" : [{"title":"Language Settings","link":"settings-language"},{"title":"Message Settings","link":"settings-message"},{"title":"Contact Settings","link":"settings-contacts"},{"title":"Alert Settings","link":"settings-alert"},{"title":"Code Settings","link":"settings-code"},{"title":"Restart the Installation","link":"settings-reset-confirm"}],
+      "content" : ""
     }]
   }
 }

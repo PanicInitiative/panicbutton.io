@@ -11,7 +11,8 @@
       "component" : "disguise-test-unlock",
       "timers" : {"info":"0","inactive":"10","fail":"20"},
       "success" : {"link":"setup-disguise-test-code"},
-      "fail" : {"link":"setup-disguise-test-unlock-fail"}
+      "fail" : {"link":"setup-disguise-test-unlock-fail"},
+      "content" : ""
     }]
   }
 }

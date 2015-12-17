@@ -9,7 +9,8 @@
       "title" : "Configurações de Idioma",
       "introduction" : "Escolha um idioma para a aplicação.",
       "component" : "language",
-      "action" : [{"title":"English","language":"en","confirmation":"New language applied"},{"title":"Español","language":"es","confirmation":"Nuevo lenguaje seleccionado"},{"title":"Français","language":"fr","confirmation":"Nouveau language selectionné"},{"title":"Português","language":"pt","confirmation":"Novo idioma aplicado"}]
+      "action" : [{"title":"English","language":"en","confirmation":"New language applied"},{"title":"Español","language":"es","confirmation":"Nuevo lenguaje seleccionado"},{"title":"Français","language":"fr","confirmation":"Nouveau language selectionné"},{"title":"Português","language":"pt","confirmation":"Novo idioma aplicado"}],
+      "content" : ""
     },
     {
       "id" : "setup-disguise-test-unlock",
@@ -20,7 +21,8 @@
       "component" : "disguise-test-unlock",
       "timers" : {"info":"0","inactive":"10","fail":"20"},
       "success" : {"link":"setup-disguise-test-code"},
-      "fail" : {"link":"setup-disguise-test-unlock-fail"}
+      "fail" : {"link":"setup-disguise-test-unlock-fail"},
+      "content" : ""
     },
     {
       "id" : "setup-disguise-test-code-fail",
@@ -39,7 +41,7 @@
       "warning" : "Combine um plano com seus contatos para que saibam o que fazer quando receberem isto.",
       "component" : "message",
       "action" : [{"title":"Salvar","link":"home-ready","confirmation":"Mensagem salvo"}],
-      "content" : "<p>Dicas de segurança</p><ul><li>Procure criar palavras ou frases de código na sua mensagem, que só seus contatos vão entender.</li><li>Numa emergência, você não terá tempo de modificar uma mensagem, portanto crie algo que funciona em qualquer situação. </li><li>Se você quiser que sua localização seja incluída na mensagem, ativar rastreamento GPS nas configurações do telefone.</li></ul>"
+      "content" : "<p>Dicas de segurança</p><ul>  <li>Procure criar palavras ou frases de código na sua mensagem, que só seus contatos vão entender.</li>  <li>Numa emergência, você não terá tempo de modificar uma mensagem, portanto crie algo que funciona em qualquer situação. </li>  <li>Se você quiser que sua localização seja incluída na mensagem, ativar rastreamento GPS nas configurações do telefone.</li></ul>"
     },
     {
       "id" : "settings-language",
@@ -48,7 +50,8 @@
       "title" : "Configurações de Idioma",
       "introduction" : "Escolha um idioma para o aplicativo.",
       "component" : "language",
-      "action" : [{"title":"English","language":"en","confirmation":"New language applied"},{"title":"Español","language":"es","confirmation":"Nuevo lenguaje seleccionado"},{"title":"Français","language":"fr","confirmation":"Nouveau language selectionné"},{"title":"Português","language":"pt","confirmation":"Novo idioma aplicado"}]
+      "action" : [{"title":"English","language":"en","confirmation":"New language applied"},{"title":"Español","language":"es","confirmation":"Nuevo lenguaje seleccionado"},{"title":"Français","language":"fr","confirmation":"Nouveau language selectionné"},{"title":"Português","language":"pt","confirmation":"Novo idioma aplicado"}],
+      "content" : ""
     },
     {
       "id" : "settings-contacts",
@@ -59,7 +62,7 @@
       "warning" : "Eles precisam te conhecer pessoalmente, e serem capazes de responder rapidamente.",
       "component" : "contacts",
       "action" : [{"title":"Salvar","link":"home-ready","confirmation":"Contatos salvos"}],
-      "content" : "<p>Dicas de Segurança</p><ul><li>Pense em quem pode ajudá-lo de verdade - não adianta alguém saber que você está em apuros se não tiver como ajudar.</li><li>Combine um plano com seus contatos selecionados para que estejam preparados para agir rápido.</li><li>Esteja ciente dos riscos - de que maneira seus contatos podem ser colocados em risco ?</li></ul>"
+      "content" : "<p>Dicas de Segurança</p><ul>  <li>Pense em quem pode ajudá-lo de verdade - não adianta alguém saber que você está em apuros se não tiver como ajudar.</li>  <li>Combine um plano com seus contatos selecionados para que estejam preparados para agir rápido.</li>  <li>Esteja ciente dos riscos - de que maneira seus contatos podem ser colocados em risco ?</li></ul>"
     },
     {
       "id" : "settings-alert",
@@ -69,7 +72,8 @@
       "introduction" : "Configurar a frequência.",
       "warning" : "Cuidado com sua bateria! O envio frequente de alertas pode gastar rapidamente a bateria.",
       "component" : "alert",
-      "action" : [{"title":"Salvar","link":"home-ready","confirmation":"Novo alerta de frequência salvo."}]
+      "action" : [{"title":"Salvar","link":"home-ready","confirmation":"Novo alerta de frequência salvo."}],
+      "content" : ""
     }]
   }
 }

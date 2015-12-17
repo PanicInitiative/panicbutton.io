@@ -35,7 +35,8 @@
       "component" : "disguise-test-open",
       "timers" : {"info":"0","inactive":"10","fail":"20"},
       "success" : {"link":"setup-disguise-test-unlock"},
-      "fail" : {"link":"setup-disguise-test-open-fail"}
+      "fail" : {"link":"setup-disguise-test-open-fail"},
+      "content" : ""
     },
     {
       "id" : "setup-disguise-test-unlock-fail",
@@ -62,7 +63,7 @@
       "warning" : "Estas personas deberán de conocerte personalmente y ser capaces de responder rápidamente.",
       "component" : "contacts",
       "action" : [{"title":"Siguiente","link":"setup-message"}],
-      "content" : "<p>Tips de seguridad</p><ul><li>Piensa acerca de quién puede ayudarte de manera práctica- No tiene caso que alguien se entere que estas en problemas si no puede ayudarte.</li><li>Diseña un plan de seguridad con tus contactos seleccionados para que puedan estar preparados y actuar rapidamente </li><li>Considera los riesgos- ¿Cómo es que tu contacto podría ponerse en riesgo?</li></ul>"
+      "content" : "<p>Tips de seguridad</p><ul>  <li>Piensa acerca de quién puede ayudarte de manera práctica- No tiene caso que alguien se entere que estas en problemas si no puede ayudarte.</li>  <li>Diseña un plan de seguridad con tus contactos seleccionados para que puedan estar preparados y actuar rapidamente </li>  <li>Considera los riesgos- ¿Cómo es que tu contacto podría ponerse en riesgo?</li></ul>"
     },
     {
       "id" : "setup-alarm-test-hardware-success",
@@ -90,7 +91,7 @@
       "timers" : {"info":"0","inactive":"10","fail":"20"},
       "success" : {"link":"setup-alarm-test-hardware-success"},
       "fail" : {"link":"setup-alarm-test-hardware-fail"},
-      "content" : "<p><img src=\"//panicinitiative.github.io/panicbutton.io/media/mobile/panic_button_activation.png\" alt=\"\"></p>"
+      "content" : "<p><img src=\"/media/mobile/panic_button_activation.png\" alt=\"\" /></p>"
     },
     {
       "id" : "setup-alarm-test-disguise-fail",
@@ -109,7 +110,8 @@
       "component" : "alarm-test-disguise",
       "timers" : {"info":"0","inactive":"10","fail":"20"},
       "success" : {"link":"setup-alarm-test-disguise-success"},
-      "fail" : {"link":"setup-alarm-test-disguise-fail"}
+      "fail" : {"link":"setup-alarm-test-disguise-fail"},
+      "content" : ""
     },
     {
       "id" : "setup-alarm",

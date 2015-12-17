@@ -12,7 +12,8 @@
       "timers" : {"info":"0","inactive":"10","fail":"20"},
       "action" : [{"title":"Acceptar","link":"setup-disguise-test-success"}],
       "success" : {"link":"setup-disguise-test-success"},
-      "fail" : {"link":"setup-disguise-test-code-fail"}
+      "fail" : {"link":"setup-disguise-test-code-fail"},
+      "content" : ""
     },
     {
       "id" : "setup-code",
@@ -22,14 +23,15 @@
       "introduction" : "Esta clave es necesaria para acceder a las configuraciones de la aplicación y para desactivar los mensajes de alerta. No se necesita para enviar alerta a tus contactos en caso de emergencia.",
       "warning" : "¡Recuerda tu clave! Si la olvidas necesitarás re-instalar la aplicación.",
       "component" : "code",
-      "action" : [{"title":"Siguiente","link":"home-not-configured-alarm"}]
+      "action" : [{"title":"Siguiente","link":"home-not-configured-alarm"}],
+      "content" : ""
     },
     {
       "id" : "setup-about",
       "lang" : "es",
       "type" : "simple",
       "title" : "Acerca de",
-      "content" : "<p>El Botón de Pánico convierte tu teléfono móvil en una alarma secreta para cuando te encuentres en una situación de emergencia.</p><p><strong>¿Cómo funciona el Botón de Pánico?</strong></p><ul><li>Tómate un tiempo para programar el Botón de Pánico en un lugar seguro y tranquilo.</li><li>Crea un plan con tus contactos para que estén preparados para actuar.</li><li>Checa que todo este listo  y que tu teléfono móvil tenga crédito y batería.</li><li>Activa el Botón de Pánico en una emergencia presionando rápidamente el botón de prender/apagar de tu teléfono.</li><li>Tu red de contactos recibirá un SMS y actualizaciones acerca de tu ubicación para ayudarlos a actuar rápido.</li></ul><p>El proyecto del Botón de Pánico es una iniciativa de Amnistía Internacional, en colaboración con Frontline Defenders, iilab y the engine room.</p>"
+      "content" : "<p>El Botón de Pánico convierte tu teléfono móvil en una alarma secreta para cuando te encuentres en una situación de emergencia.</p><p><strong>¿Cómo funciona el Botón de Pánico?</strong></p><ul>  <li>Tómate un tiempo para programar el Botón de Pánico en un lugar seguro y tranquilo.</li>  <li>Crea un plan con tus contactos para que estén preparados para actuar.</li>  <li>Checa que todo este listo  y que tu teléfono móvil tenga crédito y batería.</li>  <li>Activa el Botón de Pánico en una emergencia presionando rápidamente el botón de prender/apagar de tu teléfono.</li>  <li>Tu red de contactos recibirá un SMS y actualizaciones acerca de tu ubicación para ayudarlos a actuar rápido.</li></ul><p>El proyecto del Botón de Pánico es una iniciativa de Amnistía Internacional, en colaboración con Frontline Defenders, iilab y the engine room.</p>"
     },
     {
       "id" : "settings-reset-confirm",

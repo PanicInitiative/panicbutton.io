@@ -9,7 +9,8 @@
       "title" : "Langue",
       "introduction" : "Sélectionner une langue pour l'application.",
       "component" : "language",
-      "action" : [{"title":"English","language":"en","confirmation":"New language applied"},{"title":"Español","language":"es","confirmation":"Nuevo lenguaje seleccionado"},{"title":"Français","language":"fr","confirmation":"Nouveau language selectionné"},{"title":"Português","language":"pt","confirmation":"Novo idioma aplicado"}]
+      "action" : [{"title":"English","language":"en","confirmation":"New language applied"},{"title":"Español","language":"es","confirmation":"Nuevo lenguaje seleccionado"},{"title":"Français","language":"fr","confirmation":"Nouveau language selectionné"},{"title":"Português","language":"pt","confirmation":"Novo idioma aplicado"}],
+      "content" : ""
     },
     {
       "id" : "setup-disguise-test-unlock",
@@ -20,7 +21,8 @@
       "component" : "disguise-test-unlock",
       "timers" : {"info":"0","inactive":"10","fail":"20"},
       "success" : {"link":"setup-disguise-test-code"},
-      "fail" : {"link":"setup-disguise-test-unlock-fail"}
+      "fail" : {"link":"setup-disguise-test-unlock-fail"},
+      "content" : ""
     },
     {
       "id" : "settings-message",
@@ -31,7 +33,7 @@
       "warning" : "Veillez à ce que vos contacts sachent ce qu'ils ont à faire s'ils reçoivent ce message.",
       "component" : "message",
       "action" : [{"title":"Enregistrer","link":"home-ready","confirmation":"Message sauvegardé"}],
-      "content" : "<p>Conseils de sécurité</p><ul><li>Envisagez l&#39;idée d&#39;insérer dans votre message des mots ou des phrases codés que seuls vos contacts peuvent comprendre.</li><li>Vous n&#39;aurez pas le temps de changer le message en cas d&#39;urgence, alors préparez quelque chose qui fonctionne en toutes circonstances.</li><li>Activez le traçage GPS à partir des paramètres de votre téléphone si vous souhaitez que le message indique où vous êtes.</li></ul>"
+      "content" : "<p>Conseils de sécurité</p><ul>  <li>Envisagez l’idée d’insérer dans votre message des mots ou des phrases codés que seuls vos contacts peuvent comprendre.</li>  <li>Vous n’aurez pas le temps de changer le message en cas d’urgence, alors préparez quelque chose qui fonctionne en toutes circonstances.</li>  <li>Activez le traçage GPS à partir des paramètres de votre téléphone si vous souhaitez que le message indique où vous êtes.</li></ul>"
     },
     {
       "id" : "settings-language",
@@ -40,14 +42,16 @@
       "title" : "Langue",
       "introduction" : "Sélectionner une langue pour l'application.",
       "component" : "language",
-      "action" : [{"title":"English","language":"en","confirmation":"New language applied"},{"title":"Español","language":"es","confirmation":"Nuevo lenguaje seleccionado"},{"title":"Français","language":"fr","confirmation":"Nouveau language selectionné"},{"title":"Português","language":"pt","confirmation":"Novo idioma aplicado"}]
+      "action" : [{"title":"English","language":"en","confirmation":"New language applied"},{"title":"Español","language":"es","confirmation":"Nuevo lenguaje seleccionado"},{"title":"Français","language":"fr","confirmation":"Nouveau language selectionné"},{"title":"Português","language":"pt","confirmation":"Novo idioma aplicado"}],
+      "content" : ""
     },
     {
       "id" : "settings",
       "lang" : "fr",
       "type" : "simple",
       "title" : "Paramètres",
-      "items" : [{"title":"Langue","link":"settings-language"},{"title":"Message","link":"settings-message"},{"title":"Contacts","link":"settings-contacts"},{"title":"Code de sécurité","link":"settings-code"},{"title":"Paramétrage de l'alerte","link":"settings-alert"},{"title":"Relancer l'installation","link":"settings-reset-confirm"}]
+      "items" : [{"title":"Langue","link":"settings-language"},{"title":"Message","link":"settings-message"},{"title":"Contacts","link":"settings-contacts"},{"title":"Code de sécurité","link":"settings-code"},{"title":"Paramétrage de l'alerte","link":"settings-alert"},{"title":"Relancer l'installation","link":"settings-reset-confirm"}],
+      "content" : ""
     }]
   }
 }

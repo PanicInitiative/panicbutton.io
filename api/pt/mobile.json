@@ -19,7 +19,7 @@
       "warning" : "Combine um plano com seus contatos para que saibam o que fazer quando receberem isto",
       "component" : "message",
       "action" : [{"title":"Próximo","link":"setup-code"}],
-      "content" : "<p>Dicas de segurança</p><ul><li>Procure criar palavras ou frases de código na sua mensagem, que só seus contatos vão entender.</li><li>Numa emergência, você não terá tempo de modificar uma mensagem, portanto crie algo funcione em qualquer situação.</li><li>Se você quiser que sua localização seja incluída na mensagem, ativar rastreamento GPS nas configurações do telefone.</li></ul>"
+      "content" : "<p>Dicas de segurança</p><ul>  <li>Procure criar palavras ou frases de código na sua mensagem, que só seus contatos vão entender.</li>  <li>Numa emergência, você não terá tempo de modificar uma mensagem, portanto crie algo funcione em qualquer situação.</li>  <li>Se você quiser que sua localização seja incluída na mensagem, ativar rastreamento GPS nas configurações do telefone.</li></ul>"
     },
     {
       "id" : "setup-language",
@@ -28,7 +28,8 @@
       "title" : "Configurações de Idioma",
       "introduction" : "Escolha um idioma para a aplicação.",
       "component" : "language",
-      "action" : [{"title":"English","language":"en","confirmation":"New language applied"},{"title":"Español","language":"es","confirmation":"Nuevo lenguaje seleccionado"},{"title":"Français","language":"fr","confirmation":"Nouveau language selectionné"},{"title":"Português","language":"pt","confirmation":"Novo idioma aplicado"}]
+      "action" : [{"title":"English","language":"en","confirmation":"New language applied"},{"title":"Español","language":"es","confirmation":"Nuevo lenguaje seleccionado"},{"title":"Français","language":"fr","confirmation":"Nouveau language selectionné"},{"title":"Português","language":"pt","confirmation":"Novo idioma aplicado"}],
+      "content" : ""
     },
     {
       "id" : "setup-disguise-test-unlock-fail",
@@ -47,7 +48,8 @@
       "component" : "disguise-test-unlock",
       "timers" : {"info":"0","inactive":"10","fail":"20"},
       "success" : {"link":"setup-disguise-test-code"},
-      "fail" : {"link":"setup-disguise-test-unlock-fail"}
+      "fail" : {"link":"setup-disguise-test-unlock-fail"},
+      "content" : ""
     },
     {
       "id" : "setup-disguise-test-success",
@@ -74,7 +76,8 @@
       "component" : "disguise-test-open",
       "timers" : {"info":"0","inactive":"10","fail":"20"},
       "success" : {"link":"setup-disguise-test-unlock"},
-      "fail" : {"link":"setup-disguise-test-open-fail"}
+      "fail" : {"link":"setup-disguise-test-open-fail"},
+      "content" : ""
     },
     {
       "id" : "setup-disguise-test-code-fail",
@@ -94,7 +97,8 @@
       "timers" : {"info":"0","inactive":"10","fail":"20"},
       "action" : [{"title":"Ok","link":"setup-disguise-test-success"}],
       "success" : {"link":"setup-disguise-test-success"},
-      "fail" : {"link":"setup-disguise-test-code-fail"}
+      "fail" : {"link":"setup-disguise-test-code-fail"},
+      "content" : ""
     },
     {
       "id" : "setup-disguise",
@@ -113,7 +117,7 @@
       "warning" : "Eles precisam conhecer você pessoalmente, e conseguir responder rapidamente.",
       "component" : "contacts",
       "action" : [{"title":"Próximo","link":"setup-message"}],
-      "content" : "<p>Dicas de Segurança</p><ul><li>Pense em quem pode ajudá-lo de verdade - não adianta alguém saber que você está em apuros, se não tiver como ajudar.</li><li>Combine um plano com seus contatos selecionados para que estejam preparados para agir rápido.</li><li>Esteja ciente dos riscos - de que maneira seu contato podem ser colocado em risco ?</li></ul>"
+      "content" : "<p>Dicas de Segurança</p><ul>  <li>Pense em quem pode ajudá-lo de verdade - não adianta alguém saber que você está em apuros, se não tiver como ajudar.</li>  <li>Combine um plano com seus contatos selecionados para que estejam preparados para agir rápido.</li>  <li>Esteja ciente dos riscos - de que maneira seu contato podem ser colocado em risco ?</li></ul>"
     },
     {
       "id" : "setup-code",
@@ -123,7 +127,8 @@
       "introduction" : "Este código é necessário para acessar as configurações do aplicativo. Ele não é necessário para alertar os contatos em caso de emergência.",
       "warning" : "Lembre-se do seu código! Se esquecer, terá que reinstalar o aplicativo.",
       "component" : "code",
-      "action" : [{"title":"Próximo","link":"home-not-configured-alarm"}]
+      "action" : [{"title":"Próximo","link":"home-not-configured-alarm"}],
+      "content" : ""
     },
     {
       "id" : "setup-alarm-test-hardware-success",
@@ -151,7 +156,7 @@
       "timers" : {"info":"0","inactive":"10","fail":"20"},
       "success" : {"link":"setup-alarm-test-hardware-success"},
       "fail" : {"link":"setup-alarm-test-hardware-fail"},
-      "content" : "<p><img src=\"//panicinitiative.github.io/panicbutton.io/media/mobile/panic_button_activation.png\" alt=\"\"></p>"
+      "content" : "<p><img src=\"/media/mobile/panic_button_activation.png\" alt=\"\" /></p>"
     },
     {
       "id" : "setup-alarm-test-disguise-success",
@@ -178,7 +183,8 @@
       "component" : "alarm-test-disguise",
       "timers" : {"info":"0","inactive":"10","fail":"20"},
       "success" : {"link":"setup-alarm-test-disguise-success"},
-      "fail" : {"link":"setup-alarm-test-disguise-fail"}
+      "fail" : {"link":"setup-alarm-test-disguise-fail"},
+      "content" : ""
     },
     {
       "id" : "setup-alarm-disguise",
@@ -201,7 +207,7 @@
       "lang" : "pt",
       "type" : "simple",
       "title" : "Sobre",
-      "content" : "<p>O Botão de Pânico transforma seu celular em um alarme secreto para quando você está em apuros</p><p><strong>Como funciona o Botão de Pânico?</strong></p><ul><li>Reserve uma hora e lugar SEGURO e TRANQUILO para configurar o Botão de Pânico </li><li>Combine um plano com seus contatos para que estejam PREPARADOS para AGIR</li><li>VERIFIQUE se você está pronto e se o seu celular tem crédito e bateria</li><li>ATIVE o Botão de Pânico em caso de emergência, pressionando rapidamente o botão de ligar o telefone</li><li>Sua rede receberá um SMS e atualizações regulares da sua localização, permitindo uma AÇÃO RÁPIDA</li></ul><p>O projeto do Botão de Pânico é uma iniciativa da Anistia Internacional, em colaboração com consultores e parceiros chave, incluindo Frontline Defenders, iilab e the engine room</p>"
+      "content" : "<p>O Botão de Pânico transforma seu celular em um alarme secreto para quando você está em apuros</p><p><strong>Como funciona o Botão de Pânico?</strong></p><ul>  <li>Reserve uma hora e lugar SEGURO e TRANQUILO para configurar o Botão de Pânico </li>  <li>Combine um plano com seus contatos para que estejam PREPARADOS para AGIR</li>  <li>VERIFIQUE se você está pronto e se o seu celular tem crédito e bateria</li>  <li>ATIVE o Botão de Pânico em caso de emergência, pressionando rapidamente o botão de ligar o telefone</li>  <li>Sua rede receberá um SMS e atualizações regulares da sua localização, permitindo uma AÇÃO RÁPIDA</li></ul><p>O projeto do Botão de Pânico é uma iniciativa da Anistia Internacional, em colaboração com consultores e parceiros chave, incluindo Frontline Defenders, iilab e the engine room</p>"
     },
     {
       "id" : "settings-reset-confirm",
@@ -220,7 +226,7 @@
       "warning" : "Combine um plano com seus contatos para que saibam o que fazer quando receberem isto.",
       "component" : "message",
       "action" : [{"title":"Salvar","link":"home-ready","confirmation":"Mensagem salvo"}],
-      "content" : "<p>Dicas de segurança</p><ul><li>Procure criar palavras ou frases de código na sua mensagem, que só seus contatos vão entender.</li><li>Numa emergência, você não terá tempo de modificar uma mensagem, portanto crie algo que funciona em qualquer situação. </li><li>Se você quiser que sua localização seja incluída na mensagem, ativar rastreamento GPS nas configurações do telefone.</li></ul>"
+      "content" : "<p>Dicas de segurança</p><ul>  <li>Procure criar palavras ou frases de código na sua mensagem, que só seus contatos vão entender.</li>  <li>Numa emergência, você não terá tempo de modificar uma mensagem, portanto crie algo que funciona em qualquer situação. </li>  <li>Se você quiser que sua localização seja incluída na mensagem, ativar rastreamento GPS nas configurações do telefone.</li></ul>"
     },
     {
       "id" : "settings-language",
@@ -229,7 +235,8 @@
       "title" : "Configurações de Idioma",
       "introduction" : "Escolha um idioma para o aplicativo.",
       "component" : "language",
-      "action" : [{"title":"English","language":"en","confirmation":"New language applied"},{"title":"Español","language":"es","confirmation":"Nuevo lenguaje seleccionado"},{"title":"Français","language":"fr","confirmation":"Nouveau language selectionné"},{"title":"Português","language":"pt","confirmation":"Novo idioma aplicado"}]
+      "action" : [{"title":"English","language":"en","confirmation":"New language applied"},{"title":"Español","language":"es","confirmation":"Nuevo lenguaje seleccionado"},{"title":"Français","language":"fr","confirmation":"Nouveau language selectionné"},{"title":"Português","language":"pt","confirmation":"Novo idioma aplicado"}],
+      "content" : ""
     },
     {
       "id" : "settings-contacts",
@@ -240,7 +247,7 @@
       "warning" : "Eles precisam te conhecer pessoalmente, e serem capazes de responder rapidamente.",
       "component" : "contacts",
       "action" : [{"title":"Salvar","link":"home-ready","confirmation":"Contatos salvos"}],
-      "content" : "<p>Dicas de Segurança</p><ul><li>Pense em quem pode ajudá-lo de verdade - não adianta alguém saber que você está em apuros se não tiver como ajudar.</li><li>Combine um plano com seus contatos selecionados para que estejam preparados para agir rápido.</li><li>Esteja ciente dos riscos - de que maneira seus contatos podem ser colocados em risco ?</li></ul>"
+      "content" : "<p>Dicas de Segurança</p><ul>  <li>Pense em quem pode ajudá-lo de verdade - não adianta alguém saber que você está em apuros se não tiver como ajudar.</li>  <li>Combine um plano com seus contatos selecionados para que estejam preparados para agir rápido.</li>  <li>Esteja ciente dos riscos - de que maneira seus contatos podem ser colocados em risco ?</li></ul>"
     },
     {
       "id" : "settings-alert",
@@ -250,14 +257,16 @@
       "introduction" : "Configurar a frequência.",
       "warning" : "Cuidado com sua bateria! O envio frequente de alertas pode gastar rapidamente a bateria.",
       "component" : "alert",
-      "action" : [{"title":"Salvar","link":"home-ready","confirmation":"Novo alerta de frequência salvo."}]
+      "action" : [{"title":"Salvar","link":"home-ready","confirmation":"Novo alerta de frequência salvo."}],
+      "content" : ""
     },
     {
       "id" : "settings",
       "lang" : "pt",
       "type" : "simple",
       "title" : "Configurações",
-      "items" : [{"title":"Configurações de Idioma","link":"settings-language"},{"title":"Configurações de Mensagens","link":"settings-message"},{"title":"Configurações dos Contatos","link":"settings-contacts"},{"title":"Configurações de Alerta","link":"settings-alert"},{"title":"Configurações da Senha","link":"settings-code"},{"title":"Reiniciar a Instalação","link":"settings-reset-confirm"}]
+      "items" : [{"title":"Configurações de Idioma","link":"settings-language"},{"title":"Configurações de Mensagens","link":"settings-message"},{"title":"Configurações dos Contatos","link":"settings-contacts"},{"title":"Configurações de Alerta","link":"settings-alert"},{"title":"Configurações da Senha","link":"settings-code"},{"title":"Reiniciar a Instalação","link":"settings-reset-confirm"}],
+      "content" : ""
     },
     {
       "id" : "home-ready",
@@ -296,7 +305,7 @@
       "title" : "Botão de Pânico",
       "action" : [{"title":"Instalação","link":"setup-warning"}],
       "items" : [{"title":"Sobre","link":"setup-about"},{"title":"Configurações de Idioma","link":"setup-language"}],
-      "content" : "<p><img src=\"//panicinitiative.github.io/panicbutton.io/media/mobile/home-not-configured-small.png\" alt=\"Illustration\"> O Botão de Pânico é um aplicativo Android que alerta secretamente seus contatos quando você está em apuros. O aplicativo fica escondido em seu telefone, parecendo uma simples calculadora.</p>"
+      "content" : "<p><img src=\"/media/mobile/home-not-configured-small.png\" alt=\"Illustration\" /> O Botão de Pânico é um aplicativo Android que alerta secretamente seus contatos quando você está em apuros. O aplicativo fica escondido em seu telefone, parecendo uma simples calculadora.</p>"
     },
     {
       "id" : "home-alerting",
@@ -314,7 +323,8 @@
       "title" : "Código PIN",
       "component" : "code",
       "action" : [{"title":"Prosseguir","link":"home-ready"}],
-      "fail" : "Se esquecer o seu código PIN, desinstale o aplicativo nas configurações do seu telefone e, em seguida, reinstale."
+      "fail" : "Se esquecer o seu código PIN, desinstale o aplicativo nas configurações do seu telefone e, em seguida, reinstale.",
+      "content" : ""
     },
     {
       "id" : "checklist",
@@ -323,7 +333,7 @@
       "title" : "Lista de Controle",
       "action" : [{"title":"Disfarce agora","link":"close"},{"title":"Cancelar","link":"home-ready","status":"disabled"}],
       "checklist" : [{"title":"Revisar o plano de segurança e atualizar os contatos regularmente"},{"title":"Testar o alerta para garantir que está funcionando"},{"title":"Verificar se tem crédito suficiente no telefone"},{"title":"Ativar GPS (se quiser habilitar o rastreamento de localização)"},{"title":"Carregar completamente a bateria do telefone"}],
-      "content" : "<p>Mais <a href=\"#help-charge\">dicas de segurança... </a></p>"
+      "content" : "<p>Mais <a href=\"#help-charge\">dicas de segurança… </a></p>"
     }]
   }
 }
