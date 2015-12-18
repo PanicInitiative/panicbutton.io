@@ -17,9 +17,10 @@ shortLink: null
 published: true
 ---
 
+
  
 
-**Introduction to activity:** While the app is designed to be as simple as possible for the user it is important to bear in mind that participants will likely have varying levels of confidence with technology, and may have limited experience using a smartphone.  Getting to know the app is about providing lots of chances for the participants, together and individually, to familiarize themselves with the interface and functionality. While we dedicate a 2 hour session to this, it is important to provide support throughout the training. You can do this through setting-up informal spaces outside of workshop hours for participants to troubleshoot or seek extra help. 
+**Introduction to activity:** While the app is designed to be as simple as possible for the user it is important to bear in mind that participants will likely have varying levels of confidence with technology, and may have limited experience using a smartphone.  Getting to know the app is about providing lots of chances for the participants, together and individually, to familiarize themselves with the interface and functionality. While we dedicate a 2-hour session to this, it is important to provide support throughout the training. You can do this through setting-up informal spaces outside of workshop hours for participants to troubleshoot or seek extra help. 
 
 **Get to know Panic Button:** Introduce the app to the participants in a simple way. Give a brief overview of what the app aims to do, how it works and what it's main features are. If available, use a projector to screen the Panic Button website where there are visuals and illustrations to help you. Give the group an opportunity to ask questions so that they understand the concept before testing it for the first time.
 
