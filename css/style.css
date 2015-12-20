@@ -207,7 +207,7 @@ span, strong{font-family: 'Roboto Condensed Bold', "Helvetica Neue", Helvetica, 
 .more-pact .button-pact-download { background: url(../images/pact-download-icon.png) no-repeat; margin:15px auto; width:80px; height: 80px; display: block; }
 .more-pact a:hover { text-decoration: none;}
 .gamecard .more-pact{ margin-bottom: 0;}
-.more-pact .questionmrk{ padding: 20px 30px;}
+.more-pact .questionmrk{ padding: 0; width:40%;}
 .more.top .button { background: url(../images/top-icon.png) no-repeat; }
 .more.top {
   margin-top: 30px; 
@@ -344,6 +344,8 @@ ul.arrows { margin: 0 10px 35px 15px; padding: 0; }
 home page
 
 ************************************************/
+
+
 ul.cards {
   padding: 0;
   text-align: center;
@@ -447,6 +449,12 @@ h1 small {
 .page-header .counter .cardNum {
   margin: 100px 0 -46px;
   font-size: 20px;
+  text-align: center;
+}
+
+.page-header .counter svg{
+  margin: 0 auto;
+  width: 99%;
 }
 
 /************************************************
@@ -516,6 +524,47 @@ Nav
 .bottom-nav a.btn_home:hover:before {
   border-bottom-color: #222;
 }
+
+
+/* IMPACT GAME */
+
+.impactcards{
+  margin-left: -80px;
+}
+
+.impactcards .cover{
+  max-width: 300px;
+}
+
+.impactcards .cover img{
+  max-width: 250px;
+}
+
+h3.impacttitle{
+  margin: 0 auto;
+  text-align: center;
+  color: #000;
+  text-decoration: underline;
+}
+
+h3.impactitle:hover{
+text-decoration: none;
+color: #000;
+}
+
+/* hrd cards */
+
+.hrdimg{
+  width: 400px;
+  margin: 0 auto;
+}
+
+.hrdimg img{
+  width: 380px;
+  margin: 0 auto;
+}
+
+
 
 @media only screen and (max-width: 767px) {
   .bottom-nav a .bottom-nav a.btn_prev,

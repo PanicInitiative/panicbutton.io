@@ -1,17 +1,15 @@
 ---
-layout: pact_rules
+layout: post
 title: imPACT Game Rules
 lang: en
 version: 1
-slug: "01-impact"
+slug: "03-impact"
 categories: "impact-rules"
-cardNum: 4
+goals: Learn the rules of the imPACT Game.
+cardNum: 2
 published: true
-goals: Read the rules in the imPact game and browse the cards.
-methodology: "Role-playing game where teams need to set up, set off and respond to the Panic Button."
-downloadLink: "http://pactapp.io"
----
 
+---
 
 
 
@@ -33,6 +31,9 @@ These players have been called upon to assist the HRD in times of need. Each PAC
 
 The key figures are player characters that can provide special assistance towards liberating the HRD. PACT members will interact with key figures and do their best to convince them to get involved.
 When sufficiently convinced their involvement is warranted, the key figures will provide PACT members with a **key item**: an object that proves their involvement and, when combined with the other key items, has the power to liberate the HRD.
+
+
+
 
 ###3. Game Progress
 

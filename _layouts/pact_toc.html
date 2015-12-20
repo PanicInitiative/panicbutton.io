@@ -68,7 +68,7 @@ layout: default
 			<ul class="cards container">
 			{% assign cards = site.categories["impact-rules"] | sort section_order %}
 			  {% for post in cards %}
-			    {% if post.layout contains 'rules' %}
+			    {% if post.cardNum == 1 or post.cardNum == 2 %}
 			      <li class="row">
 			        <div class="cover col-sm-2">
 			          <a href="{{ BASE_PATH }}{{ post.url }}">
@@ -78,13 +78,13 @@ layout: default
 			        </div>
 			        <div class="card-meta col-sm-7">
 			          <div class="goals">
+			          	<h3>Goals:</h3>
+
 			            {{post.goals}}
 			          </div>
-			          <div class="methodology">
-			            <h3>Methodology:</h3>
-			            {{post.methodology}}
-			          </div>
+		
 			        </div>
+			        {% if post.url contains "overview" %}
 			        <div class="timespan col-sm-3">
 			                <div class="more-pact">
                     				<strong>Download the Game</strong>
@@ -92,6 +92,7 @@ layout: default
                 			     </div>
 			          
 			        </div>
+			        {% endif %}
 			      </li>
 			    {% endif %}
 			  {% endfor %}

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How To Print
-cardNum: 4
+cardNum: 3
 categories: impact-rules
 slug: "02-impact"
 published: true

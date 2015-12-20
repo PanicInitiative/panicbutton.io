@@ -79,24 +79,7 @@ layout: default
                 </div>
                 {% endif %}
 
-                <div class="aside-notes">
-                  <h3>Your Notes</h3>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                </div>
+
               </aside>
 
             </div>
@@ -104,31 +87,77 @@ layout: default
       <div class="clearfix"></div>
           <div class="col-lg-12 col-md-12 col-sm-12">
           <div class="pact-title pactgame" role="button"><strong>imPACT Game</strong></div>
-      <ul class="cards container">
-        {% assign cards = site.categories["pact-cards"] | sort section_order %}
-        {% for post in cards %}
-          {% if post.layout contains 'hrd' %}
-            <li class="row">
-              <div class="cover col-sm-2">
+          </div>
+      <div class="impactcards container">
+        <div class="row">
+            {% assign cards = site.categories["impact-rules"] | sort section_order %}
+
+            {% for post in cards %}
+
+            {% if post.cardNum == 2 %}
+
+            <div class="col-sm-4"></div>
+
+
+              <div class="cover col-sm-4">
                 <a href="{{ BASE_PATH }}{{ post.url }}">
-                  <img src="{{ BASE_PATH }}/assets/img/4_thumb.png" alt="{{ post.title }}">
+                  <img src="{{ BASE_PATH }}/assets/img/{{post.cardNum}}_thumb.png" alt="{{ post.title }}">
+                  <br>
+                  <h3 class="impacttitle">
                   {{ post.title }}
+                  </h3>
                 </a>
               </div>
-              <div class="card-meta col-sm-7">
-                <div class="goals">
-                  <h3>Bio:</h3>
-                  {{post.bio}}
-                </div>
 
-              </div>
-              <div class="timespan col-sm-3">
+            <div class="col-sm-4"></div>
 
+
+
+            {% endif %}
+
+            {% endfor %}
+        </div>
+
+
+        {% assign cards = site.categories["pact-cards"] | sort section_order %}
+        
+
+        {% for post in cards %}
+        {% assign loopindex = forloop.index | modulo: 4 %}
+
+        {% if loopindex == 1%}
+        <div class="row">
+        {% endif %}
+
+          {% if post.layout contains 'hrd' %}
+              <div class="cover col-sm-3">
+                <a href="{{ BASE_PATH }}{{ post.url }}">
+                  <img src="{{ BASE_PATH }}/assets/img/4_thumb.png" alt="{{ post.title }}">
+                  <br>
+                  <h3 class="impacttitle">
+                  {{ post.title }}
+
+                  </h3>
+
+                </a>
               </div>
-            </li>
+
           {% endif %}
-        {% endfor %}
-      </ul>
+
+
+          {% if loopindex == 0 or forloop.last %}
+
+          </div>
+        
+          {% endif %}
+
+
+      {% endfor %}
+
+
+
+
+
     </div>
           </div>
         </div>

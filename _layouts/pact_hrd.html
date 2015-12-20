@@ -8,14 +8,19 @@ layout: default
 
         <div class="row gamecard">
                   <div class="col-xs-12 breadcrumb">
-                    <a href="/">Home</a> &gt; <a href="{{ BASE_PATH }}/pact/pact.html">Training Kit</a> &gt; <a href="{{ BASE_PATH }}/impact-rules/impact-rules.html">imPACT Rules</a> &gt; <span>{{page.title}}</span>
+                    <a href="/">Home</a> &gt; <a href="{{ BASE_PATH }}/pact/pact.html">Training Kit</a> &gt; <a href="{{ BASE_PATH }}/impact-rules/impact-overview.html">imPACT game</a> &gt; <span>{{page.title}}</span>
                 </div>
           <div class="gc-front">
+            <div class="hrdimg">
+
             {% if page.img %}
             <img src="{{ BASE_PATH }}/assets/img/gc_{{ page.cardNum }}.png" alt="{{ page.title }}">
             {% else %}
             <img src="{{ BASE_PATH }}/assets/img/gc_.2.png" alt="{{ page.title }}">
             {% endif %}
+            </div>
+
+
 
             <div class="more-pact">
                     <strong>Download the Game</strong>
@@ -28,6 +33,7 @@ layout: default
             <header>
               <h1>{{ page.title }}</h1>
 
+<!--
             {% if page.token %}
 
             <div class="token">
@@ -35,6 +41,7 @@ layout: default
               <h3>{{ page.token }}</h3>
             </div>
             {% endif %}
+-->
 
               {% if page.bio %}
               <div class="bio">
@@ -58,7 +65,6 @@ layout: default
               <a class="btn_prev" href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">Previous</a>
               {% endif %}
 
-              <a class="btn_home" href="{{ BASE_PATH }}/impact-rules/impact-rules.html" title="Panic Button Training Kit home">Home</a>
               
               {% if page.cardNum < 10.1 %}
               <a class="btn_next" href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next</a>
