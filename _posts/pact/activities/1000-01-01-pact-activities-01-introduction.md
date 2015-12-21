@@ -26,11 +26,11 @@ extra: null
 
 **Flower exercise:** Prepare paper flower centers (big circles) and petals (any shape) beforehand, in many colors. Hand out the centers to each participant, ask them to write or draw anything that represents them and stick centers on walls. Throughout the training, make space for quiet reflection moments where participants can write or draw important experiences on petals (learnings, insights, eureka moments) and attach them to their center. The idea is that at the end of the training everyone will have a complete flower. 
 
-![pactintro1.jpg]({{site.baseurl}}images/pactintro1.jpg)
+![pactintro1.jpg]({{ site.JB.BASE_PATH }}/images/pactintro1.jpg)
 
 **Roadmap agenda:** Before the training begins, start drawing a roadmap on a big piece of paper. Represent agenda items by drawing visuals along the 'road'. As participants arrive, ask for their help in drawing the visuals — start introducing key phrases related to sessions in the agenda, like PACT. Draw a car on a sticky note: during the training, track progress through the workshop's agenda by moving the car 'along the road' to the various sessions.
 
-![pactintro2.JPG]({{site.baseurl}}images/pactintro2.JPG)
+![pactintro2.JPG]({{ site.JB.BASE_PATH }}/images/pactintro2.JPG)
 
 <div class="cs-online" id="onlineContent" markdown="1">
 If there is time, do an objectives exercise in order to determine if there are any objectives that will not be addressed in the training and deal with those expectations ASAP. You can do this through a bike rack or a sticky note card sorting exercise.

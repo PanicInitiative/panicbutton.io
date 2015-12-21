@@ -30,7 +30,7 @@ Geographical mapping (45 min individually + time for group feedback) – Each pa
 3. Which three trusted contacts would you want to contact in a situation of risk? Would it be the same three contacts for each situation on your map?
 
 
-![riskmapping2.JPG]({{site.baseurl}}images/riskmapping2.JPG)
+![riskmapping2.JPG]({{ site.JB.BASE_PATH }}/images/riskmapping2.JPG)
 
 
 <div class="cs-online" id="onlineContent" markdown="1">
