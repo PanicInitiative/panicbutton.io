@@ -44,7 +44,7 @@ layout: default
               {% if page.goals %}
               <div class="cs-goals col-xs-12">
                 <h3>Goals</h3>
-                <p>{{page.goals}}</p>
+                {{page.goals | markdownify }}
               </div>
               {% endif %}
 
@@ -52,14 +52,14 @@ layout: default
                 {% if page.methodology %}
                 <div class="cs-methodology col-xs-6">
                   <h3>Methodology</h3>
-                  <p>{{page.methodology | markdownify }}</p>
+                  {{page.methodology | markdownify }}
                 </div>
                 {% endif %}
 
                 {% if page.timeSpan %}
                 <div class="cs-timespan col-xs-6">
                   <h3>Timespan</h3>
-                  <p>{{page.timeSpan | markdownify }}</p>
+                  {{page.timeSpan | markdownify }}
                 </div>
                 {% endif %}
               </div>
@@ -68,7 +68,7 @@ layout: default
                 {% if page.materials %}
                 <div class="cs-materials col-xs-6">
                   <h3>Materials</h3>
-                  <p>{{page.materials | markdownify }}</p>
+                  {{page.materials | markdownify }}
                 </div>
                 {% endif %}
 
@@ -84,14 +84,14 @@ layout: default
               {% if page.extra %}
               <div class="cs-extra col-xs-12">
                 <h3>Extra Details</h3>
-                <p>{{page.extra | markdownify }}</p>
+                {{page.extra | markdownify }}
               </div>
               {% endif %}
 
               {% if page.remember %}
               <div class="cs-remember col-xs-12">
                 <h3>Remember</h3>
-                <p>{{page.remember | markdownify }}</p>
+                {{page.remember | markdownify }}
               </div>
               {% endif %}
 

@@ -73,13 +73,20 @@ h3 {
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
-  margin-bottom: 3px;
 }
 
 .pact p, .pact li {
   font-weight: 300;
   font-size: 20px;
 }
+#inlet p{
+  padding-bottom: 10px;
+}
+
+#onlineContent p{
+  padding-bottom: 0 !important;
+}
+
 ul,
 ol {
   padding-left: 1em;
@@ -141,9 +148,11 @@ img {
 .cheatsheet .row {
   margin: 0;
 }
-.cheatsheet .cs-materials h3 {
-  margin-bottom: 15px;
+.cheatsheet h3, .inlet h3 {
+  margin-bottom: 5px;
 }
+
+
 /* posts index */
 .post > h3.title {
   position: relative;

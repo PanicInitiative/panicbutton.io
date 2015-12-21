@@ -5,7 +5,7 @@ layout: default
 <div id="content">
 	<section id="header" class="content header white container intcont mobnopad">
 		<div class="col-xs-12 breadcrumb">
-			  <a href="/">Home</a> &gt; {% if page.parent %}<a href="/{{page.parent.link}}">{{page.parent.title}}</a> &gt; {% endif %} {% if page.cardNum == 2 or page.cardNum == 3 %} <a href="/pact/pact.html">Training Kit</a> &gt; <a href="{{ site.JB.BASE_PATH }}/impact-rules/impact-overview.html">imPACT game</a> &gt; {% endif %} <span>{{page.title}}</span>
+			  <a href="{{ site.JB.BASE_PATH }}/">Home</a> &gt; {% if page.parent %}<a href="{{ site.JB.BASE_PATH }}/{{page.parent.link}}">{{page.parent.title}}</a> &gt; {% endif %} {% if page.cardNum == 2 or page.cardNum == 3 %} <a href="{{ site.JB.BASE_PATH }}/pact/pact.html">Training Kit</a> &gt; <a href="{{ site.JB.BASE_PATH }}/impact-rules/impact-overview.html">imPACT game</a> &gt; {% endif %} <span>{{page.title}}</span>
 		</div>
 	</section>
 	<section class="content story white container jumbotron intcont mobnopad" id="story">
@@ -13,7 +13,7 @@ layout: default
 	      <h1>{{page.title}}</h1>
 				</div>
 
-	{% if page.cardNum == 4 %}
+	{% if page.cardNum == 3 %}
 
                 <div class="more-pact">
                     <strong>Download the Game</strong>
