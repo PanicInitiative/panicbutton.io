@@ -21,10 +21,10 @@ Panic Button was supported with seed funding from the [Ford Foundation](http://w
 <div class="clearfix"></div>
 <div class="bordertb">
 	<div class="col-lg-12 col-md-12 col-sm-12 text-center">
-		<img src="{{ BASE_PATH }}/images/amnestylogo.jpg" class="col-sm-4 col-xs-12" style="margin-right:-4px; float:none; display:inline-block; vertical-align:middle; border: none;">
-		<img src="{{ BASE_PATH }}/images/iilab-logo-new-color-4.png" class="col-sm-4 col-xs-12" style="margin-right:-4px; float:none; display:inline-block; vertical-align:middle; border: none;">
-		<img src="{{ BASE_PATH }}/images/pasted_image_at_2013_12_18_12_36pm.png" class="col-sm-4 col-xs-12" style="margin-right:-4px; float:none; display:inline-block; vertical-align:middle; border: none;">
-		<img src="{{ BASE_PATH }}/images/frontline-logo.png" class="col-sm-4 col-xs-12" style="margin-right:-4px; float:none; display:inline-block; vertical-align:middle; border: none;">
+		<img src="{{ site.JB.BASE_PATH }}/images/amnestylogo.jpg" class="col-sm-4 col-xs-12" style="margin-right:-4px; float:none; display:inline-block; vertical-align:middle; border: none;">
+		<img src="{{ site.JB.BASE_PATH }}/images/iilab-logo-new-color-4.png" class="col-sm-4 col-xs-12" style="margin-right:-4px; float:none; display:inline-block; vertical-align:middle; border: none;">
+		<img src="{{ site.JB.BASE_PATH }}/images/pasted_image_at_2013_12_18_12_36pm.png" class="col-sm-4 col-xs-12" style="margin-right:-4px; float:none; display:inline-block; vertical-align:middle; border: none;">
+		<img src="{{ site.JB.BASE_PATH }}/images/frontline-logo.png" class="col-sm-4 col-xs-12" style="margin-right:-4px; float:none; display:inline-block; vertical-align:middle; border: none;">
 	</div>
 	<div class="clearfix"></div>
 </div>
@@ -32,7 +32,7 @@ Panic Button was supported with seed funding from the [Ford Foundation](http://w
 <div class="clearfix"></div>
 <div class="bordertb">
 	<div class="col-lg-12 col-md-12 col-sm-12 text-center">
-		<img src="{{ BASE_PATH }}/images/img-11.png" style="border: none;">
+		<img src="{{ site.JB.BASE_PATH }}/images/img-11.png" style="border: none;">
 	</div>
 	<div class="clearfix"></div>
 </div>

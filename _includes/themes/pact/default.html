@@ -12,14 +12,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap styles -->
-    <link href="{{ ASSET_PATH }}/themes/bootstrap-3/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ site.JB.BASE_PATH }}/assets/themes/bootstrap-3/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Optional theme -->
-    <link href="{{ ASSET_PATH }}/themes/bootstrap-3/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="{{ site.JB.BASE_PATH }}/assets/themes/bootstrap-3/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
     <!-- Sticky Footer -->
-    <link href="{{ ASSET_PATH }}/themes/bootstrap-3/bootstrap/css/bs-sticky-footer.css" rel="stylesheet">
+    <link href="{{ site.JB.BASE_PATH }}/assets/themes/bootstrap-3/bootstrap/css/bs-sticky-footer.css" rel="stylesheet">
 
     <!-- Custom styles -->
-    <link href="{{ ASSET_PATH }}/themes/bootstrap-3/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="{{ site.JB.BASE_PATH }}/assets/themes/bootstrap-3/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,20 +30,20 @@
 
     <!-- Fav and touch icons -->
     <!-- Update these with your own images
-      <link rel="shortcut icon" href="{{ BASE_PATH }}/images/favicon.ico">
-      <link rel="apple-touch-icon" href="{{ BASE_PATH }}/images/apple-touch-icon.png">
-      <link rel="apple-touch-icon" sizes="72x72" href="{{ BASE_PATH }}/images/apple-touch-icon-72x72.png">
-      <link rel="apple-touch-icon" sizes="114x114" href="{{ BASE_PATH }}/images/apple-touch-icon-114x114.png">
+      <link rel="shortcut icon" href="{{ site.JB.BASE_PATH }}/images/favicon.ico">
+      <link rel="apple-touch-icon" href="{{ site.JB.BASE_PATH }}/images/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="{{ site.JB.BASE_PATH }}/images/apple-touch-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="{{ site.JB.BASE_PATH }}/images/apple-touch-icon-114x114.png">
     -->
 
     <!-- atom & rss feed -->
-    <link href="{{ BASE_PATH }}/{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
-    <link href="{{ BASE_PATH }}/{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+    <link href="{{ site.JB.BASE_PATH }}/{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="{{ site.JB.BASE_PATH }}/{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
 
-  <script type="text/javascript" src="{{ BASE_PATH }}/js/jquery/jquery-1.7.1.min.js"></script>
-  <script type="text/javascript" src="{{ BASE_PATH }}/js/jquery/jquery-ui-1.8.17.custom.min.js"></script>
-  <script type="text/javascript" src="{{ BASE_PATH }}/dist/jspdf.debug.js"></script>
-  <script type="text/javascript" src="{{ BASE_PATH }}/js/basic.js"></script>
+  <script type="text/javascript" src="{{ site.JB.BASE_PATH }}/js/jquery/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="{{ site.JB.BASE_PATH }}/js/jquery/jquery-ui-1.8.17.custom.min.js"></script>
+  <script type="text/javascript" src="{{ site.JB.BASE_PATH }}/dist/jspdf.debug.js"></script>
+  <script type="text/javascript" src="{{ site.JB.BASE_PATH }}/js/basic.js"></script>
   </head>
 
   {% capture body_class %}{% if page.body_class %}{{ page.body_class }}{% endif %}{% endcapture %}
@@ -93,7 +93,7 @@
 
     <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" src="{{ BASE_PATH }}/js/jquery/jquery-1.7.1.min.js"></script>
-    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="{{ site.JB.BASE_PATH }}/js/jquery/jquery-1.7.1.min.js"></script>
+    <script src="{{ site.JB.BASE_PATH }}/assets/themes/bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>

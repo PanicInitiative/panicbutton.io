@@ -8,7 +8,7 @@
     <div class="clearfix"></div>
     {% if section.image %}
         <div class="col-3xs-12 col-4xs-12 article-img">
-            <img src="{{ BASE_PATH }}/images/{{section.image.src}}" alt="{{section.image.title}}" class="about-illus img-responsive block-center">
+            <img src="{{ site.JB.BASE_PATH }}/images/{{section.image.src}}" alt="{{section.image.title}}" class="about-illus img-responsive block-center">
 		</div>
 		<div class="clearfix"></div>
 		<div class="img-fig">{{section.image.caption | s |  markdownify}}</div>

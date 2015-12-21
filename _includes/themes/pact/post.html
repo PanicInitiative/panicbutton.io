@@ -6,7 +6,7 @@
 
     <div class="page-header">
 
-      <img src="{{ BASE_PATH }}/assets/img/{{ page.cardOrder }}.png" alt="{{ gamecard.title }}">
+      <img src="{{ site.JB.BASE_PATH }}/assets/img/{{ page.cardOrder }}.png" alt="{{ gamecard.title }}">
       <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
     </div>
 
@@ -133,7 +133,7 @@
 
     {% if page.next %}
     <div class="bottom-nav col-xs-12">
-      <a class="btn btn-default" href="{{ BASE_PATH }}/{{ page.next.url }}" title="{{ page.next.title }}">Next &raquo;</a>
+      <a class="btn btn-default" href="{{ site.JB.BASE_PATH }}/{{ page.next.url }}" title="{{ page.next.title }}">Next &raquo;</a>
     </div>
     {% endif %}
   </div>

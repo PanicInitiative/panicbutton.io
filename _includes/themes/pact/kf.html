@@ -1,9 +1,9 @@
 <div class="row gamecard">
   <div class="gc-front">
     {% if page.img %}
-    <img src="{{ BASE_PATH }}/assets/img/gc_{{ page.cardNum }}.png" alt="{{ page.title }}">
+    <img src="{{ site.JB.BASE_PATH }}/assets/img/gc_{{ page.cardNum }}.png" alt="{{ page.title }}">
     {% else %}
-    <img src="{{ BASE_PATH }}/assets/img/gc_.2.png" alt="{{ page.title }}">
+    <img src="{{ site.JB.BASE_PATH }}/assets/img/gc_.2.png" alt="{{ page.title }}">
     {% endif %}
 
     {% if page.bio %}

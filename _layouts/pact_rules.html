@@ -18,7 +18,7 @@ layout: default
 
             <div class="page-header">
 
-              <img src="{{ BASE_PATH }}/assets/img/{{ page.cardNum }}.png" alt="{{ gamecard.title }}">
+              <img src="{{ site.JB.BASE_PATH }}/assets/img/{{ page.cardNum }}.png" alt="{{ gamecard.title }}">
               <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
             </div>
 
@@ -27,13 +27,13 @@ layout: default
                   <strong>How to Print</strong>
                     
                     <!-- <a href="pact/pact.html" role="button" class="button-pact-browse btn-n">&nbsp;</a> -->
-                    <a href="{{ BASE_PATH }}/impact-rules/how-to-print.html" role="button" class="button-pact-download btn-n"><img alt="Question mark" class="questionmrk" src="/images/question-mark-icon.png"></a>
+                    <a href="{{ site.JB.BASE_PATH }}/impact-rules/how-to-print.html" role="button" class="button-pact-download btn-n"><img alt="Question mark" class="questionmrk" src="/images/question-mark-icon.png"></a>
                 </div>
             </div>
             <div class="col-md-3 col-sm-12">
                 <div class="more-pact">
                     <strong>Download the Game</strong>
-                    <a href="{{ BASE_PATH }}/media/imPACT-Game.zip" role="button" class="button-pact-download btn-n">&nbsp;</a>
+                    <a href="{{ site.JB.BASE_PATH }}/media/imPACT-Game.zip" role="button" class="button-pact-download btn-n">&nbsp;</a>
                 </div>
             </div>
 
@@ -100,8 +100,8 @@ layout: default
 
 
               <div class="cover col-sm-4">
-                <a href="{{ BASE_PATH }}{{ post.url }}">
-                  <img src="{{ BASE_PATH }}/assets/img/{{post.cardNum}}_thumb.png" alt="{{ post.title }}">
+                <a href="{{ site.JB.BASE_PATH }}{{ post.url }}">
+                  <img src="{{ site.JB.BASE_PATH }}/assets/img/{{post.cardNum}}_thumb.png" alt="{{ post.title }}">
                   <br>
                   <h3 class="impacttitle">
                   {{ post.title }}
@@ -131,8 +131,8 @@ layout: default
 
           {% if post.layout contains 'hrd' %}
               <div class="cover col-sm-3">
-                <a href="{{ BASE_PATH }}{{ post.url }}">
-                  <img src="{{ BASE_PATH }}/assets/img/4_thumb.png" alt="{{ post.title }}">
+                <a href="{{ site.JB.BASE_PATH }}{{ post.url }}">
+                  <img src="{{ site.JB.BASE_PATH }}/assets/img/4_thumb.png" alt="{{ post.title }}">
                   <br>
                   <h3 class="impacttitle">
                   {{ post.title }}

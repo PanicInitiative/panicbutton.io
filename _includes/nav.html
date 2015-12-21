@@ -11,11 +11,11 @@
         </div>
         <div class="collapse navbar-collapse navbar-scroll">
             <ul class="nav navbar-nav">
-				<li {% if page.title == "About" %}class="active"{% endif %}><a href="{{ BASE_PATH }}/about.html">About</a></li>
-                <li {% if page.title == "Get Involved" %}class="active"{% endif %}><a href="{{ BASE_PATH }}/get-involved.html">Get Involved</a></li>
-                <li {% if page.title == "Help" or page.title == "Managing Your Risks" or page.title == "Using Panic Button" or page.title == "Reading List" %}class="active"{% endif %}><a href="{{ BASE_PATH }}/help.html">Help</a></li>
+				<li {% if page.title == "About" %}class="active"{% endif %}><a href="{{ site.JB.BASE_PATH }}/about.html">About</a></li>
+                <li {% if page.title == "Get Involved" %}class="active"{% endif %}><a href="{{ site.JB.BASE_PATH }}/get-involved.html">Get Involved</a></li>
+                <li {% if page.title == "Help" or page.title == "Managing Your Risks" or page.title == "Using Panic Button" or page.title == "Reading List" %}class="active"{% endif %}><a href="{{ site.JB.BASE_PATH }}/help.html">Help</a></li>
                 <li {% if page.title == "Blog" %}class="active"{% endif %}><a href="http://panicalert.tumblr.com/">Blog</a></li>
-                <li {% if page.title == "Training Kit" %}class="active"{% endif %}><a href="{{ BASE_PATH }}/pact/pact.html">Training Kit</a></li>
+                <li {% if page.title == "Training Kit" %}class="active"{% endif %}><a href="{{ site.JB.BASE_PATH }}/pact/pact.html">Training Kit</a></li>
                 <li><a href="#footer">More <span class="glyphicon-arrow-down"></span></a></li>
             </ul>
         </div><!-- /.nav-collapse -->

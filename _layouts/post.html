@@ -5,7 +5,7 @@ layout: default
 <div id="content">
 	<section id="header" class="content header white container intcont mobnopad">
 		<div class="col-xs-12 breadcrumb">
-			  <a href="/">Home</a> &gt; {% if page.parent %}<a href="/{{page.parent.link}}">{{page.parent.title}}</a> &gt; {% endif %} {% if page.cardNum == 2 or page.cardNum == 3 %} <a href="/pact/pact.html">Training Kit</a> &gt; <a href="{{ BASE_PATH }}/impact-rules/impact-overview.html">imPACT game</a> &gt; {% endif %} <span>{{page.title}}</span>
+			  <a href="/">Home</a> &gt; {% if page.parent %}<a href="/{{page.parent.link}}">{{page.parent.title}}</a> &gt; {% endif %} {% if page.cardNum == 2 or page.cardNum == 3 %} <a href="/pact/pact.html">Training Kit</a> &gt; <a href="{{ site.JB.BASE_PATH }}/impact-rules/impact-overview.html">imPACT game</a> &gt; {% endif %} <span>{{page.title}}</span>
 		</div>
 	</section>
 	<section class="content story white container jumbotron intcont mobnopad" id="story">
@@ -17,7 +17,7 @@ layout: default
 
                 <div class="more-pact">
                     <strong>Download the Game</strong>
-                    <a href="{{ BASE_PATH }}/media/imPACT-Game.zip" role="button" class="button-pact-download btn-n">&nbsp;</a>
+                    <a href="{{ site.JB.BASE_PATH }}/media/imPACT-Game.zip" role="button" class="button-pact-download btn-n">&nbsp;</a>
                 </div>
 
             {% endif %}
@@ -26,7 +26,7 @@ layout: default
 	    		{{content | markdownify}}
 	        {% if image %}
 					<div class="col-3xs-12 col-4xs-12">
-	            <img src="{{ BASE_PATH }}/images/{{section.image.src}}" class="about-illus img-responsive block-center">
+	            <img src="{{ site.JB.BASE_PATH }}/images/{{section.image.src}}" class="about-illus img-responsive block-center">
 	            <div class="img-capt">{{image.caption | markdownify}}</div>
 					</div>
 					{% endif %}

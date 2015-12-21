@@ -5,7 +5,7 @@ layout: default
 {% include nav.html %}
   <section id="header" class="content white container intcont mobnopad">
     <div class="col-xs-12 breadcrumb">
-        <a href="/">Home</a> &gt; <a href="/pact/pact.html">Training Kit</a> &gt; <span>{{page.title}}</span>
+        <a href="{{ site.JB.BASE_PATH }}/">Home</a> &gt; <a href="{{ site.JB.BASE_PATH}}/pact/pact.html">Training Kit</a> &gt; <span>{{page.title}}</span>
     </div>
   </section>
     <div id="wrap" class="pact">
@@ -35,7 +35,7 @@ layout: default
             </svg>
           </div>
 
-              <img src="{{ BASE_PATH }}/assets/img/{{ page.cardNum }}.png" alt="{{ gamecard.title }}">
+              <img src="{{ site.JB.BASE_PATH }}/assets/img/{{ page.cardNum }}.png" alt="{{ gamecard.title }}">
               <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
             </div>
 
@@ -76,7 +76,7 @@ layout: default
                 <div class="cs-materials col-xs-6" id="downloadButton">
                   <h3>Printable Materials</h3>
                   <!--<button class="btn btn-default" onclick="javascript:FromHTMLTOPDF()">Download PDF</button>-->
-                  <a class="btn btn-default" href="{{ BASE_PATH }}/{{ page.downloadLink }}" target="_blank">Download PDF</a>
+                  <a class="btn btn-default" href="{{ site.JB.BASE_PATH }}/{{ page.downloadLink }}" target="_blank">Download PDF</a>
                 </div>
                 {% endif %}
               </div>
@@ -163,11 +163,11 @@ layout: default
 
               <div class="bottom-nav col-xs-12">
               {% if page.cardNum > 1 %}
-              <a class="btn_prev" href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">Previous</a>
+              <a class="btn_prev" href="{{ site.JB.BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">Previous</a>
               {% endif %}
               
               {% if page.next and page.cardNum != 7 %}
-              <a class="btn_next" href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next</a>
+              <a class="btn_next" href="{{ site.JB.BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next</a>
               {% endif %}
             </div>
 
