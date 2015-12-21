@@ -134,7 +134,7 @@
       "timers" : {"info":"0","inactive":"10","fail":"20"},
       "success" : {"link":"setup-alarm-test-hardware-success"},
       "fail" : {"link":"setup-alarm-test-hardware-fail"},
-      "content" : "<p><img src=\"//panicinitiative.github.io/panicbutton.io/media/mobile/panic_button_activation.png\" alt=\"\" /></p>"
+      "content" : "<p><img src=\"/media/mobile/panic_button_activation.png\" alt=\"\" /></p>"
     },
     {
       "id" : "setup-alarm-test-disguise-success",
@@ -238,7 +238,7 @@
       "title" : "Bouton d'urgence",
       "action" : [{"title":"Installation","link":"setup-warning"}],
       "items" : [{"title":"A propos","link":"setup-about"},{"title":"Paramètres de langues","link":"setup-language"}],
-      "content" : "<p><img src=\"//panicinitiative.github.io/panicbutton.io/media/mobile/home-not-configured-small.png\" alt=\"Illustration\" /> Le Bouton d’urgence transforme votre téléphone mobile en système secret pour alerter rapidement les membres de votre réseau lorsque vous êtes en danger. </p>"
+      "content" : "<p><img src=\"/media/mobile/home-not-configured-small.png\" alt=\"Illustration\" /> Le Bouton d’urgence transforme votre téléphone mobile en système secret pour alerter rapidement les membres de votre réseau lorsque vous êtes en danger. </p>"
     },
     {
       "id" : "code",
