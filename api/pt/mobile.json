@@ -156,7 +156,7 @@
       "timers" : {"info":"0","inactive":"10","fail":"20"},
       "success" : {"link":"setup-alarm-test-hardware-success"},
       "fail" : {"link":"setup-alarm-test-hardware-fail"},
-      "content" : "<p><img src=\"http://panicinitiative.github.io/panicbutton.io/media/mobile/panic_button_activation.png\" alt=\"\" /></p>"
+      "content" : "<p><img src=\"//panicinitiative.github.io/panicbutton.io/media/mobile/panic_button_activation.png\" alt=\"\" /></p>"
     },
     {
       "id" : "setup-alarm-test-disguise-success",
@@ -305,7 +305,7 @@
       "title" : "Botão de Pânico",
       "action" : [{"title":"Instalação","link":"setup-warning"}],
       "items" : [{"title":"Sobre","link":"setup-about"},{"title":"Configurações de Idioma","link":"setup-language"}],
-      "content" : "<p><img src=\"http://panicinitiative.github.io/panicbutton.io/media/mobile/home-not-configured-small.png\" alt=\"Illustration\" /> O Botão de Pânico é um aplicativo Android que alerta secretamente seus contatos quando você está em apuros. O aplicativo fica escondido em seu telefone, parecendo uma simples calculadora.</p>"
+      "content" : "<p><img src=\"//panicinitiative.github.io/panicbutton.io/media/mobile/home-not-configured-small.png\" alt=\"Illustration\" /> O Botão de Pânico é um aplicativo Android que alerta secretamente seus contatos quando você está em apuros. O aplicativo fica escondido em seu telefone, parecendo uma simples calculadora.</p>"
     },
     {
       "id" : "home-alerting",
