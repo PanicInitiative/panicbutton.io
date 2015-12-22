@@ -533,12 +533,30 @@ Nav
   margin-left: -80px;
 }
 
-.impactcards .cover{
+.impactcards .cover, .covertop{
   max-width: 300px;
 }
 
+.covertop{
+  text-align: center;
+  margin: 0 auto;
+}
+
 .impactcards .cover img{
+  max-width: 200px;
+  padding: 20px;
+}
+
+.covertop img{
   max-width: 250px;
+}
+
+.impactcards .covertop img{
+  padding: 30px;
+}
+
+.impactcards .covertop{
+  margin-bottom: 30px;
 }
 
 h3.impacttitle{
@@ -557,7 +575,7 @@ color: #000;
 
 .hrdimg{
   width: 400px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .hrdimg img{
