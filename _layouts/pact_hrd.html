@@ -9,8 +9,11 @@ layout: default
         <div class="row gamecard">
                   <div class="col-xs-12 breadcrumb">
                     <a href="{{ site.JB.BASE_PATH }}/">Home</a> &gt; <a href="{{ site.JB.BASE_PATH }}/pact/pact.html">Training Kit</a> &gt; <a href="{{ site.JB.BASE_PATH }}/impact-rules/impact-overview.html">imPACT game</a> &gt; <span>{{page.title}}</span>
+          
                 </div>
+          
           <div class="gc-front">
+            
             <div class="hrdimg">
 
             {% if page.cardNum %}
@@ -21,11 +24,11 @@ layout: default
             </div>
 
 
-
             <div class="more-pact">
                     <strong>Download the Game</strong>
                     <a href="{{ site.JB.BASE_PATH }}/media/imPACT-Game.zip" role="button" class="button-pact-download btn-n">&nbsp;</a>
             </div>
+
 
 
           <div class="col-xs-12">
@@ -59,6 +62,8 @@ layout: default
             <div class="content">
               <p>{{content | markdownify }}</p>
             </div>
+
+
 
               <div class="bottom-nav col-xs-12">
               {% if page.cardNum %}

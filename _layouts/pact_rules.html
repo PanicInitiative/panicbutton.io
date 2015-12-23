@@ -84,115 +84,124 @@ layout: default
 
             </div>
 
-          <div class="col-lg-12 col-md-12 col-sm-12">
-          <div class="pact-title pactgame" role="button"><strong>imPACT Game</strong></div>
-          </div>
-
-          <div class="col-lg-12 col-md-12 col-sm-12">
-            {% assign cards = site.categories["impact-rules"] | sort section_order %}
-
-            {% for post in cards %}
-
-            {% if post.cardNum == 2 %}
+            <div class="col-lg-12 col-md-12 col-sm-12">
+            
+                <div class="pact-title pactgame" role="button"><strong>imPACT Game</strong></div>
+            
+            </div>
 
 
 
-              <div class="covertop">
-                <a href="{{ site.JB.BASE_PATH }}{{ post.url }}">
-                  <img src="{{ site.JB.BASE_PATH }}/assets/img/{{post.cardNum}}_thumb.png" alt="{{ post.title }}">
-                  <br>
-                  <h3 class="impacttitle">
-                  {{ post.title }}
-                  </h3>
-                </a>
+          <div class="clearfix"></div>
+
+
+          <div class="impactcards container">
+
+           <div class="row">
+
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  {% assign cards = site.categories["impact-rules"] | sort section_order %}
+
+                  {% for post in cards %}
+
+                  {% if post.cardNum == 2 %}
+
+
+
+                    <div class="covertop">
+                      <a href="{{ site.JB.BASE_PATH }}{{ post.url }}">
+                        <img class="first" src="{{ site.JB.BASE_PATH }}/assets/img/{{post.cardNum}}_thumb.png" alt="{{ post.title }}">
+                        <br>
+                        <h3 class="impacttitle">
+                        {{ post.title }}
+                        </h3>
+                      </a>
+                    </div>
+
+
+
+
+                  {% endif %}
+
+                  {% endfor %}
+
+                </div>
+
               </div>
 
 
 
+              {% assign cards = site.categories["pact-cards"] | sort section_order %}
+              
+
+              {% for post in cards %}
+              {% assign loopindex = forloop.index | modulo: 4 %}
+
+              {% if forloop.first %}
+
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+
+                    <div class="covertop">
+                      <a href="{{ site.JB.BASE_PATH }}{{ post.url }}">
+                        <img class="second" src="{{ site.JB.BASE_PATH }}/media/gamecards/thumbs/thumb_gc_{{ post.cardNum }}.png" alt="{{ post.title }}">
+                        <br>
+                        <h3 class="impacttitle">
+                        {{ post.title }}
+                        </h3>
+                      </a>
+                    </div>
+              </div>
+
+            </div>
 
             {% endif %}
 
-            {% endfor %}
-        </div>
 
-      <div class="clearfix"></div>
+            {% unless forloop.first %}
+              {% if loopindex == 2 %}
+              <div class="row">
+              {% endif %}
 
+                {% if post.layout contains 'hrd' %}
+                    <div class="cover col-sm-3">
+                      <a href="{{ site.JB.BASE_PATH }}{{ post.url }}">
+                        
+                        {% if post.cardNum %}
+                        <img src="{{ site.JB.BASE_PATH }}/media/gamecards/thumbs/thumb_gc_{{ post.cardNum }}.png" alt="{{ post.title }}">
+                        
+                        {% else %}
+                          <img src="{{ site.JB.BASE_PATH }}/media/gamecards/thumbs/thumb_gc_2.1.png" alt="{{ post.title }}">
+                        {% endif %}
+                        
+                        <br>
+                        <h3 class="impacttitle">
+                        {{ post.title }}
 
-      <div class="impactcards container">
+                        </h3>
 
+                      </a>
+                    </div>
 
-
-        {% assign cards = site.categories["pact-cards"] | sort section_order %}
-        
-
-        {% for post in cards %}
-        {% assign loopindex = forloop.index | modulo: 4 %}
-
-        {% if forloop.first %}
-
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12">
-
-              <div class="covertop">
-                <a href="{{ site.JB.BASE_PATH }}{{ post.url }}">
-                  <img src="{{ site.JB.BASE_PATH }}/media/gamecards/thumbs/thumb_gc_{{ post.cardNum }}.png" alt="{{ post.title }}">
-                  <br>
-                  <h3 class="impacttitle">
-                  {{ post.title }}
-                  </h3>
-                </a>
-              </div>
-        </div>
-
-      </div>
-
-      {% endif %}
+                {% endif %}
 
 
-      {% unless forloop.first %}
-        {% if loopindex == 2 %}
-        <div class="row">
-        {% endif %}
+                {% if loopindex == 1 or forloop.last %}
 
-          {% if post.layout contains 'hrd' %}
-              <div class="cover col-sm-3">
-                <a href="{{ site.JB.BASE_PATH }}{{ post.url }}">
-                  
-                  {% if post.cardNum %}
-                  <img src="{{ site.JB.BASE_PATH }}/media/gamecards/thumbs/thumb_gc_{{ post.cardNum }}.png" alt="{{ post.title }}">
-                  
-                  {% else %}
-                    <img src="{{ site.JB.BASE_PATH }}/media/gamecards/thumbs/thumb_gc_2.1.png" alt="{{ post.title }}">
-                  {% endif %}
-                  
-                  <br>
-                  <h3 class="impacttitle">
-                  {{ post.title }}
+                </div>
+              
+                {% endif %}
 
-                  </h3>
-
-                </a>
-              </div>
-
-          {% endif %}
+              {% endunless %}
 
 
-          {% if loopindex == 1 or forloop.last %}
-
-          </div>
-        
-          {% endif %}
-
-        {% endunless %}
-
-
-      {% endfor %}
+              {% endfor %}
 
 
 
 
 
-    </div>
+           </div>
           </div>
         </div>
       </div>
