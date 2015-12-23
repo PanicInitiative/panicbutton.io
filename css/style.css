@@ -206,7 +206,7 @@ span, strong{font-family: 'Roboto Condensed Bold', "Helvetica Neue", Helvetica, 
 .more-pact .button-pact-browse { background: url(../images/pact-browse-icon.png) no-repeat; margin:15px auto; width:80px; height: 80px; display: block; }
 .more-pact .button-pact-download { background: url(../images/pact-download-icon.png) no-repeat; margin:15px auto; width:80px; height: 80px; display: block; }
 .more-pact a:hover { text-decoration: none;}
-.gamecard .more-pact{ margin-bottom: 0;}
+.gamecard .more-pact{ margin-bottom: 20px;}
 .more-pact .questionmrk{ padding: 0; width:40%;}
 .more.top .button { background: url(../images/top-icon.png) no-repeat; }
 .more.top {
@@ -548,12 +548,15 @@ Nav
 }
 
 .covertop img{
-  max-width: 250px;
+  max-width: 300px;
+  margin: 30px 0;
 }
 
-.impactcards .covertop img{
-  padding: 30px;
+.covertop img.first{
+  border: 1px solid #000;
 }
+
+
 
 .impactcards .covertop{
   margin-bottom: 30px;
@@ -613,6 +616,7 @@ color: #000;
 
 .pactgame{
   margin-top: 45px;
+  margin-bottom: 20px;
 }
 
 .pact .post-full {
