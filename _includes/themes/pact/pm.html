@@ -1,0 +1,32 @@
+<div class="row gamecard">
+  <div class="gc-front">
+    <img src="{{ site.JB.BASE_PATH }}/assets/img/gc_{{ page.cardNum }}.png" alt="{{ page.title }}">
+
+    <div class="talent">
+      <h3>Special Talent:</h3>
+      <p>{{page.talent | markdownify }}</p>
+    </div>
+
+    {% if page.token %}
+    <div class="needs">
+      <h3>Needs:</h3>
+      <h2>{{ page.token }}</h2>
+    </div>
+    {% endif %}
+
+    <header>
+      <h1>{{ page.title }}</h1>
+      {% if page.bio %}
+      <div class="bio">
+        <p>{{page.bio | markdownify }}</p>
+      </div>
+      {% endif %}
+    </header>
+  </div>
+
+  <div class="gc-inlay">
+    <div class="content">
+      <p>{{content | markdownify }}</p>
+    </div>
+  </div>
+</div>

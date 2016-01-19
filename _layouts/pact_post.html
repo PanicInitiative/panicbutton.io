@@ -1,0 +1,186 @@
+---
+layout: default
+---
+{% include JB/setup %}
+{% include nav.html %}
+  <section id="header" class="content white container intcont mobnopad">
+    <div class="col-xs-12 breadcrumb">
+        <a href="{{ site.JB.BASE_PATH }}/">Home</a> &gt; <a href="{{ site.JB.BASE_PATH}}/pact/pact.html">Training Kit</a> &gt; <span>{{page.title}}</span>
+    </div>
+  </section>
+    <div id="wrap" class="pact">
+      <div class="container" id="fromHTMLtestdiv">
+        <div class="row post-full">
+
+          <div id="cover" class="col-xs-12">
+            <!-- <div class="date">
+              <span>{{ page.date | date_to_long_string }}</span>
+            </div> -->
+
+
+
+            <div class="page-header">
+
+            <div class="counter">
+            <div class="cardNum">{{ page.cardNum }}</div>
+            <svg style="transform: rotate(-1deg);" width="63px" height="63px" viewBox="0 0 63 63">
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                <g transform="translate(-149.000000, -802.000000)" id="Cover" sketch:type="MSLayerGroup" stroke="#FFF300">
+                  <g transform="translate(154.000000, 807.000000) translate(27.000000, 27.000000) rotate(-90) translate(-27.000000, -27.000000)" id="Oval-469-+-Oval-470" sketch:type="MSShapeGroup">
+                    <circle r="21" id="Oval-469" stroke-width="2" stroke-dasharray="2" cx="27" cy="27"></circle>
+                    <circle stroke-dasharray="{{ page.numDash }}" id="Oval-470" stroke-width="6" cx="27" cy="27" r="26"></circle>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </div>
+
+              <img src="{{ site.JB.BASE_PATH }}/assets/img/{{ page.cardNum }}.png" alt="{{ gamecard.title }}">
+              <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+            </div>
+
+            <div class="cheatsheet">
+
+              {% if page.goals %}
+              <div class="cs-goals col-xs-12">
+                <h3>Goals</h3>
+                {{page.goals | markdownify }}
+              </div>
+              {% endif %}
+
+              <div class="row">
+                {% if page.methodology %}
+                <div class="cs-methodology col-xs-6">
+                  <h3>Methodology</h3>
+                  {{page.methodology | markdownify }}
+                </div>
+                {% endif %}
+
+                {% if page.timeSpan %}
+                <div class="cs-timespan col-xs-6">
+                  <h3>Timespan</h3>
+                  {{page.timeSpan | markdownify }}
+                </div>
+                {% endif %}
+              </div>
+
+              <div class="row">
+                {% if page.materials %}
+                <div class="cs-materials col-xs-6">
+                  <h3>Materials</h3>
+                  {{page.materials | markdownify }}
+                </div>
+                {% endif %}
+
+                {% if page.downloadLink %}
+                <div class="cs-materials col-xs-6" id="downloadButton">
+                  <h3>Printable Materials</h3>
+                  <!--<button class="btn btn-default" onclick="javascript:FromHTMLTOPDF()">Download PDF</button>-->
+                  <a class="btn btn-default" href="{{ site.JB.BASE_PATH }}/{{ page.downloadLink }}" target="_blank">Download PDF</a>
+                </div>
+                {% endif %}
+              </div>
+
+              {% if page.extra %}
+              <div class="cs-extra col-xs-12">
+                <h3>Extra Details</h3>
+                {{page.extra | markdownify }}
+              </div>
+              {% endif %}
+
+              {% if page.remember %}
+              <div class="cs-remember col-xs-12">
+                <h3>Remember</h3>
+                {{page.remember | markdownify }}
+              </div>
+              {% endif %}
+
+
+            </div> <!-- end cheatsheet -->
+
+          </div> <!-- .col-xs-12 -->
+
+          <div id="inlet" class="col-xs-12">
+            <div>
+              <div class="content col-xs-12">
+                <h3>Full Description</h3>
+                {{ content | markdownify }}
+              </div>
+
+
+
+              {% if page.online_only %}
+              <div class="cs-online col-xs-12" id="onlineContent">
+                  <h3>Online Extras</h3>
+
+                  {{page.online_only | markdownify }}
+              </div>
+              {% endif %}
+
+              <aside class="col-xs-12">
+
+                {% if page.materials %}
+                <div class="aside-materials">
+                  <h3>Materials</h3>
+                  {{page.materials | markdownify }}
+                </div>
+                {% endif %}
+
+                {% if page.timeSpan %}
+                <div class="aside-timespan">
+                  <h3>Timespan</h3>
+                  {{page.timeSpan | markdownify }}
+                </div>
+                {% endif %}
+
+                {% if page.shortLink %}
+                <div class="aside-link">
+                  <h3>More Online</h3>
+                  {{page.shortLink | markdownify }}
+                </div>
+                {% endif %}
+
+                <div class="aside-notes">
+                  <h3>Your Notes</h3>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+              </aside>
+
+
+              <div class="bottom-nav col-xs-12">
+              {% if page.cardNum > 1 %}
+              <a class="btn_prev" href="{{ site.JB.BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">Previous</a>
+              {% endif %}
+              
+              {% if page.next and page.cardNum != 7 %}
+              <a class="btn_next" href="{{ site.JB.BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next</a>
+              {% endif %}
+            </div>
+
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+{% for footer in site.categories.footer %}
+  {% include home_footer.html %}
+{% endfor %}
+

@@ -1,0 +1,214 @@
+---
+layout: default
+---
+{% include JB/setup %}
+{% include nav.html %}
+  <section id="header" class="content white container intcont mobnopad">
+    <div class="col-xs-12 breadcrumb">
+        <a href="{{ site.JB.BASE_PATH }}/">Home</a> &gt; <a href="{{ site.JB.BASE_PATH }}/pact/pact.html">Training Kit</a> &gt; <span>{{page.title}}</span>
+    </div>
+  </section>
+    <div id="wrap" class="pact">
+      <div class="container" id="fromHTMLtestdiv">
+        <div class="row post-full">
+          <div id="cover" class="col-xs-12">
+            <!-- <div class="date">
+              <span>{{ page.date | date_to_long_string }}</span>
+            </div> -->
+
+            <div class="page-header">
+
+              <img src="{{ site.JB.BASE_PATH }}/assets/img/{{ page.cardNum }}.png" alt="{{ gamecard.title }}">
+              <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+            </div>
+
+            <div class="col-md-3 col-md-offset-3 col-sm-12">
+                <div class="more-pact">
+                  <strong>How to Print</strong>
+                    
+                    <!-- <a href="pact/pact.html" role="button" class="button-pact-browse btn-n">&nbsp;</a> -->
+                    <a href="{{ site.JB.BASE_PATH }}/impact-rules/how-to-print.html" role="button" class="button-pact-download btn-n"><img alt="Question mark" class="questionmrk" src="{{ site.JB.BASE_PATH }}/images/question-mark-icon.png"></a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <div class="more-pact">
+                    <strong>Download the Game</strong>
+                    <a href="{{ site.JB.BASE_PATH }}/media/imPACT-Game.zip" role="button" class="button-pact-download btn-n">&nbsp;</a>
+                </div>
+            </div>
+
+            
+
+          </div> <!-- .col-xs-12 -->
+
+          <div id="inlet" class="col-xs-12">
+            <div>
+              <div class="content col-xs-12">
+                <h3>Full Description</h3>
+                {{ content | markdownify }}
+              </div>
+
+              {% if page.online_only %}
+              <div class="cs-online col-xs-12" id="onlineContent">
+                  <h3>Online Extras</h3>
+
+                  {{page.online_only | markdownify }}
+              </div>
+              {% endif %}
+
+              <aside class="col-xs-12">
+
+                {% if page.materials %}
+                <div class="aside-materials">
+                  <h3>Materials</h3>
+                  {{page.materials | markdownify }}
+                </div>
+                {% endif %}
+
+                {% if page.timeSpan %}
+                <div class="aside-timespan">
+                  <h3>Timespan</h3>
+                  {{page.timeSpan | markdownify }}
+                </div>
+                {% endif %}
+
+                {% if page.shortLink %}
+                <div class="aside-link">
+                  <h3>More Online</h3>
+                  {{page.shortLink | markdownify }}
+                </div>
+                {% endif %}
+
+
+              </aside>
+
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-sm-12">
+            
+                <div class="pact-title pactgame" role="button"><strong>imPACT Game</strong></div>
+            
+            </div>
+
+
+
+          <div class="clearfix"></div>
+
+
+          <div class="impactcards container">
+
+           <div class="row">
+
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  {% assign cards = site.categories["impact-rules"] | sort section_order %}
+
+                  {% for post in cards %}
+
+                  {% if post.cardNum == 2 %}
+
+
+
+                    <div class="covertop">
+                      <a href="{{ site.JB.BASE_PATH }}{{ post.url }}">
+                        <img class="first" src="{{ site.JB.BASE_PATH }}/assets/img/{{post.cardNum}}_thumb.png" alt="{{ post.title }}">
+                        <br>
+                        <h3 class="impacttitle">
+                        {{ post.title }}
+                        </h3>
+                      </a>
+                    </div>
+
+
+
+
+                  {% endif %}
+
+                  {% endfor %}
+
+                </div>
+
+              </div>
+
+
+
+              {% assign cards = site.categories["pact-cards"] | sort section_order %}
+              
+
+              {% for post in cards %}
+              {% assign loopindex = forloop.index | modulo: 4 %}
+
+              {% if forloop.first %}
+
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+
+                    <div class="covertop">
+                      <a href="{{ site.JB.BASE_PATH }}{{ post.url }}">
+                        <img class="second" src="{{ site.JB.BASE_PATH }}/media/gamecards/thumbs/thumb_gc_{{ post.cardNum }}.png" alt="{{ post.title }}">
+                        <br>
+                        <h3 class="impacttitle">
+                        {{ post.title }}
+                        </h3>
+                      </a>
+                    </div>
+              </div>
+
+            </div>
+
+            {% endif %}
+
+
+            {% unless forloop.first %}
+              {% if loopindex == 2 %}
+              <div class="row">
+              {% endif %}
+
+                {% if post.layout contains 'hrd' %}
+                    <div class="cover col-sm-3">
+                      <a href="{{ site.JB.BASE_PATH }}{{ post.url }}">
+                        
+                        {% if post.cardNum %}
+                        <img src="{{ site.JB.BASE_PATH }}/media/gamecards/thumbs/thumb_gc_{{ post.cardNum }}.png" alt="{{ post.title }}">
+                        
+                        {% else %}
+                          <img src="{{ site.JB.BASE_PATH }}/media/gamecards/thumbs/thumb_gc_2.1.png" alt="{{ post.title }}">
+                        {% endif %}
+                        
+                        <br>
+                        <h3 class="impacttitle">
+                        {{ post.title }}
+
+                        </h3>
+
+                      </a>
+                    </div>
+
+                {% endif %}
+
+
+                {% if loopindex == 1 or forloop.last %}
+
+                </div>
+              
+                {% endif %}
+
+              {% endunless %}
+
+
+              {% endfor %}
+
+
+
+
+
+           </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+{% for footer in site.categories.footer %}
+  {% include home_footer.html %}
+{% endfor %}
+

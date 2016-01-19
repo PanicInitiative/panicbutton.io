@@ -1,0 +1,24 @@
+<div class="row gamecard">
+  <div class="gc-front">
+    <img src="{{ site.JB.BASE_PATH }}/assets/img/gc_{{ page.cardNum }}.png" alt="{{ gamecard.title }}">
+    <h1>{{ page.title }}</h1>
+    <div class="bio">
+      <p>{{page.bio | markdownify }}</p>
+    </div>
+  </div>
+
+  <div class="gc-back">
+    <div class="captured">
+
+    </div>
+    <div class="wall">
+
+    </div>
+  </div>
+
+  <div class="gc-inlay">
+    <div class="content">
+      <p>{{content | markdownify }}</p>
+    </div>
+  </div>
+</div>

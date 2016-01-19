@@ -4,8 +4,8 @@
     </div>
 		{% for box in section.items %}
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 col-2xs-6 col-3xs-12 col-4xs-12 center help-box">
-    	<a href="{{box.link}}"><img src="/images/{{box.src}}" alt="{{box.title}}"></a>
-        <div class="col-lg-12 col-md-12 col-sm-12 help-title"><a href="{{box.link}}">{{box.title | markdownify}}</a></div>
+    	<a href="{{ site.JB.BASE_PATH }}{{box.link}}"><img src="{{ site.JB.BASE_PATH }}/images/{{box.src}}" alt="{{box.title}}"></a>
+        <div class="col-lg-12 col-md-12 col-sm-12 help-title"><a href="{{ site.JB.BASE_PATH }}{{box.link}}">{{box.title | markdownify}}</a></div>
         <div class="col-lg-12 col-md-12 col-sm-12">{{box.description | markdownify}}</div>
     </div>
 		{% endfor %}

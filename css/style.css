@@ -20,59 +20,59 @@ span, strong{font-family: 'Roboto Condensed Bold', "Helvetica Neue", Helvetica, 
 .btn-green{ background: url(../images/green-button.png) no-repeat;}
 .btn-red{ background: url(../images/red-button.png) no-repeat;}
 .btn-b{ 
-	font: 45px 'Roboto Condensed Bold', "Helvetica Neue", Helvetica, Arial, sans-serif; 
-	background-size: 100% 100%;
-	color: #fff !important;  
-	margin: 10px 0 10px;
-	white-space: normal;
-	height: 111px;
-	width: 610px;
-	padding: 22px 0 0 20px;
-	float: left;
+  font: 45px 'Roboto Condensed Bold', "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  background-size: 100% 100%;
+  color: #fff !important;  
+  margin: 10px 0 10px;
+  white-space: normal;
+  height: 111px;
+  width: 610px;
+  padding: 22px 0 0 20px;
+  float: left;
 }
 
 .btn-is {
-	font: 28px 'Roboto Condensed Bold', "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #fff;
-	white-space: normal;
-	background: #000;
-	padding: 14px;
-	width: 100%;
-	margin: 0 0 20px;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
+  font: 28px 'Roboto Condensed Bold', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  white-space: normal;
+  background: #000;
+  padding: 14px;
+  width: 100%;
+  margin: 0 0 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
 }
 
 .strongText{
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .btn-is.white {
-	background: #fff;
-	text-decoration: underline;
-	color: #000;
-}	
+  background: #fff;
+  text-decoration: underline;
+  color: #000;
+} 
 
 .btn-is:hover {
-	color: #CCC;	
+  color: #CCC;  
 }
 
 .btn-is.white:hover {
-	color: #666;	
+  color: #666;  
 }
 
 .btn-black {
-	font-family: Helvetica, Arial, sans-serif; 
-	color: #fff !important;  
-	margin-bottom: 30px;
-	white-space: normal;
-	background: #000;
+  font-family: Helvetica, Arial, sans-serif; 
+  color: #fff !important;  
+  margin-bottom: 30px;
+  white-space: normal;
+  background: #000;
 }
 
 #how h2, #is h2, #features h2, #download h2 {
-	margin-bottom: 0px;
-	margin-top: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .title {
@@ -92,11 +92,11 @@ span, strong{font-family: 'Roboto Condensed Bold', "Helvetica Neue", Helvetica, 
 }
 
 .title p {
-	margin-bottom: 0px;
-	line-height: 1;
+  margin-bottom: 0px;
+  line-height: 1;
 }
 .is .title {
-	line-height: 1 !important;	
+  line-height: 1 !important;  
 }
 .title:focus {
     outline: thin dotted;
@@ -201,9 +201,16 @@ span, strong{font-family: 'Roboto Condensed Bold', "Helvetica Neue", Helvetica, 
 .download-button { background: url(../images/download-icon.png) no-repeat; background-size: 100% 100%; width: 330px; height: 86px; display:inline-block; margin: 40px 0; clear:both; }
 .more { width: 80px; height: 122px; display: inline-block; margin: 0 0 65px; line-height: 1; }
 .more .button { background: url(../images/more-icon.png) no-repeat; width: 80px; height: 80px; display: block; }
+.more .button-pact { background: url(../images/pact-icon.png) no-repeat; width: 80px; height: 80px; display: block; }
+.more-pact { width: 100%; height: 122px; display: inline-block; margin: 0 0 65px; line-height: 1; text-align: center;}
+.more-pact .button-pact-browse { background: url(../images/pact-browse-icon.png) no-repeat; margin:15px auto; width:80px; height: 80px; display: block; }
+.more-pact .button-pact-download { background: url(../images/pact-download-icon.png) no-repeat; margin:15px auto; width:80px; height: 80px; display: block; }
+.more-pact a:hover { text-decoration: none;}
+.gamecard .more-pact{ margin-bottom: 20px;}
+.more-pact .questionmrk{ padding: 0; width:40%;}
 .more.top .button { background: url(../images/top-icon.png) no-repeat; }
 .more.top {
-	margin-top: 30px;	
+  margin-top: 30px; 
 }
 .more a { text-decoration: none; }
 .more strong { font-size: 25px; color: #000; margin: 0 0 10px; display: block;}
@@ -241,61 +248,61 @@ span, strong{font-family: 'Roboto Condensed Bold', "Helvetica Neue", Helvetica, 
 .organisations img { margin: 30px 0; border: 1px solid #d3d3d3; }
 ul.arrows { margin: 0 10px 35px 15px; padding: 0; }
 .arrows li {
-	list-style: none;
-	background: url(../images/li-arrow.png) no-repeat 0 2px;
-	padding: 0 10px 0 45px;
-	margin: 0 0 20px;
-	height: 28px;
-	line-height: 1.2;
+  list-style: none;
+  background: url(../images/li-arrow.png) no-repeat 0 2px;
+  padding: 0 10px 0 45px;
+  margin: 0 0 20px;
+  height: 28px;
+  line-height: 1.2;
 }
 
 .arrows li a {
-	text-decoration: underline;
-	color: #000;	
+  text-decoration: underline;
+  color: #000;  
 }
 
 .arrows ul li {
-	background: url(../images/li-dot.png) no-repeat 0 5px;	
-	margin: 0 0 20px 10px;
-	padding: 0 10px 0 28px;
+  background: url(../images/li-dot.png) no-repeat 0 5px;  
+  margin: 0 0 20px 10px;
+  padding: 0 10px 0 28px;
 }
 
 /* help-landing */
 
 .jumbotron.help {
-	line-height: 1 !important;	
+  line-height: 1 !important;  
 }
 
 .help-title {
-	margin-bottom: 15px;	
+  margin-bottom: 15px;  
 }
 
 .help-title a {
-	font-size: 28px;
-	color: #000;
-	text-decoration: underline;
-	line-height: 35px !important;
+  font-size: 28px;
+  color: #000;
+  text-decoration: underline;
+  line-height: 35px !important;
 }
 
 .help-box img {
-	border: none;
-	width: 180px;
-	height: 166px;
-	margin-bottom: 20px;	
+  border: none;
+  width: 180px;
+  height: 166px;
+  margin-bottom: 20px;  
 }
 
 .help-box {
-	margin-bottom: 15px;	
+  margin-bottom: 15px;  
 }
 
 .help-box p {
-	padding: 0;
-	margin: 0;
-	font-size: 22px;
+  padding: 0;
+  margin: 0;
+  font-size: 22px;
 }
 
 .subtitle {
-	font-size: 120%;	
+  font-size: 120%;  
 }
 
 /* help-edit page*/
@@ -316,18 +323,302 @@ ul.arrows { margin: 0 10px 35px 15px; padding: 0; }
 .img-fig { font-size: 17px; padding: 5px !important; }
 .halert { background: #000; width: 100%; height: 100%; color: #ffff00; }
 .halert .exclam { 
-	float: left;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 350%;
-	width: 20px;
-	line-height: 1;
-	font-weight: bold;
-	margin: 7px;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 350%;
+  width: 20px;
+  line-height: 1;
+  font-weight: bold;
+  margin: 7px;
 }
 .halert .atext { 
-	float: left;
-	font-size: 80%;
-	width: 94%;
-	padding: 20px 15px !important; 
+  float: left;
+  font-size: 80%;
+  width: 94%;
+  padding: 20px 15px !important; 
 }
 /* bootstrap */
+
+/************************************************
+
+home page
+
+************************************************/
+
+
+ul.cards {
+  padding: 0;
+  text-align: center;
+}
+ul.cards li {
+  list-style: none;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  margin: 0 10px 50px;
+}
+ul.cards li > .cover {
+  width: 100px;
+  border: 1px solid #ddd;
+  padding: 0;
+  background: #fff;
+  float: left;
+}
+ul.cards li > .cover:hover {
+  border: 1px solid #222;
+}
+ul.cards li > .cover a {
+  display: inline-block;
+  padding: 4px;
+  border-right: 5px solid #fff300;
+  border-left: 5px solid #222;
+  font-size: 14px;
+  font-weight: 700;
+  color: #222;
+  text-align: center;
+  height: 140px;
+}
+ul.cards li > .cover a img {
+  max-width: 80px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+ul.cards li > .cover a:hover {
+  text-decoration: none;
+}
+ul.cards li h3 {
+  margin-top: 5px;
+}
+ul.cards li > .card-meta {
+  text-align: left;
+  float: left;
+  font-size: 16px;
+}
+ul.cards li > .card-meta > div {
+  padding: 5px 0;
+}
+ul.cards li > .card-meta .goals {
+  border-bottom: 1px solid #fff300;
+  margin-bottom: -1px;
+}
+ul.cards li > .timespan {
+  text-align: left;
+  font-size: 16px;
+  float: left;
+  width: 200px;
+  border-left: 1px solid #fff300;
+  min-height: 140px;
+}
+@media only screen and (max-width: 767px) {
+  ul.cards li {
+    margin-right: 20px;
+    width: auto;
+  }
+  .card-meta,
+  .timespan {
+    display: none;
+  }
+}
+h1 small {
+  display: block;
+}
+.card-0 .page-header {
+  position: relative;
+  padding-top: 50px;
+}
+.card-0 .page-header h1 {
+  bottom: 0;
+}
+.card-0 #hp {
+  text-align: center;
+}
+.card-0 #hp .btn {
+  margin: 50px 0;
+  width: 160px;
+}
+#onlineContent {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 4px dashed #fff300;
+}
+
+/* counter at top of pact cards */
+.page-header .counter {
+  position: relative;
+}
+.page-header .counter .cardNum {
+  margin: 100px 0 -46px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.page-header .counter svg{
+  margin: 0 auto;
+  width: 99%;
+}
+
+/************************************************
+
+Nav
+
+************************************************/
+.bottom-nav a {
+  //position: fixed;
+  display: block;
+  border-radius: 25px;
+  border: 2px solid #000;
+  width: 50px;
+  height: 50px;
+  text-indent: -9999px;
+  overflow: hidden;
+  color: transparent;
+  font-size: 20px;
+}
+.bottom-nav a:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 15px solid #000;
+  display: block;
+  margin: 14px 0px 0px 14px;
+}
+.bottom-nav a.btn_prev {
+  /*left: 30px;
+  bottom: 30px;*/
+  float: left;
+}
+.bottom-nav a.btn_prev:hover:before {
+  border-right-color: #222;
+}
+
+.bottom-nav a:hover {
+  background-color: #fff300;
+  color: #fff300;
+}
+.bottom-nav a.btn_next {
+ /* right: 30px;
+  bottom: 30px;*/
+  float: right;
+}
+.bottom-nav a.btn_next:before {
+  border-right: none;
+  border-left: 15px solid #000;
+  margin: 14px 0 0 19px;
+}
+.bottom-nav a.btn_next:hover:before {
+  border-left-color: #222;
+}
+.bottom-nav a.btn_home {
+  position: fixed;
+  left: 5%;
+  top: 5px;
+}
+.bottom-nav a.btn_home:before {
+  border-top: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 15px solid #000;
+}
+.bottom-nav a.btn_home:hover:before {
+  border-bottom-color: #222;
+}
+
+
+/* IMPACT GAME */
+
+.impactcards{
+  margin-left: -80px;
+}
+
+.impactcards .cover, .covertop{
+  max-width: 300px;
+}
+
+.covertop{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.impactcards .cover img{
+  max-width: 200px;
+  padding: 20px;
+}
+
+.covertop img{
+  max-width: 300px;
+  margin: 30px 0;
+}
+
+.covertop img.first{
+  border: 1px solid #000;
+}
+
+
+
+.impactcards .covertop{
+  margin-bottom: 30px;
+}
+
+h3.impacttitle{
+  margin: 0 auto;
+  text-align: center;
+  color: #000;
+  text-decoration: underline;
+}
+
+h3.impactitle:hover{
+text-decoration: none;
+color: #000;
+}
+
+/* hrd cards */
+
+.hrdimg{
+  width: 400px;
+  margin: 20px auto;
+}
+
+.hrdimg img{
+  width: 380px;
+  margin: 0 auto;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  .bottom-nav a .bottom-nav a.btn_prev,
+  .bottom-nav a .bottom-nav a.btn_next {
+    float: none;
+    position: fixed;
+    bottom: 5px;
+    top: auto;
+    margin-top: 0;
+  }
+}
+
+.cs-online {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+
+.pact-title {
+  margin-bottom: 45px;  
+  font-size: 34px;
+  color: #000;
+  text-align: center;
+  line-height: 35px !important;
+}
+
+.pactgame{
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+
+.pact .post-full {
+  padding: 30px 60px;
+}

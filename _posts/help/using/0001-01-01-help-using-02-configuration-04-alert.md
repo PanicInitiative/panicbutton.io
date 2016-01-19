@@ -20,7 +20,7 @@ Panic Button is unique because you can trigger the alert from the phone's power 
 
 To trigger the alert repeatedly press the power button fast until you feel a vibration.
 
-![How to alert with the power button](/media/down.gif)
+![How to alert with the power button]({{ site.JB.BASE_PATH }}/media/down.gif)
 
 _**2.	The calculator screen**_ 
 
@@ -28,4 +28,4 @@ Alternatively, you can trigger the alert directly from the app's disguise screen
 
 To trigger the alert repeatedly press a button on the calculator fast until you feel a vibration.
 
-![How to alert with the calculator screen](/media/Screenshot_2014-03-06-12-49-53.png)
+![How to alert with the calculator screen]({{ site.JB.BASE_PATH }}/media/Screenshot_2014-03-06-12-49-53.png)

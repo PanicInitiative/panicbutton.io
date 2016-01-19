@@ -8,7 +8,6 @@ heading: "Safer mobile"
 published: true
 categories: help_risk
 section_order: 2
-
 ---
 
 All organizations face threats to the information they produce and to the wellbeing of their friends and allies. This can be because of powerful enemies or bad luck (or a combination of the two). If an organization does not defend against a threat, and the threat becomes a reality, the organization can lose important information, betray sensitive information about community members, and put staff in danger.

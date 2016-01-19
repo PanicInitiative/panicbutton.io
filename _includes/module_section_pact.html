@@ -1,0 +1,16 @@
+<section class="press white container content intcont mobnopad" id="press">
+    <div class="col-lg-12 col-md-12 col-sm-12 center">
+        <div class="title">{{ section.heading | markdownify }}</div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12">
+                {{ section.content  | s |  markdownify }}
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <ul class="arrows">
+					{% for item in section.items %}
+						<li><a href="{{ site.JB.BASE_PATH }}{{item.link}}">{{ item.title | markdownify }}</li>
+					{% endfor %}
+        </ul>
+    </div>
+    <div class="clearfix"></div>
+</section>

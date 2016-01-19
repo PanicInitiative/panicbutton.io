@@ -39,7 +39,7 @@ Once you have turned off the alert the status bar will change from ‘Alert Send
 
 ![The application status bar](/media/Screenshot_2014-03-06-12-52-19.png)
 
-**4.  I have triggered the alert but my contacts are not receiving any messages, what does this mean?**
+**4.	I have triggered the alert but my contacts are not receiving any messages, what does this mean?**
 
 Firstly, confirm you triggered the alert. Did you feel the vibrate letting you know that the alert was successfully triggered?
 

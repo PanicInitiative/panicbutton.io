@@ -6,7 +6,7 @@
   <div class="download-cont">
         <div class="wrapper">
         	<div class="w">
-                <img src="images/google-play-logo.png" alt="Google Play Logo" />
+                <img src="{{ site.JB.BASE_PATH }}/images/google-play-logo.png" alt="Google Play Logo" />
                 <div>{{section.downloads[0].download | markdownify}}</div>
                 <a href="{{section.downloads[0].link}}" class="btn btn-b btn-blue text-left">{{section.downloads[0].label}}</a>
                 <div class="clearfix"></div>
@@ -14,7 +14,7 @@
         </div>
         <div class="wrapper last">
         	<div class="w">
-                <img src="images/github-logo.png" alt="Github Logo" />
+                <img src="{{ site.JB.BASE_PATH }}/images/github-logo.png" alt="Github Logo" />
                 <div>{{section.downloads[1].download | markdownify}}</div>
                 <a href="{{section.downloads[1].link}}" class="btn btn-b btn-red text-left">{{section.downloads[1].label}}</a>
                 <div class="clearfix"></div>

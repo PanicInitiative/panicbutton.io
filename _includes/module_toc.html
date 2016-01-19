@@ -7,7 +7,7 @@
     		{{section.content}}
         {% if section.image %}
 				<div class="col-3xs-12 col-4xs-12">
-            <img src="images/{{section.image.src}}" class="about-illus img-responsive block-center">
+            <img src="{{ site.JB.BASE_PATH }}/images/{{section.image.src}}" class="about-illus img-responsive block-center">
             <div class="img-capt">{{section.image.caption | markdownify}}</div>
 				</div>
 				{% endif %}

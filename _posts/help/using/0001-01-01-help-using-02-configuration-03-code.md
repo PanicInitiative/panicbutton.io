@@ -20,4 +20,4 @@ Remember, the disguise aims to delay the discovery of the application for as lon
 
 It is important you remember your pincode. If you forget it you will need to reinstall the app and start all over again with the set-up!
 
-![Create pin code](/media/Screenshot_2014-03-06-12-49-22.png)
+![Create pin code]({{ site.JB.BASE_PATH }}/media/Screenshot_2014-03-06-12-49-22.png)

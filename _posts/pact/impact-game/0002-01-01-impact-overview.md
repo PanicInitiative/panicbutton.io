@@ -1,0 +1,36 @@
+---
+layout: pact_rules
+title: imPACT Game Overview
+lang: en
+version: 1
+slug: "01-impact"
+categories: "impact-rules"
+cardNum: 1
+published: true
+goals: imPACT Game where teams role play setting up, setting off and responding to the Panic Button in real life. Get an overview of the game and browse the cards
+downloadLink: "http://pactapp.io"
+---
+
+
+
+
+###1. Overview
+
+The imPACT game puts participants in a simulated high-pressure situation where the strength of their PACT will be put to the test. A human rights defender (HRD) has been forcibly taken to a detention center and is being held incommunicado. The participants, as part of the HRD’s PACT, will need to be well prepared: they will be required to think and act fast to ensure key actions take place and key figures get involved in order to liberate the HRD.
+
+###2. The players
+
+###The Human Rights Defender (HRD)
+
+The HRD players know that it’s only a matter of time before the counter-activist powers come to take them away. They set up the Panic Button with 3 of their most strategic allies in a PACT to ensure protection in case of danger. They need to make sure their PACT is solid before the trigger goes off: they need to learn as much as possible about their PACT members’ special talents, and make sure they have all the information they will need to act swiftly and effectively. Once the trigger is set, their freedom depends on their PACT.
+
+###PACT members
+
+These players have been called upon to assist the HRD in times of need. Each PACT member player has a special talent: involving key persons, sparking public interest, raising awareness, or speaking to the press. To be able to unleash their talents, they need to collect as much information as possible from the HRD in the PACT set-up phase — they are the HRD’s last and best hope of regaining freedom.
+
+###Key figures
+
+The key figures are player characters that can provide special assistance towards liberating the HRD. PACT members will interact with key figures and do their best to convince them to get involved.
+When sufficiently convinced their involvement is warranted, the key figures will provide PACT members with a **key item**: an object that proves their involvement and, when combined with the other key items, has the power to liberate the HRD.
+
+

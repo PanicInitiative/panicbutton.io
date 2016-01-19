@@ -1,0 +1,96 @@
+---
+layout: default
+---
+{% include JB/setup %}
+{% include nav.html %}
+    <div id="wrap" class="pact">
+      <div class="container" id="fromHTMLtestdiv">
+
+        <div class="row gamecard">
+                  <div class="col-xs-12 breadcrumb">
+                    <a href="{{ site.JB.BASE_PATH }}/">Home</a> &gt; <a href="{{ site.JB.BASE_PATH }}/pact/pact.html">Training Kit</a> &gt; <a href="{{ site.JB.BASE_PATH }}/impact-rules/impact-overview.html">imPACT game</a> &gt; <span>{{page.title}}</span>
+          
+                </div>
+          
+          <div class="gc-front">
+            
+            <div class="hrdimg">
+
+            {% if page.cardNum %}
+            <img src="{{ site.JB.BASE_PATH }}/media/gamecards/gc_{{ page.cardNum }}.png" alt="{{ page.title }}">
+            {% else %}
+            <img src="{{ site.JB.BASE_PATH }}/media/gamecards/gc_2-2.png" alt="{{ page.title }}">
+            {% endif %}
+            </div>
+
+
+            <div class="more-pact">
+                    <strong>Download the Game</strong>
+                    <a href="{{ site.JB.BASE_PATH }}/media/imPACT-Game.zip" role="button" class="button-pact-download btn-n">&nbsp;</a>
+            </div>
+
+
+
+          <div class="col-xs-12">
+
+            <header>
+              <h1>{{ page.title }}</h1>
+
+<!--
+            {% if page.token %}
+
+            <div class="token">
+              <h3>TOKEN:</h3>
+              <h3>{{ page.token }}</h3>
+            </div>
+            {% endif %}
+-->
+
+              {% if page.bio %}
+              <div class="bio">
+                <p>{{page.bio | markdownify }}</p>
+              </div>
+              {% endif %}
+            </header>
+
+          </div>
+          
+
+          </div>
+
+          <div class="gc-inlay col-xs-12">
+            <div class="content">
+              <p>{{content | markdownify }}</p>
+            </div>
+
+
+
+              <div class="bottom-nav col-xs-12">
+              {% if page.cardNum %}
+
+              {% if page.cardNum > 1.1 %}
+              <a class="btn_prev" href="{{ site.JB.BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">Previous</a>
+              {% endif %}
+
+              
+              {% if page.cardNum < 10.1 %}
+              <a class="btn_next" href="{{ site.JB.BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next</a>
+              {% endif %}
+
+              {% endif %}
+            </div>
+          </div>
+
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+{% for footer in site.categories.footer %}
+  {% include home_footer.html %}
+{% endfor %}
+

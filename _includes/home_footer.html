@@ -1,9 +1,9 @@
 <section class="sign yellow-1 yellow-bg">
     <div class="container yellow-bg">
         <div class="sign-cont">
-            <form action="https://amnesty.us3.list-manage.com/subscribe/post" method="POST">
+            <form action="http://amnesty.us3.list-manage1.com/subscribe/post" method="POST">
                 <div class="text-position">
-                    <p class="sign-text text-position"><label for="email">STAY IN TOUCH</label> &nbsp; <img alt="Question mark" src="/images/question-mark-icon.png" /></p>
+                    <p class="sign-text text-position"><label for="email">STAY IN TOUCH</label> &nbsp; <img alt="Question mark" src="{{ site.JB.BASE_PATH }}/images/question-mark-icon.png" /></p>
                 </div>
                 <div class="clearfix"></div>
                 <div class="sign-form">
@@ -21,28 +21,31 @@
     <div class="container mobnopad">
         <div class="row">
             <div class="col-lg-2 col-md-ref col-sm-4 col-xs-4 col-2xs-6 col-3xs-12 col-4xs-12">
-                <h2><a href="{{footer.footer[0].link}}">{{footer.footer[0].item}}</a></h2>
+                <h2><a href="{{ site.JB.BASE_PATH }}{{footer.footer[0].link}}">{{footer.footer[0].item}}</a></h2>
+                <ul>
+                    <li>{{footer.footer[0].description}}</li>
+                </ul>
             </div>
             <div class="col-lg-2 col-md-ref col-sm-4 col-xs-4 col-2xs-6 col-3xs-12 col-4xs-12">
-                <h2><a href="{{footer.footer[1].link}}">{{footer.footer[1].item}}</a></h2>
+                <h2><a href="{{ site.JB.BASE_PATH }}{{footer.footer[1].link}}">{{footer.footer[1].item}}</a></h2>
                 <ul>
                     <li>{{footer.footer[1].description}}</li>
                 </ul>
             </div>
             <div class="col-lg-2 col-md-ref col-sm-4 col-xs-4 col-2xs-6 col-3xs-12 col-4xs-12">
-                <h2><a href="{{footer.footer[2].link}}">{{footer.footer[2].item}}</a></h2>
+                <h2><a href="{{ site.JB.BASE_PATH }}{{footer.footer[2].link}}">{{footer.footer[2].item}}</a></h2>
                 <ul>
                     <li>{{footer.footer[2].description}}</li>
                 </ul>
             </div>
             <div class="col-lg-2 col-md-ref col-sm-4 col-xs-4 col-2xs-6 col-3xs-12 col-4xs-12">
-                <h2><a href="{{footer.footer[3].link}}">{{footer.footer[3].item}}</a></h2>
+                <h2><a href="{{ site.JB.BASE_PATH }}{{footer.footer[3].link}}">{{footer.footer[3].item}}</a></h2>
                 <ul>
                     <li>{{footer.footer[3].description}}</li>
                 </ul>
             </div>
             <div class="col-lg-2 col-md-ref col-sm-4 col-xs-4 col-2xs-6 col-3xs-12 col-4xs-12">
-                <h2><a href="{{footer.footer[4].link}}">{{footer.footer[4].item}}</a></h2>
+                <h2><a href="{{ site.JB.BASE_PATH }}{{footer.footer[4].link}}">{{footer.footer[4].item}}</a></h2>
                 <ul>
                     <li>{{footer.footer[4].description}}</li>
                 </ul>
@@ -51,18 +54,18 @@
     </div>
     <div class="row contact">
         <div class="col-lg-12">
-            <a href="/privacy.html">Privacy</a>
-            <a href="/accessibility.html">Accessibility</a>
+            <a href="{{ site.JB.BASE_PATH }}/privacy.html">Privacy</a>
+            <a href="{{ site.JB.BASE_PATH }}/accessibility.html">Accessibility</a>
             <a href="mailto:contact@panicbutton.io">Contact us</a>
         </div>
     </div>
     <div class="footer-logos">
         <div class="container mobnopad">
             <div class="row">
-                <div class="col-sm-3 col-xs-12"><a href="http://amnesty.org"><img alt="Amnesty International logo" class="img-responsive" src="/images/amnestylogo.jpg"></a></div>
-                <div class="col-sm-3 col-xs-12"><a href="https://iilab.org"><img alt="iilab logo" class="img-responsive" src="/images/iilab-logo-new-color-4.png"></a></div>
-                <div class="col-sm-3 col-xs-12"><a href="https://engineroom.org"><img alt="the engine room logo" class="img-responsive" src="/images/pasted_image_at_2013_12_18_12_36pm.png"></a></div>
-                <div class="col-sm-3 col-xs-12"><a href="http://www.frontlinedefenders.org"><img alt="Fonrtline Defenders logo" class="img-responsive" src="/images/frontline-logo.png"></a></div>
+                <div class="col-sm-3 col-xs-12"><a href="http://amnesty.org"><img alt="Amnesty International logo" class="img-responsive" src="{{ site.JB.BASE_PATH }}/images/amnestylogo.jpg"></a></div>
+                <div class="col-sm-3 col-xs-12"><a href="https://iilab.org"><img alt="iilab logo" class="img-responsive" src="{{ site.JB.BASE_PATH }}/images/iilab-logo-new-color-4.png"></a></div>
+                <div class="col-sm-3 col-xs-12"><a href="https://engineroom.org"><img alt="the engine room logo" class="img-responsive" src="{{ site.JB.BASE_PATH }}/images/pasted_image_at_2013_12_18_12_36pm.png"></a></div>
+                <div class="col-sm-3 col-xs-12"><a href="http://www.frontlinedefenders.org"><img alt="Fonrtline Defenders logo" class="img-responsive" src="{{ site.JB.BASE_PATH }}/images/frontline-logo.png"></a></div>
             </div>
         </div>
     </div>

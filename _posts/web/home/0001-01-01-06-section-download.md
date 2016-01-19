@@ -4,7 +4,7 @@ module: home_section_download
 heading: "Download Panic Button (beta)"
 published: true
 categories: home_section
-section_order: 5
+section_order: 6
 downloads:
   - download: Download Panic Button from<br/>**Google Play.**
     label: Download from GOOGLE.
