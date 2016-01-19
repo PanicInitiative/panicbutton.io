@@ -189,7 +189,7 @@ JB :
   #     This means always setting the protocol (http|https) or prefixing with "/"
   
 
-  BASE_PATH : "//panicinitiative.github.io/panicbutton.io"
+  BASE_PATH : "//panicbutton.io"
 
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
