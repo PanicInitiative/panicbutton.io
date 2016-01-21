@@ -191,7 +191,6 @@ JB :
 
   BASE_PATH : "//panicbutton.io"
 
-
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
   #

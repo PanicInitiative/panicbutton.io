@@ -17,7 +17,7 @@ A huge thanks is also owed to the many programmers and designers who have donate
 
 Panic Button was supported with seed funding from the [Ford Foundation](http://www.fordfoundation.org/) and was awarded a further £100,000 to build on and pilot the app thanks to the [Google Global Impact Challenge](http://livewire.amnesty.org/2013/05/22/a-lifeline-for-activists/).
 
-
+<div markdown="0">
 <div class="clearfix"></div>
 <div class="bordertb">
 	<div class="col-lg-12 col-md-12 col-sm-12 text-center">
@@ -36,4 +36,4 @@ Panic Button was supported with seed funding from the [Ford Foundation](http://w
 	</div>
 	<div class="clearfix"></div>
 </div>
-        
+</div>     

@@ -392,7 +392,7 @@ ul.cards li h3 {
 ul.cards li > .card-meta {
   text-align: left;
   float: left;
-  font-size: 16px;
+  font-size: 18px;
 }
 ul.cards li > .card-meta > div {
   padding: 5px 0;
@@ -403,7 +403,7 @@ ul.cards li > .card-meta .goals {
 }
 ul.cards li > .timespan {
   text-align: left;
-  font-size: 16px;
+  font-size: 18px;
   float: left;
   width: 200px;
   border-left: 1px solid #fff300;
