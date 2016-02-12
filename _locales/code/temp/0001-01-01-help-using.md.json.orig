@@ -1,0 +1,15 @@
+{
+  "lang": "en",
+  "layout": "page_toc",
+  "parent": {
+    "link": "help.html",
+    "title": "Help"
+  },
+  "title": "Using Panic Button",
+  "slug": "help_using",
+  "version": 1,
+  "published": true,
+  "toc": "help_using",
+  "section_order": 2,
+  "categories": "help"
+}

@@ -1,0 +1,17 @@
+{
+  "lang": "pt",
+  "layout": "post",
+  "title": "Configurar Alertas",
+  "tags": "mobile",
+  "version": 1,
+  "published": "true",
+  "action": [
+    {
+      "link": "setup-alarm-test-hardware",
+      "title": "Aprender"
+    }
+  ],
+  "type": "simple",
+  "slug": "setup-alarm",
+  "categories": "mobile"
+}

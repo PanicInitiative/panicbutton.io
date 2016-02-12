@@ -1,0 +1,16 @@
+version: 7
+layout: post
+lang: pt
+slug: "settings-contacts"
+type: "interactive"
+title: "Configurar Contatos"
+published: true
+categories: "mobile"
+tags: "mobile"
+introduction: Estas são as pessoas que vão receber o seu alerta.
+warning: Eles precisam te conhecer pessoalmente, e serem capazes de responder rapidamente.
+component: contacts
+action:
+  - title: "Salvar"
+    link: "home-ready"
+    confirmation: "Contatos salvos"

@@ -1,0 +1,22 @@
+layout: post
+module: footer
+published: true
+categories: footer
+footer:
+
+- item: About
+  link: /about.html
+  description: The story and organisations behind PANIC BUTTON.
+- item: Get involved
+  link: /get-involved.html
+  description: If you're a developer or want to help us improve PANIC BUTTON.
+- item: Help
+  link: /help.html
+  description: Learn more about using Panic Button and managing your risks.
+- item: Training Kit
+  link: /pact/pact.html
+  description: Get started on a risk assessment process with the Panic Button Training Kit.
+- item: Blog
+  link: http://panicalert.tumblr.com
+  description: Hear about what is going on with PANIC BUTTON.
+

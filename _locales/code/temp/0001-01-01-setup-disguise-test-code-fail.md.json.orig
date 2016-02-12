@@ -1,0 +1,17 @@
+{
+  "lang": "pt",
+  "layout": "post",
+  "title": "Configurar o Disfarce",
+  "tags": "mobile",
+  "version": 7,
+  "published": "true",
+  "action": [
+    {
+      "link": "setup-disguise-test-unlock",
+      "title": "Tente novamente"
+    }
+  ],
+  "type": "simple",
+  "slug": "setup-disguise-test-code-fail",
+  "categories": "mobile"
+}

@@ -1,0 +1,38 @@
+{
+  "lang": "pt",
+  "status": [
+    {
+      "color": "green",
+      "link": "help-ready",
+      "title": "Pronto"
+    }
+  ],
+  "layout": "post",
+  "title": "Bot\u00e3o de P\u00e2nico",
+  "items": [
+    {
+      "link": "settings",
+      "title": "Configura\u00e7\u00f5es"
+    },
+    {
+      "link": "setup-about",
+      "title": "Sobre"
+    },
+    {
+      "link": "help",
+      "title": "Ajuda"
+    }
+  ],
+  "tags": "mobile",
+  "version": 1,
+  "published": true,
+  "action": [
+    {
+      "link": "checklist",
+      "title": "Disfarce"
+    }
+  ],
+  "type": "simple",
+  "slug": "home-ready",
+  "categories": "mobile"
+}

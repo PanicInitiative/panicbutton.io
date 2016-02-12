@@ -1,0 +1,12 @@
+version: 7
+layout: post
+lang: pt
+slug: "setup-disguise-test-code-fail"
+type: "simple"
+title: "Configurar o Disfarce"
+published: "true"
+categories: "mobile"
+tags: "mobile"
+action: 
+  - title: "Tente novamente"
+    link: "setup-disguise-test-unlock"

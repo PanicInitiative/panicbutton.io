@@ -1,0 +1,24 @@
+{
+  "lang": "pt",
+  "layout": "post",
+  "success": {
+    "link": "setup-alarm-test-disguise-success"
+  },
+  "title": "Testar Alarme Disfar\u00e7ado",
+  "introduction": "Experimente agora! Pressione repetidamente o bot\u00e3o de ligar, at\u00e9 sentir uma vibra\u00e7\u00e3o.",
+  "tags": "mobile",
+  "component": "alarm-test-disguise",
+  "version": 1,
+  "timers": {
+    "info": "0",
+    "fail": "20",
+    "inactive": "10"
+  },
+  "published": "true",
+  "fail": {
+    "link": "setup-alarm-test-disguise-fail"
+  },
+  "type": "interactive",
+  "slug": "setup-alarm-test-disguise",
+  "categories": "mobile"
+}

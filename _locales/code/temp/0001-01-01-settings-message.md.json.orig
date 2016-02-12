@@ -1,0 +1,21 @@
+{
+  "lang": "pt",
+  "layout": "post",
+  "version": 7,
+  "title": "Configura\u00e7\u00e3o de Mensagem de Alerta",
+  "introduction": "Esta \u00e9 a mensagem que ser\u00e1 enviada com a sua localiza\u00e7\u00e3o.",
+  "tags": "mobile",
+  "component": "message",
+  "warning": "Combine um plano com seus contatos para que saibam o que fazer quando receberem isto.",
+  "published": true,
+  "action": [
+    {
+      "confirmation": "Mensagem salvo",
+      "link": "home-ready",
+      "title": "Salvar"
+    }
+  ],
+  "type": "interactive",
+  "slug": "settings-message",
+  "categories": "mobile"
+}

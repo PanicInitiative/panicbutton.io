@@ -1,0 +1,20 @@
+{
+  "lang": "pt",
+  "layout": "post",
+  "version": 1,
+  "title": "Configurar Contatos",
+  "introduction": "Estas s\u00e3o as pessoas que v\u00e3o receber o seu alerta.",
+  "tags": "mobile",
+  "component": "contacts",
+  "warning": "Eles precisam conhecer voc\u00ea pessoalmente, e conseguir responder rapidamente.",
+  "published": true,
+  "action": [
+    {
+      "link": "setup-message",
+      "title": "Pr\u00f3ximo"
+    }
+  ],
+  "type": "interactive",
+  "slug": "setup-contacts",
+  "categories": "mobile"
+}

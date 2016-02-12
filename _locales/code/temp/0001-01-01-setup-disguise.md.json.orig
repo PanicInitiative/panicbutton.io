@@ -1,0 +1,17 @@
+{
+  "lang": "pt",
+  "layout": "post",
+  "title": "Configurar o Disfarce",
+  "tags": "mobile",
+  "version": 1,
+  "published": "true",
+  "action": [
+    {
+      "link": "setup-disguise-test-open",
+      "title": "Aprender"
+    }
+  ],
+  "type": "simple",
+  "slug": "setup-disguise",
+  "categories": "mobile"
+}

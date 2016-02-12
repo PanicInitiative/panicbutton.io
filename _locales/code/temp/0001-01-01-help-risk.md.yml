@@ -1,0 +1,14 @@
+lang: en
+version: 1
+slug: "help_risk"
+layout: page_toc
+title: "Managing Your Risks"
+heading: "Managing Your Risks"
+published: true
+categories: help
+parent:
+  title: Help
+  link: help.html
+toc: help_risk
+section_order: 1
+

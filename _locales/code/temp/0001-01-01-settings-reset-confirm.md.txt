@@ -1,0 +1,2 @@
+
+Confirme que você quer reiniciar a instalação. Ao reiniciar a instalação, o alerta ficará desativado até você terminar de usar o assistente.

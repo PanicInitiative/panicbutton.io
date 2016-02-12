@@ -1,0 +1,12 @@
+version: 1
+layout: post
+lang: pt
+slug: "setup-warning"
+type: "warning"
+title: "Advertência"
+published: "true"
+categories: "mobile"
+tags: "mobile"
+action: 
+  - title: "Começa"
+    link: "setup-contacts"

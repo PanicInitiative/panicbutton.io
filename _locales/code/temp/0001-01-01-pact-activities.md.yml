@@ -1,0 +1,16 @@
+lang: en
+version: 1
+slug: "pact-activities"
+module: module_section_list
+title: "PACT Toolkit"
+heading: "Prepare to Act"
+published: true
+categories: pact_sections
+toc: pact-activities
+items:
+  - title: "Introduction"
+    description: "Introduction to the PACT toolkit"
+    link: pact%20activities/Introduction.html
+  - title: "Risk Mapping"
+    description: "Risk mapping..."
+    link: pact%20activities/Risk-Mapping.html

@@ -1,0 +1,35 @@
+{
+  "lang": "pt",
+  "layout": "post",
+  "title": "Configura\u00e7\u00f5es de Idioma",
+  "introduction": "Escolha um idioma para a aplica\u00e7\u00e3o.",
+  "tags": "mobile",
+  "component": "language",
+  "version": 7,
+  "published": true,
+  "action": [
+    {
+      "confirmation": "New language applied",
+      "language": "en",
+      "title": "English"
+    },
+    {
+      "confirmation": "Nuevo lenguaje seleccionado",
+      "language": "es",
+      "title": "Espa\u00f1ol"
+    },
+    {
+      "confirmation": "Nouveau language selectionn\u00e9",
+      "language": "fr",
+      "title": "Fran\u00e7ais"
+    },
+    {
+      "confirmation": "Novo idioma aplicado",
+      "language": "pt",
+      "title": "Portugu\u00eas"
+    }
+  ],
+  "type": "interactive",
+  "slug": "setup-language",
+  "categories": "mobile"
+}

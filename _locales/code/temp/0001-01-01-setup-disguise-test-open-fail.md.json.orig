@@ -1,0 +1,16 @@
+{
+  "lang": "pt",
+  "layout": "post",
+  "title": "Configurar o Disfarce",
+  "tags": "mobile",
+  "version": 1,
+  "action": [
+    {
+      "link": "setup-disguise-test-open",
+      "title": "Tente Novamente"
+    }
+  ],
+  "type": "simple",
+  "slug": "setup-disguise-test-open-fail",
+  "categories": "mobile"
+}

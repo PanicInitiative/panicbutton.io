@@ -1,0 +1,21 @@
+{
+  "lang": "pt",
+  "layout": "post",
+  "version": 7,
+  "title": "Configurar Contatos",
+  "introduction": "Estas s\u00e3o as pessoas que v\u00e3o receber o seu alerta.",
+  "tags": "mobile",
+  "component": "contacts",
+  "warning": "Eles precisam te conhecer pessoalmente, e serem capazes de responder rapidamente.",
+  "published": true,
+  "action": [
+    {
+      "confirmation": "Contatos salvos",
+      "link": "home-ready",
+      "title": "Salvar"
+    }
+  ],
+  "type": "interactive",
+  "slug": "settings-contacts",
+  "categories": "mobile"
+}

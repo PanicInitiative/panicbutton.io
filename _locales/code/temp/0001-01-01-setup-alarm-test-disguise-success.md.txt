@@ -1,0 +1,2 @@
+
+Teste bem sucedido! Numa emergência real, o seu alerta seria enviado

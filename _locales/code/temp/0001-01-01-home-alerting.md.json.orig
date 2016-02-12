@@ -1,0 +1,24 @@
+{
+  "lang": "pt",
+  "status": [
+    {
+      "color": "red",
+      "link": "help-alerting",
+      "title": "Enviando alertas"
+    }
+  ],
+  "layout": "post",
+  "title": "Bot\u00e3o de P\u00e2nico",
+  "tags": "mobile",
+  "version": 2,
+  "published": true,
+  "action": [
+    {
+      "link": "home-ready",
+      "title": "Parar Alertas"
+    }
+  ],
+  "type": "simple",
+  "slug": "home-alerting",
+  "categories": "mobile"
+}

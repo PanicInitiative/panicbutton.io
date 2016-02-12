@@ -1,0 +1,17 @@
+{
+  "lang": "pt",
+  "layout": "post",
+  "title": "Muito Bem!",
+  "tags": "mobile",
+  "version": 1,
+  "published": "true",
+  "action": [
+    {
+      "link": "home-not-configured-disguise",
+      "title": "Pr\u00f3ximo"
+    }
+  ],
+  "type": "simple",
+  "slug": "setup-alarm-test-disguise-success",
+  "categories": "mobile"
+}

@@ -1,0 +1,17 @@
+{
+  "lang": "pt",
+  "layout": "post",
+  "title": "Advert\u00eancia",
+  "tags": "mobile",
+  "version": 1,
+  "published": "true",
+  "action": [
+    {
+      "link": "setup-contacts",
+      "title": "Come\u00e7a"
+    }
+  ],
+  "type": "warning",
+  "slug": "setup-warning",
+  "categories": "mobile"
+}

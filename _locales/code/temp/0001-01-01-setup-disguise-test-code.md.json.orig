@@ -1,0 +1,30 @@
+{
+  "lang": "pt",
+  "layout": "post",
+  "success": {
+    "link": "setup-disguise-test-success"
+  },
+  "title": "Testar o Disfarce",
+  "introduction": "Muito Bem! Agora digite seu c\u00f3digo PIN para acessar as configura\u00e7\u00f5es.",
+  "tags": "mobile",
+  "component": "disguise-test-code",
+  "action": [
+    {
+      "link": "setup-disguise-test-success",
+      "title": "Ok"
+    }
+  ],
+  "version": 1,
+  "timers": {
+    "info": "0",
+    "fail": "20",
+    "inactive": "10"
+  },
+  "published": "true",
+  "fail": {
+    "link": "setup-disguise-test-code-fail"
+  },
+  "type": "interactive",
+  "slug": "setup-disguise-test-code",
+  "categories": "mobile"
+}

@@ -1,0 +1,17 @@
+{
+  "lang": "pt",
+  "layout": "post",
+  "title": "Muito Bem!",
+  "tags": "mobile",
+  "version": 1,
+  "published": "true",
+  "action": [
+    {
+      "link": "home-ready",
+      "title": "Concluir"
+    }
+  ],
+  "type": "simple",
+  "slug": "setup-disguise-test-success",
+  "categories": "mobile"
+}

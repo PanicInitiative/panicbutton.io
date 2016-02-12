@@ -1,0 +1,39 @@
+{
+  "lang": "pt",
+  "layout": "post",
+  "title": "Lista de Controle",
+  "checklist": [
+    {
+      "title": "Revisar o plano de seguran\u00e7a e atualizar os contatos regularmente"
+    },
+    {
+      "title": "Testar o alerta para garantir que est\u00e1 funcionando"
+    },
+    {
+      "title": "Verificar se tem cr\u00e9dito suficiente no telefone"
+    },
+    {
+      "title": "Ativar GPS (se quiser habilitar o rastreamento de localiza\u00e7\u00e3o)"
+    },
+    {
+      "title": "Carregar completamente a bateria do telefone"
+    }
+  ],
+  "tags": "mobile",
+  "version": 1,
+  "published": "true",
+  "action": [
+    {
+      "link": "close",
+      "title": "Disfarce agora"
+    },
+    {
+      "status": "disabled",
+      "link": "home-ready",
+      "title": "Cancelar"
+    }
+  ],
+  "type": "modal",
+  "slug": "checklist",
+  "categories": "mobile"
+}

@@ -1,0 +1,2 @@
+
+O Botão de Pânico só poderá ser usado depois de estar totalmente configurado.

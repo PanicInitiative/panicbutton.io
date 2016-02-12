@@ -1,0 +1,18 @@
+{
+  "shortLink": null,
+  "version": 1,
+  "downloadLink": "media/pdf/06_App_Setup_and_Practice.pdf",
+  "goals": "To familiarise participants  with the interface and functionality of the app",
+  "slug": "01-app-setup-and-practice",
+  "categories": "pact-app",
+  "lang": "en",
+  "numDash": "21.3,2,21.3,2,21.3,2,21.3,2,21.3,2,21.3,999",
+  "layout": "pact_post",
+  "remember": "Participants will have varying levels of confidence with technology and  with using a smartphone. Give them lots of chances to  familiarize themselves with the interface and functionality.",
+  "title": "App setup and practice",
+  "timeSpan": "2 hours and follow-up",
+  "methodology": "Plenary and small group work",
+  "materials": "Android phones, post-it notes, markers, projector (if available)",
+  "cardNum": 6,
+  "published": true
+}

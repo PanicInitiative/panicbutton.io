@@ -1,0 +1,27 @@
+{
+  "lang": "pt",
+  "layout": "post",
+  "title": "Bot\u00e3o de P\u00e2nico",
+  "items": [
+    {
+      "link": "setup-about",
+      "title": "Sobre"
+    },
+    {
+      "link": "setup-language",
+      "title": "Configura\u00e7\u00f5es de Idioma"
+    }
+  ],
+  "tags": "mobile",
+  "version": 1,
+  "published": true,
+  "action": [
+    {
+      "link": "setup-warning",
+      "title": "Instala\u00e7\u00e3o"
+    }
+  ],
+  "type": "simple",
+  "slug": "home-not-configured",
+  "categories": "mobile"
+}

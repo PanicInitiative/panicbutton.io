@@ -1,0 +1,17 @@
+version: 1
+layout: post
+lang: pt
+slug: "home-not-configured"
+type: simple
+title: Botão de Pânico
+published: true
+categories: mobile
+tags: mobile
+action: 
+  - title: "Instalação"
+    link: "setup-warning"
+items: 
+  - title: Sobre
+    link: "setup-about"
+  - title: Configurações de Idioma
+    link: "setup-language"

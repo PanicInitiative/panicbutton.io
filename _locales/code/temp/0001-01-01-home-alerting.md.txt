@@ -1,0 +1,2 @@
+
+O Botão de Pânico está enviando alertas. Clique Parar Alertas para cancelar o envio de mensagem. 

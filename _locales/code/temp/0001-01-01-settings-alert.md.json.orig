@@ -1,0 +1,21 @@
+{
+  "lang": "pt",
+  "layout": "post",
+  "version": 7,
+  "title": "Configura\u00e7\u00f5es de alerta",
+  "introduction": "Configurar a frequ\u00eancia.",
+  "tags": "mobile",
+  "component": "alert",
+  "warning": "Cuidado com sua bateria! O envio frequente de alertas pode gastar rapidamente a bateria.",
+  "published": true,
+  "action": [
+    {
+      "confirmation": "Novo alerta de frequ\u00eancia salvo.",
+      "link": "home-ready",
+      "title": "Salvar"
+    }
+  ],
+  "type": "interactive",
+  "slug": "settings-alert",
+  "categories": "mobile"
+}
