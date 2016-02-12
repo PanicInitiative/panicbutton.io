@@ -1,0 +1,6 @@
+{
+  "0001-01-01-setup-message.md-title": "Configuração de Mensagem de Alerta",
+  "0001-01-01-setup-message.md-introduction": "Esta é a mensagem que será enviada com a sua localização",
+  "0001-01-01-setup-message.md-action-setup-code": "Próximo",
+  "0001-01-01-setup-message.md-content": "\nDicas de segurança\n\n - Procure criar palavras ou frases de código na sua mensagem, que só seus contatos vão entender.\n - Numa emergência, você não terá tempo de modificar uma mensagem, portanto crie algo funcione em qualquer situação.\n - Se você quiser que sua localização seja incluída na mensagem, ativar rastreamento GPS nas configurações do telefone.\n"
+}

@@ -1,24 +1,20 @@
 import os
 import sys
-from yaml import load
 import json
 import jq
-import codecs
-import pprint
 
 import config
 import yaml2json as f
 
+#TODO : move keys listed in pre-tx-push.jq into config.py file and make pre-tx-push.jq key selection dynamic
+
 print config.keys
 print config.subkeys
+
 rootdir = '../../_posts'
 
-def openFileRead(d):
-	temp = open(os.path.join(subdir, d), "r")
-	return temp 
-
-def getBoundary(d): 
-	temp = openFileRead(d)
+def getBoundary(): 
+	temp = open(os.path.join(subdir, file), "r")
 	i = 0 
 	h = 0
 	for k,v in enumerate(temp):
@@ -31,8 +27,8 @@ def getBoundary(d):
 	temp.close()
 	return h
 
-def getText(d,h):
-	temp = openFileRead(d)
+def getText(h):
+	temp = open(os.path.join(subdir, file), "r")
 	text =[]
 	for k,v in enumerate(temp):
 		if k > h:
@@ -41,30 +37,26 @@ def getText(d,h):
 
 
 	abc = "".join(text)
+	temp.close()
 	return abc
 
-def writeText(file):
-	num = getBoundary(file)
-	text = getText(file,num)
+def writeText():
+	num = getBoundary()
+	text = getText(num)
 
 	textF = "temp/"+file+".txt"
 	with open(textF, 'w') as f:
 		f.write(text)
 
+	f.close()
 	print "wrote text to" + textF
 
-def yamlJSON(yamlf,d):
-	print yamlf
-	jsonf = "temp/"+file+".json.orig"
-	s = f.yaml2json(yamlf)
-	
-	with open(jsonf,'w') as n:
-		n.write(s)
 
-def createFullJSON(d):
-	num = getBoundary(d)
+def createYAML():
+	num = getBoundary()
+	temp = open(os.path.join(subdir, file), "r")
+
 	yaml = []
-	temp = openFileRead(d)
 
 	for k,v in enumerate(temp):
 		if 0<k<num:
@@ -75,19 +67,29 @@ def createFullJSON(d):
 	with open(yamlf, 'w') as f: 
 		f.write(yaml)
 	f.close()
+	return yamlf
 
-	yamlJSON(yamlf,d)
+def yamlJSON(yamlf):
+	s = f.yaml2json(yamlf)	
+	jsonf = "temp/"+file+".json.orig"
+	with open(jsonf,'w') as n:
+		n.write(s)
+	n.close()
 
-def createFilteredJSON(d):
-	new = {}
-	with open("temp/"+d+".json.orig") as f: 
-		e = json.load(f)
-	
-	keys = config.keys + config.subkeys
-	#new = { key: e[key] for key in keys }
-	print new
+def yamlFiltered():
+	jsonf = "temp/"+file+".json.orig"
+	os.system("cat "+jsonf+" | jq --arg file `basename "+file+"` -f pre-tx-push.jq > temp/`basename "+file+"`.json.tmp")
 
 
+def textToJSON():
+	md = "temp/"+file+".txt"
+	if os.stat(md).st_size != 0:
+		os.system('''jq '$json[0] * { ("'''+file+'''-content"): . }' --arg file ''' + file + ''' --slurpfile json temp/'''+ file + '''.json.tmp -sR '''+md+''' > temp/'''+ file +'''.json''')
+	else:
+		os.system("cp temp/"+file+".json.tmp temp/"+file+".json")
+
+def jsonCompile():
+	os.system("jq 'add' -s temp/*.json > tx_mdtoJSON.en.json")
 
 for subdir, dirs, files in os.walk(rootdir): 
 	for file in files: 
@@ -96,16 +98,31 @@ for subdir, dirs, files in os.walk(rootdir):
 		if file != ".DS_Store":
 			
 			#First create .md.txt file with all markdown
-			writeText(file)
+			writeText()
+			print "Writing markdown text to .txt for file %s" % (file)
 
-			#Next create .json.orig file with no keys filtered out for translation
-			createFullJSON(file)
+			# then create yaml files for front-matter
+			yaml = createYAML()
+			print "Writing YAML to .yml for file %s" % (file)
 
-			#Next, create .json.tmp file with filtered keys
+			#convert yaml to full json
+			yamlJSON(yaml)
+			print "Writing JSON of YAML to .json.orig for file %s" % (file)
 
-			createFilteredJSON(file)
+			#convert yaml to filtered json
+			yamlFiltered()
+			print "Filtering YAML to specific keys and writing JSON for file %s" % (file)
 
-			#Finally, collate all files into one file, content.json
+			#add markdown text to filtered json
+			textToJSON()
+			print "Writing markdown text into final JSON array for file %s" % (file)
+
+#create final, large json file, tx_mdtoJSON.json
+print "Compiling master JSON document, tx_mdtoJSON.json"
+jsonCompile()
 
 
+print "Processing completed"
 
+
+			
