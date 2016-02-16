@@ -1,7 +1,7 @@
 {
-  "0001-01-01-home-not-configured.md-title": "Botão de Pânico",
-  "0001-01-01-home-not-configured.md-action-setup-warning": "Instalação",
-  "0001-01-01-home-not-configured.md-items-setup-about": "Sobre",
-  "0001-01-01-home-not-configured.md-items-setup-language": "Configurações de Idioma",
-  "0001-01-01-home-not-configured.md-content": "\n![Illustration](/media/mobile/home-not-configured-small.png) O Botão de Pânico é um aplicativo Android que alerta secretamente seus contatos quando você está em apuros. O aplicativo fica escondido em seu telefone, parecendo uma simples calculadora.\n"
+  "0001-01-01-home-not-configured.md---title": "Panic Button",
+  "0001-01-01-home-not-configured.md---action---setup-warning": "Set-Up",
+  "0001-01-01-home-not-configured.md---items---setup-about": "About",
+  "0001-01-01-home-not-configured.md---items---setup-language": "Language Settings",
+  "0001-01-01-home-not-configured.md---content": "\n![Illustration]({{ site.JB.BASE_PATH }}/media/mobile/home-not-configured-small.png) Panic Button is an Android app that secretly alerts your contacts when you are in trouble. The app stays hidden on your phone by looking like a simple calculator.\n"
 }

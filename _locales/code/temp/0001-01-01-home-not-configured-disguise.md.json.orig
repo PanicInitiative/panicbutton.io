@@ -1,26 +1,26 @@
 {
-  "lang": "pt",
+  "lang": "en",
   "status": [
     {
       "color": "red",
       "link": "help-not-configured",
-      "title": "A instala\u00e7\u00e3o n\u00e3o \u00e9 conclu\u00edda"
+      "title": "Setup not complete"
     }
   ],
   "layout": "post",
-  "title": "Bot\u00e3o de P\u00e2nico",
+  "title": "Panic Button",
   "items": [
     {
       "link": "setup-about",
-      "title": "Sobre"
+      "title": "About"
     },
     {
       "link": "help",
-      "title": "Ajuda"
+      "title": "Help"
     },
     {
       "link": "setup-language",
-      "title": "Configura\u00e7\u00f5es de Idioma"
+      "title": "Language Settings"
     }
   ],
   "tags": "mobile",
@@ -30,16 +30,16 @@
     {
       "status": "checked",
       "link": "",
-      "title": "Configura\u00e7\u00f5es B\u00e1sicas"
+      "title": "Basic Settings"
     },
     {
       "status": "checked",
       "link": "",
-      "title": "Configure o Alerta"
+      "title": "Setup Alarm"
     },
     {
       "link": "setup-disguise",
-      "title": "Configure o Disfarce"
+      "title": "Setup Disguise"
     }
   ],
   "type": "simple",

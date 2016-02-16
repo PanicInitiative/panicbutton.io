@@ -1,12 +1,12 @@
 version: 7
 layout: post
-lang: pt
+lang: en
 slug: "setup-disguise-test-code-fail"
 type: "simple"
-title: "Configurar o Disfarce"
+title: "Setup the Disguise"
 published: "true"
 categories: "mobile"
 tags: "mobile"
 action: 
-  - title: "Tente novamente"
+  - title: "Try Again"
     link: "setup-disguise-test-unlock"

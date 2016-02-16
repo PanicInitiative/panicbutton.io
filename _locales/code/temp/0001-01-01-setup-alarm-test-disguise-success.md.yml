@@ -1,12 +1,12 @@
 version: 1
 layout: post
-lang: pt
+lang: en
 slug: "setup-alarm-test-disguise-success"
 type: "simple"
-title: "Muito Bem!"
+title: "Well done!"
 published: "true"
 categories: "mobile"
 tags: "mobile"
 action: 
-  - title: "Próximo"
+  - title: "Next"
     link: "home-not-configured-disguise"

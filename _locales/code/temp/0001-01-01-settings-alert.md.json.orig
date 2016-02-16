@@ -1,18 +1,18 @@
 {
-  "lang": "pt",
+  "lang": "en",
   "layout": "post",
   "version": 7,
-  "title": "Configura\u00e7\u00f5es de alerta",
-  "introduction": "Configurar a frequ\u00eancia.",
+  "title": "Alert settings",
+  "introduction": "Setup the frequency.",
   "tags": "mobile",
   "component": "alert",
-  "warning": "Cuidado com sua bateria! O envio frequente de alertas pode gastar rapidamente a bateria.",
+  "warning": "Be careful about your battery! Sending alerts too often might drain your battery.",
   "published": true,
   "action": [
     {
-      "confirmation": "Novo alerta de frequ\u00eancia salvo.",
+      "confirmation": "New alert frequency saved",
       "link": "home-ready",
-      "title": "Salvar"
+      "title": "Save"
     }
   ],
   "type": "interactive",

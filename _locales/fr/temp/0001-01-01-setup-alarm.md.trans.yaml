@@ -1,0 +1,13 @@
+lang: en
+layout: post
+tags: mobile
+title: 'Setup Alert'
+version: 1
+published: 'true'
+action:
+    -
+        link: setup-alarm-test-hardware
+        title: Learn
+type: simple
+slug: setup-alarm
+categories: mobile

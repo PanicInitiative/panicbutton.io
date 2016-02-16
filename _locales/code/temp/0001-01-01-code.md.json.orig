@@ -1,18 +1,18 @@
 {
-  "lang": "pt",
+  "lang": "en",
   "layout": "post",
-  "title": "C\u00f3digo PIN",
+  "title": "Code",
   "tags": "mobile",
   "component": "code",
   "action": [
     {
       "link": "home-ready",
-      "title": "Prosseguir"
+      "title": "Go"
     }
   ],
   "version": 1,
   "published": "true",
-  "fail": "Se esquecer o seu c\u00f3digo PIN, desinstale o aplicativo nas configura\u00e7\u00f5es do seu telefone e, em seguida, reinstale.",
+  "fail": "If you have forgotten your pin number, uninstall the application from your phone settings and then reinstall it.",
   "type": "interactive",
   "slug": "code",
   "categories": "mobile"

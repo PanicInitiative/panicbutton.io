@@ -1,11 +1,11 @@
 {
-  "lang": "pt",
+  "lang": "en",
   "layout": "post",
   "success": {
     "link": "setup-alarm-test-hardware-success"
   },
-  "title": "Testar Alerta de Hardware",
-  "introduction": "Experimente agora! Pressione repetidamente o bot\u00e3o de ligar,  at\u00e9 sentir uma vibra\u00e7\u00e3o.",
+  "title": "Test Hardware Alarm",
+  "introduction": "Try Now! Repeatedly press the power button fast until you feel a vibration.",
   "tags": "mobile",
   "component": "alarm-test-hardware",
   "version": 1,

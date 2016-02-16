@@ -1,17 +1,17 @@
 {
-  "lang": "pt",
+  "lang": "en",
   "layout": "post",
   "version": 1,
-  "title": "Configura\u00e7\u00e3o de Mensagem de Alerta",
-  "introduction": "Esta \u00e9 a mensagem que ser\u00e1 enviada com a sua localiza\u00e7\u00e3o",
+  "title": "Setup alert message",
+  "introduction": "This is the message that will be sent with your location.",
   "tags": "mobile",
   "component": "message",
-  "warning": "Combine um plano com seus contatos para que saibam o que fazer quando receberem isto",
+  "warning": "Create a plan so your contacts know what to do when they receive this",
   "published": true,
   "action": [
     {
       "link": "setup-code",
-      "title": "Pr\u00f3ximo"
+      "title": "Next"
     }
   ],
   "type": "interactive",

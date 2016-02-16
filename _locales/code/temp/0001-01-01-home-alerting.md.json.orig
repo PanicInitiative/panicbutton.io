@@ -1,21 +1,21 @@
 {
-  "lang": "pt",
+  "lang": "en",
   "status": [
     {
       "color": "red",
       "link": "help-alerting",
-      "title": "Enviando alertas"
+      "title": "Alerting"
     }
   ],
   "layout": "post",
-  "title": "Bot\u00e3o de P\u00e2nico",
+  "title": "Panic Button",
   "tags": "mobile",
   "version": 2,
   "published": true,
   "action": [
     {
       "link": "home-ready",
-      "title": "Parar Alertas"
+      "title": "Stop Alerting"
     }
   ],
   "type": "simple",

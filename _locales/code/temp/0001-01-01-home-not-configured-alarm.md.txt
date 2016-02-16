@@ -1,2 +1,2 @@
 
-O Botão de Pânico só poderá ser usado depois de estar totalmente configurado
+You cannot use Panic Button until it is fully setup.

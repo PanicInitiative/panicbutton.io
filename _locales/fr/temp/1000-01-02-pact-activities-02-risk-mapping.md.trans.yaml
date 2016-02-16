@@ -1,0 +1,17 @@
+lang: en
+numDash: '21.3,2,21.3,999'
+layout: pact_post
+remember: 'There is no recommended format for the map'
+extra: null
+cardNum: 2
+shortLink: null
+downloadLink: media/pdf/02_Risk_Mapping.pdf
+materials: 'Flip chart paper, lots of coloured markers'
+methodology: 'Each participant drafts their own free-style risk map'
+version: 1
+goals: 'Identify vulnerable situations'
+published: true
+title: 'Risk Mapping'
+slug: 02-risk-mapping
+categories: pact-activities
+timeSpan: '45m individually <br/>+ <br/>15m discussion'

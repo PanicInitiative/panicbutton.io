@@ -1,14 +1,14 @@
 {
-  "lang": "pt",
+  "lang": "en",
   "layout": "post",
-  "title": "Configurar o Disfarce",
+  "title": "Setup the Disguise",
   "tags": "mobile",
   "version": 7,
   "published": "true",
   "action": [
     {
       "link": "setup-disguise-test-unlock",
-      "title": "Tente novamente"
+      "title": "Try Again"
     }
   ],
   "type": "simple",

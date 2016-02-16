@@ -1,22 +1,22 @@
 version: 4
 layout: post
-lang: pt
+lang: en
 slug: "settings"
 type: "simple"
-title: "Configurações"
+title: "Settings"
 published: true
 categories: "mobile"
 tags: "mobile"
 items:
-- title: Configurações de Idioma
+- title: Language Settings
   link: "settings-language"
-- title: "Configurações de Mensagens"
+- title: "Message Settings"
   link: "settings-message"
-- title: "Configurações dos Contatos"
+- title: "Contact Settings"
   link: "settings-contacts"
-- title: "Configurações de Alerta"
+- title: "Alert Settings"
   link: "settings-alert"
-- title: "Configurações da Senha"
+- title: "Code Settings"
   link: "settings-code"
-- title: "Reiniciar a Instalação"
+- title: "Restart the Installation"
   link: "settings-reset-confirm"

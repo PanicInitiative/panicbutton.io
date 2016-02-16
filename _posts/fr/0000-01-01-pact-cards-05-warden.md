@@ -1,0 +1,19 @@
+---
+lang: en
+bio: 'As the warden of the detention center where the human rights defender at risk is being detained, you have the power to admit (or not!) that the HRD is actually being held there, as well as to grant or deny access to the HRD.'
+layout: pact_hrd
+context: ""
+power: 'You can grant access to the HRD/prisoner.'
+title: 'Warden of the Detention Center'
+slug: 05-warden
+token: 'Visitor''s Badge'
+version: 1
+cardNum: 3.2
+hard_mode: '- Request proof that the lawyer is actually under retainer to work on behalf of the HRD - Request further proof that the HRD is at the facility: get the lawyer to show you the google map link showing the HRDs location in the center'
+heading: 'Warden of the Detention Center'
+categories: pact-cards
+
+---
+
+- A good explanation of why the lawyer thinks that the HRD is in the detention facility (this can include an explanation about the fact that they had a communications tool set up).
+- Proof that the lawyer has actually been instructed to work on behalf of the HRD

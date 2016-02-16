@@ -1,0 +1,14 @@
+{
+    "lang": "en", 
+    "layout": "post", 
+    "parent": {
+        "link": "help.html", 
+        "title": "Help"
+    }, 
+    "title": "Reading List", 
+    "section_order": 3, 
+    "version": 1, 
+    "published": true, 
+    "slug": "help_reading", 
+    "categories": "help"
+}

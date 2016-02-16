@@ -1,0 +1,17 @@
+{
+    "lang": "en", 
+    "layout": "post", 
+    "tags": "mobile", 
+    "title": "Setup Disguise", 
+    "version": 1, 
+    "published": "true", 
+    "action": [
+        {
+            "link": "setup-disguise-test-open", 
+            "title": "Learn"
+        }
+    ], 
+    "type": "simple", 
+    "slug": "setup-disguise", 
+    "categories": "mobile"
+}

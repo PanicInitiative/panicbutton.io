@@ -1,16 +1,16 @@
 version: 7
 layout: post
-lang: pt
+lang: en
 slug: "settings-contacts"
 type: "interactive"
-title: "Configurar Contatos"
+title: "Setup contacts"
 published: true
 categories: "mobile"
 tags: "mobile"
-introduction: Estas são as pessoas que vão receber o seu alerta.
-warning: Eles precisam te conhecer pessoalmente, e serem capazes de responder rapidamente.
+introduction: These people will receive the alert.
+warning: They should know you personally and be able to respond fast.
 component: contacts
 action:
-  - title: "Salvar"
+  - title: "Save"
     link: "home-ready"
-    confirmation: "Contatos salvos"
+    confirmation: "Contacts saved"

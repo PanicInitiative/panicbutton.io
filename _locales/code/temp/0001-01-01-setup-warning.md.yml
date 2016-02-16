@@ -1,12 +1,12 @@
 version: 1
 layout: post
-lang: pt
+lang: en
 slug: "setup-warning"
 type: "warning"
-title: "Advertência"
+title: "Warning"
 published: "true"
 categories: "mobile"
 tags: "mobile"
 action: 
-  - title: "Começa"
+  - title: "Get started"
     link: "setup-contacts"

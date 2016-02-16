@@ -1,2 +1,2 @@
 
-O Botão de Pânico está enviando alertas. Clique Parar Alertas para cancelar o envio de mensagem. 
+Panic Button is currently sending alert messages. Click Stop Alerting to cancel messages. 

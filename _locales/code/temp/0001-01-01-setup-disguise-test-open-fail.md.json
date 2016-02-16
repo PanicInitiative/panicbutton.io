@@ -1,5 +1,5 @@
 {
-  "0001-01-01-setup-disguise-test-open-fail.md-title": "Configurar o Disfarce",
-  "0001-01-01-setup-disguise-test-open-fail.md-action-setup-disguise-test-open": "Tente Novamente",
-  "0001-01-01-setup-disguise-test-open-fail.md-content": "\nParece que você não conseguiu abrir o app a partir do disfarce de calculadora.\n\nLembre-se: o ícone do aplicativo é uma calculadora quando ele está disfarçado.\n"
+  "0001-01-01-setup-disguise-test-open-fail.md---title": "Setup the Disguise",
+  "0001-01-01-setup-disguise-test-open-fail.md---action---setup-disguise-test-open": "Try Again",
+  "0001-01-01-setup-disguise-test-open-fail.md---content": "\nIt looks like you weren't successful at opening the app from the calculator disguise.\n\nRemember: The application icon is a calculator when it is disguised.\n"
 }

@@ -1,0 +1,21 @@
+{
+    "lang": "en", 
+    "layout": "post", 
+    "tags": "mobile", 
+    "introduction": "This is the message that will be sent with your location.", 
+    "type": "interactive", 
+    "title": "Setup alert message", 
+    "component": "message", 
+    "version": 7, 
+    "published": true, 
+    "action": [
+        {
+            "confirmation": "Message saved", 
+            "link": "home-ready", 
+            "title": "Save"
+        }
+    ], 
+    "warning": "Create a plan so your contacts know what to do when they receive this", 
+    "slug": "settings-message", 
+    "categories": "mobile"
+}

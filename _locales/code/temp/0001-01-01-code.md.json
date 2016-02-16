@@ -1,6 +1,5 @@
 {
-  "0001-01-01-code.md-title": "Código PIN",
-  "0001-01-01-code.md-fail": "Se esquecer o seu código PIN, desinstale o aplicativo nas configurações do seu telefone e, em seguida, reinstale.",
-  "0001-01-01-code.md-action-home-ready": "Prosseguir",
-  "0001-01-01-code.md-content": "\n"
+  "0001-01-01-code.md---title": "Code",
+  "0001-01-01-code.md---fail": "If you have forgotten your pin number, uninstall the application from your phone settings and then reinstall it.",
+  "0001-01-01-code.md---action---home-ready": "Go"
 }

@@ -1,12 +1,12 @@
 version: 1
 layout: post
-lang: pt
+lang: en
 slug: "setup-disguise"
 type: "simple"
-title: "Configurar o Disfarce"
+title: "Setup Disguise"
 published: "true"
 categories: "mobile"
 tags: "mobile"
 action: 
-  - title: "Aprender"
+  - title: "Learn"
     link: "setup-disguise-test-open"

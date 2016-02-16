@@ -1,14 +1,14 @@
 {
-  "lang": "pt",
+  "lang": "en",
   "layout": "post",
-  "title": "Advert\u00eancia",
+  "title": "Warning",
   "tags": "mobile",
   "version": 1,
   "published": "true",
   "action": [
     {
       "link": "setup-contacts",
-      "title": "Come\u00e7a"
+      "title": "Get started"
     }
   ],
   "type": "warning",

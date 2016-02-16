@@ -1,0 +1,21 @@
+{
+    "lang": "en", 
+    "layout": "post", 
+    "tags": "mobile", 
+    "introduction": "These people will receive the alert.", 
+    "type": "interactive", 
+    "title": "Setup contacts", 
+    "component": "contacts", 
+    "version": 7, 
+    "published": true, 
+    "action": [
+        {
+            "confirmation": "Contacts saved", 
+            "link": "home-ready", 
+            "title": "Save"
+        }
+    ], 
+    "warning": "They should know you personally and be able to respond fast.", 
+    "slug": "settings-contacts", 
+    "categories": "mobile"
+}

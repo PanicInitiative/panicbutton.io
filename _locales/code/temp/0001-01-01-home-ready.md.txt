@@ -1,2 +1,2 @@
 
-O Botão de Pânico está configurado e pronto para ser usado. Clique Disfarce para sair e esconder o aplicativo.
+Panic Button is set-up and ready. Click Disguise to exit and hide the application.

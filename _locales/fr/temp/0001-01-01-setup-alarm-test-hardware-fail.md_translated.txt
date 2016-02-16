@@ -1,0 +1,3 @@
+It looks like you didn't succeed in triggering the alert using the phone's power button.
+
+Remember: repeatedly press a button on the calculator fast until you feel a vibration.

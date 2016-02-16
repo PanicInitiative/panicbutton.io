@@ -1,22 +1,22 @@
 {
-  "lang": "pt",
+  "lang": "en",
   "layout": "post",
-  "title": "Lista de Controle",
+  "title": "Checklist",
   "checklist": [
     {
-      "title": "Revisar o plano de seguran\u00e7a e atualizar os contatos regularmente"
+      "title": "Review security plan and update contacts regularly"
     },
     {
-      "title": "Testar o alerta para garantir que est\u00e1 funcionando"
+      "title": "Test the alert to ensure it is working"
     },
     {
-      "title": "Verificar se tem cr\u00e9dito suficiente no telefone"
+      "title": "Ensure sufficient credit on the phone"
     },
     {
-      "title": "Ativar GPS (se quiser habilitar o rastreamento de localiza\u00e7\u00e3o)"
+      "title": "Activate GPS (if you want to enable location tracking)"
     },
     {
-      "title": "Carregar completamente a bateria do telefone"
+      "title": "Charge phone battery to full"
     }
   ],
   "tags": "mobile",
@@ -25,12 +25,12 @@
   "action": [
     {
       "link": "close",
-      "title": "Disfarce agora"
+      "title": "Disguise Now"
     },
     {
       "status": "disabled",
       "link": "home-ready",
-      "title": "Cancelar"
+      "title": "Cancel"
     }
   ],
   "type": "modal",

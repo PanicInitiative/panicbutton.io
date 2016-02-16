@@ -1,12 +1,12 @@
 version: 1
 layout: post
-lang: pt
+lang: en
 slug: "setup-disguise-test-success"
 type: "simple"
-title: "Muito Bem!"
+title: "Well done"
 published: "true"
 categories: "mobile"
 tags: "mobile"
 action: 
-  - title: "Concluir"
+  - title: "Finish"
     link: "home-ready"

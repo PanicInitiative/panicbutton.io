@@ -1,14 +1,14 @@
 {
-  "lang": "pt",
+  "lang": "en",
   "layout": "post",
-  "title": "Muito Bem!",
+  "title": "Well done",
   "tags": "mobile",
   "version": 1,
   "published": "true",
   "action": [
     {
       "link": "home-ready",
-      "title": "Concluir"
+      "title": "Finish"
     }
   ],
   "type": "simple",

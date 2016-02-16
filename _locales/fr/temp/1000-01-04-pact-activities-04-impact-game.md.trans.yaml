@@ -1,0 +1,17 @@
+lang: en
+numDash: '21.3,2,21.3,2,21.3,2,21.3,999'
+layout: pact_post
+remember: 'Everyone needs to have Panic Button and credit on their phones.'
+extra: null
+cardNum: 4
+shortLink: null
+downloadLink: media/pdf/04_imPACT.pdf
+materials: 'Game cards, props if needed for trigger actions and Key Figures'
+methodology: 'Role-playing game where teams need to set up, set off and respond to the Panic Button.'
+version: 1
+goals: 'Simulate the use of the Panic Button and responses by PACT members.'
+published: true
+title: imPACT
+slug: 04-impact-game
+categories: pact-activities
+timeSpan: '2 to 4 hours, normally played over dinner'

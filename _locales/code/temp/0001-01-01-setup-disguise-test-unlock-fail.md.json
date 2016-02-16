@@ -1,5 +1,5 @@
 {
-  "0001-01-01-setup-disguise-test-unlock-fail.md-title": "Configurar o Disfarce",
-  "0001-01-01-setup-disguise-test-unlock-fail.md-action-setup-disguise-test-open": "Tente Novamente",
-  "0001-01-01-setup-disguise-test-unlock-fail.md-content": "\nParece que você não conseguiu abrir o app a partir do disfarce de calculadora\n\nLembre-se: Mantenha o botão pressionado e aparecerá o pedido de digitar seu código PIN\n"
+  "0001-01-01-setup-disguise-test-unlock-fail.md---title": "Setup Disguise",
+  "0001-01-01-setup-disguise-test-unlock-fail.md---action---setup-disguise-test-open": "Try Again",
+  "0001-01-01-setup-disguise-test-unlock-fail.md---content": "\nIt looks like you weren't successful at opening the app from the Caculate! disguise. \n\nRemember: Hold down any button and you will be asked to enter your pincode. \n"
 }

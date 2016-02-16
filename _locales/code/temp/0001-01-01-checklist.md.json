@@ -1,11 +1,11 @@
 {
-  "0001-01-01-checklist.md-title": "Lista de Controle",
-  "0001-01-01-checklist.md-action-close": "Disfarce agora",
-  "0001-01-01-checklist.md-action-home-ready": "Cancelar",
-  "0001-01-01-checklist.md-checklist-0": "Revisar o plano de segurança e atualizar os contatos regularmente",
-  "0001-01-01-checklist.md-checklist-1": "Testar o alerta para garantir que está funcionando",
-  "0001-01-01-checklist.md-checklist-2": "Verificar se tem crédito suficiente no telefone",
-  "0001-01-01-checklist.md-checklist-3": "Ativar GPS (se quiser habilitar o rastreamento de localização)",
-  "0001-01-01-checklist.md-checklist-4": "Carregar completamente a bateria do telefone",
-  "0001-01-01-checklist.md-content": "\nMais [dicas de segurança... ](#help-charge)\n"
+  "0001-01-01-checklist.md---title": "Checklist",
+  "0001-01-01-checklist.md---action---close": "Disguise Now",
+  "0001-01-01-checklist.md---action---home-ready": "Cancel",
+  "0001-01-01-checklist.md---checklist---0": "Review security plan and update contacts regularly",
+  "0001-01-01-checklist.md---checklist---1": "Test the alert to ensure it is working",
+  "0001-01-01-checklist.md---checklist---2": "Ensure sufficient credit on the phone",
+  "0001-01-01-checklist.md---checklist---3": "Activate GPS (if you want to enable location tracking)",
+  "0001-01-01-checklist.md---checklist---4": "Charge phone battery to full",
+  "0001-01-01-checklist.md---content": "\nMore [security tips...](#help_risk)\n"
 }

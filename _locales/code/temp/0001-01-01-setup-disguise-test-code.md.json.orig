@@ -1,11 +1,11 @@
 {
-  "lang": "pt",
+  "lang": "en",
   "layout": "post",
   "success": {
     "link": "setup-disguise-test-success"
   },
-  "title": "Testar o Disfarce",
-  "introduction": "Muito Bem! Agora digite seu c\u00f3digo PIN para acessar as configura\u00e7\u00f5es.",
+  "title": "Test Disguise",
+  "introduction": "Well done! Now enter your pincode to access settings.",
   "tags": "mobile",
   "component": "disguise-test-code",
   "action": [

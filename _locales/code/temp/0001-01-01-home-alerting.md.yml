@@ -1,16 +1,16 @@
 version: 2
 layout: post
-lang: pt
+lang: en
 slug: "home-alerting"
 type: "simple"
-title: "Botão de Pânico"
+title: "Panic Button"
 published: true
 categories: "mobile"
 tags: "mobile"
 status:
-  - title: "Enviando alertas"
+  - title: "Alerting"
     color: red
     link: help-alerting
 action:
-  - title: "Parar Alertas"
+  - title: "Stop Alerting"
     link: "home-ready"

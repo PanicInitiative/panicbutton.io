@@ -1,1 +1,21 @@
-null
+{
+  "lang": "en",
+  "layout": "post",
+  "version": 7,
+  "title": "Create a pincode",
+  "introduction": "This pin code is needed to access the alert settings and to turn the alert messages off. It is not needed to alert contacts in an emergency.",
+  "tags": "mobile",
+  "component": "code",
+  "warning": "Remember your pincode! If you forget it you will need to reinstall the app.",
+  "published": true,
+  "action": [
+    {
+      "confirmation": "Pincode saved",
+      "link": "home-ready",
+      "title": "Save"
+    }
+  ],
+  "type": "interactive",
+  "slug": "settings-code",
+  "categories": "mobile"
+}

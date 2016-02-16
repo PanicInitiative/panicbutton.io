@@ -1,11 +1,11 @@
 {
-  "lang": "pt",
+  "lang": "en",
   "layout": "post",
   "success": {
     "link": "setup-disguise-test-code"
   },
-  "title": "Testar o Disfarce",
-  "introduction": "Experimente agora! Mantenha pressionado qualquer bot\u00e3o na calculadora",
+  "title": "Test Disguise",
+  "introduction": "Try now! Hold down any button on the calculator.",
   "tags": "mobile",
   "component": "disguise-test-unlock",
   "version": 7,

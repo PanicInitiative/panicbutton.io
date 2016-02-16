@@ -1,1 +1,5 @@
-{}
+{
+  "0001-01-01-settings-code.md---title": "Create a pincode",
+  "0001-01-01-settings-code.md---introduction": "This pin code is needed to access the alert settings and to turn the alert messages off. It is not needed to alert contacts in an emergency.",
+  "0001-01-01-settings-code.md---action---home-ready": "Save"
+}

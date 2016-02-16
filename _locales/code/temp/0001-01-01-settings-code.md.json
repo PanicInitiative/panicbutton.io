@@ -1,3 +1,5 @@
 {
-  "0001-01-01-settings-code.md-content": "version: 7\nlayout: post\nlang: pt\nslug: \"settings-code\"\ntype: \"interactive\"\ntitle: \"Criar Um Código PIN\"\npublished: true\ncategories: \"mobile\"\ntags: \"mobile\"\nintroduction: Este código PIN é necessário para acessar as configurações do aplicativo. Ele não é necessário para alertar os contatos em caso de emergência.\nwarning: Lembre-se do seu PIN! Se esquecer, terá que reinstalar o aplicativo.\n\ncomponent: code\naction:\n  - title: \"Salvar\"\n    link: \"home-ready\"\n    confirmation: \"Código PIN salvo\"\n"
+  "0001-01-01-settings-code.md---title": "Create a pincode",
+  "0001-01-01-settings-code.md---introduction": "This pin code is needed to access the alert settings and to turn the alert messages off. It is not needed to alert contacts in an emergency.",
+  "0001-01-01-settings-code.md---action---home-ready": "Save"
 }

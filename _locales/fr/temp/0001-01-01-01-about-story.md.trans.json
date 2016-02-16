@@ -1,0 +1,15 @@
+{
+    "lang": "en", 
+    "slug": "", 
+    "layout": "post", 
+    "title": "Untitled", 
+    "image": {
+        "src": "about-img-1.png", 
+        "caption": "Activists brainstorm and prioritise some of the potential features for \u2018Panic Button\u2019 in an open design workshop in Nairobi. \u00a9 Amnesty International"
+    }, 
+    "module": "module_section_image", 
+    "heading": "The **Story** behind PANIC BUTTON", 
+    "published": true, 
+    "section_order": 1, 
+    "categories": "about"
+}

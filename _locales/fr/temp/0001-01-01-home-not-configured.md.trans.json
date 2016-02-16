@@ -1,0 +1,27 @@
+{
+    "lang": "en", 
+    "layout": "post", 
+    "tags": "mobile", 
+    "items": [
+        {
+            "link": "setup-about", 
+            "title": "About"
+        }, 
+        {
+            "link": "setup-language", 
+            "title": "Language Settings"
+        }
+    ], 
+    "title": "Panic Button", 
+    "version": 1, 
+    "published": true, 
+    "action": [
+        {
+            "link": "setup-warning", 
+            "title": "Set-Up"
+        }
+    ], 
+    "type": "simple", 
+    "slug": "home-not-configured", 
+    "categories": "mobile"
+}

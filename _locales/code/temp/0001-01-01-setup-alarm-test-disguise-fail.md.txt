@@ -1,4 +1,4 @@
 
-Parece que você não conseguiu acionar o alerta.
+It looks like you didn't succeed in triggering the alert.
 
-Lembre-se: pressione repetidamente um botão na calculadora rápida até sentir uma vibração.
+Remember: repeatedly press a button on the calculator fast until you feel a vibration.

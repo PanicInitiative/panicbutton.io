@@ -1,0 +1,16 @@
+lang: en
+numDash: '21.3,2,21.3,2,21.3,2,21.3,2,21.3,2,21.3,999'
+layout: pact_post
+remember: 'Participants will have varying levels of confidence with technology and  with using a smartphone. Give them lots of chances to  familiarize themselves with the interface and functionality.'
+shortLink: null
+cardNum: 6
+title: 'App setup and practice'
+downloadLink: media/pdf/06_App_Setup_and_Practice.pdf
+materials: 'Android phones, post-it notes, markers, projector (if available)'
+methodology: 'Plenary and small group work'
+version: 1
+goals: 'To familiarise participants  with the interface and functionality of the app'
+published: true
+slug: 01-app-setup-and-practice
+categories: pact-app
+timeSpan: '2 hours and follow-up'

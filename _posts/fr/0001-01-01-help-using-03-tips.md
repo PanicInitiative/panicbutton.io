@@ -1,0 +1,20 @@
+---
+lang: en
+layout: post
+title: 'Preparing for Panic'
+module: ""
+slug: help_using_tips
+version: 1
+published: true
+toc: ""
+heading: 'Tips for testing'
+section_order: 3
+categories: help_using
+
+---
+
+It might sound obvious but it's important that you learn and practise how to trigger the alert. When you need to use the app, it will be in a ‘panic’ moment and you may have very little time to react. The more that you practice triggering the alert, the more likely you will be able to do it in an emergency. 
+
+We recomend doing a dry run of the alert with your contacts. You could try this as a game to practice triggering the alert at unexpected moments. For example, you could agree that for one day every time you see a red car you will trigger the alert as fast as possible. You can then time how long it takes for your contacts to see the alert and respond. 
+
+At the end of the day, meet with your contacts and debrief about what worked and what could be improved to ensure everyone is prepared to act in a real emergency.

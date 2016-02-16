@@ -8,10 +8,9 @@ import yaml2json as f
 
 #TODO : move keys listed in pre-tx-push.jq into config.py file and make pre-tx-push.jq key selection dynamic
 
-print config.keys
-print config.subkeys
+#TODO: comment file
 
-rootdir = '../../_posts'
+
 
 def getBoundary(): 
 	temp = open(os.path.join(subdir, file), "r")
@@ -34,8 +33,6 @@ def getText(h):
 		if k > h:
 			if len(v)>0:
 				text.append(v)
-
-
 	abc = "".join(text)
 	temp.close()
 	return abc
@@ -67,9 +64,9 @@ def createYAML():
 	with open(yamlf, 'w') as f: 
 		f.write(yaml)
 	f.close()
-	return yamlf
 
-def yamlJSON(yamlf):
+def yamlJSON():
+	yamlf = "temp/"+file+".yml"
 	s = f.yaml2json(yamlf)	
 	jsonf = "temp/"+file+".json.orig"
 	with open(jsonf,'w') as n:
@@ -83,18 +80,21 @@ def yamlFiltered():
 
 def textToJSON():
 	md = "temp/"+file+".txt"
-	if os.stat(md).st_size != 0:
-		os.system('''jq '$json[0] * { ("'''+file+'''-content"): . }' --arg file ''' + file + ''' --slurpfile json temp/'''+ file + '''.json.tmp -sR '''+md+''' > temp/'''+ file +'''.json''')
+	#prevent non-significant content value -- only take content > 3 chars
+	if os.stat(md).st_size > 3:
+		os.system('''jq '$json[0] * { ("'''+file+'''---content"): . }' --arg file ''' + file + ''' --slurpfile json temp/'''+ file + '''.json.tmp -sR '''+md+''' > temp/'''+ file +'''.json''')
 	else:
 		os.system("cp temp/"+file+".json.tmp temp/"+file+".json")
 
 def jsonCompile():
 	os.system("jq 'add' -s temp/*.json > tx_mdtoJSON.en.json")
 
+
+
 for subdir, dirs, files in os.walk(rootdir): 
 	for file in files: 
 
-		#stupid macbook
+		#macbook :/ 
 		if file != ".DS_Store":
 			
 			#First create .md.txt file with all markdown
@@ -102,11 +102,11 @@ for subdir, dirs, files in os.walk(rootdir):
 			print "Writing markdown text to .txt for file %s" % (file)
 
 			# then create yaml files for front-matter
-			yaml = createYAML()
+			createYAML()
 			print "Writing YAML to .yml for file %s" % (file)
 
 			#convert yaml to full json
-			yamlJSON(yaml)
+			yamlJSON()
 			print "Writing JSON of YAML to .json.orig for file %s" % (file)
 
 			#convert yaml to filtered json

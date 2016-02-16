@@ -1,13 +1,13 @@
 version: 7
 layout: post
-lang: pt
+lang: en
 slug: "setup-disguise-test-unlock"
 type: "interactive"
-title: "Testar o Disfarce"
+title: "Test Disguise"
 published: "true"
 categories: "mobile"
 tags: "mobile"
-introduction: "Experimente agora! Mantenha pressionado qualquer botão na calculadora"
+introduction: "Try now! Hold down any button on the calculator."
 component: disguise-test-unlock
 timers:
   info: "0"

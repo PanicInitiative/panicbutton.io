@@ -1,14 +1,14 @@
 {
-  "lang": "pt",
+  "lang": "en",
   "layout": "post",
-  "title": "Muito Bem!",
+  "title": "Well done!",
   "tags": "mobile",
   "version": 1,
   "published": "true",
   "action": [
     {
       "link": "setup-alarm-disguise",
-      "title": "Pr\u00f3ximo"
+      "title": "Next"
     }
   ],
   "type": "simple",

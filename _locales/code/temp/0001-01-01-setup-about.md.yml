@@ -1,9 +1,9 @@
 version: 2
 layout: post
-lang: pt
+lang: en
 slug: "setup-about"
 type: "simple"
-title: "Sobre"
+title: "About"
 published: "true"
 categories: "mobile"
 tags: "mobile"

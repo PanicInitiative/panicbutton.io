@@ -1,4 +1,4 @@
 
-Parece que você não conseguiu abrir o app a partir do disfarce de calculadora
+It looks like you weren't successful at opening the app from the calculator disguise.
 
-Lembre-se: Digite o código PIN que você escolheu nos primeiros passos da configuração. Se você não lembrar do seu código, desinstale o aplicativo e reinstale.
+Remember: Enter the pin code you have chosen in the first steps of the configuration. If you cannot remember your pin, please uninstall the application and reinstall it. 

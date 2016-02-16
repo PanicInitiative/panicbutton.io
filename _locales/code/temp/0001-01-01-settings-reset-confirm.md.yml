@@ -1,12 +1,12 @@
 version: 4
 layout: post
-lang: pt
+lang: en
 slug: "settings-reset-confirm"
 type: "warning"
-title: "Confirme a Reinstalação"
+title: "Confirm the re-installation"
 published: true
 categories: "mobile"
 tags: "mobile"
 action:
-  - title: "Confirmar"
+  - title: "Confirm"
     link: "home-not-configured"

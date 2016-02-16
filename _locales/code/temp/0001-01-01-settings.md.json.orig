@@ -1,31 +1,31 @@
 {
-  "lang": "pt",
+  "lang": "en",
   "layout": "post",
-  "title": "Configura\u00e7\u00f5es",
+  "title": "Settings",
   "items": [
     {
       "link": "settings-language",
-      "title": "Configura\u00e7\u00f5es de Idioma"
+      "title": "Language Settings"
     },
     {
       "link": "settings-message",
-      "title": "Configura\u00e7\u00f5es de Mensagens"
+      "title": "Message Settings"
     },
     {
       "link": "settings-contacts",
-      "title": "Configura\u00e7\u00f5es dos Contatos"
+      "title": "Contact Settings"
     },
     {
       "link": "settings-alert",
-      "title": "Configura\u00e7\u00f5es de Alerta"
+      "title": "Alert Settings"
     },
     {
       "link": "settings-code",
-      "title": "Configura\u00e7\u00f5es da Senha"
+      "title": "Code Settings"
     },
     {
       "link": "settings-reset-confirm",
-      "title": "Reiniciar a Instala\u00e7\u00e3o"
+      "title": "Restart the Installation"
     }
   ],
   "tags": "mobile",

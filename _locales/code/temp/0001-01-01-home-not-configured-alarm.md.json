@@ -1,11 +1,11 @@
 {
-  "0001-01-01-home-not-configured-alarm.md-title": "Botão de Pânico",
-  "0001-01-01-home-not-configured-alarm.md-action-": "Configurações Básicas",
-  "0001-01-01-home-not-configured-alarm.md-action-setup-alarm": "Configure o Alerta",
-  "0001-01-01-home-not-configured-alarm.md-action-setup-disguise": "Configure o Disfarce",
-  "0001-01-01-home-not-configured-alarm.md-status-help-not-configured": "Instalação não concluída",
-  "0001-01-01-home-not-configured-alarm.md-items-setup-about": "Sobre",
-  "0001-01-01-home-not-configured-alarm.md-items-help": "Ajuda",
-  "0001-01-01-home-not-configured-alarm.md-items-setup-language": "Configurações de Idioma",
-  "0001-01-01-home-not-configured-alarm.md-content": "\nO Botão de Pânico só poderá ser usado depois de estar totalmente configurado\n"
+  "0001-01-01-home-not-configured-alarm.md---title": "Panic Button",
+  "0001-01-01-home-not-configured-alarm.md---action---checked": "Basic Settings",
+  "0001-01-01-home-not-configured-alarm.md---action---setup-alarm": "Setup Alarm",
+  "0001-01-01-home-not-configured-alarm.md---action---setup-disguise": "Setup Disguise",
+  "0001-01-01-home-not-configured-alarm.md---status---help-not-configured": "Setup not complete",
+  "0001-01-01-home-not-configured-alarm.md---items---setup-about": "About",
+  "0001-01-01-home-not-configured-alarm.md---items---help": "Help",
+  "0001-01-01-home-not-configured-alarm.md---items---setup-language": "Language Settings",
+  "0001-01-01-home-not-configured-alarm.md---content": "\nYou cannot use Panic Button until it is fully setup.\n"
 }

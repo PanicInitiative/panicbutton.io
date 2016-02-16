@@ -1,12 +1,12 @@
 version: 1
 layout: post
-lang: pt
+lang: en
 slug: "setup-alarm"
 type: "simple"
-title: "Configurar Alertas"
+title: "Setup Alert"
 published: "true"
 categories: "mobile"
 tags: "mobile"
 action: 
-  - title: "Aprender"
+  - title: "Learn"
     link: "setup-alarm-test-hardware"

@@ -1,14 +1,14 @@
 {
-  "lang": "pt",
+  "lang": "en",
   "layout": "post",
-  "title": "Configurar Alertas",
+  "title": "Setup Alert",
   "tags": "mobile",
   "version": 1,
   "published": "true",
   "action": [
     {
       "link": "setup-alarm-test-disguise",
-      "title": "Tentar novamente"
+      "title": "Try Again"
     }
   ],
   "type": "simple",

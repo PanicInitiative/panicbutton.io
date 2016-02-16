@@ -1,14 +1,14 @@
 {
-  "lang": "pt",
+  "lang": "en",
   "layout": "post",
-  "title": "Confirme a Reinstala\u00e7\u00e3o",
+  "title": "Confirm the re-installation",
   "tags": "mobile",
   "version": 4,
   "published": true,
   "action": [
     {
       "link": "home-not-configured",
-      "title": "Confirmar"
+      "title": "Confirm"
     }
   ],
   "type": "warning",

@@ -1,23 +1,23 @@
 version: 1
 layout: post
-lang: pt
+lang: en
 slug: "home-ready"
 type: "simple"
-title: "Botão de Pânico"
+title: "Panic Button"
 published: true
 categories: "mobile"
 tags: "mobile"
 status:
-  - title: "Pronto"
+  - title: "Ready"
     color: green
     link: help-ready
 action:
-  - title: "Disfarce"
+  - title: "Disguise"
     link: "checklist"
 items:
-  -  title: "Configurações"
+  -  title: "Settings"
      link: "settings"
-  -  title: "Sobre"
+  -  title: "About"
      link: "setup-about"
-  -  title: "Ajuda"
+  -  title: "Help"
      link: "help"

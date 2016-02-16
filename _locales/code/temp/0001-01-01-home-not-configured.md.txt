@@ -1,2 +1,2 @@
 
-![Illustration](/media/mobile/home-not-configured-small.png) O Botão de Pânico é um aplicativo Android que alerta secretamente seus contatos quando você está em apuros. O aplicativo fica escondido em seu telefone, parecendo uma simples calculadora.
+![Illustration]({{ site.JB.BASE_PATH }}/media/mobile/home-not-configured-small.png) Panic Button is an Android app that secretly alerts your contacts when you are in trouble. The app stays hidden on your phone by looking like a simple calculator.

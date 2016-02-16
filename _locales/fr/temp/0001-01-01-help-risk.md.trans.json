@@ -1,0 +1,16 @@
+{
+    "lang": "en", 
+    "layout": "page_toc", 
+    "parent": {
+        "link": "help.html", 
+        "title": "Help"
+    }, 
+    "title": "Managing Your Risks", 
+    "slug": "help_risk", 
+    "version": 1, 
+    "published": true, 
+    "toc": "help_risk", 
+    "heading": "Managing Your Risks", 
+    "section_order": 1, 
+    "categories": "help"
+}

@@ -1,15 +1,15 @@
 version: 1
 layout: post
-lang: pt
+lang: en
 slug: "setup-contacts"
 type: "interactive"
-title: "Configurar Contatos"
+title: "Setup contacts"
 published: true
 categories: "mobile"
 tags: "mobile"
-introduction: Estas são as pessoas que vão receber o seu alerta.
-warning: Eles precisam conhecer você pessoalmente, e conseguir responder rapidamente.
+introduction: These people will receive the alert.
+warning: They should know you personally and be able to respond fast.
 component: contacts
 action:
-  - title: "Próximo"
+  - title: "Next"
     link: "setup-message"

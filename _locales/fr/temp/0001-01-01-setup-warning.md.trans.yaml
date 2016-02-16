@@ -1,0 +1,13 @@
+lang: en
+layout: post
+tags: mobile
+title: Warning
+version: 1
+published: 'true'
+action:
+    -
+        link: setup-contacts
+        title: 'Get started'
+type: warning
+slug: setup-warning
+categories: mobile

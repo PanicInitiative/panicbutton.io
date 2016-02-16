@@ -1,15 +1,15 @@
 version: 1
 layout: post
-lang: pt
+lang: en
 slug: "code"
 type: "interactive"
-title: "Código PIN"
+title: "Code"
 published: "true"
 categories: "mobile"
 tags: "mobile"
 component: code
 action: 
-  - title: "Prosseguir"
+  - title: "Go"
     link: "home-ready"
-fail: "Se esquecer o seu código PIN, desinstale o aplicativo nas configurações do seu telefone e, em seguida, reinstale."
+fail: "If you have forgotten your pin number, uninstall the application from your phone settings and then reinstall it."
 

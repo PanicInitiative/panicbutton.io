@@ -1,0 +1,20 @@
+---
+lang: en
+layout: post
+title: Installation
+module: ""
+slug: help_using_installation
+version: 2
+published: true
+toc: ""
+heading: Installation
+section_order: 1
+categories: help_using
+
+---
+
+You can download Panic Button onto your mobile phone [here](https://panicbutton.io/#download). Installation should begin automatically; simply follow the instructions on your phone. 
+
+Once the app has been downloaded, you can find it in your Application list under the name Panic Button (look for the PB icon). After you have fully set-up the app this icon will change to a disguised version. Look for the Calculate! icon among your apps. 
+
+If you are having difficulties installing the app, please see the [FAQ](https://panicbutton.io/help/help-using.html#help_using_faq) or [contact us directly](mailto:support@panicbutton.io) for support.

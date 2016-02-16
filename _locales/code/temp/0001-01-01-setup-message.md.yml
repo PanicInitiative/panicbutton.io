@@ -1,15 +1,15 @@
 version: 1
 layout: post
-lang: pt
+lang: en
 slug: "setup-message"
 type: "interactive"
-title: "Configuração de Mensagem de Alerta"
+title: "Setup alert message"
 published: true
 categories: "mobile"
 tags: "mobile"
-introduction: Esta é a mensagem que será enviada com a sua localização
-warning: Combine um plano com seus contatos para que saibam o que fazer quando receberem isto
+introduction: This is the message that will be sent with your location. 
+warning: Create a plan so your contacts know what to do when they receive this
 component: message
 action:
-  - title: "Próximo"
+  - title: "Next"
     link: "setup-code"

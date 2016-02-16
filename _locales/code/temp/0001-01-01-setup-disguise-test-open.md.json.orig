@@ -1,11 +1,11 @@
 {
-  "lang": "pt",
+  "lang": "en",
   "layout": "post",
   "success": {
     "link": "setup-disguise-test-unlock"
   },
-  "title": "Testar o Disfarce",
-  "introduction": "Experimente agora ! Abra o aplicativo clicando no icone  ** Calculate!** ",
+  "title": "Test Disguise",
+  "introduction": "Try now! Open the app by clicking on the Calculate! icon.",
   "tags": "mobile",
   "component": "disguise-test-open",
   "version": 1,

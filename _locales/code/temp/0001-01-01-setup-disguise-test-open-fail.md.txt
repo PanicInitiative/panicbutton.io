@@ -1,4 +1,4 @@
 
-Parece que você não conseguiu abrir o app a partir do disfarce de calculadora.
+It looks like you weren't successful at opening the app from the calculator disguise.
 
-Lembre-se: o ícone do aplicativo é uma calculadora quando ele está disfarçado.
+Remember: The application icon is a calculator when it is disguised.

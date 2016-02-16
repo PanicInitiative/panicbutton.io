@@ -1,0 +1,28 @@
+lang: en
+layout: post
+tags: mobile
+items:
+    -
+        link: settings-language
+        title: 'Language Settings'
+    -
+        link: settings-message
+        title: 'Message Settings'
+    -
+        link: settings-contacts
+        title: 'Contact Settings'
+    -
+        link: settings-alert
+        title: 'Alert Settings'
+    -
+        link: settings-code
+        title: 'Code Settings'
+    -
+        link: settings-reset-confirm
+        title: 'Restart the Installation'
+title: Settings
+version: 4
+published: true
+type: simple
+slug: settings
+categories: mobile
