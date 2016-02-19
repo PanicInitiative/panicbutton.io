@@ -1,5 +1,6 @@
 {
+  "0001-01-01-setup-code.md---action---home-not-configured-alarm---title": "Next",
   "0001-01-01-setup-code.md---title": "Create a pincode",
   "0001-01-01-setup-code.md---introduction": "This pin code is needed to access the alert settings and to turn the alert messages off. It is not needed to alert contacts in an emergency.",
-  "0001-01-01-setup-code.md---action---home-not-configured-alarm": "Next"
+  "0001-01-01-setup-code.md---warning": "Remember your pincode! If you forget it you will need to reinstall the app."
 }

@@ -1,5 +1,7 @@
 {
+  "0001-01-01-settings-alert.md---action---home-ready---confirmation": "New alert frequency saved",
+  "0001-01-01-settings-alert.md---action---home-ready---title": "Save",
   "0001-01-01-settings-alert.md---title": "Alert settings",
   "0001-01-01-settings-alert.md---introduction": "Setup the frequency.",
-  "0001-01-01-settings-alert.md---action---home-ready": "Save"
+  "0001-01-01-settings-alert.md---warning": "Be careful about your battery! Sending alerts too often might drain your battery."
 }

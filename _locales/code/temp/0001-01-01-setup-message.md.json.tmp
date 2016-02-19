@@ -1,5 +1,6 @@
 {
+  "0001-01-01-setup-message.md---action---setup-code---title": "Next",
   "0001-01-01-setup-message.md---title": "Setup alert message",
   "0001-01-01-setup-message.md---introduction": "This is the message that will be sent with your location.",
-  "0001-01-01-setup-message.md---action---setup-code": "Next"
+  "0001-01-01-setup-message.md---warning": "Create a plan so your contacts know what to do when they receive this"
 }

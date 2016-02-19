@@ -1,10 +1,10 @@
 {
-  "0001-01-01-home-not-configured-alarm.md---title": "Panic Button",
-  "0001-01-01-home-not-configured-alarm.md---action---checked": "Basic Settings",
-  "0001-01-01-home-not-configured-alarm.md---action---setup-alarm": "Setup Alarm",
-  "0001-01-01-home-not-configured-alarm.md---action---setup-disguise": "Setup Disguise",
-  "0001-01-01-home-not-configured-alarm.md---status---help-not-configured": "Setup not complete",
-  "0001-01-01-home-not-configured-alarm.md---items---setup-about": "About",
-  "0001-01-01-home-not-configured-alarm.md---items---help": "Help",
-  "0001-01-01-home-not-configured-alarm.md---items---setup-language": "Language Settings"
+  "0001-01-01-home-not-configured-alarm.md---action---checked---title": "Basic Settings",
+  "0001-01-01-home-not-configured-alarm.md---action---setup-alarm---title": "Setup Alarm",
+  "0001-01-01-home-not-configured-alarm.md---action---setup-disguise---title": "Setup Disguise",
+  "0001-01-01-home-not-configured-alarm.md---status---help-not-configured---title": "Setup not complete",
+  "0001-01-01-home-not-configured-alarm.md---items---setup-about---title": "About",
+  "0001-01-01-home-not-configured-alarm.md---items---help---title": "Help",
+  "0001-01-01-home-not-configured-alarm.md---items---setup-language---title": "Language Settings",
+  "0001-01-01-home-not-configured-alarm.md---title": "Panic Button"
 }

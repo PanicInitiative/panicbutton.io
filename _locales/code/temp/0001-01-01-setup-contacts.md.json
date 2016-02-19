@@ -1,6 +1,7 @@
 {
+  "0001-01-01-setup-contacts.md---action---setup-message---title": "Next",
   "0001-01-01-setup-contacts.md---title": "Setup contacts",
   "0001-01-01-setup-contacts.md---introduction": "These people will receive the alert.",
-  "0001-01-01-setup-contacts.md---action---setup-message": "Next",
+  "0001-01-01-setup-contacts.md---warning": "They should know you personally and be able to respond fast.",
   "0001-01-01-setup-contacts.md---content": "\nSecurity Tips\n\n - Think about who can practically assist you - there is no point someone knowing you are in trouble if they cannot help. \n - Make a plan with your chosen contacts so that they are prepared to act fast. \n - Be aware of the risks - how might your contact be put at risk? \n \n"
 }

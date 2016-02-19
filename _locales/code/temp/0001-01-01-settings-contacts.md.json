@@ -1,6 +1,8 @@
 {
+  "0001-01-01-settings-contacts.md---action---home-ready---confirmation": "Contacts saved",
+  "0001-01-01-settings-contacts.md---action---home-ready---title": "Save",
   "0001-01-01-settings-contacts.md---title": "Setup contacts",
   "0001-01-01-settings-contacts.md---introduction": "These people will receive the alert.",
-  "0001-01-01-settings-contacts.md---action---home-ready": "Save",
+  "0001-01-01-settings-contacts.md---warning": "They should know you personally and be able to respond fast.",
   "0001-01-01-settings-contacts.md---content": "\nSecurity Tips\n\n - Think about who can practically assist you  - there is no point someone knowing you are in trouble if they are not in a position to help you\n - Make a plan with your chosen contacts so that they are prepared to act fast. \n - Be aware of the risks - how might your chosen contact be put at risk? \n \n"
 }

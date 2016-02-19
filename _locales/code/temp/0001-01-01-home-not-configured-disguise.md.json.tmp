@@ -1,9 +1,9 @@
 {
-  "0001-01-01-home-not-configured-disguise.md---title": "Panic Button",
-  "0001-01-01-home-not-configured-disguise.md---action---checked": "Setup Alarm",
-  "0001-01-01-home-not-configured-disguise.md---action---setup-disguise": "Setup Disguise",
-  "0001-01-01-home-not-configured-disguise.md---status---help-not-configured": "Setup not complete",
-  "0001-01-01-home-not-configured-disguise.md---items---setup-about": "About",
-  "0001-01-01-home-not-configured-disguise.md---items---help": "Help",
-  "0001-01-01-home-not-configured-disguise.md---items---setup-language": "Language Settings"
+  "0001-01-01-home-not-configured-disguise.md---action---checked---title": "Setup Alarm",
+  "0001-01-01-home-not-configured-disguise.md---action---setup-disguise---title": "Setup Disguise",
+  "0001-01-01-home-not-configured-disguise.md---status---help-not-configured---title": "Setup not complete",
+  "0001-01-01-home-not-configured-disguise.md---items---setup-about---title": "About",
+  "0001-01-01-home-not-configured-disguise.md---items---help---title": "Help",
+  "0001-01-01-home-not-configured-disguise.md---items---setup-language---title": "Language Settings",
+  "0001-01-01-home-not-configured-disguise.md---title": "Panic Button"
 }

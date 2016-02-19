@@ -1,5 +1,7 @@
 {
+  "0001-01-01-settings-message.md---action---home-ready---confirmation": "Message saved",
+  "0001-01-01-settings-message.md---action---home-ready---title": "Save",
   "0001-01-01-settings-message.md---title": "Setup alert message",
   "0001-01-01-settings-message.md---introduction": "This is the message that will be sent with your location.",
-  "0001-01-01-settings-message.md---action---home-ready": "Save"
+  "0001-01-01-settings-message.md---warning": "Create a plan so your contacts know what to do when they receive this"
 }

@@ -1,6 +1,6 @@
 {
+  "0001-01-01-home-alerting.md---action---home-ready---title": "Stop Alerting",
+  "0001-01-01-home-alerting.md---status---help-alerting---title": "Alerting",
   "0001-01-01-home-alerting.md---title": "Panic Button",
-  "0001-01-01-home-alerting.md---action---home-ready": "Stop Alerting",
-  "0001-01-01-home-alerting.md---status---help-alerting": "Alerting",
   "0001-01-01-home-alerting.md---content": "\nPanic Button is currently sending alert messages. Click Stop Alerting to cancel messages. \n"
 }

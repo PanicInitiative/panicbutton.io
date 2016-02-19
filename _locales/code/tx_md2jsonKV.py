@@ -10,7 +10,7 @@ import yaml2json as f
 
 #TODO: comment file
 
-
+rootdir = "../../_posts"
 
 def getBoundary(): 
 	temp = open(os.path.join(subdir, file), "r")
@@ -75,7 +75,10 @@ def yamlJSON():
 
 def yamlFiltered():
 	jsonf = "temp/"+file+".json.orig"
-	os.system("cat "+jsonf+" | jq --arg file `basename "+file+"` -f pre-tx-push.jq > temp/`basename "+file+"`.json.tmp")
+	print "HERE"
+
+
+	os.system('''cat '''+jsonf+''' | jq --arg file `basename '''+file+'''` -f pre-tx-push.jq > temp/`basename '''+file+'''`.json.tmp''')
 
 
 def textToJSON():

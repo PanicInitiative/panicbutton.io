@@ -1,6 +1,6 @@
 {
-  "0001-01-01-home-not-configured.md---title": "Panic Button",
-  "0001-01-01-home-not-configured.md---action---setup-warning": "Set-Up",
-  "0001-01-01-home-not-configured.md---items---setup-about": "About",
-  "0001-01-01-home-not-configured.md---items---setup-language": "Language Settings"
+  "0001-01-01-home-not-configured.md---action---setup-warning---title": "Set-Up",
+  "0001-01-01-home-not-configured.md---items---setup-about---title": "About",
+  "0001-01-01-home-not-configured.md---items---setup-language---title": "Language Settings",
+  "0001-01-01-home-not-configured.md---title": "Panic Button"
 }
