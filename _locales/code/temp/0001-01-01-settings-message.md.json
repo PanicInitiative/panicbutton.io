@@ -1,8 +1,0 @@
-{
-  "0001-01-01-settings-message.md---action---home-ready---confirmation": "Message saved",
-  "0001-01-01-settings-message.md---action---home-ready---title": "Save",
-  "0001-01-01-settings-message.md---title": "Setup alert message",
-  "0001-01-01-settings-message.md---introduction": "This is the message that will be sent with your location.",
-  "0001-01-01-settings-message.md---warning": "Create a plan so your contacts know what to do when they receive this",
-  "0001-01-01-settings-message.md---content": "\nSecurity tips\n\n - Consider creating code words or phrases in your message that only your contacts will understand.\n - You won't have time to change a message in an emergency, so create something that will work in all situations. \n - Enable GPS tracking from your phone settings if you want your location to be included with the message  \n"
-}

@@ -1,0 +1,24 @@
+{
+  "K13-action": [
+    {
+      "K14-title": "Stop Alerting",
+      "K15-link": "home-ready"
+    }
+  ],
+  "K3-slug": "home-alerting",
+  "K4-type": "simple",
+  "K1-layout": "post",
+  "K5-title": "Panic Button",
+  "K6-published": true,
+  "K8-tags": "mobile",
+  "K2-lang": "en",
+  "K0-version": 2,
+  "K7-categories": "mobile",
+  "K9-status": [
+    {
+      "K10-title": "Alerting",
+      "K11-color": "red",
+      "K12-link": "help-alerting"
+    }
+  ]
+}

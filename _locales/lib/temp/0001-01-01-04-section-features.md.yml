@@ -1,0 +1,18 @@
+K0-layout: post
+K1-module: home_section_features
+K2-heading: "Panic Button **Features**"
+K3-published: true
+K4-categories: home_section
+K5-section_order: 4
+K6-features:
+  - K7-feature: EMERGENCY SMS
+    K8-content: Sends emergency SMS to your three trusted contacts in an emergency
+  - K9-feature: LOCATION MAP
+    K10-content: Attaches map link with location coordinates when GPS is enabled
+  - K11-feature: RAPID & DISCRETE
+    K12-content: Alerts discretely and rapidly from phone's power button
+  - K13-feature: DATA PROTECTED
+    K14-content: Protects app data with disguise screen and pin number
+  - K15-feature: SECURITY TIPS
+    K16-content: Provides tips on security for safer use
+    

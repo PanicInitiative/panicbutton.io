@@ -1,0 +1,17 @@
+{
+  "K3-slug": "setup-disguise-test-open-fail",
+  "K4-type": "simple",
+  "K1-layout": "post",
+  "K5-title": "Setup the Disguise",
+  "K6-published": "true",
+  "K8-tags": "mobile",
+  "K9-action": [
+    {
+      "K10-title": "Try Again",
+      "K11-link": "setup-disguise-test-open"
+    }
+  ],
+  "K2-lang": "en",
+  "K0-version": 1,
+  "K7-categories": "mobile"
+}

@@ -1,0 +1,30 @@
+{
+  "K2-slug": "help",
+  "K6-published": true,
+  "K8-items": [
+    {
+      "K12-src": "help-img-1.png",
+      "K10-description": "How to assess your risks, the basics about mobile phone security and other risks.",
+      "K9-title": "Managing Your **Risks**",
+      "K11-link": "/help/help-risk.html"
+    },
+    {
+      "K14-description": "How to install, configure and make use of the Panic Button application.",
+      "K16-src": "help-img-2.png",
+      "K15-link": "/help/help-using.html",
+      "K13-title": "**Using** Panic Button"
+    },
+    {
+      "K17-title": "**Reading** List",
+      "K18-description": "More material to deepen your understanding of protection and security for human rights defenders.",
+      "K19-link": "/help/help-reading.html",
+      "K20-src": "help-img-3.png"
+    }
+  ],
+  "K0-lang": "en",
+  "K5-heading": "Panic Button **Help**",
+  "K4-title": "Help",
+  "K1-version": 1,
+  "K3-module": "module_boxes",
+  "K7-categories": "help_index"
+}

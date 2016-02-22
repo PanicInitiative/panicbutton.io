@@ -1,0 +1,23 @@
+K0-version: 1
+K1-layout: post
+K2-lang: en
+K3-slug: "home-ready"
+K4-type: "simple"
+K5-title: "Panic Button"
+K6-published: true
+K7-categories: "mobile"
+K8-tags: "mobile"
+K9-status:
+  - K10-title: "Ready"
+    K11-color: green
+    K12-link: help-ready
+K13-action:
+  - K14-title: "Disguise"
+    K15-link: "checklist"
+K16-items:
+  -  K17-title: "Settings"
+     K18-link: "settings"
+  -  K19-title: "About"
+     K20-link: "setup-about"
+  -  K21-title: "Help"
+     K22-link: "help"

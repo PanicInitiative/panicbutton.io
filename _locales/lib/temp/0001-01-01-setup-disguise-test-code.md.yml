@@ -1,0 +1,23 @@
+K0-version: 1
+K1-layout: post
+K2-lang: en
+K3-slug: "setup-disguise-test-code"
+K4-type: "interactive"
+K5-title: "Test Disguise"
+K6-published: "true"
+K7-categories: "mobile"
+K8-tags: "mobile"
+K9-introduction: "Well done! Now enter your pincode to access settings."
+K10-component: disguise-test-code
+K11-action: 
+  - K12-title: "Ok"
+    K13-link: "setup-disguise-test-success"
+K14-timers:
+  K15-info: "0"
+  K16-inactive: "10"
+  K17-fail: "20"
+K18-success: 
+  K19-link: "setup-disguise-test-success"
+K20-fail: 
+  K21-link: "setup-disguise-test-code-fail"  
+

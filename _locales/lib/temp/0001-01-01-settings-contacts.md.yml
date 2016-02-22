@@ -1,0 +1,16 @@
+K0-version: 7
+K1-layout: post
+K2-lang: en
+K3-slug: "settings-contacts"
+K4-type: "interactive"
+K5-title: "Setup contacts"
+K6-published: true
+K7-categories: "mobile"
+K8-tags: "mobile"
+K9-introduction: These people will receive the alert.
+K10-warning: They should know you personally and be able to respond fast.
+K11-component: contacts
+K12-action:
+  - K13-title: "Save"
+    K14-link: "home-ready"
+    K15-confirmation: "Contacts saved"

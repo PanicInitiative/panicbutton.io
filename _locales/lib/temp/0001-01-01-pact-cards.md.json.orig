@@ -1,0 +1,23 @@
+{
+  "K2-slug": "pact-cards",
+  "K9-items": [
+    {
+      "K11-description": "Introduction to the PACT toolkit",
+      "K10-title": "Introduction",
+      "K12-link": "pact%20activities/Introduction.html"
+    },
+    {
+      "K14-description": "Risk mapping...",
+      "K15-link": "pact%20activities/Risk-Mapping.html",
+      "K13-title": "Risk Mapping"
+    }
+  ],
+  "K6-published": true,
+  "K8-toc": "pact-cards",
+  "K0-lang": "en",
+  "K5-heading": "PACT Game Cards",
+  "K4-title": "Game Cards",
+  "K1-version": 1,
+  "K3-module": "module_section_list",
+  "K7-categories": "pact_sections"
+}

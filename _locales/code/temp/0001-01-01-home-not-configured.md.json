@@ -1,7 +1,0 @@
-{
-  "0001-01-01-home-not-configured.md---action---setup-warning---title": "Set-Up",
-  "0001-01-01-home-not-configured.md---items---setup-about---title": "About",
-  "0001-01-01-home-not-configured.md---items---setup-language---title": "Language Settings",
-  "0001-01-01-home-not-configured.md---title": "Panic Button",
-  "0001-01-01-home-not-configured.md---content": "\n![Illustration]({{ site.JB.BASE_PATH }}/media/mobile/home-not-configured-small.png) Panic Button is an Android app that secretly alerts your contacts when you are in trouble. The app stays hidden on your phone by looking like a simple calculator.\n"
-}

@@ -1,0 +1,16 @@
+K0-version: 7
+K1-layout: post
+K2-lang: en
+K3-slug: "settings-message"
+K4-type: "interactive"
+K5-title: "Setup alert message"
+K6-published: true
+K7-categories: "mobile"
+K8-tags: "mobile"
+K9-introduction: This is the message that will be sent with your location. 
+K10-warning: Create a plan so your contacts know what to do when they receive this
+K11-component: message
+K12-action:
+  - K13-title: "Save"
+    K14-link: "home-ready"
+    K15-confirmation: "Message saved"

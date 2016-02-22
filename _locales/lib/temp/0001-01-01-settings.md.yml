@@ -1,0 +1,22 @@
+K0-version: 4
+K1-layout: post
+K2-lang: en
+K3-slug: "settings"
+K4-type: "simple"
+K5-title: "Settings"
+K6-published: true
+K7-categories: "mobile"
+K8-tags: "mobile"
+K9-items:
+- K10-title: Language Settings
+  K11-link: "settings-language"
+- K12-title: "Message Settings"
+  K13-link: "settings-message"
+- K14-title: "Contact Settings"
+  K15-link: "settings-contacts"
+- K16-title: "Alert Settings"
+  K17-link: "settings-alert"
+- K18-title: "Code Settings"
+  K19-link: "settings-code"
+- K20-title: "Restart the Installation"
+  K21-link: "settings-reset-confirm"

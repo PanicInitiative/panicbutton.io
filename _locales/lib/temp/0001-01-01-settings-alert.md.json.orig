@@ -1,0 +1,21 @@
+{
+  "K10-warning": "Be careful about your battery! Sending alerts too often might drain your battery.",
+  "K3-slug": "settings-alert",
+  "K4-type": "interactive",
+  "K1-layout": "post",
+  "K5-title": "Alert settings",
+  "K6-published": true,
+  "K8-tags": "mobile",
+  "K9-introduction": "Setup the frequency.",
+  "K11-component": "alert",
+  "K2-lang": "en",
+  "K0-version": 7,
+  "K7-categories": "mobile",
+  "K12-action": [
+    {
+      "K13-title": "Save",
+      "K15-confirmation": "New alert frequency saved",
+      "K14-link": "home-ready"
+    }
+  ]
+}

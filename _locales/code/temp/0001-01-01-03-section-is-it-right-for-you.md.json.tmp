@@ -1,9 +1,0 @@
-{
-  "0001-01-01-03-section-is-it-right-for-you.md---questions---images/android-logo.png---content": "Do you have an ANDROID phone?",
-  "0001-01-01-03-section-is-it-right-for-you.md---questions---images/phone-access.png---content": "Do you own and have independent access to your phone?",
-  "0001-01-01-03-section-is-it-right-for-you.md---questions---images/trusted-contacts.png---content": "Do you have three trusted contacts in your network who can respond fast in an emergency?",
-  "0001-01-01-03-section-is-it-right-for-you.md---questions---images/risk.png---content": "How would you describe the risk you are under?",
-  "0001-01-01-03-section-is-it-right-for-you.md---questions---images/tool.png---content": "Panic Button is a useful tool to alert your network quickly and discretely in an emergency. It is not a fail-safe security tool! [Click to read more about how to setup a PACT](#pact) with your network so that respondents are prepared to act fast when they receive an alert.",
-  "0001-01-01-03-section-is-it-right-for-you.md---heading": "Is Panic Button<br/>**right for you?**",
-  "0001-01-01-03-section-is-it-right-for-you.md---alert": "Using Panic Button to send an alert only improves your safety when your contacts can do something to help you. The disguise is only here to delay the discovery of the application for as long as possible to send your location updates. A competent adversary might be able to find out about your location, that you are alerting your contacts or the identity of your contacts."
-}

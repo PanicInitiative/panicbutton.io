@@ -1,0 +1,48 @@
+{
+  "K13-action": [
+    {
+      "K14-title": "Basic Settings",
+      "K15-link": "",
+      "K16-status": "checked"
+    },
+    {
+      "K18-link": "",
+      "K17-title": "Setup Alarm",
+      "K19-status": "checked"
+    },
+    {
+      "K21-link": "setup-disguise",
+      "K20-title": "Setup Disguise"
+    }
+  ],
+  "K3-slug": "home-not-configured-disguise",
+  "K4-type": "simple",
+  "K1-layout": "post",
+  "K5-title": "Panic Button",
+  "K6-published": true,
+  "K8-tags": "mobile",
+  "K22-items": [
+    {
+      "K24-link": "setup-about",
+      "K23-title": "About"
+    },
+    {
+      "K25-title": "Help",
+      "K26-link": "help"
+    },
+    {
+      "K27-title": "Language Settings",
+      "K28-link": "setup-language"
+    }
+  ],
+  "K2-lang": "en",
+  "K0-version": 1,
+  "K7-categories": "mobile",
+  "K9-status": [
+    {
+      "K10-title": "Setup not complete",
+      "K11-color": "red",
+      "K12-link": "help-not-configured"
+    }
+  ]
+}

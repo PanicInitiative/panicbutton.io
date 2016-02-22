@@ -1,0 +1,22 @@
+K0-layout: post
+K1-module: footer
+K2-published: true
+K3-categories: footer
+K4-footer:
+
+- K6-item: About
+  K7-link: /about.html
+  K8-description: The story and organisations behind PANIC BUTTON.
+- K9-item: Get involved
+  K10-link: /get-involved.html
+  K11-description: If you're a developer or want to help us improve PANIC BUTTON.
+- K12-item: Help
+  K13-link: /help.html
+  K14-description: Learn more about using Panic Button and managing your risks.
+- K15-item: Training Kit
+  K16-link: /pact/pact.html
+  K17-description: Get started on a risk assessment process with the Panic Button Training Kit.
+- K18-item: Blog
+  K19-link: http://panicalert.tumblr.com
+  K20-description: Hear about what is going on with PANIC BUTTON.
+

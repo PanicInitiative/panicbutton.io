@@ -1,0 +1,38 @@
+{
+  "K13-action": [
+    {
+      "K14-title": "Disguise",
+      "K15-link": "checklist"
+    }
+  ],
+  "K3-slug": "home-ready",
+  "K4-type": "simple",
+  "K1-layout": "post",
+  "K5-title": "Panic Button",
+  "K6-published": true,
+  "K8-tags": "mobile",
+  "K16-items": [
+    {
+      "K18-link": "settings",
+      "K17-title": "Settings"
+    },
+    {
+      "K19-title": "About",
+      "K20-link": "setup-about"
+    },
+    {
+      "K21-title": "Help",
+      "K22-link": "help"
+    }
+  ],
+  "K2-lang": "en",
+  "K0-version": 1,
+  "K7-categories": "mobile",
+  "K9-status": [
+    {
+      "K10-title": "Ready",
+      "K11-color": "green",
+      "K12-link": "help-ready"
+    }
+  ]
+}

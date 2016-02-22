@@ -1,0 +1,16 @@
+K0-version: 2
+K1-layout: post
+K2-lang: en
+K3-slug: "home-alerting"
+K4-type: "simple"
+K5-title: "Panic Button"
+K6-published: true
+K7-categories: "mobile"
+K8-tags: "mobile"
+K9-status:
+  - K10-title: "Alerting"
+    K11-color: red
+    K12-link: help-alerting
+K13-action:
+  - K14-title: "Stop Alerting"
+    K15-link: "home-ready"

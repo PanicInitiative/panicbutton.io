@@ -1,0 +1,17 @@
+{
+  "K3-slug": "setup-warning",
+  "K4-type": "warning",
+  "K1-layout": "post",
+  "K5-title": "Warning",
+  "K6-published": "true",
+  "K8-tags": "mobile",
+  "K9-action": [
+    {
+      "K10-title": "Get started",
+      "K11-link": "setup-contacts"
+    }
+  ],
+  "K2-lang": "en",
+  "K0-version": 1,
+  "K7-categories": "mobile"
+}

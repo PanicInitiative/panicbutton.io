@@ -1,0 +1,20 @@
+K0-version: 7
+K1-layout: post
+K2-lang: en
+K3-slug: "setup-disguise-test-unlock"
+K4-type: "interactive"
+K5-title: "Test Disguise"
+K6-published: "true"
+K7-categories: "mobile"
+K8-tags: "mobile"
+K9-introduction: "Try now! Hold down any button on the calculator."
+K10-component: disguise-test-unlock
+K11-timers:
+  K12-info: "0"
+  K13-inactive: "10"
+  K14-fail: "20"
+K15-success: 
+  K16-link: "setup-disguise-test-code"
+K17-fail: 
+  K18-link: "setup-disguise-test-unlock-fail"
+

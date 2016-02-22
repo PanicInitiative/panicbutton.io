@@ -1,0 +1,30 @@
+{
+  "K3-slug": "setup-disguise-test-code",
+  "K4-type": "interactive",
+  "K1-layout": "post",
+  "K14-timers": {
+    "K16-inactive": "10",
+    "K15-info": "0",
+    "K17-fail": "20"
+  },
+  "K5-title": "Test Disguise",
+  "K6-published": "true",
+  "K10-component": "disguise-test-code",
+  "K18-success": {
+    "K19-link": "setup-disguise-test-success"
+  },
+  "K8-tags": "mobile",
+  "K9-introduction": "Well done! Now enter your pincode to access settings.",
+  "K11-action": [
+    {
+      "K13-link": "setup-disguise-test-success",
+      "K12-title": "Ok"
+    }
+  ],
+  "K20-fail": {
+    "K21-link": "setup-disguise-test-code-fail"
+  },
+  "K2-lang": "en",
+  "K0-version": 1,
+  "K7-categories": "mobile"
+}

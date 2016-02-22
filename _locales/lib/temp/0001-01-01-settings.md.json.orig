@@ -1,0 +1,37 @@
+{
+  "K3-slug": "settings",
+  "K9-items": [
+    {
+      "K10-title": "Language Settings",
+      "K11-link": "settings-language"
+    },
+    {
+      "K13-link": "settings-message",
+      "K12-title": "Message Settings"
+    },
+    {
+      "K14-title": "Contact Settings",
+      "K15-link": "settings-contacts"
+    },
+    {
+      "K17-link": "settings-alert",
+      "K16-title": "Alert Settings"
+    },
+    {
+      "K18-title": "Code Settings",
+      "K19-link": "settings-code"
+    },
+    {
+      "K21-link": "settings-reset-confirm",
+      "K20-title": "Restart the Installation"
+    }
+  ],
+  "K4-type": "simple",
+  "K1-layout": "post",
+  "K5-title": "Settings",
+  "K6-published": true,
+  "K8-tags": "mobile",
+  "K2-lang": "en",
+  "K0-version": 4,
+  "K7-categories": "mobile"
+}

@@ -1,0 +1,17 @@
+K0-version: 1
+K1-layout: post
+K2-lang: en
+K3-slug: "home-not-configured"
+K4-type: simple
+K5-title: Panic Button
+K6-published: true
+K7-categories: mobile
+K8-tags: mobile
+K9-action: 
+  - K10-title: "Set-Up"
+    K11-link: "setup-warning"
+K12-items: 
+  - K13-title: About
+    K14-link: "setup-about"
+  - K15-title: Language Settings
+    K16-link: "setup-language"

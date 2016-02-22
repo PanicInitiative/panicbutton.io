@@ -1,0 +1,15 @@
+K0-version: 1
+K1-layout: post
+K2-lang: en
+K3-slug: "setup-code"
+K4-type: "interactive"
+K5-title: "Create a pincode"
+K6-published: true
+K7-categories: "mobile"
+K8-tags: "mobile"
+K9-introduction: This pin code is needed to access the alert settings and to turn the alert messages off. It is not needed to alert contacts in an emergency. 
+K10-warning: Remember your pincode! If you forget it you will need to reinstall the app.
+K11-component: code
+K12-action:
+  - K13-title: "Next"
+    K14-link: "home-not-configured-alarm"
