@@ -1,11 +1,11 @@
-lang: en
-layout: post
-title: 'Learn how to alert'
-module: page_subsection
-slug: help_using_configuration_alert
-version: 1
-published: true
-toc: ""
-heading: 'Learn how to alert'
-section_order: 4
-categories: help_using_configuration
+K00-version: 1
+K01-categories: help_using_configuration
+K02-toc: ""
+K03-module: page_subsection
+K04-slug: help_using_configuration_alert
+K05-layout: post
+K06-lang: en
+K07-title: 'Learn how to alert'
+K08-heading: 'Learn how to alert'
+K09-published: true
+K10-section_order: 4

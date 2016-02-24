@@ -1,17 +1,17 @@
-lang: en
-numDash: '21.3,999'
-layout: pact_post
-remember: 'Prepare the flower petals beforehand; visibly write down the ground rules; everyone should make their reflection petal'
-extra: null
-cardNum: 1
-shortLink: null
-downloadLink: media/pdf/01_Introduction.pdf
-materials: 'Color paper, scissors, color markers, flip charts, sticky notes'
-methodology: 'Plenary discussions and group activities'
-version: 1
-goals: 'Participants get to know each other and learn the purpose of the training.'
-published: true
-title: Introduction
-slug: 01-introduction
-categories: pact-activities
-timeSpan: '60 to 75 minutes'
+K00-layout: pact_post
+K01-title: Introduction
+K02-lang: en
+K03-version: 1
+K04-slug: 01-introduction
+K05-cardNum: 1
+K06-numDash: '21.3,999'
+K07-published: true
+K08-categories: pact-activities
+K09-goals: 'Participants get to know each other and learn the purpose of the training.'
+K10-methodology: 'Plenary discussions and group activities'
+K11-timeSpan: '60 to 75 minutes'
+K12-remember: 'Prepare the flower petals beforehand; visibly write down the ground rules; everyone should make their reflection petal'
+K13-materials: 'Color paper, scissors, color markers, flip charts, sticky notes'
+K14-downloadLink: media/pdf/01_Introduction.pdf
+K15-shortLink: null
+K16-extra: null

@@ -1,13 +1,13 @@
-lang: en
-layout: post
-tags: mobile
-title: 'Confirm the re-installation'
-version: 4
-published: true
-action:
+K00-version: 4
+K01-layout: post
+K02-lang: en
+K03-slug: settings-reset-confirm
+K04-type: warning
+K05-title: 'Confirm the re-installation'
+K06-published: true
+K07-categories: mobile
+K08-tags: mobile
+K09-action:
     -
-        link: home-not-configured
-        title: Confirm
-type: warning
-slug: settings-reset-confirm
-categories: mobile
+        K10-title: Confirm
+        K11-link: home-not-configured

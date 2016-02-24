@@ -1,8 +1,8 @@
-K0-layout: pact_hrd
-K1-title: Friend
-K2-cardNum: 7.1
-K3-categories: pact-cards
+K00-layout: pact_hrd
+K01-title: Friend
+K02-cardNum: 7.1
+K03-categories: pact-cards
 
-K5-bio: "You are a friend of the human rights defender at risk. You are not a human rights professional, but you support the work of your friend and have committed to being active in case of an emergency."
-K6-talent: "Friend of the family"
-K7-token: "Courier token"
+K05-bio: "You are a friend of the human rights defender at risk. You are not a human rights professional, but you support the work of your friend and have committed to being active in case of an emergency."
+K06-talent: "Friend of the family"
+K07-token: "Courier token"

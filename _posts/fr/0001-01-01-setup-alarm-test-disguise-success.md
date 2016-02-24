@@ -1,17 +1,17 @@
 ---
-lang: en
-layout: post
-tags: mobile
-title: 'Well done!'
-version: 1
-published: 'true'
-action:
+K00-version: 1
+K01-layout: post
+K02-lang: en
+K03-slug: setup-alarm-test-disguise-success
+K04-type: simple
+K05-title: 'Well done!'
+K06-published: 'true'
+K07-categories: mobile
+K08-tags: mobile
+K09-action:
     -
-        link: home-not-configured-disguise
-        title: Next
-type: simple
-slug: setup-alarm-test-disguise-success
-categories: mobile
+        K10-title: Next
+        K11-link: home-not-configured-disguise
 
 ---
 

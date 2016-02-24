@@ -10,7 +10,6 @@ keys=['title', 'introduction', 'fail', 'heading', 'bio', 'organisation', 'need',
 
 subkeys=['action','checklist','status','items', 'image', 'questions', 'content', 'answers', 'features', 'downloads', 'parent']
 
-helperElem = ['link', 'status', 'src', 'id']
 
 #this could stay in python 
 lang=['fr','de','es']

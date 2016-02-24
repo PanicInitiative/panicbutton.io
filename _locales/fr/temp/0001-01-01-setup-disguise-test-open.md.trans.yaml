@@ -1,19 +1,19 @@
-lang: en
-layout: post
-success:
-    link: setup-disguise-test-unlock
-tags: mobile
-introduction: 'Try now! Open the app by clicking on the Calculate! icon.'
-title: 'Test Disguise'
-component: disguise-test-open
-version: 1
-timers:
-    info: '0'
-    fail: '20'
-    inactive: '10'
-published: 'true'
-fail:
-    link: setup-disguise-test-open-fail
-type: interactive
-slug: setup-disguise-test-open
-categories: mobile
+K00-version: 1
+K01-layout: post
+K02-lang: en
+K03-slug: setup-disguise-test-open
+K04-type: interactive
+K05-title: 'Test Disguise'
+K06-published: 'true'
+K07-categories: mobile
+K08-tags: mobile
+K09-introduction: 'Try now! Open the app by clicking on the Calculate! icon.'
+K10-component: disguise-test-open
+K11-timers:
+    K12-info: '0'
+    K13-inactive: '10'
+    K14-fail: '20'
+K15-success:
+    K16-link: setup-disguise-test-unlock
+K17-fail:
+    K18-link: setup-disguise-test-open-fail

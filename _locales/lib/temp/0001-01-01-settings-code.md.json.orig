@@ -1,13 +1,14 @@
 {
+  "K03-slug": "settings-code",
   "K10-warning": "Remember your pincode! If you forget it you will need to reinstall the app.",
-  "K3-slug": "settings-code",
-  "K4-type": "interactive",
-  "K1-layout": "post",
-  "K12-component": "code",
-  "K6-published": true,
-  "K2-lang": "en",
-  "K8-tags": "mobile",
-  "K9-introduction": "This pin code is needed to access the alert settings and to turn the alert messages off. It is not needed to alert contacts in an emergency.",
+  "K01-layout": "post",
+  "K08-tags": "mobile",
+  "K04-type": "interactive",
+  "K06-published": true,
+  "K02-lang": "en",
+  "K07-categories": "mobile",
+  "K09-introduction": "This pin code is needed to access the alert settings and to turn the alert messages off. It is not needed to alert contacts in an emergency.",
+  "K05-title": "Create a pincode",
   "K13-action": [
     {
       "K14-title": "Save",
@@ -15,7 +16,6 @@
       "K16-confirmation": "Pincode saved"
     }
   ],
-  "K5-title": "Create a pincode",
-  "K0-version": 7,
-  "K7-categories": "mobile"
+  "K12-component": "code",
+  "K00-version": 7
 }

@@ -1,10 +1,11 @@
 {
-  "K3-slug": "home-not-configured",
-  "K4-type": "simple",
-  "K1-layout": "post",
-  "K5-title": "Panic Button",
-  "K6-published": true,
-  "K8-tags": "mobile",
+  "K03-slug": "home-not-configured",
+  "K01-layout": "post",
+  "K08-tags": "mobile",
+  "K04-type": "simple",
+  "K06-published": true,
+  "K02-lang": "en",
+  "K07-categories": "mobile",
   "K12-items": [
     {
       "K14-link": "setup-about",
@@ -15,13 +16,12 @@
       "K16-link": "setup-language"
     }
   ],
-  "K9-action": [
+  "K05-title": "Panic Button",
+  "K09-action": [
     {
       "K10-title": "Set-Up",
       "K11-link": "setup-warning"
     }
   ],
-  "K2-lang": "en",
-  "K0-version": 1,
-  "K7-categories": "mobile"
+  "K00-version": 1
 }

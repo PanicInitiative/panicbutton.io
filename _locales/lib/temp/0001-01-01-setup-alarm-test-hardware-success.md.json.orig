@@ -1,17 +1,17 @@
 {
-  "K3-slug": "setup-alarm-test-hardware-success",
-  "K4-type": "simple",
-  "K1-layout": "post",
-  "K5-title": "Well done!",
-  "K6-published": "true",
-  "K8-tags": "mobile",
-  "K9-action": [
+  "K03-slug": "setup-alarm-test-hardware-success",
+  "K01-layout": "post",
+  "K08-tags": "mobile",
+  "K04-type": "simple",
+  "K06-published": "true",
+  "K02-lang": "en",
+  "K07-categories": "mobile",
+  "K05-title": "Well done!",
+  "K09-action": [
     {
       "K10-title": "Next",
       "K11-link": "setup-alarm-disguise"
     }
   ],
-  "K2-lang": "en",
-  "K0-version": 1,
-  "K7-categories": "mobile"
+  "K00-version": 1
 }

@@ -1,19 +1,19 @@
 ---
-layout: post
-downloads:
+K00-layout: post
+K01-module: home_section_download
+K02-heading: 'Download Panic Button (beta)'
+K03-published: true
+K04-categories: home_section
+K05-section_order: 6
+K06-downloads:
     -
-        download: 'Download Panic Button from<br/>**Google Play.**'
-        link: 'https://play.google.com/store/apps/details?id=org.iilab.pb'
-        label: 'Download from GOOGLE.'
+        K07-download: 'Download Panic Button from<br/>**Google Play.**'
+        K08-label: 'Download from GOOGLE.'
+        K09-link: 'https://play.google.com/store/apps/details?id=org.iilab.pb'
     -
-        download: 'View the Source Code on **Github**.'
-        link: 'https://github.com/iilab/PanicButton'
-        label: 'View Source Code'
-module: home_section_download
-section_order: 6
-published: true
-heading: 'Download Panic Button (beta)'
-categories: home_section
+        K10-download: 'View the Source Code on **Github**.'
+        K11-label: 'View Source Code'
+        K12-link: 'https://github.com/iilab/PanicButton'
 
 ---
 

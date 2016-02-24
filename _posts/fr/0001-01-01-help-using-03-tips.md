@@ -1,15 +1,15 @@
 ---
-lang: en
-layout: post
-title: 'Preparing for Panic'
-module: ""
-slug: help_using_tips
-version: 1
-published: true
-toc: ""
-heading: 'Tips for testing'
-section_order: 3
-categories: help_using
+K00-version: 1
+K01-categories: help_using
+K02-toc: ""
+K03-module: ""
+K04-slug: help_using_tips
+K05-layout: post
+K06-lang: en
+K07-title: 'Preparing for Panic'
+K08-heading: 'Tips for testing'
+K09-published: true
+K10-section_order: 3
 
 ---
 

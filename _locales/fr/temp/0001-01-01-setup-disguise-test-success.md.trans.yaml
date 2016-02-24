@@ -1,13 +1,13 @@
-lang: en
-layout: post
-tags: mobile
-title: 'Well done'
-version: 1
-published: 'true'
-action:
+K00-version: 1
+K01-layout: post
+K02-lang: en
+K03-slug: setup-disguise-test-success
+K04-type: simple
+K05-title: 'Well done'
+K06-published: 'true'
+K07-categories: mobile
+K08-tags: mobile
+K09-action:
     -
-        link: home-ready
-        title: Finish
-type: simple
-slug: setup-disguise-test-success
-categories: mobile
+        K10-title: Finish
+        K11-link: home-ready

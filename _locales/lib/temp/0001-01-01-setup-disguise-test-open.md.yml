@@ -1,13 +1,13 @@
-K0-version: 1
-K1-layout: post
-K2-lang: en
-K3-slug: "setup-disguise-test-open"
-K4-type: "interactive"
-K5-title: "Test Disguise"
-K6-published: "true"
-K7-categories: "mobile"
-K8-tags: "mobile"
-K9-introduction: "Try now! Open the app by clicking on the Calculate! icon."
+K00-version: 1
+K01-layout: post
+K02-lang: en
+K03-slug: "setup-disguise-test-open"
+K04-type: "interactive"
+K05-title: "Test Disguise"
+K06-published: "true"
+K07-categories: "mobile"
+K08-tags: "mobile"
+K09-introduction: "Try now! Open the app by clicking on the Calculate! icon."
 K10-component: disguise-test-open
 K11-timers:
   K12-info: "0"

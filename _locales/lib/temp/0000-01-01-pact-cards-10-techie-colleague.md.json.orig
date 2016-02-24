@@ -1,9 +1,9 @@
 {
-  "K2-cardNum": 6.1,
-  "K0-layout": "pact_hrd",
-  "K3-categories": "pact-cards",
-  "K6-token": "Security Key",
-  "K4-bio": "You are a colleague of the human rights defender who is also concerned about, and trained in digital security matters.",
-  "K1-title": "Techie Colleague",
-  "K5-talent": "Digital security expertise"
+  "K05-talent": "Digital security expertise",
+  "K01-title": "Techie Colleague",
+  "K03-categories": "pact-cards",
+  "K06-token": "Security Key",
+  "K02-cardNum": 6.1,
+  "K00-layout": "pact_hrd",
+  "K04-bio": "You are a colleague of the human rights defender who is also concerned about, and trained in digital security matters."
 }

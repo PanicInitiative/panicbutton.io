@@ -1,13 +1,13 @@
-K0-version: 1
-K1-layout: post
-K2-lang: en
-K3-slug: "checklist"
-K4-type: "modal"
-K5-title: "Checklist"
-K6-published: "true"
-K7-categories: "mobile"
-K8-tags: "mobile"
-K9-action:
+K00-version: 1
+K01-layout: post
+K02-lang: en
+K03-slug: "checklist"
+K04-type: "modal"
+K05-title: "Checklist"
+K06-published: "true"
+K07-categories: "mobile"
+K08-tags: "mobile"
+K09-action:
   - K10-title: "Disguise Now"
     K11-link: "close"
   - K12-title: "Cancel"

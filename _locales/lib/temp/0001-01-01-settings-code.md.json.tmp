@@ -1,7 +1,7 @@
 {
   "0001-01-01-settings-code.md---K13-action---K14-title": "Save",
   "0001-01-01-settings-code.md---K13-action---K16-confirmation": "Pincode saved",
-  "0001-01-01-settings-code.md---K5-title": "Create a pincode",
-  "0001-01-01-settings-code.md---K9-introduction": "This pin code is needed to access the alert settings and to turn the alert messages off. It is not needed to alert contacts in an emergency.",
+  "0001-01-01-settings-code.md---K05-title": "Create a pincode",
+  "0001-01-01-settings-code.md---K09-introduction": "This pin code is needed to access the alert settings and to turn the alert messages off. It is not needed to alert contacts in an emergency.",
   "0001-01-01-settings-code.md---K10-warning": "Remember your pincode! If you forget it you will need to reinstall the app."
 }

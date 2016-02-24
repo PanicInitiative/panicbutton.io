@@ -1,11 +1,11 @@
-lang: en
-layout: post
-title: 'Create your alert message'
-module: page_subsection
-slug: help_using_configuration_alert_messages
-version: 1
-published: true
-toc: ""
-heading: 'Create your alert message'
-section_order: 2
-categories: help_using_configuration
+K00-version: 1
+K01-categories: help_using_configuration
+K02-toc: ""
+K03-module: page_subsection
+K04-slug: help_using_configuration_alert_messages
+K05-layout: post
+K06-lang: en
+K07-title: 'Create your alert message'
+K08-heading: 'Create your alert message'
+K09-published: true
+K10-section_order: 2

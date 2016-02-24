@@ -1,13 +1,13 @@
-lang: en
-layout: post
-tags: mobile
-title: Warning
-version: 1
-published: 'true'
-action:
+K00-version: 1
+K01-layout: post
+K02-lang: en
+K03-slug: setup-warning
+K04-type: warning
+K05-title: Warning
+K06-published: 'true'
+K07-categories: mobile
+K08-tags: mobile
+K09-action:
     -
-        link: setup-contacts
-        title: 'Get started'
-type: warning
-slug: setup-warning
-categories: mobile
+        K10-title: 'Get started'
+        K11-link: setup-contacts

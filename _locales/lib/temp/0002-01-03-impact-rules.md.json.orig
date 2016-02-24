@@ -1,11 +1,11 @@
 {
-  "K6-goals": "Learn the rules of the imPACT Game.",
-  "K3-version": 1,
-  "K0-layout": "post",
-  "K1-title": "imPACT Game Rules",
-  "K4-slug": "03-impact",
-  "K2-lang": "en",
-  "K5-categories": "impact-rules",
-  "K8-published": true,
-  "K7-cardNum": 2
+  "K01-title": "imPACT Game Rules",
+  "K03-version": 1,
+  "K04-slug": "03-impact",
+  "K02-lang": "en",
+  "K06-goals": "Learn the rules of the imPACT Game.",
+  "K05-categories": "impact-rules",
+  "K07-cardNum": 2,
+  "K00-layout": "post",
+  "K08-published": true
 }

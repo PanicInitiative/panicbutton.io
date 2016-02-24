@@ -1,18 +1,18 @@
-lang: en
-status:
+K00-version: 2
+K01-layout: post
+K02-lang: en
+K03-slug: home-alerting
+K04-type: simple
+K05-title: 'Panic Button'
+K06-published: true
+K07-categories: mobile
+K08-tags: mobile
+K09-status:
     -
-        color: red
-        link: help-alerting
-        title: Alerting
-layout: post
-tags: mobile
-title: 'Panic Button'
-version: 2
-published: true
-action:
+        K10-title: Alerting
+        K11-color: red
+        K12-link: help-alerting
+K13-action:
     -
-        link: home-ready
-        title: 'Stop Alerting'
-type: simple
-slug: home-alerting
-categories: mobile
+        K14-title: 'Stop Alerting'
+        K15-link: home-ready

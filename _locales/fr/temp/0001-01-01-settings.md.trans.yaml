@@ -1,28 +1,28 @@
-lang: en
-layout: post
-tags: mobile
-items:
+K00-version: 4
+K01-layout: post
+K02-lang: en
+K03-slug: settings
+K04-type: simple
+K05-title: Settings
+K06-published: true
+K07-categories: mobile
+K08-tags: mobile
+K09-items:
     -
-        link: settings-language
-        title: 'Language Settings'
+        K10-title: 'Language Settings'
+        K11-link: settings-language
     -
-        link: settings-message
-        title: 'Message Settings'
+        K12-title: 'Message Settings'
+        K13-link: settings-message
     -
-        link: settings-contacts
-        title: 'Contact Settings'
+        K14-title: 'Contact Settings'
+        K15-link: settings-contacts
     -
-        link: settings-alert
-        title: 'Alert Settings'
+        K16-title: 'Alert Settings'
+        K17-link: settings-alert
     -
-        link: settings-code
-        title: 'Code Settings'
+        K18-title: 'Code Settings'
+        K19-link: settings-code
     -
-        link: settings-reset-confirm
-        title: 'Restart the Installation'
-title: Settings
-version: 4
-published: true
-type: simple
-slug: settings
-categories: mobile
+        K20-title: 'Restart the Installation'
+        K21-link: settings-reset-confirm

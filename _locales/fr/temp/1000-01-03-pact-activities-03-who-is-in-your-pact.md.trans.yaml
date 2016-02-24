@@ -1,16 +1,16 @@
-lang: en
-numDash: '21.3,2,21.3,2,21.3,999'
-layout: pact_post
-remember: 'Update your PACT based on context'
-shortLink: null
-cardNum: 3
-title: 'Who is in your PACT?'
-downloadLink: media/pdf/03_Who_Is_In_Your_PACT.pdf
-materials: 'Flipcharts, markers, reflection petals'
-methodology: 'Description of risk maps, fishbowl exercise, individual contact mapping'
-version: 1
-goals: 'Participants define their PACT, how each contact can help and what to do in case of emergency'
-published: true
-slug: 03-who-is-in-your-pact
-categories: pact-activities
-timeSpan: '60 minutes'
+K00-layout: pact_post
+K01-title: 'Who is in your PACT?'
+K02-lang: en
+K03-version: 1
+K04-slug: 03-who-is-in-your-pact
+K05-cardNum: 3
+K06-numDash: '21.3,2,21.3,2,21.3,999'
+K07-categories: pact-activities
+K08-goals: 'Participants define their PACT, how each contact can help and what to do in case of emergency'
+K09-methodology: 'Description of risk maps, fishbowl exercise, individual contact mapping'
+K10-timeSpan: '60 minutes'
+K11-remember: 'Update your PACT based on context'
+K12-materials: 'Flipcharts, markers, reflection petals'
+K13-downloadLink: media/pdf/03_Who_Is_In_Your_PACT.pdf
+K14-shortLink: null
+K15-published: true

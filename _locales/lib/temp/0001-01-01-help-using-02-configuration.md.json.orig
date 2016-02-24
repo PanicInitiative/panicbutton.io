@@ -1,12 +1,12 @@
 {
-  "K3-slug": "help_using_configuration",
-  "K6-published": true,
-  "K0-layout": "post",
-  "K2-version": 1,
-  "K9-section_order": 2,
-  "K8-toc": "help_using_configuration",
-  "K5-heading": "Configuration",
-  "K4-title": "Configuration",
-  "K7-categories": "help_using",
-  "K1-lang": "en"
+  "K03-slug": "help_using_configuration",
+  "K04-title": "Configuration",
+  "K05-heading": "Configuration",
+  "K02-version": 1,
+  "K07-categories": "help_using",
+  "K00-layout": "post",
+  "K06-published": true,
+  "K08-toc": "help_using_configuration",
+  "K01-lang": "en",
+  "K09-section_order": 2
 }

@@ -1,17 +1,17 @@
 {
-  "K3-slug": "settings-reset-confirm",
-  "K4-type": "warning",
-  "K1-layout": "post",
-  "K5-title": "Confirm the re-installation",
-  "K6-published": true,
-  "K8-tags": "mobile",
-  "K9-action": [
+  "K03-slug": "settings-reset-confirm",
+  "K01-layout": "post",
+  "K08-tags": "mobile",
+  "K04-type": "warning",
+  "K06-published": true,
+  "K02-lang": "en",
+  "K07-categories": "mobile",
+  "K05-title": "Confirm the re-installation",
+  "K09-action": [
     {
       "K10-title": "Confirm",
       "K11-link": "home-not-configured"
     }
   ],
-  "K2-lang": "en",
-  "K0-version": 4,
-  "K7-categories": "mobile"
+  "K00-version": 4
 }

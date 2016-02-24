@@ -1,16 +1,16 @@
 ---
-layout: post
-module: home_section_how
-section_order: 2
-published: true
-captions:
+K00-layout: post
+K01-module: home_section_how
+K02-heading: 'How Does Panic Button **Work?**'
+K03-published: true
+K04-categories: home_section
+K05-section_order: 2
+K06-captions:
     - 'TAKE TIME to set-up Panic Button somewhere safe and quiet'
     - 'Create a plan with your contacts so that they are PREPARED to ACT'
     - 'CHECK you are ready and that your mobile phone has credit and battery'
     - 'ACTIVATE Panic Button in an emergency by rapidly pressing the phone''s power button'
     - 'Your network will receive an SMS and regular updates of your location helping them to ACT FAST'
-heading: 'How Does Panic Button **Work?**'
-categories: home_section
 
 ---
 

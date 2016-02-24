@@ -1,17 +1,17 @@
 {
-  "K3-slug": "setup-disguise-test-code-fail",
-  "K4-type": "simple",
-  "K1-layout": "post",
-  "K5-title": "Setup the Disguise",
-  "K6-published": "true",
-  "K8-tags": "mobile",
-  "K9-action": [
+  "K03-slug": "setup-disguise-test-code-fail",
+  "K01-layout": "post",
+  "K08-tags": "mobile",
+  "K04-type": "simple",
+  "K06-published": "true",
+  "K02-lang": "en",
+  "K07-categories": "mobile",
+  "K05-title": "Setup the Disguise",
+  "K09-action": [
     {
       "K10-title": "Try Again",
       "K11-link": "setup-disguise-test-unlock"
     }
   ],
-  "K2-lang": "en",
-  "K0-version": 7,
-  "K7-categories": "mobile"
+  "K00-version": 7
 }

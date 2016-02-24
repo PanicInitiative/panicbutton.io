@@ -1,6 +1,13 @@
 {
-  "K3-slug": "settings",
-  "K9-items": [
+  "K03-slug": "settings",
+  "K01-layout": "post",
+  "K08-tags": "mobile",
+  "K04-type": "simple",
+  "K06-published": true,
+  "K02-lang": "en",
+  "K07-categories": "mobile",
+  "K05-title": "Settings",
+  "K09-items": [
     {
       "K10-title": "Language Settings",
       "K11-link": "settings-language"
@@ -26,12 +33,5 @@
       "K20-title": "Restart the Installation"
     }
   ],
-  "K4-type": "simple",
-  "K1-layout": "post",
-  "K5-title": "Settings",
-  "K6-published": true,
-  "K8-tags": "mobile",
-  "K2-lang": "en",
-  "K0-version": 4,
-  "K7-categories": "mobile"
+  "K00-version": 4
 }

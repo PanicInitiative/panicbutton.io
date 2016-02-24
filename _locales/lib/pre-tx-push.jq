@@ -1,11 +1,11 @@
 import "jqconfig" as $d;
 
 
-def do_each(key; sk; k):
+def do_each(key; sk; k; file):
     keys[] as $kk |
     if (($d::d[0].key[] as $key | $key | inside($kk)) and (.[$kk] | type == "string"))
       then 
-        { key: ( ($file)
+        { key: ( (file)
                     + "---"
                     + (key ) 
                     + "---" 
@@ -14,9 +14,13 @@ def do_each(key; sk; k):
              , value: .[$kk] }
     elif ($d::d[0].subkeys[] as $skey | $skey | inside($kk))
     then 
-      (.[$kk] | .[] | do_each($kk; sk; .) )
-
-
+      ((file) + "---" + key) as $lenfile | .[$kk] | 
+      if(type != "string")
+        then 
+          (.[] | do_each($kk; sk; .; $lenfile))
+      else
+        empty
+      end
     else
       empty
     end;
@@ -48,10 +52,10 @@ def process_subkey(sk):
         then
            ( .[$key] ) | if (type == "array") 
            then
-              ([ .[] | do_each($key; sk; .) ] | from_entries )
+              ([ .[] | do_each($key; sk; .; $file) ] | from_entries )
            elif (type == "object") 
            then 
-            ([do_each($key; sk; .) ] | from_entries )
+            ([do_each($key; sk; .; $file) ] | from_entries )
            else
            empty
            end

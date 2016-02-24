@@ -1,11 +1,11 @@
 {
-  "K7-token": "Courier token",
-  "K9-hard_mode": "- Asking for information about when the family member can visit the HRD in detention - You can also get really emotional, and make it difficult for the person to actually deliver the information.",
-  "K0-layout": "pact_hrd",
-  "K5-bio": " You are the parent of the HRD at risk. You support the fact that your child works in the defense of human rights, but you are not particularly active or political yourself. You have always been worried about their safety, and dread the thought of something happening to them because of their work.",
+  "K01-title": "Family Member",
+  "K07-token": "Courier token",
+  "K02-cardNum": 7.2,
   "K11-context": "",
-  "K2-cardNum": 7.2,
-  "K3-categories": "pact-cards",
-  "K8-power": "The power of family love",
-  "K1-title": "Family Member"
+  "K05-bio": " You are the parent of the HRD at risk. You support the fact that your child works in the defense of human rights, but you are not particularly active or political yourself. You have always been worried about their safety, and dread the thought of something happening to them because of their work.",
+  "K08-power": "The power of family love",
+  "K03-categories": "pact-cards",
+  "K09-hard_mode": "- Asking for information about when the family member can visit the HRD in detention - You can also get really emotional, and make it difficult for the person to actually deliver the information.",
+  "K00-layout": "pact_hrd"
 }

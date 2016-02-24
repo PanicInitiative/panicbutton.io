@@ -63,7 +63,11 @@ def createYAML():
 		
 
 		if 0<k<num:
-			yk = "K" + str(i) + '-'
+			if len(str(i))<2: 
+				c = "0" + str(i)
+			else: 
+				c = str(i)
+			yk = "K" + c + '-'
 			v = re.sub(r'([\s-]*)(\w+:)', r'\1'+ yk + r'\2', v, count=1)
 			i = i + 1
 			yaml.append(v)

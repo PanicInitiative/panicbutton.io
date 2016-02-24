@@ -1,13 +1,13 @@
 {
-  "K8-bio": "You are a lawyer. As soon as you receive the emergency alert, your task is to visit the human rights defender in detention. You need to establish connection with them in order to verify their detention, as well as to agree on a legal course of action for their release.",
-  "K5-version": 1,
-  "K4-lang": "en",
-  "K9-talent": "You can visit the human rights defender in the Detention Centre",
-  "K1-title": "Lawyer",
-  "K2-cardNum": 3.1,
-  "K6-slug": "04-lawyer",
-  "K3-heading": "Lawyer",
-  "K7-categories": "pact-cards",
-  "K10-token": "Visitor's Badge",
-  "K0-layout": "pact_hrd"
+  "K02-cardNum": 3.1,
+  "K01-title": "Lawyer",
+  "K09-talent": "You can visit the human rights defender in the Detention Centre",
+  "K03-heading": "Lawyer",
+  "K06-slug": "04-lawyer",
+  "K05-version": 1,
+  "K04-lang": "en",
+  "K07-categories": "pact-cards",
+  "K08-bio": "You are a lawyer. As soon as you receive the emergency alert, your task is to visit the human rights defender in detention. You need to establish connection with them in order to verify their detention, as well as to agree on a legal course of action for their release.",
+  "K00-layout": "pact_hrd",
+  "K10-token": "Visitor's Badge"
 }

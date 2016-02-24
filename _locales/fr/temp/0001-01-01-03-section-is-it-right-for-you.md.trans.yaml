@@ -1,85 +1,85 @@
-layout: post
-module: home_section_is
-alert: 'Using Panic Button to send an alert only improves your safety when your contacts can do something to help you. The disguise is only here to delay the discovery of the application for as long as possible to send your location updates. A competent adversary might be able to find out about your location, that you are alerting your contacts or the identity of your contacts.'
-questions:
+K00-layout: post
+K01-module: home_section_is
+K02-heading: 'Is Panic Button<br/>**right for you?**'
+K03-published: true
+K04-categories: home_section
+K05-section_order: 3
+K06-questions:
     -
-        content: 'Do you have an ANDROID phone?'
-        src: images/android-logo.png
-        id: 1
-        answers:
+        K07-id: 1
+        K08-content: 'Do you have an ANDROID phone?'
+        K09-src: images/android-logo.png
+        K10-answers:
             -
-                answer: Yes
-                content: 'You should be able to use Panic Button from Android Gingerbread (2.3.3) to KitKat (4.4.2)'
-                id: 1
+                K11-id: 1
+                K12-answer: Yes
+                K13-content: 'You should be able to use Panic Button from Android Gingerbread (2.3.3) to KitKat (4.4.2)'
             -
-                answer: No
-                content: 'Sorry, you must have an Android phone to use Panic Button.'
-                status: warning
-                id: 2
+                K14-id: 2
+                K15-answer: No
+                K16-content: 'Sorry, you must have an Android phone to use Panic Button.'
+                K17-status: warning
             -
-                answer: 'I do not know'
-                content: 'You should be able to use Panic Button from Android Gingerbread (2.3.3) to KitKat (4.4.2)'
-                id: 3
+                K18-id: 3
+                K19-answer: 'I do not know'
+                K20-content: 'You should be able to use Panic Button from Android Gingerbread (2.3.3) to KitKat (4.4.2)'
     -
-        content: 'Do you own and have independent access to your phone?'
-        src: images/phone-access.png
-        id: 2
-        answers:
+        K21-id: 2
+        K22-content: 'Do you own and have independent access to your phone?'
+        K23-src: images/phone-access.png
+        K24-answers:
             -
-                answer: Yes
-                content: 'Only use Panic Button if you have independent access to your phone. This prevents false alarms and also misuse, such as partners or family members using the app to track you without your knowledge.'
-                id: 1
+                K25-id: 1
+                K26-answer: Yes
+                K27-content: 'Only use Panic Button if you have independent access to your phone. This prevents false alarms and also misuse, such as partners or family members using the app to track you without your knowledge.'
             -
-                answer: No
-                content: 'Only use Panic Button if you have independent access to your phone. This prevents false alarms and also misuse, such as partners or family members using the app to track you without your knowledge.'
-                status: warning
-                id: 2
+                K28-id: 2
+                K29-answer: No
+                K30-content: 'Only use Panic Button if you have independent access to your phone. This prevents false alarms and also misuse, such as partners or family members using the app to track you without your knowledge.'
+                K31-status: warning
             -
-                answer: 'I do not know'
-                content: 'Independent access means that only you own and access your phone - if you share your phone with a partner or family members it may not be a good idea to use Panic Button. This is to prevent false alarms and also misuse, such as partners or family members using the app to track you without your knowledge.'
-                status: warning
-                id: 3
+                K32-id: 3
+                K33-answer: 'I do not know'
+                K34-content: 'Independent access means that only you own and access your phone - if you share your phone with a partner or family members it may not be a good idea to use Panic Button. This is to prevent false alarms and also misuse, such as partners or family members using the app to track you without your knowledge.'
+                K35-status: warning
     -
-        content: 'Do you have three trusted contacts in your network who can respond fast in an emergency?'
-        src: images/trusted-contacts.png
-        id: 3
-        answers:
+        K36-id: 3
+        K37-content: 'Do you have three trusted contacts in your network who can respond fast in an emergency?'
+        K38-src: images/trusted-contacts.png
+        K39-answers:
             -
-                answer: Yes
-                content: 'Panic Button aims to send your emergency message/s to your trusted contacts when you need help. However, the app is not able to guarantee a response. Think carefully when choosing your trusted contacts and always talk to them first to ensure you have a response plan in place."'
-                id: 1
+                K40-id: 1
+                K41-answer: Yes
+                K42-content: 'Panic Button aims to send your emergency message/s to your trusted contacts when you need help. However, the app is not able to guarantee a response. Think carefully when choosing your trusted contacts and always talk to them first to ensure you have a response plan in place."'
             -
-                answer: No
-                content: 'Panic Button aims to send your emergency message/s to your trusted contacts when you need help. However, the app is not able to guarantee a response. Think carefully when choosing your trusted contacts and always talk to them first to ensure you have a response plan in place.'
-                status: warning
-                id: 2
+                K43-id: 2
+                K44-answer: No
+                K45-content: 'Panic Button aims to send your emergency message/s to your trusted contacts when you need help. However, the app is not able to guarantee a response. Think carefully when choosing your trusted contacts and always talk to them first to ensure you have a response plan in place.'
+                K46-status: warning
             -
-                answer: 'I do not know'
-                content: 'Panic Button aims to send your emergency message/s to your trusted contacts when you need help. However, the app is not able to guarantee a response. Think carefully when choosing your trusted contacts and always talk to them first to ensure you have a response plan in place.'
-                id: 3
+                K47-id: 3
+                K48-answer: 'I do not know'
+                K49-content: 'Panic Button aims to send your emergency message/s to your trusted contacts when you need help. However, the app is not able to guarantee a response. Think carefully when choosing your trusted contacts and always talk to them first to ensure you have a response plan in place.'
     -
-        content: 'How would you describe the risk you are under?'
-        src: images/risk.png
-        id: 4
-        answers:
+        K50-id: 4
+        K51-content: 'How would you describe the risk you are under?'
+        K52-src: images/risk.png
+        K53-answers:
             -
-                answer: 'Highest risk'
-                content: 'Your country might be known to practise mass telecommunications monitoring and interception. If your profession makes you a target of this, then you should think seriously about whether using Panic Button will reveal information about your location and trusted contacts that could put you or them at increased risk.'
-                id: 1
+                K54-id: 1
+                K55-answer: 'Highest risk'
+                K56-content: 'Your country might be known to practise mass telecommunications monitoring and interception. If your profession makes you a target of this, then you should think seriously about whether using Panic Button will reveal information about your location and trusted contacts that could put you or them at increased risk.'
             -
-                answer: 'Medium risk'
-                content: 'Your country might be known to practise mass telecommunications monitoring and interception. If your profession makes you a target of this, then you should think seriously about whether using Panic Button will reveal information about your location and trusted contacts that could put you or them at increased risk.'
-                status: warning
-                id: 2
+                K57-id: 2
+                K58-answer: 'Medium risk'
+                K59-content: 'Your country might be known to practise mass telecommunications monitoring and interception. If your profession makes you a target of this, then you should think seriously about whether using Panic Button will reveal information about your location and trusted contacts that could put you or them at increased risk.'
+                K60-status: warning
             -
-                answer: 'Low Risk'
-                content: 'Your country might be known to practise mass telecommunications monitoring and interception. If your profession makes you a target of this, then you should think seriously about whether using Panic Button will reveal information about your location and trusted contacts that could put you or them at increased risk.'
-                id: 3
+                K61-id: 3
+                K62-answer: 'Low Risk'
+                K63-content: 'Your country might be known to practise mass telecommunications monitoring and interception. If your profession makes you a target of this, then you should think seriously about whether using Panic Button will reveal information about your location and trusted contacts that could put you or them at increased risk.'
     -
-        content: 'Panic Button is a useful tool to alert your network quickly and discretely in an emergency. It is not a fail-safe security tool! [Click to read more about how to setup a PACT](#pact) with your network so that respondents are prepared to act fast when they receive an alert.'
-        src: images/tool.png
-        id: final
-published: true
-heading: 'Is Panic Button<br/>**right for you?**'
-section_order: 3
-categories: home_section
+        K64-id: final
+        K65-content: 'Panic Button is a useful tool to alert your network quickly and discretely in an emergency. It is not a fail-safe security tool! [Click to read more about how to setup a PACT](#pact) with your network so that respondents are prepared to act fast when they receive an alert.'
+        K66-src: images/tool.png
+K67-alert: 'Using Panic Button to send an alert only improves your safety when your contacts can do something to help you. The disguise is only here to delay the discovery of the application for as long as possible to send your location updates. A competent adversary might be able to find out about your location, that you are alerting your contacts or the identity of your contacts.'

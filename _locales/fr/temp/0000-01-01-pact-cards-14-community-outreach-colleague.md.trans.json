@@ -1,9 +1,9 @@
 {
-    "bio": "You are a colleague of the human rights defender at risk who is responsible for maintaining relationships, in particular in relation to security issues in the country and sub-region.", 
-    "talent": "Connections with the international NGO", 
-    "title": "Community Outreach Colleague", 
-    "token": "Public Statement", 
-    "cardNum": 8.1, 
-    "layout": "pact_hrd", 
-    "categories": "pact-cards"
+    "K00-layout": "pact_hrd", 
+    "K01-title": "Community Outreach Colleague", 
+    "K02-cardNum": 8.1, 
+    "K03-categories": "pact-cards", 
+    "K05-bio": "You are a colleague of the human rights defender at risk who is responsible for maintaining relationships, in particular in relation to security issues in the country and sub-region.", 
+    "K06-talent": "Connections with the international NGO", 
+    "K07-token": "Public Statement"
 }

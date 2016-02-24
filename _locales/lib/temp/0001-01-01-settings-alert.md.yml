@@ -1,13 +1,13 @@
-K0-version: 7
-K1-layout: post
-K2-lang: en
-K3-slug: "settings-alert"
-K4-type: "interactive"
-K5-title: "Alert settings"
-K6-published: true
-K7-categories: "mobile"
-K8-tags: "mobile"
-K9-introduction: Setup the frequency. 
+K00-version: 7
+K01-layout: post
+K02-lang: en
+K03-slug: "settings-alert"
+K04-type: "interactive"
+K05-title: "Alert settings"
+K06-published: true
+K07-categories: "mobile"
+K08-tags: "mobile"
+K09-introduction: Setup the frequency. 
 K10-warning: Be careful about your battery! Sending alerts too often might drain your battery.
 K11-component: alert
 K12-action:

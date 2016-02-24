@@ -1,13 +1,13 @@
-K0-version: 7
-K1-layout: post
-K2-lang: en
-K3-slug: "settings-language"
-K4-type: "interactive"
-K5-title: "Language settings"
-K6-published: true
-K7-categories: "mobile"
-K8-tags: "mobile"
-K9-introduction: Choose a language for the application.
+K00-version: 7
+K01-layout: post
+K02-lang: en
+K03-slug: "settings-language"
+K04-type: "interactive"
+K05-title: "Language settings"
+K06-published: true
+K07-categories: "mobile"
+K08-tags: "mobile"
+K09-introduction: Choose a language for the application.
 K10-component: language
 K11-action:
   - K12-title: "English"

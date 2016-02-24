@@ -1,16 +1,16 @@
-lang: en
-numDash: '21.3,2,21.3,2,21.3,2,21.3,2,21.3,2,21.3,999'
-layout: pact_post
-remember: 'Participants will have varying levels of confidence with technology and  with using a smartphone. Give them lots of chances to  familiarize themselves with the interface and functionality.'
-shortLink: null
-cardNum: 6
-title: 'App setup and practice'
-downloadLink: media/pdf/06_App_Setup_and_Practice.pdf
-materials: 'Android phones, post-it notes, markers, projector (if available)'
-methodology: 'Plenary and small group work'
-version: 1
-goals: 'To familiarise participants  with the interface and functionality of the app'
-published: true
-slug: 01-app-setup-and-practice
-categories: pact-app
-timeSpan: '2 hours and follow-up'
+K00-layout: pact_post
+K01-title: 'App setup and practice'
+K02-lang: en
+K03-version: 1
+K04-slug: 01-app-setup-and-practice
+K05-cardNum: 6
+K06-numDash: '21.3,2,21.3,2,21.3,2,21.3,2,21.3,2,21.3,999'
+K07-categories: pact-app
+K08-goals: 'To familiarise participants  with the interface and functionality of the app'
+K09-methodology: 'Plenary and small group work'
+K10-timeSpan: '2 hours and follow-up'
+K11-remember: 'Participants will have varying levels of confidence with technology and  with using a smartphone. Give them lots of chances to  familiarize themselves with the interface and functionality.'
+K12-materials: 'Android phones, post-it notes, markers, projector (if available)'
+K13-downloadLink: media/pdf/06_App_Setup_and_Practice.pdf
+K14-shortLink: null
+K15-published: true

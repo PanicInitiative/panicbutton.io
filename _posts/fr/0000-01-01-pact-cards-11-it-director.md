@@ -1,13 +1,13 @@
 ---
-bio: 'You are responsible for the security of all data collected, held and transferred. NGO employees collect very sensitive information: if it were to be leaked or stolen, it could cause serious risk and/or harm to employees and the people the NGO works with and for.'
-layout: pact_hrd
-context: ""
-power: 'Can lock down information/data in cases of potential breaches'
-title: 'IT Director'
-token: 'Security Key'
-cardNum: 6.2
-hard_mode: '- Information about the response plan that has been set up. Who is involved? - Additional technical details, like type of phone, OS version, encryption measures, etc'
-categories: pact-cards
+K00-layout: pact_hrd
+K01-title: 'IT Director'
+K02-cardNum: 6.2
+K03-categories: pact-cards
+K04-bio: 'You are responsible for the security of all data collected, held and transferred. NGO employees collect very sensitive information: if it were to be leaked or stolen, it could cause serious risk and/or harm to employees and the people the NGO works with and for.'
+K05-token: 'Security Key'
+K06-power: 'Can lock down information/data in cases of potential breaches'
+K07-hard_mode: '- Information about the response plan that has been set up. Who is involved? - Additional technical details, like type of phone, OS version, encryption measures, etc'
+K09-context: ""
 
 ---
 

@@ -1,13 +1,13 @@
 {
-  "K8-bio": "You are the security focal point of the National Human Rights Defenders Coalition. The Coalition is a strong national network of NGOs and civil society members, whose priority is to ensure early warnings to its members in relations to security threats to civil society.",
-  "K5-version": 1,
-  "K4-lang": "en",
-  "K9-talent": "Privileged access to the Coalition's Communications Officer",
-  "K1-title": "Security Focal Point For the National Human Rights Defenders Coalition",
-  "K2-cardNum": 5.1,
-  "K6-slug": "08-nhrdc-security-point",
-  "K3-heading": "Security Focal Point For the National Human Rights Defenders Coalition",
-  "K7-categories": "pact-cards",
-  "K10-token": "Security Information Email",
-  "K0-layout": "pact_hrd"
+  "K02-cardNum": 5.1,
+  "K01-title": "Security Focal Point For the National Human Rights Defenders Coalition",
+  "K09-talent": "Privileged access to the Coalition's Communications Officer",
+  "K03-heading": "Security Focal Point For the National Human Rights Defenders Coalition",
+  "K06-slug": "08-nhrdc-security-point",
+  "K05-version": 1,
+  "K04-lang": "en",
+  "K07-categories": "pact-cards",
+  "K08-bio": "You are the security focal point of the National Human Rights Defenders Coalition. The Coalition is a strong national network of NGOs and civil society members, whose priority is to ensure early warnings to its members in relations to security threats to civil society.",
+  "K00-layout": "pact_hrd",
+  "K10-token": "Security Information Email"
 }

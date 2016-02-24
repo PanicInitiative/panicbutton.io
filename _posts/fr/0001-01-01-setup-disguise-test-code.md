@@ -1,27 +1,27 @@
 ---
-lang: en
-layout: post
-success:
-    link: setup-disguise-test-success
-tags: mobile
-introduction: 'Well done! Now enter your pincode to access settings.'
-title: 'Test Disguise'
-component: disguise-test-code
-fail:
-    link: setup-disguise-test-code-fail
-version: 1
-timers:
-    info: '0'
-    fail: '20'
-    inactive: '10'
-published: 'true'
-action:
+K00-version: 1
+K01-layout: post
+K02-lang: en
+K03-slug: setup-disguise-test-code
+K04-type: interactive
+K05-title: 'Test Disguise'
+K06-published: 'true'
+K07-categories: mobile
+K08-tags: mobile
+K09-introduction: 'Well done! Now enter your pincode to access settings.'
+K10-component: disguise-test-code
+K11-action:
     -
-        link: setup-disguise-test-success
-        title: Ok
-type: interactive
-slug: setup-disguise-test-code
-categories: mobile
+        K12-title: Ok
+        K13-link: setup-disguise-test-success
+K14-timers:
+    K15-info: '0'
+    K16-inactive: '10'
+    K17-fail: '20'
+K18-success:
+    K19-link: setup-disguise-test-success
+K20-fail:
+    K21-link: setup-disguise-test-code-fail
 
 ---
 

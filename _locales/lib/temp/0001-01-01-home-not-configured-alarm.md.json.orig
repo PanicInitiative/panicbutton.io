@@ -1,4 +1,5 @@
 {
+  "K03-slug": "home-not-configured-alarm",
   "K13-action": [
     {
       "K14-title": "Basic Settings",
@@ -15,12 +16,12 @@
       "K20-link": "setup-disguise"
     }
   ],
-  "K3-slug": "home-not-configured-alarm",
-  "K4-type": "simple",
-  "K1-layout": "post",
-  "K5-title": "Panic Button",
-  "K6-published": true,
-  "K8-tags": "mobile",
+  "K01-layout": "post",
+  "K08-tags": "mobile",
+  "K04-type": "simple",
+  "K06-published": true,
+  "K02-lang": "en",
+  "K07-categories": "mobile",
   "K22-items": [
     {
       "K24-link": "setup-about",
@@ -35,14 +36,13 @@
       "K28-link": "setup-language"
     }
   ],
-  "K2-lang": "en",
-  "K0-version": 1,
-  "K7-categories": "mobile",
-  "K9-status": [
+  "K05-title": "Panic Button",
+  "K09-status": [
     {
       "K10-title": "Setup not complete",
       "K11-color": "red",
       "K12-link": "help-not-configured"
     }
-  ]
+  ],
+  "K00-version": 1
 }

@@ -1,15 +1,15 @@
 ---
-lang: en
-bio: 'You are a colleague of the human rights defender. While you may not necessarily be a security expert, you understand campaigning and are able to mobilise your organisation. As soon as you receive the emergency alert your task is to lobby key influencers to help get the defender released.'
-layout: pact_hrd
-title: 'Campaigning Colleague'
-slug: 06-colleague
-token: 'Business Card'
-version: 1
-cardNum: 4.1
-talent: 'Connections with the EU mission delegation'
-heading: 'Campaigning Colleague'
-categories: pact-cards
+K00-layout: pact_hrd
+K01-title: 'Campaigning Colleague'
+K02-cardNum: 4.1
+K03-heading: 'Campaigning Colleague'
+K04-lang: en
+K05-version: 1
+K06-slug: 06-colleague
+K07-categories: pact-cards
+K08-bio: 'You are a colleague of the human rights defender. While you may not necessarily be a security expert, you understand campaigning and are able to mobilise your organisation. As soon as you receive the emergency alert your task is to lobby key influencers to help get the defender released.'
+K09-talent: 'Connections with the EU mission delegation'
+K10-token: 'Business Card'
 
 ---
 

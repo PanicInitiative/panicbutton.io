@@ -3,15 +3,15 @@ import sys
 import json
 import codecs
 import config
+import functools
 
 #TODO : Comment file 
-#TODO : make certain parts of this dynamic (eg link/status hard-coding, to match hardcoding in md->JSON jq conversion )
-#TODO : code should be able to handle json of n depth; currently works for given whitelisted keys, but not
-
+#class
 class jsonObj(object):
 	obj_dict = {}
 	pass
 
+#helpers
 def loadJSON(d):
 	with open(d) as f: 
 		data = json.load(f)
@@ -22,14 +22,73 @@ def getFile(k,f):
 	jsonn += [each for each in os.listdir("../"+k+"/temp") if each.endswith(f)]
 	return jsonn
 
-def writeText(h):
+def writeText(h, key):
 	for k,v in jsonObj.obj_dict.items():
 		d = v.__dict__
 		for e,f in d.items():
 			if e == "content":
-				with codecs.open("../fr/temp/"+k+"_translated.txt", 'w', 'utf-8') as y:
+				with codecs.open("../"+key+"/temp/"+k+"_translated.txt", 'w', 'utf-8') as y:
 					y.write(f)
 
+def rsetattr(obj, attr, val):
+    pre, _, post = attr.rpartition('.')
+    return setattr(rgetattr(obj, pre) if pre else obj, post, val)
+
+def rgetattr(obj, attr):
+	return functools.reduce(getattr, [obj]+attr.split('.'))
+
+def rhasattr(obj, attr):
+	try:
+		rgetattr(obj, attr)
+		return True
+	except AttributeError: 
+		return False
+
+def getFromDict(dataDict, mapList):
+	return reduce(lambda d, k: d[k], mapList, dataDict)
+
+def handleDepthLists(lst, mapList, i):
+	for x in lst: 
+		d = x.keys()
+		if mapList[i] in d:
+			b = lst.index(x)
+			return b
+
+def distillToUnicode(lst, mapList, i, larr):
+	if type(lst) == list: 
+		c = handleDepthLists(lst, mapList, i)
+		larr.append(c)
+		larr.append(mapList[i])
+		b = lst[c][mapList[i]]
+		distillToUnicode(b, mapList, i+1, larr)
+		return larr
+	
+	return larr
+
+def setInDict(dataDict, mapList, value):
+	try: 
+		getFromDict(dataDict, mapList[:-1])[mapList[-1]] = value
+	except:
+		a = dataDict[mapList[0]]
+		i = 1
+		larr = []
+		larr.append(mapList[0])
+		c = distillToUnicode(a, mapList, i, larr)
+		getFromDict(dataDict, c[:-1])[c[-1]] = value
+
+def parseObj(n, u, r):
+	for p,q in u.__dict__.items():
+		f = []
+		for x in r: 
+			f.append(x)
+		f.append(p)
+		
+		if type(q) == unicode: 
+			setInDict(n, f, q)
+		else: 
+			parseObj(n, q, f)
+
+#main functions
 def breakFiles(f):
 	for k,v in f.items():
 		h = k.split('---')
@@ -43,81 +102,51 @@ def breakFiles(f):
 			if h[1] == "content":
 				n.content = v
 			else: 
-				for key in config.keys:
-					if h[1] == key:
-						setattr(n, key, v)
-		else:	
-			if hasattr(n, h[1]):
-				f = getattr(n, h[1])				
-				setattr(f, h[2], v)
-				setattr(n, h[1], f)
+				setattr(n, h[1], v)
+		else:
+			num = len(h) 
+			i = 1
+			for x in range(1, num-1):
+				if x == 1: 
+					attrstr = h[1]
+				else: 
+					attrstr = attrstr + "." + h[x]
+				if rhasattr(n, attrstr):
+					continue
+				else: 
+					e = jsonObj()
+					rsetattr(n, attrstr, e)
+			
+			attrstr = attrstr + "." + h[num-1]
+			rsetattr(n, attrstr, v)
+			
 
-			else:
-				e = jsonObj()
-				setattr(e, h[2], v)
-				setattr(n, h[1], e)
-	return jsonObj.obj_dict
-
-
-def createJSON(h):
+def createJSON(key):
 	for k,v in jsonObj.obj_dict.items():
 		x = "temp/"+k+".json.orig"
 		n = loadJSON(x)
 		h = v.__dict__
-
-		i = 0 
+		i = 0
 		for t,u in h.items():
 			if t == "content":
-				writeText(t)
-			elif type(u) is unicode: 
-				n[t] = u
-				#test
-				#n[t] = "change from unicode catch"
-			else: 
-				y = u.__dict__
-				for s in n[t]:
-			 		for p,q in s.items():
-						if p == "link" and len(q) > 1:							
-							if q in y:
-								b = y[q]
-								s['title'] = b
-								#test
-								#s['title'] = "change from link"
-			 			elif p == "status":
-			 				if q in y:
-								b = y[q]
-								s['title'] = b
-								#test
-								#s['title'] = "change from status"
-					
-					#TODO: there must be a better way of doing this; currently need to break twice to get correct results in affected files when assigned to jsonKV with iterator. Problem would be eliminated by creating ID's for each translatable string, or code refactoring (?)
-					for p,q in s.items(): 
-						if p != "link" and p !="status":
-							for a,b in y.items():
-								if a == str(i):
-									s['title'] = b
-									#s['title'] = "change fr iterator"
-									i = i+1
-									break
-						break
+				writeText(t, key)
+			else:
+				if type(u) == unicode: 
+					n[t] = u
+				else: 
+					r = []
+					r.append(t)
+					parseObj(n,u,r)
 
-			with codecs.open("../fr/temp/"+k+".trans.json", 'w', 'utf-8') as g:
-				json.dump(n, g, indent=4)
-				g.close()
-	
-
+		with codecs.open("../"+key+"/temp/"+k+".trans.json", 'w', 'utf-8') as g:
+			json.dump(n, g, sort_keys=True,indent=4)
+			g.close()
+			
 def makeYAML(k):
-	print k
 	jsonn = getFile(k,'.json')
 
 	for j in jsonn: 
-		#this is where the K--XX keys should be taken out of the json; first it will be sorted and then the keys will be snipped
-		#will json2yaml still work -- will it order snipped json keys correctly?
-		#could also rewrite yaml after it is written, removing the keys, but that seems like overkill 
-		#using command line node json2yaml tool
-		#TODO: in order to get this to convert yaml to the correct depth, it's necessary to set "d" to 5 -->this will differ from project to project and also injects \n at beginning of bullet point "-" lists. Is there a better way to do this json -> yaml conversion? 
-		os.system("json2yaml -d 5 -i 4 -s ../"+key+"/temp/"+j)
-
+		os.system("json2yaml -d 5 -i 4 -s ../"+k+"/temp/"+j)
 
 def makeMarkdown(k):
 	yaml = getFile(k, '.yaml')
@@ -131,14 +160,14 @@ def makeMarkdown(k):
 		yam = open(yamlf, 'w')
 		yam.write("---\n")
 
-		temp = open("../fr/temp/"+y, "r")
+		temp = open("../"+k+"/temp/"+y, "r")
 		for line in temp:
 			yam.write(line)
 
 		yam.write("\n---\n\n")
 		yam.close()
 
-		txtfile = "../fr/temp/"+n+"_translated.txt"
+		txtfile = "../"+k+"/temp/"+n+"_translated.txt"
 
 		try: 
 			yam = open(yamlf, 'a')
@@ -166,10 +195,10 @@ for key in config.lang:
 		g = loadJSON(n)
 
 		print "Cutting master json file back into component files" 
-		h = breakFiles(g)
+		breakFiles(g)
 
 		print "Creating temporary json and text files in _locales/%s/temp/" % (key)
-		createJSON(h)
+		createJSON(key)
 
 		print "Creating temporary YAML files in _locales/%s/temp/ " % (key)
 		makeYAML(key)

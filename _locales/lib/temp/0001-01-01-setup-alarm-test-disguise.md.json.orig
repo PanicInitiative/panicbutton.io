@@ -1,24 +1,24 @@
 {
-  "K3-slug": "setup-alarm-test-disguise",
-  "K4-type": "interactive",
-  "K1-layout": "post",
-  "K5-title": "Test Disguised Alarm",
-  "K6-published": "true",
-  "K10-component": "alarm-test-disguise",
-  "K8-tags": "mobile",
-  "K9-introduction": "Try Now! Repeatedly press a button on the calculator fast until you feel a vibration.",
+  "K03-slug": "setup-alarm-test-disguise",
+  "K01-layout": "post",
+  "K08-tags": "mobile",
+  "K04-type": "interactive",
+  "K06-published": "true",
+  "K02-lang": "en",
+  "K07-categories": "mobile",
+  "K05-title": "Test Disguised Alarm",
+  "K09-introduction": "Try Now! Repeatedly press a button on the calculator fast until you feel a vibration.",
+  "K15-success": {
+    "K16-link": "setup-alarm-test-disguise-success"
+  },
   "K11-timers": {
     "K12-info": "0",
     "K13-inactive": "10",
     "K14-fail": "20"
   },
-  "K15-success": {
-    "K16-link": "setup-alarm-test-disguise-success"
-  },
-  "K2-lang": "en",
-  "K0-version": 1,
-  "K7-categories": "mobile",
+  "K00-version": 1,
   "K17-fail": {
     "K18-link": "setup-alarm-test-disguise-fail"
-  }
+  },
+  "K10-component": "alarm-test-disguise"
 }

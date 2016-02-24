@@ -1,24 +1,24 @@
 {
+  "K03-slug": "home-alerting",
   "K13-action": [
     {
       "K14-title": "Stop Alerting",
       "K15-link": "home-ready"
     }
   ],
-  "K3-slug": "home-alerting",
-  "K4-type": "simple",
-  "K1-layout": "post",
-  "K5-title": "Panic Button",
-  "K6-published": true,
-  "K8-tags": "mobile",
-  "K2-lang": "en",
-  "K0-version": 2,
-  "K7-categories": "mobile",
-  "K9-status": [
+  "K01-layout": "post",
+  "K08-tags": "mobile",
+  "K04-type": "simple",
+  "K06-published": true,
+  "K02-lang": "en",
+  "K07-categories": "mobile",
+  "K05-title": "Panic Button",
+  "K09-status": [
     {
       "K10-title": "Alerting",
       "K11-color": "red",
       "K12-link": "help-alerting"
     }
-  ]
+  ],
+  "K00-version": 2
 }

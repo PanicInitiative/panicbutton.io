@@ -1,28 +1,28 @@
-lang: en
-layout: post
-tags: mobile
-checklist:
+K00-version: 1
+K01-layout: post
+K02-lang: en
+K03-slug: checklist
+K04-type: modal
+K05-title: Checklist
+K06-published: 'true'
+K07-categories: mobile
+K08-tags: mobile
+K09-action:
     -
-        title: 'Review security plan and update contacts regularly'
+        K10-title: 'Disguise Now'
+        K11-link: close
     -
-        title: 'Test the alert to ensure it is working'
+        K12-title: Cancel
+        K13-link: home-ready
+        K14-status: disabled
+K15-checklist:
     -
-        title: 'Ensure sufficient credit on the phone'
+        K16-title: 'Review security plan and update contacts regularly'
     -
-        title: 'Activate GPS (if you want to enable location tracking)'
+        K17-title: 'Test the alert to ensure it is working'
     -
-        title: 'Charge phone battery to full'
-title: Checklist
-version: 1
-published: 'true'
-action:
+        K18-title: 'Ensure sufficient credit on the phone'
     -
-        link: close
-        title: 'Disguise Now'
+        K19-title: 'Activate GPS (if you want to enable location tracking)'
     -
-        status: disabled
-        link: home-ready
-        title: Cancel
-type: modal
-slug: checklist
-categories: mobile
+        K20-title: 'Charge phone battery to full'

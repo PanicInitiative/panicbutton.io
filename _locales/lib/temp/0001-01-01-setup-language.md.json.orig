@@ -1,12 +1,13 @@
 {
-  "K3-slug": "setup-language",
-  "K4-type": "interactive",
-  "K1-layout": "post",
-  "K5-title": "Language settings",
-  "K6-published": true,
-  "K10-component": "language",
-  "K8-tags": "mobile",
-  "K9-introduction": "Choose a language for the application.",
+  "K03-slug": "setup-language",
+  "K01-layout": "post",
+  "K08-tags": "mobile",
+  "K04-type": "interactive",
+  "K06-published": true,
+  "K02-lang": "en",
+  "K07-categories": "mobile",
+  "K05-title": "Language settings",
+  "K09-introduction": "Choose a language for the application.",
   "K11-action": [
     {
       "K14-confirmation": "New language applied",
@@ -29,7 +30,6 @@
       "K22-language": "pt"
     }
   ],
-  "K2-lang": "en",
-  "K0-version": 7,
-  "K7-categories": "mobile"
+  "K00-version": 7,
+  "K10-component": "language"
 }

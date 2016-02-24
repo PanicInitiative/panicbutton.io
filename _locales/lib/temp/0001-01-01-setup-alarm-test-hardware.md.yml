@@ -1,13 +1,13 @@
-K0-version: 1
-K1-layout: post
-K2-lang: en
-K3-slug: "setup-alarm-test-hardware"
-K4-type: "interactive"
-K5-title: "Test Hardware Alarm"
-K6-published: "true"
-K7-categories: "mobile"
-K8-tags: "mobile"
-K9-introduction: "Try Now! Repeatedly press the power button fast until you feel a vibration."
+K00-version: 1
+K01-layout: post
+K02-lang: en
+K03-slug: "setup-alarm-test-hardware"
+K04-type: "interactive"
+K05-title: "Test Hardware Alarm"
+K06-published: "true"
+K07-categories: "mobile"
+K08-tags: "mobile"
+K09-introduction: "Try Now! Repeatedly press the power button fast until you feel a vibration."
 K10-component: alarm-test-hardware
 K11-timers:
   K12-info: "0"

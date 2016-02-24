@@ -1,13 +1,13 @@
-K0-lang: en
-K1-version: 1
-K2-slug: "help"
-K3-module: module_boxes
-K4-title: "Help"
-K5-heading: "Panic Button **Help**"
-K6-published: true
-K7-categories: help_index
-K8-items:
-  - K9-title: "Managing Your **Risks**"
+K00-lang: en
+K01-version: 1
+K02-slug: "help"
+K03-module: module_boxes
+K04-title: "Help"
+K05-heading: "Panic Button **Help**"
+K06-published: true
+K07-categories: help_index
+K08-items:
+  - K09-title: "Managing Your **Risks**"
     K10-description: "How to assess your risks, the basics about mobile phone security and other risks."
     K11-link: /help/help-risk.html
     K12-src: help-img-1.png

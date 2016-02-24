@@ -1,15 +1,15 @@
 ---
-lang: en
-layout: post
-title: 'Create pin code'
-module: page_subsection
-slug: help_using_configuration_code
-version: 1
-published: true
-toc: ""
-heading: 'Create pin code'
-section_order: 3
-categories: help_using_configuration
+K00-version: 1
+K01-categories: help_using_configuration
+K02-toc: ""
+K03-module: page_subsection
+K04-slug: help_using_configuration_code
+K05-layout: post
+K06-lang: en
+K07-title: 'Create pin code'
+K08-heading: 'Create pin code'
+K09-published: true
+K10-section_order: 3
 
 ---
 

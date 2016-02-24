@@ -1,13 +1,13 @@
-K0-layout: pact_post
-K1-title: App setup and practice
-K2-lang: en
-K3-version: 1
-K4-slug: "01-app-setup-and-practice"
-K5-cardNum: 6
-K6-numDash: "21.3,2,21.3,2,21.3,2,21.3,2,21.3,2,21.3,999"
-K7-categories: "pact-app"
-K8-goals: To familiarise participants  with the interface and functionality of the app
-K9-methodology: Plenary and small group work
+K00-layout: pact_post
+K01-title: App setup and practice
+K02-lang: en
+K03-version: 1
+K04-slug: "01-app-setup-and-practice"
+K05-cardNum: 6
+K06-numDash: "21.3,2,21.3,2,21.3,2,21.3,2,21.3,2,21.3,999"
+K07-categories: "pact-app"
+K08-goals: To familiarise participants  with the interface and functionality of the app
+K09-methodology: Plenary and small group work
 K10-timeSpan: "2 hours and follow-up"
 K11-remember: Participants will have varying levels of confidence with technology and  with using a smartphone. Give them lots of chances to  familiarize themselves with the interface and functionality.
 K12-materials: "Android phones, post-it notes, markers, projector (if available)"

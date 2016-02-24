@@ -1,14 +1,14 @@
 ---
-lang: en
-layout: post
-title: 'Assessing your risk'
-slug: help_risk_assessing
-version: 1
-published: true
-toc: help_risk_assessing
-heading: 'Assessing your risk'
-section_order: 1
-categories: help_risk
+K00-layout: post
+K01-lang: en
+K02-version: 1
+K03-slug: help_risk_assessing
+K04-title: 'Assessing your risk'
+K05-heading: 'Assessing your risk'
+K06-published: true
+K07-categories: help_risk
+K08-toc: help_risk_assessing
+K09-section_order: 1
 
 ---
 

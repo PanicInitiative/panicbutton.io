@@ -1,13 +1,14 @@
 ---
-lang: en
-slug: ""
-layout: home_section_home
-title: Untitled
-module: home_section_home
-heading: 'Panic Button'
-published: true
-section_order: 1
-categories: home_section
+K00-layout: post
+K01-module: home_section_home
+K02-heading: 'Panic Button'
+K03-categories: home_section
+K04-layout: home_section_home
+K05-slug: ""
+K06-published: true
+K07-section_order: 1
+K08-title: Untitled
+K09-lang: en
 
 ---
 

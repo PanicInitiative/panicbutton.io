@@ -1,9 +1,11 @@
 {
-  "K3-slug": "checklist",
-  "K4-type": "modal",
-  "K1-layout": "post",
-  "K5-title": "Checklist",
-  "K6-published": "true",
+  "K03-slug": "checklist",
+  "K01-layout": "post",
+  "K08-tags": "mobile",
+  "K04-type": "modal",
+  "K06-published": "true",
+  "K02-lang": "en",
+  "K07-categories": "mobile",
   "K15-checklist": [
     {
       "K16-title": "Review security plan and update contacts regularly"
@@ -21,8 +23,8 @@
       "K20-title": "Charge phone battery to full"
     }
   ],
-  "K8-tags": "mobile",
-  "K9-action": [
+  "K05-title": "Checklist",
+  "K09-action": [
     {
       "K10-title": "Disguise Now",
       "K11-link": "close"
@@ -33,7 +35,5 @@
       "K12-title": "Cancel"
     }
   ],
-  "K2-lang": "en",
-  "K0-version": 1,
-  "K7-categories": "mobile"
+  "K00-version": 1
 }

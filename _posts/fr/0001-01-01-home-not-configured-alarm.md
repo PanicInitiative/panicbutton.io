@@ -1,40 +1,40 @@
 ---
-lang: en
-status:
+K00-version: 1
+K01-layout: post
+K02-lang: en
+K03-slug: home-not-configured-alarm
+K04-type: simple
+K05-title: 'Panic Button'
+K06-published: true
+K07-categories: mobile
+K08-tags: mobile
+K09-status:
     -
-        color: red
-        link: help-not-configured
-        title: 'Setup not complete'
-layout: post
-tags: mobile
-items:
+        K10-title: 'Setup not complete'
+        K11-color: red
+        K12-link: help-not-configured
+K13-action:
     -
-        link: setup-about
-        title: About
+        K14-title: 'Basic Settings'
+        K15-link: ""
+        K16-status: checked
     -
-        link: help
-        title: Help
+        K17-title: 'Setup Alarm'
+        K18-link: setup-alarm
     -
-        link: setup-language
-        title: 'Language Settings'
-title: 'Panic Button'
-version: 1
-published: true
-action:
+        K19-title: 'Setup Disguise'
+        K20-link: setup-disguise
+        K21-status: disabled
+K22-items:
     -
-        status: checked
-        link: ""
-        title: 'Basic Settings'
+        K23-title: About
+        K24-link: setup-about
     -
-        link: setup-alarm
-        title: 'Setup Alarm'
+        K25-title: Help
+        K26-link: help
     -
-        status: disabled
-        link: setup-disguise
-        title: 'Setup Disguise'
-type: simple
-slug: home-not-configured-alarm
-categories: mobile
+        K27-title: 'Language Settings'
+        K28-link: setup-language
 
 ---
 

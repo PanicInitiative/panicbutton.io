@@ -1,16 +1,15 @@
 {
-  "K1-module": "footer",
-  "K2-published": true,
-  "K4-footer": [
+  "K01-module": "footer",
+  "K04-footer": [
     {
-      "K6-item": "About",
-      "K7-link": "/about.html",
-      "K8-description": "The story and organisations behind PANIC BUTTON."
+      "K06-item": "About",
+      "K08-description": "The story and organisations behind PANIC BUTTON.",
+      "K07-link": "/about.html"
     },
     {
       "K10-link": "/get-involved.html",
       "K11-description": "If you're a developer or want to help us improve PANIC BUTTON.",
-      "K9-item": "Get involved"
+      "K09-item": "Get involved"
     },
     {
       "K14-description": "Learn more about using Panic Button and managing your risks.",
@@ -28,6 +27,7 @@
       "K19-link": "http://panicalert.tumblr.com"
     }
   ],
-  "K0-layout": "post",
-  "K3-categories": "footer"
+  "K00-layout": "post",
+  "K02-published": true,
+  "K03-categories": "footer"
 }

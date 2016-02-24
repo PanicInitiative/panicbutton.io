@@ -1,12 +1,12 @@
 {
-    "lang": "en", 
-    "layout": "pact_rules", 
-    "title": "imPACT Game Overview", 
-    "downloadLink": "http://pactapp.io", 
-    "version": 1, 
-    "cardNum": 1, 
-    "published": true, 
-    "slug": "01-impact", 
-    "categories": "impact-rules", 
-    "goals": "imPACT Game where teams role play setting up, setting off and responding to the Panic Button in real life. Get an overview of the game and browse the cards"
+    "K00-layout": "pact_rules", 
+    "K01-title": "imPACT Game Overview", 
+    "K02-lang": "en", 
+    "K03-version": 1, 
+    "K04-slug": "01-impact", 
+    "K05-categories": "impact-rules", 
+    "K06-cardNum": 1, 
+    "K07-published": true, 
+    "K08-goals": "imPACT Game where teams role play setting up, setting off and responding to the Panic Button in real life. Get an overview of the game and browse the cards", 
+    "K09-downloadLink": "http://pactapp.io"
 }

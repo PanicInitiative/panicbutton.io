@@ -1,16 +1,25 @@
 {
+  "K03-slug": "home-ready",
   "K13-action": [
     {
       "K14-title": "Disguise",
       "K15-link": "checklist"
     }
   ],
-  "K3-slug": "home-ready",
-  "K4-type": "simple",
-  "K1-layout": "post",
-  "K5-title": "Panic Button",
-  "K6-published": true,
-  "K8-tags": "mobile",
+  "K01-layout": "post",
+  "K08-tags": "mobile",
+  "K04-type": "simple",
+  "K06-published": true,
+  "K02-lang": "en",
+  "K07-categories": "mobile",
+  "K05-title": "Panic Button",
+  "K09-status": [
+    {
+      "K10-title": "Ready",
+      "K11-color": "green",
+      "K12-link": "help-ready"
+    }
+  ],
   "K16-items": [
     {
       "K18-link": "settings",
@@ -25,14 +34,5 @@
       "K22-link": "help"
     }
   ],
-  "K2-lang": "en",
-  "K0-version": 1,
-  "K7-categories": "mobile",
-  "K9-status": [
-    {
-      "K10-title": "Ready",
-      "K11-color": "green",
-      "K12-link": "help-ready"
-    }
-  ]
+  "K00-version": 1
 }

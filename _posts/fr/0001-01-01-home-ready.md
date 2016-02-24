@@ -1,32 +1,32 @@
 ---
-lang: en
-status:
+K00-version: 1
+K01-layout: post
+K02-lang: en
+K03-slug: home-ready
+K04-type: simple
+K05-title: 'Panic Button'
+K06-published: true
+K07-categories: mobile
+K08-tags: mobile
+K09-status:
     -
-        color: green
-        link: help-ready
-        title: Ready
-layout: post
-tags: mobile
-items:
+        K10-title: Ready
+        K11-color: green
+        K12-link: help-ready
+K13-action:
     -
-        link: settings
-        title: Settings
+        K14-title: Disguise
+        K15-link: checklist
+K16-items:
     -
-        link: setup-about
-        title: About
+        K17-title: Settings
+        K18-link: settings
     -
-        link: help
-        title: Help
-title: 'Panic Button'
-version: 1
-published: true
-action:
+        K19-title: About
+        K20-link: setup-about
     -
-        link: checklist
-        title: Disguise
-type: simple
-slug: home-ready
-categories: mobile
+        K21-title: Help
+        K22-link: help
 
 ---
 

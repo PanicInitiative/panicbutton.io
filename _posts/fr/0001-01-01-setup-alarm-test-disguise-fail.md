@@ -1,17 +1,17 @@
 ---
-lang: en
-layout: post
-tags: mobile
-title: 'Setup Alert'
-version: 1
-published: 'true'
-action:
+K00-version: 1
+K01-layout: post
+K02-lang: en
+K03-slug: setup-alarm-test-disguise-fail
+K04-type: simple
+K05-title: 'Setup Alert'
+K06-published: 'true'
+K07-categories: mobile
+K08-tags: mobile
+K09-action:
     -
-        link: setup-alarm-test-disguise
-        title: 'Try Again'
-type: simple
-slug: setup-alarm-test-disguise-fail
-categories: mobile
+        K10-title: 'Try Again'
+        K11-link: setup-alarm-test-disguise
 
 ---
 

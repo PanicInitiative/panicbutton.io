@@ -1,16 +1,16 @@
 {
-  "K2-slug": "help_risk",
-  "K8-parent": {
+  "K04-title": "Managing Your Risks",
+  "K05-heading": "Managing Your Risks",
+  "K00-lang": "en",
+  "K06-published": true,
+  "K07-categories": "help",
+  "K08-parent": {
     "K10-link": "help.html",
-    "K9-title": "Help"
+    "K09-title": "Help"
   },
-  "K6-published": true,
-  "K3-layout": "page_toc",
+  "K02-slug": "help_risk",
+  "K01-version": 1,
   "K12-section_order": 1,
-  "K0-lang": "en",
-  "K5-heading": "Managing Your Risks",
-  "K4-title": "Managing Your Risks",
-  "K1-version": 1,
-  "K7-categories": "help",
+  "K03-layout": "page_toc",
   "K11-toc": "help_risk"
 }

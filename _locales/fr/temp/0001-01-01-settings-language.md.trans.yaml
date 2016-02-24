@@ -1,28 +1,28 @@
-lang: en
-layout: post
-tags: mobile
-introduction: 'Choose a language for the application.'
-title: 'Language settings'
-component: language
-version: 7
-published: true
-action:
+K00-version: 7
+K01-layout: post
+K02-lang: en
+K03-slug: settings-language
+K04-type: interactive
+K05-title: 'Language settings'
+K06-published: true
+K07-categories: mobile
+K08-tags: mobile
+K09-introduction: 'Choose a language for the application.'
+K10-component: language
+K11-action:
     -
-        confirmation: 'New language applied'
-        language: en
-        title: English
+        K12-title: English
+        K13-language: en
+        K14-confirmation: 'New language applied'
     -
-        confirmation: 'Nuevo lenguaje seleccionado'
-        language: es
-        title: Español
+        K15-title: Español
+        K16-language: es
+        K17-confirmation: 'Nuevo lenguaje seleccionado'
     -
-        confirmation: 'Nouveau language selectionné'
-        language: fr
-        title: Français
+        K18-title: Français
+        K19-language: fr
+        K20-confirmation: 'Nouveau language selectionné'
     -
-        confirmation: 'Novo idioma aplicado'
-        language: pt
-        title: Português
-type: interactive
-slug: settings-language
-categories: mobile
+        K21-title: Português
+        K22-language: pt
+        K23-confirmation: 'Novo idioma aplicado'

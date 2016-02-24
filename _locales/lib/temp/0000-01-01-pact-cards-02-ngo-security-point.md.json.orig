@@ -1,13 +1,13 @@
 {
-  "K8-bio": "You are the Security Focal Point of the NGO your HRD works for. Your NGO is member of the National Human Rights Defenders Coalition. You are the main contact point when anyone in the organisation is facing a security situation, and you need to ensure a coordinated emergency response.",
-  "K5-version": 1,
-  "K4-lang": "en",
-  "K9-talent": "You can request the release of an Urgent Action from the Head of the National Human Rights Defenders Coalition.",
-  "K1-title": "NGO Security Focal Point",
-  "K2-cardNum": 2.1,
-  "K6-slug": "02-ngo-security-point",
-  "K3-heading": "NGO Security Focal Point",
-  "K7-categories": "pact-cards",
-  "K10-token": "Urgent Action",
-  "K0-layout": "pact_hrd"
+  "K02-cardNum": 2.1,
+  "K01-title": "NGO Security Focal Point",
+  "K09-talent": "You can request the release of an Urgent Action from the Head of the National Human Rights Defenders Coalition.",
+  "K03-heading": "NGO Security Focal Point",
+  "K06-slug": "02-ngo-security-point",
+  "K05-version": 1,
+  "K04-lang": "en",
+  "K07-categories": "pact-cards",
+  "K08-bio": "You are the Security Focal Point of the NGO your HRD works for. Your NGO is member of the National Human Rights Defenders Coalition. You are the main contact point when anyone in the organisation is facing a security situation, and you need to ensure a coordinated emergency response.",
+  "K00-layout": "pact_hrd",
+  "K10-token": "Urgent Action"
 }

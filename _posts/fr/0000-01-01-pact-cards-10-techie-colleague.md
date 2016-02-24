@@ -1,11 +1,11 @@
 ---
-bio: 'You are a colleague of the human rights defender who is also concerned about, and trained in digital security matters.'
-talent: 'Digital security expertise'
-title: 'Techie Colleague'
-token: 'Security Key'
-cardNum: 6.1
-layout: pact_hrd
-categories: pact-cards
+K00-layout: pact_hrd
+K01-title: 'Techie Colleague'
+K02-cardNum: 6.1
+K03-categories: pact-cards
+K04-bio: 'You are a colleague of the human rights defender who is also concerned about, and trained in digital security matters.'
+K05-talent: 'Digital security expertise'
+K06-token: 'Security Key'
 
 ---
 

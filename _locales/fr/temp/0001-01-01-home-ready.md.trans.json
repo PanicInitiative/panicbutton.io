@@ -1,38 +1,38 @@
 {
-    "lang": "en", 
-    "status": [
+    "K00-version": 1, 
+    "K01-layout": "post", 
+    "K02-lang": "en", 
+    "K03-slug": "home-ready", 
+    "K04-type": "simple", 
+    "K05-title": "Panic Button", 
+    "K06-published": true, 
+    "K07-categories": "mobile", 
+    "K08-tags": "mobile", 
+    "K09-status": [
         {
-            "color": "green", 
-            "link": "help-ready", 
-            "title": "Ready"
+            "K10-title": "Ready", 
+            "K11-color": "green", 
+            "K12-link": "help-ready"
         }
     ], 
-    "layout": "post", 
-    "tags": "mobile", 
-    "items": [
+    "K13-action": [
         {
-            "link": "settings", 
-            "title": "Settings"
+            "K14-title": "Disguise", 
+            "K15-link": "checklist"
+        }
+    ], 
+    "K16-items": [
+        {
+            "K17-title": "Settings", 
+            "K18-link": "settings"
         }, 
         {
-            "link": "setup-about", 
-            "title": "About"
+            "K19-title": "About", 
+            "K20-link": "setup-about"
         }, 
         {
-            "link": "help", 
-            "title": "Help"
+            "K21-title": "Help", 
+            "K22-link": "help"
         }
-    ], 
-    "title": "Panic Button", 
-    "version": 1, 
-    "published": true, 
-    "action": [
-        {
-            "link": "checklist", 
-            "title": "Disguise"
-        }
-    ], 
-    "type": "simple", 
-    "slug": "home-ready", 
-    "categories": "mobile"
+    ]
 }
