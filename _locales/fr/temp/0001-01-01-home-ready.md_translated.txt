@@ -1,0 +1,1 @@
+Panic Button is set-up and ready. Click Disguise to exit and hide the application.

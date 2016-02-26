@@ -1,0 +1,14 @@
+K00-lang: en
+K01-version: 1
+K02-slug: "help_risk"
+K03-layout: page_toc
+K04-title: "Managing Your Risks"
+K05-heading: "Managing Your Risks"
+K06-published: true
+K07-categories: help
+K08-parent:
+  K09-title: Help
+  K10-link: help.html
+K11-toc: help_risk
+K12-section_order: 1
+

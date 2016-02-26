@@ -1,0 +1,15 @@
+{
+  "K04-title": "Using Panic Button",
+  "K05-published": true,
+  "K10-toc": "help_using",
+  "K00-lang": "en",
+  "K02-slug": "help_using",
+  "K01-version": 1,
+  "K11-section_order": 2,
+  "K03-layout": "page_toc",
+  "K06-categories": "help",
+  "K07-parent": {
+    "K08-title": "Help",
+    "K09-link": "help.html"
+  }
+}

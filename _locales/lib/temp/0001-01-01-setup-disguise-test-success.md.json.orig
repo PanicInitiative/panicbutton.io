@@ -1,0 +1,17 @@
+{
+  "K03-slug": "setup-disguise-test-success",
+  "K01-layout": "post",
+  "K08-tags": "mobile",
+  "K04-type": "simple",
+  "K06-published": "true",
+  "K02-lang": "en",
+  "K07-categories": "mobile",
+  "K05-title": "Well done",
+  "K09-action": [
+    {
+      "K10-title": "Finish",
+      "K11-link": "home-ready"
+    }
+  ],
+  "K00-version": 1
+}

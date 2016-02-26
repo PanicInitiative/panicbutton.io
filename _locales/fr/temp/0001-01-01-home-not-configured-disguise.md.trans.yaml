@@ -1,0 +1,36 @@
+K00-version: 1
+K01-layout: post
+K02-lang: en
+K03-slug: home-not-configured-disguise
+K04-type: simple
+K05-title: 'Panic Button'
+K06-published: true
+K07-categories: mobile
+K08-tags: mobile
+K09-status:
+    -
+        K10-title: 'Setup not complete'
+        K11-color: red
+        K12-link: help-not-configured
+K13-action:
+    -
+        K14-title: 'Basic Settings'
+        K15-link: ""
+        K16-status: checked
+    -
+        K17-title: 'Setup Alarm'
+        K18-link: ""
+        K19-status: checked
+    -
+        K20-title: 'Setup Disguise'
+        K21-link: setup-disguise
+K22-items:
+    -
+        K23-title: About
+        K24-link: setup-about
+    -
+        K25-title: Help
+        K26-link: help
+    -
+        K27-title: 'Language Settings'
+        K28-link: setup-language

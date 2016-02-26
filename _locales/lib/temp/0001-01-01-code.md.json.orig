@@ -1,0 +1,19 @@
+{
+  "K03-slug": "code",
+  "K09-component": "code",
+  "K01-layout": "post",
+  "K08-tags": "mobile",
+  "K04-type": "interactive",
+  "K06-published": "true",
+  "K02-lang": "en",
+  "K07-categories": "mobile",
+  "K05-title": "Code",
+  "K10-action": [
+    {
+      "K11-title": "Go",
+      "K12-link": "home-ready"
+    }
+  ],
+  "K13-fail": "If you have forgotten your pin number, uninstall the application from your phone settings and then reinstall it.",
+  "K00-version": 1
+}

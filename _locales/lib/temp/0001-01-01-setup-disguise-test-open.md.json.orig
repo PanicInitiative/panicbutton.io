@@ -1,0 +1,24 @@
+{
+  "K03-slug": "setup-disguise-test-open",
+  "K01-layout": "post",
+  "K08-tags": "mobile",
+  "K04-type": "interactive",
+  "K06-published": "true",
+  "K02-lang": "en",
+  "K07-categories": "mobile",
+  "K05-title": "Test Disguise",
+  "K09-introduction": "Try now! Open the app by clicking on the Calculate! icon.",
+  "K15-success": {
+    "K16-link": "setup-disguise-test-unlock"
+  },
+  "K11-timers": {
+    "K12-info": "0",
+    "K13-inactive": "10",
+    "K14-fail": "20"
+  },
+  "K00-version": 1,
+  "K17-fail": {
+    "K18-link": "setup-disguise-test-open-fail"
+  },
+  "K10-component": "disguise-test-open"
+}

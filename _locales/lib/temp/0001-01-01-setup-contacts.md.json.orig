@@ -1,0 +1,20 @@
+{
+  "K03-slug": "setup-contacts",
+  "K10-warning": "They should know you personally and be able to respond fast.",
+  "K01-layout": "post",
+  "K08-tags": "mobile",
+  "K04-type": "interactive",
+  "K06-published": true,
+  "K02-lang": "en",
+  "K07-categories": "mobile",
+  "K11-component": "contacts",
+  "K09-introduction": "These people will receive the alert.",
+  "K05-title": "Setup contacts",
+  "K00-version": 1,
+  "K12-action": [
+    {
+      "K14-link": "setup-message",
+      "K13-title": "Next"
+    }
+  ]
+}

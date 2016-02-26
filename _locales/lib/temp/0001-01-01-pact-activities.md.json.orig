@@ -1,0 +1,23 @@
+{
+  "K04-title": "PACT Toolkit",
+  "K05-heading": "Prepare to Act",
+  "K00-lang": "en",
+  "K06-published": true,
+  "K07-categories": "pact_sections",
+  "K02-slug": "pact-activities",
+  "K01-version": 1,
+  "K09-items": [
+    {
+      "K11-description": "Introduction to the PACT toolkit",
+      "K10-title": "Introduction",
+      "K12-link": "pact%20activities/Introduction.html"
+    },
+    {
+      "K14-description": "Risk mapping...",
+      "K15-link": "pact%20activities/Risk-Mapping.html",
+      "K13-title": "Risk Mapping"
+    }
+  ],
+  "K08-toc": "pact-activities",
+  "K03-module": "module_section_list"
+}

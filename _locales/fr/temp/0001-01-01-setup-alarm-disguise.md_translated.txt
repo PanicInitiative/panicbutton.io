@@ -1,0 +1,1 @@
+Alternatively, you can trigger the alert directly from the app's disguise screen.

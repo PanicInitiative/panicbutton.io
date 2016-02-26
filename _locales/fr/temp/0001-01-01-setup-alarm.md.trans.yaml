@@ -1,0 +1,13 @@
+K00-version: 1
+K01-layout: post
+K02-lang: en
+K03-slug: setup-alarm
+K04-type: simple
+K05-title: 'Setup Alert'
+K06-published: 'true'
+K07-categories: mobile
+K08-tags: mobile
+K09-action:
+    -
+        K10-title: Learn
+        K11-link: setup-alarm-test-hardware

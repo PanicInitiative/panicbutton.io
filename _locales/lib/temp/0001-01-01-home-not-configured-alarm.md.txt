@@ -1,0 +1,2 @@
+
+You cannot use Panic Button until it is fully setup.

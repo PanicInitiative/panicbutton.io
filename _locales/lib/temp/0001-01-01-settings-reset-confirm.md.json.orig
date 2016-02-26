@@ -1,0 +1,17 @@
+{
+  "K03-slug": "settings-reset-confirm",
+  "K01-layout": "post",
+  "K08-tags": "mobile",
+  "K04-type": "warning",
+  "K06-published": true,
+  "K02-lang": "en",
+  "K07-categories": "mobile",
+  "K05-title": "Confirm the re-installation",
+  "K09-action": [
+    {
+      "K10-title": "Confirm",
+      "K11-link": "home-not-configured"
+    }
+  ],
+  "K00-version": 4
+}

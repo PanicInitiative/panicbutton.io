@@ -1,0 +1,21 @@
+{
+  "K03-slug": "settings-message",
+  "K10-warning": "Create a plan so your contacts know what to do when they receive this",
+  "K01-layout": "post",
+  "K08-tags": "mobile",
+  "K04-type": "interactive",
+  "K06-published": true,
+  "K02-lang": "en",
+  "K07-categories": "mobile",
+  "K11-component": "message",
+  "K09-introduction": "This is the message that will be sent with your location.",
+  "K05-title": "Setup alert message",
+  "K00-version": 7,
+  "K12-action": [
+    {
+      "K13-title": "Save",
+      "K15-confirmation": "Message saved",
+      "K14-link": "home-ready"
+    }
+  ]
+}

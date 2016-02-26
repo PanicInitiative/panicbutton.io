@@ -1,0 +1,24 @@
+{
+  "K03-slug": "setup-disguise-test-unlock",
+  "K01-layout": "post",
+  "K08-tags": "mobile",
+  "K04-type": "interactive",
+  "K06-published": "true",
+  "K02-lang": "en",
+  "K07-categories": "mobile",
+  "K05-title": "Test Disguise",
+  "K09-introduction": "Try now! Hold down any button on the calculator.",
+  "K15-success": {
+    "K16-link": "setup-disguise-test-code"
+  },
+  "K11-timers": {
+    "K12-info": "0",
+    "K13-inactive": "10",
+    "K14-fail": "20"
+  },
+  "K00-version": 7,
+  "K17-fail": {
+    "K18-link": "setup-disguise-test-unlock-fail"
+  },
+  "K10-component": "disguise-test-unlock"
+}

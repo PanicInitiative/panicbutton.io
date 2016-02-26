@@ -1,0 +1,16 @@
+{
+  "K04-title": "Managing Your Risks",
+  "K05-heading": "Managing Your Risks",
+  "K00-lang": "en",
+  "K06-published": true,
+  "K07-categories": "help",
+  "K08-parent": {
+    "K10-link": "help.html",
+    "K09-title": "Help"
+  },
+  "K02-slug": "help_risk",
+  "K01-version": 1,
+  "K12-section_order": 1,
+  "K03-layout": "page_toc",
+  "K11-toc": "help_risk"
+}
