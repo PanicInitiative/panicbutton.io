@@ -1,15 +1,15 @@
 ---
-K00-lang: en
-K01-version: 1
-K02-slug: help_reading
-K03-layout: post
-K04-title: 'Reading List'
-K05-published: true
-K06-parent:
-title: Help
-link: help.html
-K09-categories: help
-K10-section_order: 3
+lang: en
+version: 1
+slug: help_reading
+layout: post
+title: 'Reading List'
+published: true
+parent:
+  title: Help
+  link: help.html
+categories: help
+section_order: 3
 
 ---
 

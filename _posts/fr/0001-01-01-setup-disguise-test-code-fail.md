@@ -1,14 +1,14 @@
 ---
-K00-version: 7
-K01-layout: post
-K02-lang: en
-K03-slug: setup-disguise-test-code-fail
-K04-type: simple
-K05-title: 'Setup the Disguise'
-K06-published: 'true'
-K07-categories: mobile
-K08-tags: mobile
-K09-action:
+version: 7
+layout: post
+lang: en
+slug: setup-disguise-test-code-fail
+type: simple
+title: 'Setup the Disguise'
+published: 'true'
+categories: mobile
+tags: mobile
+action:
   - title: 'Try Again'
     link: setup-disguise-test-unlock
 

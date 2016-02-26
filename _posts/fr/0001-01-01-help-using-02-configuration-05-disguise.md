@@ -1,15 +1,15 @@
 ---
-K00-version: 1
-K01-categories: help_using_configuration
-K02-toc: ""
-K03-module: page_subsection
-K04-slug: help_using_configuration_disguise
-K05-layout: post
-K06-lang: en
-K07-title: 'Activate disguise'
-K08-heading: 'Activate disguise'
-K09-published: true
-K10-section_order: 5
+version: 1
+categories: help_using_configuration
+toc: ""
+module: page_subsection
+slug: help_using_configuration_disguise
+layout: post
+lang: en
+title: 'Activate disguise'
+heading: 'Activate disguise'
+published: true
+section_order: 5
 
 ---
 

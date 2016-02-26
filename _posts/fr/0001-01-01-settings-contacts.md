@@ -1,17 +1,17 @@
 ---
-K00-version: 7
-K01-layout: post
-K02-lang: en
-K03-slug: settings-contacts
-K04-type: interactive
-K05-title: 'Setup contacts'
-K06-published: true
-K07-categories: mobile
-K08-tags: mobile
-K09-introduction: 'These people will receive the alert.'
-K10-warning: 'They should know you personally and be able to respond fast.'
-K11-component: contacts
-K12-action:
+version: 7
+layout: post
+lang: en
+slug: settings-contacts
+type: interactive
+title: 'Setup contacts'
+published: true
+categories: mobile
+tags: mobile
+introduction: 'These people will receive the alert.'
+warning: 'They should know you personally and be able to respond fast.'
+component: contacts
+action:
   - title: Save
     link: home-ready
     confirmation: 'Contacts saved'

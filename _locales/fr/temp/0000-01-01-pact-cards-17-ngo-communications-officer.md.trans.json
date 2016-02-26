@@ -1,9 +1,1 @@
-{
-    "K00-layout": "pact_hrd", 
-    "K01-title": "NGO Communications Officer", 
-    "K02-cardNum": 10.1, 
-    "K03-categories": "pact-cards", 
-    "K04-bio": "You are the Communications Officer at the human rights defender's NGO. Your job is to communicate effectively and engage the broad audience on problems and issues that your NGO is fighting for.", 
-    "K05-talent": "Master Communicator", 
-    "K06-published": true
-}
+{"K00-layout": "pact_hrd", "K01-title": "NGO Communications Officer", "K02-cardNum": 10.1, "K03-categories": "pact-cards", "K04-bio": "You are the Communications Officer at the human rights defender's NGO. Your job is to communicate effectively and engage the broad audience on problems and issues that your NGO is fighting for.", "K05-talent": "Master Communicator", "K06-published": true}

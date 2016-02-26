@@ -1,11 +1,11 @@
 ---
-K00-layout: post
-K01-module: home_section_features
-K02-heading: 'Panic Button **Features**'
-K03-published: true
-K04-categories: home_section
-K05-section_order: 4
-K06-features:
+layout: post
+module: home_section_features
+heading: 'Panic Button **Features**'
+published: true
+categories: home_section
+section_order: 4
+features:
   - feature: 'EMERGENCY SMS'
     content: 'Sends emergency SMS to your three trusted contacts in an emergency'
   - feature: 'LOCATION MAP'

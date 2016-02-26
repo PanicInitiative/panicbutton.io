@@ -1,15 +1,15 @@
 ---
-K00-version: 1
-K01-categories: help_using_configuration
-K02-toc: ""
-K03-module: page_subsection
-K04-slug: help_using_configuration_alert
-K05-layout: post
-K06-lang: en
-K07-title: 'Learn how to alert'
-K08-heading: 'Learn how to alert'
-K09-published: true
-K10-section_order: 4
+version: 1
+categories: help_using_configuration
+toc: ""
+module: page_subsection
+slug: help_using_configuration_alert
+layout: post
+lang: en
+title: 'Learn how to alert'
+heading: 'Learn how to alert'
+published: true
+section_order: 4
 
 ---
 

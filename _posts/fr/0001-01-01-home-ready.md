@@ -1,21 +1,21 @@
 ---
-K00-version: 1
-K01-layout: post
-K02-lang: en
-K03-slug: home-ready
-K04-type: simple
-K05-title: 'Panic Button'
-K06-published: true
-K07-categories: mobile
-K08-tags: mobile
-K09-status:
+version: 1
+layout: post
+lang: en
+slug: home-ready
+type: simple
+title: 'Panic Button'
+published: true
+categories: mobile
+tags: mobile
+status:
   - title: Ready
     color: green
     link: help-ready
-K13-action:
+action:
   - title: Disguise
     link: checklist
-K16-items:
+items:
   - title: Settings
     link: settings
   - title: About

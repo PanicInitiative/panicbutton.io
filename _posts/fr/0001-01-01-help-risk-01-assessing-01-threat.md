@@ -1,14 +1,14 @@
 ---
-K00-layout: post
-K01-module: page_subsection
-K02-lang: en
-K03-version: 1
-K04-slug: help_risk_assessing_threat
-K05-title: 'Assessing the threat'
-K06-heading: 'First step: assessing the threat'
-K07-published: true
-K08-categories: help_risk_assessing
-K09-section_order: 1
+layout: post
+module: page_subsection
+lang: en
+version: 1
+slug: help_risk_assessing_threat
+title: 'Assessing the threat'
+heading: 'First step: assessing the threat'
+published: true
+categories: help_risk_assessing
+section_order: 1
 
 ---
 

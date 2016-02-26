@@ -1,13 +1,13 @@
 ---
-K00-version: 2
-K01-layout: post
-K02-lang: en
-K03-slug: setup-about
-K04-type: simple
-K05-title: About
-K06-published: 'true'
-K07-categories: mobile
-K08-tags: mobile
+version: 2
+layout: post
+lang: en
+slug: setup-about
+type: simple
+title: About
+published: 'true'
+categories: mobile
+tags: mobile
 
 ---
 

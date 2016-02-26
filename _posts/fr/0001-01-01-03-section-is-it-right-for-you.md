@@ -1,11 +1,11 @@
 ---
-K00-layout: post
-K01-module: home_section_is
-K02-heading: 'Is Panic Button<br/>**right for you?**'
-K03-published: true
-K04-categories: home_section
-K05-section_order: 3
-K06-questions:
+layout: post
+module: home_section_is
+heading: 'Is Panic Button<br/>**right for you?**'
+published: true
+categories: home_section
+section_order: 3
+questions:
   - id: 1
     content: 'Do you have an ANDROID phone?'
     src: images/android-logo.png
@@ -66,7 +66,7 @@ K06-questions:
   - id: final
     content: 'Panic Button is a useful tool to alert your network quickly and discretely in an emergency. It is not a fail-safe security tool! [Click to read more about how to setup a PACT](#pact) with your network so that respondents are prepared to act fast when they receive an alert.'
     src: images/tool.png
-K67-alert: 'Using Panic Button to send an alert only improves your safety when your contacts can do something to help you. The disguise is only here to delay the discovery of the application for as long as possible to send your location updates. A competent adversary might be able to find out about your location, that you are alerting your contacts or the identity of your contacts.'
+alert: 'Using Panic Button to send an alert only improves your safety when your contacts can do something to help you. The disguise is only here to delay the discovery of the application for as long as possible to send your location updates. A competent adversary might be able to find out about your location, that you are alerting your contacts or the identity of your contacts.'
 
 ---
 

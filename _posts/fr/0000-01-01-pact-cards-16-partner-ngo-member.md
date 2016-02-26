@@ -1,11 +1,11 @@
 ---
-K00-layout: pact_hrd
-K01-title: 'Partner NGO member'
-K02-cardNum: 9.1
-K03-categories: pact-cards
-K04-bio: 'You are a member of an NGO that often partners with the human rights defender''s NGO. Your NGO is specialised in mobilising local and national activists to physical protests. You often work in solidarity with your partner NGOs.'
-K05-talent: 'Master Protester'
-K06-published: true
+layout: pact_hrd
+title: 'Partner NGO member'
+cardNum: 9.1
+categories: pact-cards
+bio: 'You are a member of an NGO that often partners with the human rights defender''s NGO. Your NGO is specialised in mobilising local and national activists to physical protests. You often work in solidarity with your partner NGOs.'
+talent: 'Master Protester'
+published: true
 
 ---
 

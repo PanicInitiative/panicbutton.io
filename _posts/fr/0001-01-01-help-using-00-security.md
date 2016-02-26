@@ -1,15 +1,15 @@
 ---
-K00-version: 2
-K01-categories: help_using
-K02-toc: ""
-K03-module: ""
-K04-slug: help_using_security
-K05-layout: post
-K06-lang: en
-K07-title: 'Security Information'
-K08-heading: 'Important Security Information'
-K09-published: true
-K10-section_order: 1
+version: 2
+categories: help_using
+toc: ""
+module: ""
+slug: help_using_security
+layout: post
+lang: en
+title: 'Security Information'
+heading: 'Important Security Information'
+published: true
+section_order: 1
 
 ---
 

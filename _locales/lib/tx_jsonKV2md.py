@@ -178,8 +178,7 @@ def makeMarkdown(k):
 						line = re.sub(r'([\s]{4})([\s-]*)(K[0-9]+-)(\w+:)', r'\2' + r'\4', line, count=1)
 					else:
 						line = re.sub(r'([\s-]*)(K[0-9]+-)(\w+:)', r'\1' + r'\3', line, count=1)
-
-					
+										
 					yam.write(line)
 					kk = "none"
 

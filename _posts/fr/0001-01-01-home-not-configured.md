@@ -1,17 +1,17 @@
 ---
-K00-version: 1
-K01-layout: post
-K02-lang: en
-K03-slug: home-not-configured
-K04-type: simple
-K05-title: 'Panic Button'
-K06-published: true
-K07-categories: mobile
-K08-tags: mobile
-K09-action:
+version: 1
+layout: post
+lang: en
+slug: home-not-configured
+type: simple
+title: 'Panic Button'
+published: true
+categories: mobile
+tags: mobile
+action:
   - title: Set-Up
     link: setup-warning
-K12-items:
+items:
   - title: About
     link: setup-about
   - title: 'Language Settings'

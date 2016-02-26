@@ -1,14 +1,14 @@
 ---
-K00-version: 1
-K01-layout: post
-K02-lang: en
-K03-slug: setup-alarm-test-hardware-success
-K04-type: simple
-K05-title: 'Well done!'
-K06-published: 'true'
-K07-categories: mobile
-K08-tags: mobile
-K09-action:
+version: 1
+layout: post
+lang: en
+slug: setup-alarm-test-hardware-success
+type: simple
+title: 'Well done!'
+published: 'true'
+categories: mobile
+tags: mobile
+action:
   - title: Next
     link: setup-alarm-disguise
 

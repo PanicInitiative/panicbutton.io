@@ -1,13 +1,13 @@
 ---
-K00-layout: post
-K01-title: 'imPACT Game Rules'
-K02-lang: en
-K03-version: 1
-K04-slug: 03-impact
-K05-categories: impact-rules
-K06-goals: 'Learn the rules of the imPACT Game.'
-K07-cardNum: 2
-K08-published: true
+layout: post
+title: 'imPACT Game Rules'
+lang: en
+version: 1
+slug: 03-impact
+categories: impact-rules
+goals: 'Learn the rules of the imPACT Game.'
+cardNum: 2
+published: true
 
 ---
 

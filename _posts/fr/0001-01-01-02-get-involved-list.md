@@ -1,11 +1,11 @@
 ---
-K00-layout: post
-K01-module: module_section_list
-K02-heading: 'Panic Button **in the Press**'
-K03-published: true
-K04-categories: get_involved
-K05-section_order: 2
-K06-items: null
+layout: post
+module: module_section_list
+heading: 'Panic Button **in the Press**'
+published: true
+categories: get_involved
+section_order: 2
+items: null
 
 ---
 

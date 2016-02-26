@@ -1,14 +1,14 @@
 ---
-K00-layout: post
-K01-module: module_section_image
-K02-title: 'Get Involved'
-K03-heading: 'Get **Involved** with PANIC BUTTON'
-K04-published: true
-K05-categories: get_involved
-K06-section_order: 1
-K08-image:
-src: about-img-1.png
-caption: 'Activists brainstorm and prioritise some of the potential features for ‘Panic Button’ in an open design workshop in Nairobi. © Amnesty International'
+layout: post
+module: module_section_image
+title: 'Get Involved'
+heading: 'Get **Involved** with PANIC BUTTON'
+published: true
+categories: get_involved
+section_order: 1
+image:
+  src: about-img-1.png
+  caption: 'Activists brainstorm and prioritise some of the potential features for ‘Panic Button’ in an open design workshop in Nairobi. © Amnesty International'
 
 ---
 

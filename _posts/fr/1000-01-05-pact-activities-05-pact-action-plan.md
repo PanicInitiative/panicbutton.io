@@ -1,21 +1,21 @@
 ---
-K00-layout: pact_post
-K01-title: 'PACT action plan'
-K02-lang: en
-K03-version: 1
-K04-slug: 05-pact-action-plan
-K05-cardNum: 5
-K06-numDash: '21.3,2,21.3,2,21.3,2,21.3,2,21.3,999'
-K07-categories: pact-activities
-K08-goals: 'Making an action plan to prepare your PACT to do what you need them to do.'
-K09-methodology: 'Reflection on game, individual action planning'
-K10-timeSpan: '90 minutes'
-K11-remember: 'This exercise takes place after the imPACT game'
-K12-materials: 'Flipcharts, markers, reflection petals'
-K13-downloadLink: media/pdf/05_PACT_Action_Plan.pdf
-K14-shortLink: naturally
-K15-extra: null
-K16-published: true
+layout: pact_post
+title: 'PACT action plan'
+lang: en
+version: 1
+slug: 05-pact-action-plan
+cardNum: 5
+numDash: '21.3,2,21.3,2,21.3,2,21.3,2,21.3,999'
+categories: pact-activities
+goals: 'Making an action plan to prepare your PACT to do what you need them to do.'
+methodology: 'Reflection on game, individual action planning'
+timeSpan: '90 minutes'
+remember: 'This exercise takes place after the imPACT game'
+materials: 'Flipcharts, markers, reflection petals'
+downloadLink: media/pdf/05_PACT_Action_Plan.pdf
+shortLink: naturally
+extra: null
+published: true
 
 ---
 

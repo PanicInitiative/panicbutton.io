@@ -1,16 +1,16 @@
 ---
-K00-version: 1
-K01-categories: help_using_configuration
-K02-toc: ""
-K03-module: page_subsection
-K04-slug: help_using_configuration_contacts
-K05-layout: post
-K06-lang: en
-K07-title: 'Setting Up Contacts'
-K08-heading: 'Setting Up Contacts'
-K09-published: true
-K10-alert: 'Panic Button is not a replacement for regular contact. Communicate regularly with your network and keep them informed of your planned whereabouts.'
-K11-section_order: 1
+version: 1
+categories: help_using_configuration
+toc: ""
+module: page_subsection
+slug: help_using_configuration_contacts
+layout: post
+lang: en
+title: 'Setting Up Contacts'
+heading: 'Setting Up Contacts'
+published: true
+alert: 'Panic Button is not a replacement for regular contact. Communicate regularly with your network and keep them informed of your planned whereabouts.'
+section_order: 1
 
 ---
 

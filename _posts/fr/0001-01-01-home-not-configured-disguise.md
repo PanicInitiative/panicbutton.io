@@ -1,18 +1,18 @@
 ---
-K00-version: 1
-K01-layout: post
-K02-lang: en
-K03-slug: home-not-configured-disguise
-K04-type: simple
-K05-title: 'Panic Button'
-K06-published: true
-K07-categories: mobile
-K08-tags: mobile
-K09-status:
+version: 1
+layout: post
+lang: en
+slug: home-not-configured-disguise
+type: simple
+title: 'Panic Button'
+published: true
+categories: mobile
+tags: mobile
+status:
   - title: 'Setup not complete'
     color: red
     link: help-not-configured
-K13-action:
+action:
   - title: 'Basic Settings'
     link: ""
     status: checked
@@ -21,7 +21,7 @@ K13-action:
     status: checked
   - title: 'Setup Disguise'
     link: setup-disguise
-K22-items:
+items:
   - title: About
     link: setup-about
   - title: Help

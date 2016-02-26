@@ -1,14 +1,14 @@
 ---
-K00-lang: en
-K01-version: 1
-K02-slug: pact-cards
-K03-module: module_section_list
-K04-title: 'Game Cards'
-K05-heading: 'PACT Game Cards'
-K06-published: true
-K07-categories: pact_sections
-K08-toc: pact-cards
-K09-items:
+lang: en
+version: 1
+slug: pact-cards
+module: module_section_list
+title: 'Game Cards'
+heading: 'PACT Game Cards'
+published: true
+categories: pact_sections
+toc: pact-cards
+items:
   - title: Introduction
     description: 'Introduction to the PACT toolkit'
     link: pact%20activities/Introduction.html

@@ -1,13 +1,13 @@
 ---
-K00-categories: about
-K01-module: module_section_list
-K02-layout: post
-K03-slug: ""
-K04-heading: 'More on Panic Button'
-K05-published: true
-K06-section_order: 3
-K07-lang: en
-K08-items:
+categories: about
+module: module_section_list
+layout: post
+slug: ""
+heading: 'More on Panic Button'
+published: true
+section_order: 3
+lang: en
+items:
   - title: 'Amnesty Livewire: **How to turn a mobile phone into an alert system for activists**'
     link: 'http://livewire.amnesty.org/2013/04/15/how-to-turn-a-mobile-phone-into-an-alert-system-for-activists/'
   - title: 'Amnesty Livewire: **Inside the development of Panic Button**'

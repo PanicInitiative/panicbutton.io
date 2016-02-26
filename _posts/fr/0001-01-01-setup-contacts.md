@@ -1,17 +1,17 @@
 ---
-K00-version: 1
-K01-layout: post
-K02-lang: en
-K03-slug: setup-contacts
-K04-type: interactive
-K05-title: 'Setup contacts'
-K06-published: true
-K07-categories: mobile
-K08-tags: mobile
-K09-introduction: 'These people will receive the alert.'
-K10-warning: 'They should know you personally and be able to respond fast.'
-K11-component: contacts
-K12-action:
+version: 1
+layout: post
+lang: en
+slug: setup-contacts
+type: interactive
+title: 'Setup contacts'
+published: true
+categories: mobile
+tags: mobile
+introduction: 'These people will receive the alert.'
+warning: 'They should know you personally and be able to respond fast.'
+component: contacts
+action:
   - title: Next
     link: setup-message
 

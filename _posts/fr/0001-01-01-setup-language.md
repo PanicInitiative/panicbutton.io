@@ -1,16 +1,16 @@
 ---
-K00-version: 7
-K01-layout: post
-K02-lang: en
-K03-slug: setup-language
-K04-type: interactive
-K05-title: 'Language settings'
-K06-published: true
-K07-categories: mobile
-K08-tags: mobile
-K09-introduction: 'Choose a language for the application.'
-K10-component: language
-K11-action:
+version: 7
+layout: post
+lang: en
+slug: setup-language
+type: interactive
+title: 'Language settings'
+published: true
+categories: mobile
+tags: mobile
+introduction: 'Choose a language for the application.'
+component: language
+action:
   - title: English
     language: en
     confirmation: 'New language applied'

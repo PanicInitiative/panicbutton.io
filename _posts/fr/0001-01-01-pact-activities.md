@@ -1,14 +1,14 @@
 ---
-K00-lang: en
-K01-version: 1
-K02-slug: pact-activities
-K03-module: module_section_list
-K04-title: 'PACT Toolkit'
-K05-heading: 'Prepare to Act'
-K06-published: true
-K07-categories: pact_sections
-K08-toc: pact-activities
-K09-items:
+lang: en
+version: 1
+slug: pact-activities
+module: module_section_list
+title: 'PACT Toolkit'
+heading: 'Prepare to Act'
+published: true
+categories: pact_sections
+toc: pact-activities
+items:
   - title: Introduction
     description: 'Introduction to the PACT toolkit'
     link: pact%20activities/Introduction.html

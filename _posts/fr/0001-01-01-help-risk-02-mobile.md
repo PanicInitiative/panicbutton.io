@@ -1,13 +1,13 @@
 ---
-K00-layout: post
-K01-lang: en
-K02-version: 1
-K03-slug: help_risk_mobile
-K04-title: 'Safer mobile'
-K05-heading: 'Safer mobile'
-K06-published: true
-K07-categories: help_risk
-K08-section_order: 2
+layout: post
+lang: en
+version: 1
+slug: help_risk_mobile
+title: 'Safer mobile'
+heading: 'Safer mobile'
+published: true
+categories: help_risk
+section_order: 2
 
 ---
 

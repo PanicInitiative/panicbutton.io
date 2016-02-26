@@ -1,15 +1,15 @@
 ---
-K00-version: 1
-K01-categories: help_using_configuration
-K02-toc: ""
-K03-module: page_subsection
-K04-slug: help_using_configuration_alert_messages
-K05-layout: post
-K06-lang: en
-K07-title: 'Create your alert message'
-K08-heading: 'Create your alert message'
-K09-published: true
-K10-section_order: 2
+version: 1
+categories: help_using_configuration
+toc: ""
+module: page_subsection
+slug: help_using_configuration_alert_messages
+layout: post
+lang: en
+title: 'Create your alert message'
+heading: 'Create your alert message'
+published: true
+section_order: 2
 
 ---
 
