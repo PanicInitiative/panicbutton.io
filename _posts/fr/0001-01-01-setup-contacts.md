@@ -12,9 +12,8 @@ K09-introduction: 'These people will receive the alert.'
 K10-warning: 'They should know you personally and be able to respond fast.'
 K11-component: contacts
 K12-action:
-    -
-        K13-title: Next
-        K14-link: setup-message
+  - title: Next
+    link: setup-message
 
 ---
 

@@ -9,14 +9,12 @@ K06-published: true
 K07-categories: pact_sections
 K08-toc: pact-activities
 K09-items:
-    -
-        K10-title: Introduction
-        K11-description: 'Introduction to the PACT toolkit'
-        K12-link: pact%20activities/Introduction.html
-    -
-        K13-title: 'Risk Mapping'
-        K14-description: 'Risk mapping...'
-        K15-link: pact%20activities/Risk-Mapping.html
+  - title: Introduction
+    description: 'Introduction to the PACT toolkit'
+    link: pact%20activities/Introduction.html
+  - title: 'Risk Mapping'
+    description: 'Risk mapping...'
+    link: pact%20activities/Risk-Mapping.html
 
 ---
 

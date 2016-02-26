@@ -11,13 +11,13 @@ K08-tags: mobile
 K09-introduction: 'Try now! Hold down any button on the calculator.'
 K10-component: disguise-test-unlock
 K11-timers:
-    K12-info: '0'
-    K13-inactive: '10'
-    K14-fail: '20'
+info: '0'
+inactive: '10'
+fail: '20'
 K15-success:
-    K16-link: setup-disguise-test-code
+link: setup-disguise-test-code
 K17-fail:
-    K18-link: setup-disguise-test-unlock-fail
+link: setup-disguise-test-unlock-fail
 
 ---
 

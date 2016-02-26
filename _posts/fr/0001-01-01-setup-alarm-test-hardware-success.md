@@ -9,9 +9,8 @@ K06-published: 'true'
 K07-categories: mobile
 K08-tags: mobile
 K09-action:
-    -
-        K10-title: Next
-        K11-link: setup-alarm-disguise
+  - title: Next
+    link: setup-alarm-disguise
 
 ---
 

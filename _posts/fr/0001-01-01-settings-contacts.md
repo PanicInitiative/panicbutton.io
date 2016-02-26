@@ -12,10 +12,9 @@ K09-introduction: 'These people will receive the alert.'
 K10-warning: 'They should know you personally and be able to respond fast.'
 K11-component: contacts
 K12-action:
-    -
-        K13-title: Save
-        K14-link: home-ready
-        K15-confirmation: 'Contacts saved'
+  - title: Save
+    link: home-ready
+    confirmation: 'Contacts saved'
 
 ---
 

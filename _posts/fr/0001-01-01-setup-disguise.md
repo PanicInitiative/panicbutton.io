@@ -9,9 +9,8 @@ K06-published: 'true'
 K07-categories: mobile
 K08-tags: mobile
 K09-action:
-    -
-        K10-title: Learn
-        K11-link: setup-disguise-test-open
+  - title: Learn
+    link: setup-disguise-test-open
 
 ---
 

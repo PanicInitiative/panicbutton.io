@@ -9,9 +9,8 @@ K06-published: true
 K07-categories: mobile
 K08-tags: mobile
 K09-action:
-    -
-        K10-title: Confirm
-        K11-link: home-not-configured
+  - title: Confirm
+    link: home-not-configured
 
 ---
 

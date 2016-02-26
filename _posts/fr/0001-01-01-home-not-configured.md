@@ -9,16 +9,13 @@ K06-published: true
 K07-categories: mobile
 K08-tags: mobile
 K09-action:
-    -
-        K10-title: Set-Up
-        K11-link: setup-warning
+  - title: Set-Up
+    link: setup-warning
 K12-items:
-    -
-        K13-title: About
-        K14-link: setup-about
-    -
-        K15-title: 'Language Settings'
-        K16-link: setup-language
+  - title: About
+    link: setup-about
+  - title: 'Language Settings'
+    link: setup-language
 
 ---
 

@@ -6,14 +6,12 @@ K03-published: true
 K04-categories: home_section
 K05-section_order: 6
 K06-downloads:
-    -
-        K07-download: 'Download Panic Button from<br/>**Google Play.**'
-        K08-label: 'Download from GOOGLE.'
-        K09-link: 'https://play.google.com/store/apps/details?id=org.iilab.pb'
-    -
-        K10-download: 'View the Source Code on **Github**.'
-        K11-label: 'View Source Code'
-        K12-link: 'https://github.com/iilab/PanicButton'
+  - download: 'Download Panic Button from<br/>**Google Play.**'
+    label: 'Download from GOOGLE.'
+    link: 'https://play.google.com/store/apps/details?id=org.iilab.pb'
+  - download: 'View the Source Code on **Github**.'
+    label: 'View Source Code'
+    link: 'https://github.com/iilab/PanicButton'
 
 ---
 

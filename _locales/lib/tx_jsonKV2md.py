@@ -4,6 +4,7 @@ import json
 import codecs
 import config
 import functools
+import re
 
 #TODO : Comment file 
 #class
@@ -47,7 +48,7 @@ def rhasattr(obj, attr):
 def getFromDict(dataDict, mapList):
 	return reduce(lambda d, k: d[k], mapList, dataDict)
 
-def handleDepthLists(lst, mapList, i):
+def deepLists(lst, mapList, i):
 	for x in lst: 
 		d = x.keys()
 		if mapList[i] in d:
@@ -56,7 +57,7 @@ def handleDepthLists(lst, mapList, i):
 
 def distillToUnicode(lst, mapList, i, larr):
 	if type(lst) == list: 
-		c = handleDepthLists(lst, mapList, i)
+		c = deepLists(lst, mapList, i)
 		larr.append(c)
 		larr.append(mapList[i])
 		b = lst[c][mapList[i]]
@@ -70,10 +71,9 @@ def setInDict(dataDict, mapList, value):
 		getFromDict(dataDict, mapList[:-1])[mapList[-1]] = value
 	except:
 		a = dataDict[mapList[0]]
-		i = 1
 		larr = []
 		larr.append(mapList[0])
-		c = distillToUnicode(a, mapList, i, larr)
+		c = distillToUnicode(a, mapList, 1, larr)
 		getFromDict(dataDict, c[:-1])[c[-1]] = value
 
 def parseObj(n, u, r):
@@ -150,7 +150,6 @@ def makeYAML(k):
 
 def makeMarkdown(k):
 	yaml = getFile(k, '.yaml')
-	print yaml
 	
 	for y in yaml: 
 		n = y[:-11]
@@ -161,8 +160,20 @@ def makeMarkdown(k):
 		yam.write("---\n")
 
 		temp = open("../"+k+"/temp/"+y, "r")
+		kk = "none"
 		for line in temp:
-			yam.write(line)
+			d = re.match(r'\s*-\s*$', line)
+			if d: 
+				kk = d.group(0)
+			else: 
+				if kk !="none":
+					line = re.sub(r'([\s]{6})([\s]*)(K[0-9]+-)(\w+:)', r'\2'+ '- ' + r'\4', line, count=1)
+					yam.write(line)
+					kk = "none"
+				else: 
+					line = re.sub(r'([\s]{4})([\s-]*)(K[0-9]+-)(\w+:)', r'\2' + r'\4', line, count=1)
+					yam.write(line)
+					kk = "none"
 
 		yam.write("\n---\n\n")
 		yam.close()

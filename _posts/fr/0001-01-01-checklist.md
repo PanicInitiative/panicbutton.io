@@ -9,24 +9,17 @@ K06-published: 'true'
 K07-categories: mobile
 K08-tags: mobile
 K09-action:
-    -
-        K10-title: 'Disguise Now'
-        K11-link: close
-    -
-        K12-title: Cancel
-        K13-link: home-ready
-        K14-status: disabled
+  - title: 'Disguise Now'
+    link: close
+  - title: Cancel
+    link: home-ready
+    status: disabled
 K15-checklist:
-    -
-        K16-title: 'Review security plan and update contacts regularly'
-    -
-        K17-title: 'Test the alert to ensure it is working'
-    -
-        K18-title: 'Ensure sufficient credit on the phone'
-    -
-        K19-title: 'Activate GPS (if you want to enable location tracking)'
-    -
-        K20-title: 'Charge phone battery to full'
+  - title: 'Review security plan and update contacts regularly'
+  - title: 'Test the alert to ensure it is working'
+  - title: 'Ensure sufficient credit on the phone'
+  - title: 'Activate GPS (if you want to enable location tracking)'
+  - title: 'Charge phone battery to full'
 
 ---
 

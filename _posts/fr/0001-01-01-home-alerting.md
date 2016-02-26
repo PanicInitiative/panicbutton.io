@@ -9,14 +9,12 @@ K06-published: true
 K07-categories: mobile
 K08-tags: mobile
 K09-status:
-    -
-        K10-title: Alerting
-        K11-color: red
-        K12-link: help-alerting
+  - title: Alerting
+    color: red
+    link: help-alerting
 K13-action:
-    -
-        K14-title: 'Stop Alerting'
-        K15-link: home-ready
+  - title: 'Stop Alerting'
+    link: home-ready
 
 ---
 

@@ -8,18 +8,14 @@ K05-published: true
 K06-section_order: 3
 K07-lang: en
 K08-items:
-    -
-        K09-title: 'Amnesty Livewire: **How to turn a mobile phone into an alert system for activists**'
-        K10-link: 'http://livewire.amnesty.org/2013/04/15/how-to-turn-a-mobile-phone-into-an-alert-system-for-activists/'
-    -
-        K11-title: 'Amnesty Livewire: **Inside the development of Panic Button**'
-        K12-link: 'http://livewire.amnesty.org/2013/09/11/inside-the-development-of-amnestys-new-panic-button-app/'
-    -
-        K13-title: 'Github Repository'
-        K14-link: 'https://github.com/TeamPanicButton/PanicButton'
-    -
-        K15-title: 'East and Horn of Africa: **Human Rights Defenders Train In New App To Defend Themselves Against Attack**'
-        K16-link: 'http://defenddefenders.org/2014/05/east-horn-africa-human-rights-defenders-train-new-app-defend-attack/'
+  - title: 'Amnesty Livewire: **How to turn a mobile phone into an alert system for activists**'
+    link: 'http://livewire.amnesty.org/2013/04/15/how-to-turn-a-mobile-phone-into-an-alert-system-for-activists/'
+  - title: 'Amnesty Livewire: **Inside the development of Panic Button**'
+    link: 'http://livewire.amnesty.org/2013/09/11/inside-the-development-of-amnestys-new-panic-button-app/'
+  - title: 'Github Repository'
+    link: 'https://github.com/TeamPanicButton/PanicButton'
+  - title: 'East and Horn of Africa: **Human Rights Defenders Train In New App To Defend Themselves Against Attack**'
+    link: 'http://defenddefenders.org/2014/05/east-horn-africa-human-rights-defenders-train-new-app-defend-attack/'
 
 ---
 

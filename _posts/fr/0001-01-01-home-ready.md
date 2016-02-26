@@ -9,24 +9,19 @@ K06-published: true
 K07-categories: mobile
 K08-tags: mobile
 K09-status:
-    -
-        K10-title: Ready
-        K11-color: green
-        K12-link: help-ready
+  - title: Ready
+    color: green
+    link: help-ready
 K13-action:
-    -
-        K14-title: Disguise
-        K15-link: checklist
+  - title: Disguise
+    link: checklist
 K16-items:
-    -
-        K17-title: Settings
-        K18-link: settings
-    -
-        K19-title: About
-        K20-link: setup-about
-    -
-        K21-title: Help
-        K22-link: help
+  - title: Settings
+    link: settings
+  - title: About
+    link: setup-about
+  - title: Help
+    link: help
 
 ---
 

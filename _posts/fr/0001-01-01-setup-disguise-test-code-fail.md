@@ -9,9 +9,8 @@ K06-published: 'true'
 K07-categories: mobile
 K08-tags: mobile
 K09-action:
-    -
-        K10-title: 'Try Again'
-        K11-link: setup-disguise-test-unlock
+  - title: 'Try Again'
+    link: setup-disguise-test-unlock
 
 ---
 

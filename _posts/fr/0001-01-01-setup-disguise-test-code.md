@@ -11,17 +11,16 @@ K08-tags: mobile
 K09-introduction: 'Well done! Now enter your pincode to access settings.'
 K10-component: disguise-test-code
 K11-action:
-    -
-        K12-title: Ok
-        K13-link: setup-disguise-test-success
+  - title: Ok
+    link: setup-disguise-test-success
 K14-timers:
-    K15-info: '0'
-    K16-inactive: '10'
-    K17-fail: '20'
+info: '0'
+inactive: '10'
+fail: '20'
 K18-success:
-    K19-link: setup-disguise-test-success
+link: setup-disguise-test-success
 K20-fail:
-    K21-link: setup-disguise-test-code-fail
+link: setup-disguise-test-code-fail
 
 ---
 

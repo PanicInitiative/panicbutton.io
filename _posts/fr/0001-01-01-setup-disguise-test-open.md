@@ -11,13 +11,13 @@ K08-tags: mobile
 K09-introduction: 'Try now! Open the app by clicking on the Calculate! icon.'
 K10-component: disguise-test-open
 K11-timers:
-    K12-info: '0'
-    K13-inactive: '10'
-    K14-fail: '20'
+info: '0'
+inactive: '10'
+fail: '20'
 K15-success:
-    K16-link: setup-disguise-test-unlock
+link: setup-disguise-test-unlock
 K17-fail:
-    K18-link: setup-disguise-test-open-fail
+link: setup-disguise-test-open-fail
 
 ---
 

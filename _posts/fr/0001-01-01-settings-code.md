@@ -12,10 +12,9 @@ K09-introduction: 'This pin code is needed to access the alert settings and to t
 K10-warning: 'Remember your pincode! If you forget it you will need to reinstall the app.'
 K12-component: code
 K13-action:
-    -
-        K14-title: Save
-        K15-link: home-ready
-        K16-confirmation: 'Pincode saved'
+  - title: Save
+    link: home-ready
+    confirmation: 'Pincode saved'
 
 ---
 

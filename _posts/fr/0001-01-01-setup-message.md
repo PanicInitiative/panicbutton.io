@@ -12,9 +12,8 @@ K09-introduction: 'This is the message that will be sent with your location.'
 K10-warning: 'Create a plan so your contacts know what to do when they receive this'
 K11-component: message
 K12-action:
-    -
-        K13-title: Next
-        K14-link: setup-code
+  - title: Next
+    link: setup-code
 
 ---
 

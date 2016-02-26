@@ -9,32 +9,25 @@ K06-published: true
 K07-categories: mobile
 K08-tags: mobile
 K09-status:
-    -
-        K10-title: 'Setup not complete'
-        K11-color: red
-        K12-link: help-not-configured
+  - title: 'Setup not complete'
+    color: red
+    link: help-not-configured
 K13-action:
-    -
-        K14-title: 'Basic Settings'
-        K15-link: ""
-        K16-status: checked
-    -
-        K17-title: 'Setup Alarm'
-        K18-link: setup-alarm
-    -
-        K19-title: 'Setup Disguise'
-        K20-link: setup-disguise
-        K21-status: disabled
+  - title: 'Basic Settings'
+    link: ""
+    status: checked
+  - title: 'Setup Alarm'
+    link: setup-alarm
+  - title: 'Setup Disguise'
+    link: setup-disguise
+    status: disabled
 K22-items:
-    -
-        K23-title: About
-        K24-link: setup-about
-    -
-        K25-title: Help
-        K26-link: help
-    -
-        K27-title: 'Language Settings'
-        K28-link: setup-language
+  - title: About
+    link: setup-about
+  - title: Help
+    link: help
+  - title: 'Language Settings'
+    link: setup-language
 
 ---
 

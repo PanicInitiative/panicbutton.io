@@ -7,8 +7,8 @@ K04-published: true
 K05-categories: get_involved
 K06-section_order: 1
 K08-image:
-    K09-src: about-img-1.png
-    K10-caption: 'Activists brainstorm and prioritise some of the potential features for ‘Panic Button’ in an open design workshop in Nairobi. © Amnesty International'
+src: about-img-1.png
+caption: 'Activists brainstorm and prioritise some of the potential features for ‘Panic Button’ in an open design workshop in Nairobi. © Amnesty International'
 
 ---
 

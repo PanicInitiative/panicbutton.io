@@ -6,8 +6,8 @@ K03-layout: post
 K04-title: 'Reading List'
 K05-published: true
 K06-parent:
-    K07-title: Help
-    K08-link: help.html
+title: Help
+link: help.html
 K09-categories: help
 K10-section_order: 3
 

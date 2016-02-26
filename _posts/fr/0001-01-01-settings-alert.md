@@ -12,10 +12,9 @@ K09-introduction: 'Setup the frequency.'
 K10-warning: 'Be careful about your battery! Sending alerts too often might drain your battery.'
 K11-component: alert
 K12-action:
-    -
-        K13-title: Save
-        K14-link: home-ready
-        K15-confirmation: 'New alert frequency saved'
+  - title: Save
+    link: home-ready
+    confirmation: 'New alert frequency saved'
 
 ---
 

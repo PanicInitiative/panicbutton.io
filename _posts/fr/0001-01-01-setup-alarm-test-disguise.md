@@ -11,13 +11,13 @@ K08-tags: mobile
 K09-introduction: 'Try Now! Repeatedly press a button on the calculator fast until you feel a vibration.'
 K10-component: alarm-test-disguise
 K11-timers:
-    K12-info: '0'
-    K13-inactive: '10'
-    K14-fail: '20'
+info: '0'
+inactive: '10'
+fail: '20'
 K15-success:
-    K16-link: setup-alarm-test-disguise-success
+link: setup-alarm-test-disguise-success
 K17-fail:
-    K18-link: setup-alarm-test-disguise-fail
+link: setup-alarm-test-disguise-fail
 
 ---
 

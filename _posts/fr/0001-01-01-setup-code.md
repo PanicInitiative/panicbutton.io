@@ -12,9 +12,8 @@ K09-introduction: 'This pin code is needed to access the alert settings and to t
 K10-warning: 'Remember your pincode! If you forget it you will need to reinstall the app.'
 K11-component: code
 K12-action:
-    -
-        K13-title: Next
-        K14-link: home-not-configured-alarm
+  - title: Next
+    link: home-not-configured-alarm
 
 ---
 
