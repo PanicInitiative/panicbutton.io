@@ -139,7 +139,7 @@ def createJSON(key):
 					parseObj(n,u,r)
 
 		with codecs.open("../"+key+"/temp/"+k+".trans.json", 'w', 'utf-8') as g:
-			json.dump(n, g, sort_keys=True,indent=4)
+			json.dump(n, g, sort_keys=True)
 			g.close()
 			
 def makeYAML(k):
@@ -162,6 +162,7 @@ def makeMarkdown(k):
 		temp = open("../"+k+"/temp/"+y, "r")
 		kk = "none"
 		for line in temp:
+			
 			d = re.match(r'\s*-\s*$', line)
 			if d: 
 				kk = d.group(0)
@@ -171,7 +172,14 @@ def makeMarkdown(k):
 					yam.write(line)
 					kk = "none"
 				else: 
-					line = re.sub(r'([\s]{4})([\s-]*)(K[0-9]+-)(\w+:)', r'\2' + r'\4', line, count=1)
+					if re.match(r'\s{4}\w+', line):
+						line = re.sub(r'([\s]{2})([\s]+)(K[0-9]+-)(\w+:)', r'\2' + r'\4', line, count=1)
+					elif re.match(r'\s{6}', line):
+						line = re.sub(r'([\s]{4})([\s-]*)(K[0-9]+-)(\w+:)', r'\2' + r'\4', line, count=1)
+					else:
+						line = re.sub(r'([\s-]*)(K[0-9]+-)(\w+:)', r'\1' + r'\3', line, count=1)
+
+					
 					yam.write(line)
 					kk = "none"
 
