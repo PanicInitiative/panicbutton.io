@@ -9,6 +9,8 @@ published: true
 section_order: 1
 title: Untitled
 lang: en
+alert: Panic Button is no longer supported. <a href="https://www.theengineroom.org/panic-button-retiring-the-app">Read more about why.</a>
+
 ---
 
 Turns your mobile phone into a<br/>

@@ -1,6 +1,12 @@
 <section class="content white container jumbotron header center" id="home">
     <div class="col-lg-12 col-md-12 col-sm-12 offset mobnopad">
         <div><strong><h1><span>{{section.heading}}</span></h1></strong></div>
+        <div class="clearfix"></div>
+        <div class="halert">
+            <div class="exclam">!</div>
+            <div class="atext"><p style="color: yellow;font-size: 1.4em;line-height: 180%;">{{ section.alert }}</p></div>
+            <div class="clearfix"></div>
+        </div>
         <div class="intro">
 					{{ section.content }}
 				</div>
@@ -12,5 +18,5 @@
         </div>
         <div class="clearfix"></div>
         <div class="bar">&nbsp;</div>
-    </div>        
+    </div>
 </section>
