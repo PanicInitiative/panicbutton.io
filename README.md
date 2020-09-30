@@ -24,4 +24,4 @@ You should then be able to access the site locally on http://127.0.0.1:4000/
 
 ## Notes
 
-  * The `api` structure was used to provide live changes to the mobile app's static content (wizard pages and user routes, help content) but it no longer used live. It can still be used to generate the json files that are used by the app (only now statically bundled in the android apk)
+  * The `api` structure was used to providing live changes to the mobile app's static content (wizard pages and user routes, help content) but it no longer used live. It can still be used to generate the JSON files that are used by the app (only now statically bundled in the android apk)
