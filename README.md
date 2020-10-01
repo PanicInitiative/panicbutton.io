@@ -3,9 +3,9 @@
 Panic Button Website
 ====================
 
-This is the source code for the https://panicbutton.io website.
+This is the complete source code for the https://panicbutton.io website.
 
-It's using the `github-pages` version of Jekyll.
+It is using the `github-pages` version of Jekyll.
 
 ## Development
 
